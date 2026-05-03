@@ -12,37 +12,32 @@
       "word": "carton",
       "meaning_zh": [
         "紙箱"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "address",
       "meaning_zh": [
         "地址"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "shipment",
       "meaning_zh": [
         "運輸",
         "運輸的貨物"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "particularly",
       "meaning_zh": [
         "尤其特別是"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "adequately",
       "meaning_zh": [
         "是當地"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "article",
@@ -51,48 +46,42 @@
         "物件",
         "文章",
         "報導"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "efficient",
       "meaning_zh": [
         "有效果的",
         "有效率的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "agency",
       "meaning_zh": [
         "代辦處",
         "代理機構"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "enclose",
       "meaning_zh": [
         "封入",
         "圍繞"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "careful",
       "meaning_zh": [
         "小心的",
         "謹慎的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "pick up",
       "meaning_zh": [
         "取走",
         "用車載"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "carry",
@@ -100,70 +89,61 @@
         "搬運",
         "攜帶",
         "有售"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "attach",
       "meaning_zh": [
         "貼上",
         "附加"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "formerlypackage",
       "meaning_zh": [
         "包裹",
         "包裝"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "react",
       "meaning_zh": [
         "反應",
         "做出反應"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "content",
       "meaning_zh": [
         "內容"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "convenience",
       "meaning_zh": [
         "便利",
         "方便"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "acknowledge",
       "meaning_zh": [
         "承認",
         "告知"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "caution",
       "meaning_zh": [
         "小心警告"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "correspondence",
       "meaning_zh": [
         "通信",
         "信件"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "separate",
@@ -173,99 +153,86 @@
         "分開的",
         "個別的",
         "獨立的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "remarkable",
       "meaning_zh": [
         "出色的",
         "引人注目的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "handle",
       "meaning_zh": [
         "處理",
         "搬動"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "warehouse",
       "meaning_zh": [
         "倉庫",
         "倉儲"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "impose",
       "meaning_zh": [
         "課徵",
         "稅金等"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "storage",
       "meaning_zh": [
         "主藏",
         "主藏空間"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "detach",
       "meaning_zh": [
         "分開",
         "私下"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "envelope",
       "meaning_zh": [
         "信封"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "exclusion",
       "meaning_zh": [
         "排除在外"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "recipient",
       "meaning_zh": [
         "收件人"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "affix",
       "meaning_zh": [
         "貼上"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "incorrect",
       "meaning_zh": [
         "不正確的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "oblige",
       "meaning_zh": [
         "使不得不做某事",
         "迫使做某事"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "step",
@@ -273,16 +240,14 @@
         "步驟",
         "階段",
         "措施"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "distinctive",
       "meaning_zh": [
         "特別的",
         "具特色的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "discreet",
@@ -290,8 +255,7 @@
         "謹慎的",
         "慎重的",
         "懂得分寸的"
-      ],
-      "verified": false
+      ]
     }
   ]
 }

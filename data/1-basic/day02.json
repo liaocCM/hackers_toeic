@@ -13,8 +13,7 @@
       "meaning_zh": [
         "服裝",
         "衣著"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "code",
@@ -22,8 +21,7 @@
         "規範",
         "慣例",
         "密碼"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "concern",
@@ -33,8 +31,7 @@
         "使擔心",
         "關係到",
         "影響到"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "policy",
@@ -42,62 +39,54 @@
         "政策",
         "規定",
         "保單"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "comply",
       "meaning_zh": [
         "遵守",
         "遵從"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "regulation",
       "meaning_zh": [
         "規定"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "exception",
       "meaning_zh": [
         "例外"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "adhere",
       "meaning_zh": [
         "遵守",
         "堅持"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "severely",
       "meaning_zh": [
         "嚴厲的",
         "嚴重的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "refrain",
       "meaning_zh": [
         "剋制",
         "抑制"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "permission",
       "meaning_zh": [
         "允許",
         "許可"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "access",
@@ -106,8 +95,7 @@
         "接近",
         "通道",
         "存取電腦資料等"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "thoroughly",
@@ -115,32 +103,28 @@
         "徹底的",
         "完全的",
         "非常"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "revise",
       "meaning_zh": [
         "修訂",
         "變更"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "approach",
       "meaning_zh": [
         "接近",
         "處理方法"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "approval",
       "meaning_zh": [
         "批准",
         "認可"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "form",
@@ -148,24 +132,21 @@
         "種類",
         "類型",
         "形式"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "immediately",
       "meaning_zh": [
         "立即",
         "馬上"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "inspection",
       "meaning_zh": [
         "檢查",
         "視察"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "arrangement",
@@ -173,24 +154,21 @@
         "安排",
         "準備",
         "佈置"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "procedure",
       "meaning_zh": [
         "手續",
         "程序"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "negative",
       "meaning_zh": [
         "負面的",
         "消極的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "mandate",
@@ -204,8 +182,7 @@
         "大幅的",
         "徹底的根據",
         "依照"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "enable",
@@ -214,8 +191,7 @@
         "規範",
         "持續的",
         "不斷的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "act",
@@ -225,24 +201,21 @@
         "行為",
         "行動",
         "擔當"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "compensation",
       "meaning_zh": [
         "補償金",
         "報償"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "ban",
       "meaning_zh": [
         "禁止",
         "禁令"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "obligation",
@@ -251,23 +224,20 @@
         "責任批准",
         "授權某人",
         "做某事禁止"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "abolish",
       "meaning_zh": [
         "廢除"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "enforce",
       "meaning_zh": [
         "執行",
         "實施法律等習慣"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "legislation",
@@ -276,8 +246,7 @@
         "法律",
         "法規限制",
         "限定"
-      ],
-      "verified": false
+      ]
     }
   ]
 }

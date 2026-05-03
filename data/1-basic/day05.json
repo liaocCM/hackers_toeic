@@ -14,70 +14,61 @@
         "精密的",
         "複雜的",
         "高雅的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "timely",
       "meaning_zh": [
         "及時的",
         "適時的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "realistically",
       "meaning_zh": [
         "實際上在現實情況下"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "promptly",
       "meaning_zh": [
         "迅速的",
         "準時的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "accessible",
       "meaning_zh": [
         "可進入的",
         "可利用的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "implement",
       "meaning_zh": [
         "實施",
         "執行"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "feedback",
       "meaning_zh": [
         "回饋意見",
         "反響"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "outstanding",
       "meaning_zh": [
         "傑出的",
         "未嘗付的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "inform",
       "meaning_zh": [
         "通知"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "replacement",
@@ -85,38 +76,33 @@
         "代替",
         "代替物",
         "代替者"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "announcement",
       "meaning_zh": [
         "公告",
         "宣佈"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "department",
       "meaning_zh": [
         "部門"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "permanently",
       "meaning_zh": [
         "永久的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "fulfill",
       "meaning_zh": [
         "滿足",
         "履行"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "outline",
@@ -125,71 +111,62 @@
         "大缸",
         "蓋樹",
         "略樹"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "explain",
       "meaning_zh": [
         "說明"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "contain",
       "meaning_zh": [
         "包含",
         "容納"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "compile",
       "meaning_zh": [
         "會整資料等",
         "收集"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "subsequent",
       "meaning_zh": [
         "後來的",
         "隨後的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "overview",
       "meaning_zh": [
         "蓋藥",
         "蓋棺"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "provider",
       "meaning_zh": [
         "供應商",
         "提供者"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "matter",
       "meaning_zh": [
         "問題",
         "事情"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "expertise",
       "meaning_zh": [
         "專門知識",
         "專門技術"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "demonstrate",
@@ -197,15 +174,13 @@
         "證明",
         "說明",
         "示範操作"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "reminder",
       "meaning_zh": [
         "剩餘"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "essential",
@@ -213,38 +188,33 @@
         "必要的",
         "不可或缺的",
         "本質上的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "divide",
       "meaning_zh": [
         "劃分",
         "分開"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "major",
       "meaning_zh": [
         "主要的",
         "重大的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "compliance",
       "meaning_zh": [
         "遵守"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "clarify",
       "meaning_zh": [
         "闡明"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "face",
@@ -252,8 +222,7 @@
         "面對",
         "面向",
         "正對"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "follow",
@@ -262,16 +231,14 @@
         "密切注意",
         "聽懂",
         "瞭解"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "aspect",
       "meaning_zh": [
         "觀點",
         "方面"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "apparently",
@@ -279,55 +246,48 @@
         "顯然",
         "看來",
         "似乎"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "aware",
       "meaning_zh": [
         "知道的",
         "意識到的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "extended",
       "meaning_zh": [
         "延長的",
         "延伸的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "accidentally",
       "meaning_zh": [
         "意外的",
         "偶然的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "advisable",
       "meaning_zh": [
         "可取的",
         "明智的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "concerned",
       "meaning_zh": [
         "擔心的",
         "有關的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "speak",
       "meaning_zh": [
         "講話"
-      ],
-      "verified": false
+      ]
     }
   ]
 }

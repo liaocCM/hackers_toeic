@@ -13,15 +13,13 @@
       "meaning_zh": [
         "設備",
         "裝備"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "automate",
       "meaning_zh": [
         "自動化"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "specification",
@@ -29,46 +27,40 @@
         "名系單",
         "說明書",
         "規格"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "properly",
       "meaning_zh": [
         "適當的",
         "正確的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "safety",
       "meaning_zh": [
         "安全"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "precaution",
       "meaning_zh": [
         "預防措施"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "operate",
       "meaning_zh": [
         "運作",
         "操作"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "processing",
       "meaning_zh": [
         "加工",
         "處理"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "capacity",
@@ -77,23 +69,20 @@
         "容量",
         "容納量",
         "職位"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "assemble",
       "meaning_zh": [
         "組裝",
         "召集"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "utilize",
       "meaning_zh": [
         "利用"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "place",
@@ -102,107 +91,93 @@
         "下指示",
         "訂單",
         "申請等"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "fill",
       "meaning_zh": [
         "裝滿",
         "滿足訂單需求"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "manufacturing",
       "meaning_zh": [
         "製造的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "renovate",
       "meaning_zh": [
         "翻新",
         "翻修"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "decision",
       "meaning_zh": [
         "決定"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "material",
       "meaning_zh": [
         "材料",
         "質料"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "success",
       "meaning_zh": [
         "成功",
         "成就"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "attribute",
       "meaning_zh": [
         "把什麼歸因於"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "efficiency",
       "meaning_zh": [
         "效率",
         "效能"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "limit",
       "meaning_zh": [
         "限制",
         "界限"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "tailored",
       "meaning_zh": [
         "量身訂做的",
         "依要求訂做的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "component",
       "meaning_zh": [
         "零件構成要素"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "capable",
       "meaning_zh": [
         "有能力的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "economize",
       "meaning_zh": [
         "節約",
         "節省"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "flexible",
@@ -210,38 +185,33 @@
         "靈活的",
         "有彈性的",
         "可變通的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "comparable",
       "meaning_zh": [
         "可比較的",
         "比得上的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "produce",
       "meaning_zh": [
         "生產"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "respectively",
       "meaning_zh": [
         "分別",
         "各自"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "device",
       "meaning_zh": [
         "裝置"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "trim",
@@ -249,85 +219,74 @@
         "修剪",
         "削減",
         "除去"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "launch",
       "meaning_zh": [
         "史上是"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "separately",
       "meaning_zh": [
         "分別的",
         "個別的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "expiration",
       "meaning_zh": [
         "到期",
         "期滿"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "maneuver",
       "meaning_zh": [
         "調動",
         "巧妙操縱或控制"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "coming",
       "meaning_zh": [
         "即將到來的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "damaged",
       "meaning_zh": [
         "受損的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "prevent",
       "meaning_zh": [
         "預防",
         "防止"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "power",
       "meaning_zh": [
         "力量",
         "電力"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "chemical",
       "meaning_zh": [
         "化學製品",
         "化學藥品"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "minimize",
       "meaning_zh": [
         "時間到最少",
         "最小化"
-      ],
-      "verified": false
+      ]
     }
   ]
 }

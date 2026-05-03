@@ -4,8 +4,8 @@ structured vocab dataset (data/1-basic/dayXX.json).
 The audio format is: English word (×N) followed by its Traditional-Chinese
 gloss(es), repeated for each entry. Whisper output is noisy — Chinese is
 sometimes missing, sometimes fused without spaces, sometimes mixed with
-pinyin renderings. This parser is best-effort; a `verified: false` flag is
-attached to every entry so a manual proofreading pass can mark them.
+pinyin renderings. This parser is best-effort and English vocabulary is the
+precise output; Chinese glosses should be calibrated against the source.
 """
 
 from __future__ import annotations
@@ -122,7 +122,6 @@ def parse_text(text: str) -> list[dict]:
         pairs.append({
             "word": word,
             "meaning_zh": clean_gloss(gloss),
-            "verified": False,
         })
 
     for kind, content in tokenize(text):

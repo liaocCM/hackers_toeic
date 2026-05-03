@@ -29,8 +29,7 @@
         "投入各式各樣的",
         "好幾個的升級",
         "改良"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "upgrade",
@@ -41,8 +40,7 @@
         "探索答覆",
         "反應外觀",
         "外貌成功的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "hold",
@@ -52,46 +50,40 @@
         "舉辦",
         "舉行進步",
         "進展"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "reliable",
       "meaning_zh": [
         "可信賴的",
         "可靠的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "quality",
       "meaning_zh": [
         "品質"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "domestic",
       "meaning_zh": [
         "國內的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "development",
       "meaning_zh": [
         "開發",
         "發展"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "availability",
       "meaning_zh": [
         "可得性",
         "可利用性"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "update",
@@ -99,29 +91,25 @@
         "更新",
         "最新消息更新",
         "使成為最新"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "accurate",
       "meaning_zh": [
         "精確的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "complicated",
       "meaning_zh": [
         "複雜的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "accomplished",
       "meaning_zh": [
         "精確的複雜的"
-      ],
-      "verified": false
+      ]
     }
   ]
 }

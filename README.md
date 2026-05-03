@@ -37,13 +37,13 @@ scripts/
   "low_count_warning": false,
   "raw_transcript": "...",
   "vocab": [
-    { "word": "resume", "meaning_zh": ["履歷表"], "verified": false }
+    { "word": "resume", "meaning_zh": ["履歷表"] }
   ]
 }
 ```
 
 - `low_count_warning: true` — fewer than 25 entries parsed; raw transcript was incomplete (likely days 8, 11, 26, 29). Manual augmentation needed.
-- `verified: false` — Chinese meaning came from Whisper ASR; flip to `true` after proofreading.
+- English vocabulary is precise; Chinese glosses came from Whisper ASR and should be calibrated against the source.
 
 ## Reproducing the transcripts
 

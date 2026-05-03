@@ -13,8 +13,7 @@
       "meaning_zh": [
         "議程",
         "代議事項"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "convene",
@@ -22,76 +21,66 @@
         "聚集",
         "集會",
         "召開"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "refute",
       "meaning_zh": [
         "反駁",
         "駁斥"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "coordination",
       "meaning_zh": [
         "協調"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "unanimous",
       "meaning_zh": [
         "意見一致的",
         "一致同意的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "convince",
       "meaning_zh": [
         "說服",
         "使確信"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "consensus",
       "meaning_zh": [
         "共識",
         "一致的意見"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "defer",
       "meaning_zh": [
         "延後",
         "延期"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "usually",
       "meaning_zh": [
         "通常"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "reschedule",
       "meaning_zh": [
         "重新安排什麼的時間"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "meeting",
       "meaning_zh": [
         "會議"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "determine",
@@ -99,8 +88,7 @@
         "查明",
         "判定",
         "決定"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "report",
@@ -108,31 +96,27 @@
         "報告",
         "報到",
         "報告書"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "comment",
       "meaning_zh": [
         "評論",
         "發表意見"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "phase",
       "meaning_zh": [
         "階段"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "approve",
       "meaning_zh": [
         "批准",
         "贊成"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "enclosed",
@@ -140,8 +124,7 @@
         "被附上的",
         "簡單的",
         "容易的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "record",
@@ -149,31 +132,27 @@
         "記錄",
         "履歷",
         "經歷"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "suggestion",
       "meaning_zh": [
         "建議",
         "提議"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "attention",
       "meaning_zh": [
         "注意",
         "專心"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "object",
       "meaning_zh": [
         "反對"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "coincidentally",
@@ -181,15 +160,13 @@
         "巧合的",
         "碰巧的",
         "同時發生的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "crowded",
       "meaning_zh": [
         "擁擠的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "undergo",
@@ -197,15 +174,13 @@
         "經歷",
         "承受",
         "接受"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "outcome",
       "meaning_zh": [
         "結果"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "narrowly",
@@ -215,23 +190,20 @@
         "勉強",
         "好不容易",
         "以些微之差"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "differ",
       "meaning_zh": [
         "不同",
         "不一樣"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "discuss",
       "meaning_zh": [
         "討論"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "give",
@@ -239,32 +211,28 @@
         "給予",
         "發表",
         "講授"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "brief",
       "meaning_zh": [
         "向某人簡短說明",
         "簡短的報告"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "distract",
       "meaning_zh": [
         "事分心",
         "分散"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "emphasis",
       "meaning_zh": [
         "強調",
         "重點"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "press",
@@ -273,8 +241,7 @@
         "新聞媒體",
         "按",
         "壓"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "organize",
@@ -282,30 +249,26 @@
         "組織",
         "安排",
         "整理"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "mention",
       "meaning_zh": [
         "提到"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "persuasive",
       "meaning_zh": [
         "有說服力的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "understanding",
       "meaning_zh": [
         "理解的",
         "諒解的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "adjourn",
@@ -313,38 +276,33 @@
         "是休會",
         "是終止",
         "是延期"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "constructive",
       "meaning_zh": [
         "建設性的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "preside",
       "meaning_zh": [
         "主持",
         "擔任會議主席"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "irrelevant",
       "meaning_zh": [
         "無關的",
         "不相關的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "constraint",
       "meaning_zh": [
         "限制"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "condensed",
@@ -352,8 +310,7 @@
         "簡要的",
         "壓縮的",
         "凝結的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "endorse",
@@ -361,8 +318,7 @@
         "公開的支持",
         "贊同",
         "背書"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "punctually",
@@ -370,8 +326,7 @@
         "準時的",
         "如期的",
         "不延遲的"
-      ],
-      "verified": false
+      ]
     }
   ]
 }

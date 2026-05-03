@@ -12,24 +12,21 @@
       "word": "participant",
       "meaning_zh": [
         "參與者"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "attend",
       "meaning_zh": [
         "出席",
         "參加"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "encourage",
       "meaning_zh": [
         "鼓勵",
         "促使"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "leave",
@@ -37,8 +34,7 @@
         "休假",
         "離開",
         "留下"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "recommendation",
@@ -46,85 +42,74 @@
         "推薦",
         "建議",
         "推薦信"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "conference",
       "meaning_zh": [
         "會議",
         "討論"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "schedule",
       "meaning_zh": [
         "安排什麼的時間"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "include",
       "meaning_zh": [
         "包含"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "result",
       "meaning_zh": [
         "結果",
         "導致"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "register",
       "meaning_zh": [
         "登記",
         "註冊"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "require",
       "meaning_zh": [
         "要求"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "grateful",
       "meaning_zh": [
         "感謝的",
         "感激的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "overtime",
       "meaning_zh": [
         "加班時間",
         "加班費"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "responsibility",
       "meaning_zh": [
         "責任",
         "義務"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "assent",
       "meaning_zh": [
         "同意",
         "贊成"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "regard",
@@ -133,108 +118,94 @@
         "看待",
         "關心",
         "注意"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "tentative",
       "meaning_zh": [
         "鎮定的",
         "試驗性的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "welcome",
       "meaning_zh": [
         "受歡迎的",
         "欣然接受的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "function",
       "meaning_zh": [
         "盛大的聚會",
         "功能"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "commence",
       "meaning_zh": [
         "開始"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "objective",
       "meaning_zh": [
         "目標",
         "目的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "excited",
       "meaning_zh": [
         "興奮的",
         "激動的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "reimbursement",
       "meaning_zh": [
         "補償費用和消"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "treatment",
       "meaning_zh": [
         "對待",
         "處理"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "honor",
       "meaning_zh": [
         "榮譽",
         "尊敬"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "emphasize",
       "meaning_zh": [
         "強調"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "entry",
       "meaning_zh": [
         "參賽者",
         "參賽作品"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "bonus",
       "meaning_zh": [
         "獎金",
         "紅利"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "salary",
       "meaning_zh": [
         "薪水"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "earn",
@@ -242,47 +213,41 @@
         "賺",
         "贏得",
         "獲得"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "arise",
       "meaning_zh": [
         "出現",
         "產生"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "labour",
       "meaning_zh": [
         "勞動",
         "努力"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "union",
       "meaning_zh": [
         "工會"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "existing",
       "meaning_zh": [
         "現存的",
         "現行的"
-      ],
-      "verified": false
+      ]
     },
     {
       "word": "exploit",
       "meaning_zh": [
         "剝削",
         "濫用用"
-      ],
-      "verified": false
+      ]
     }
   ]
 }
