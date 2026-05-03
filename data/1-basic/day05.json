@@ -6,7 +6,7 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day05.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 5.sophisticated 精密的、複雜的、高雅的, timely 及時的、適時的, realistically 實際上在現實情況下promptly 迅速的、準時的, accessible 可進入的、可利用的, implement 實施、執行feedback 回饋意見、反響outstanding 傑出的、未嘗付的, inform 通知replacement 代替、代替物、代替者announcement 公告、宣佈department 部門, permanently 永久的, fulfill 滿足、履行outline 蓋藥、大缸、蓋樹、略樹explain 說明、contain 包含、容納compile 會整資料等,收集, subsequent 後來的、隨後的overview 蓋藥、蓋棺provider 供應商、提供者matter 問題、事情、expertise 專門知識、專門技術demonstrate 證明、說明、示範操作reminder 剩餘、essential 必要的、不可或缺的、本質上的divide 劃分、分開major 主要的、重大的compliance 遵守、clarify 闡明、face 面對、面向、正對follow 跟隨、密切注意、聽懂、瞭解、aspect 觀點、方面apparently 顯然、看來、似乎aware 知道的、意識到的extended 延長的、延伸的accidentally 意外的、偶然的advisable 可取的、明智的concerned 擔心的、有關的speak 講話",
+  "raw_transcript": "Hackers' TOEIC vocabulary, day 5.sophisticated 精密的,複雜的,高雅的, timely 及時的,適時的, realistically 實際上,在現實情況下, promptly 迅速的,準時的, accessible 可進入的,可利用的, implement 實施,執行feedback 回饋意見,反響, outstanding 傑出的,未嘗付的, inform 通知replacement 代替,代替物,代替者announcement 公告,宣佈department 部門, permanently 永久的fulfill 滿足,旅行outline 概要,大綱,概述,略述explain 說明, contain 包含,容納compile 會整資料等,收集, subsequent 後來的,隨後的overview 概要,概觀provider 供應商,提供者matter 問題,事情expertise 專門知識,專門技術demonstrate 證明,說明,示範操作remainder 剩餘essential 必要的,不可或缺的,本質上的divide 劃分,分開major 主要的,重大的compliance 遵守clarify 產名face 面對,面向,正對follow 跟隨,密切注意,聽懂,瞭解aspect 觀點,方面apparently 顯然,看來,似乎aware 知道的,意識到的extended 延長的,延伸的accidentally 意外的,偶然的advisable 可取的,明智的concerned 擔心的,有關的speak 講話",
   "vocab": [
     {
       "word": "sophisticated",
@@ -26,7 +26,8 @@
     {
       "word": "realistically",
       "meaning_zh": [
-        "實際上在現實情況下"
+        "實際上",
+        "在現實情況下"
       ]
     },
     {
@@ -101,16 +102,16 @@
       "word": "fulfill",
       "meaning_zh": [
         "滿足",
-        "履行"
+        "旅行"
       ]
     },
     {
       "word": "outline",
       "meaning_zh": [
-        "蓋藥",
-        "大缸",
-        "蓋樹",
-        "略樹"
+        "概要",
+        "大綱",
+        "概述",
+        "略述"
       ]
     },
     {
@@ -143,8 +144,8 @@
     {
       "word": "overview",
       "meaning_zh": [
-        "蓋藥",
-        "蓋棺"
+        "概要",
+        "概觀"
       ]
     },
     {
@@ -177,7 +178,7 @@
       ]
     },
     {
-      "word": "reminder",
+      "word": "remainder",
       "meaning_zh": [
         "剩餘"
       ]
@@ -213,7 +214,7 @@
     {
       "word": "clarify",
       "meaning_zh": [
-        "闡明"
+        "產名"
       ]
     },
     {

@@ -6,8 +6,16 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day27.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 27.investment 投資、投資額, lucrative 有利可圖的、賺錢的, inherently本來、本質上, secure 確保、獲得、使安全、使牢固, foreseeable 可預見的、 innate 天生的, property 財產、房地產代表 lease 租賃、租約, sponsor 贊助、贊助者, propose 提議, support 支援、供養、維持分發、分配, consider 考慮, nearly 幾乎、將近, consent 同意、贊同gratitude 感謝、謝意, consult 商量、諮詢, advice 勸告、建議, partially部分的、一部分, evident 明顯的, reliability 可靠性、可信賴性, cautious 小心的、謹慎的, insight 深刻見解、洞察力portfolio 作品及投資組合, possible 可能的、可能發生的, speculation 推測、猜測, solely 單獨的、僅僅entrepreneur 企業家, eventually 最終、最後, shareholder 股東outlook 展望、前景, stability 穩定、穩定性, bond 債券、 depreciation 貶值increasing 增加中的、 prevalent 流行的、普遍的、 rapid 迅速的、快速的、 unprecedentedunprecedented 前所未有的、空前的、 yield 產生",
+  "raw_transcript": "Hackers' TOEIC vocabulary, day twenty-seven.investment 投資,投資額lucrative 有利可圖的,賺錢的inherently 本來,本質上secure 確保,獲得,使安全,使牢固foreseeable 可預見的innate 天生的property 財產,房地產on behalf of 代表lease 租賃,租約sponsor 贊助,贊助者propose 提議support 支持,支援,供養,維持distribution 分發,分發分發,分配 consider 考慮nearly 幾乎,將近consent 同意,贊同gratitude 感謝,謝意consult 商量advice 建議partially 部分的,一部分evident 明顯的reliability 可靠信,可信賴信cautious 小心的,謹慎的insight 深刻見解,洞察裡portfolio 作品及投資組合possible 可能的,可能發生的speculation 推測,猜測solely 單獨的,僅僅entrepreneur 企業家eventually 最終,最後shareholder 股東outlook 展望,前進stability 穩定,穩定性bond 債券depreciation 貶值increasing 增加中的prevalent 流行的,普遍的rapid 迅速的,快速的unprecedented 前所未有的,空前的yield 產生",
   "vocab": [
+    {
+      "word": "hackers' toeic vocabulary",
+      "meaning_zh": []
+    },
+    {
+      "word": "day twenty-seven",
+      "meaning_zh": []
+    },
     {
       "word": "investment",
       "meaning_zh": [
@@ -54,7 +62,13 @@
       "word": "property",
       "meaning_zh": [
         "財產",
-        "房地產代表"
+        "房地產"
+      ]
+    },
+    {
+      "word": "on behalf of",
+      "meaning_zh": [
+        "代表"
       ]
     },
     {
@@ -80,9 +94,17 @@
     {
       "word": "support",
       "meaning_zh": [
+        "支持",
         "支援",
         "供養",
-        "維持分發",
+        "維持"
+      ]
+    },
+    {
+      "word": "distribution",
+      "meaning_zh": [
+        "分發",
+        "分發分發",
         "分配"
       ]
     },
@@ -116,14 +138,12 @@
     {
       "word": "consult",
       "meaning_zh": [
-        "商量",
-        "諮詢"
+        "商量"
       ]
     },
     {
       "word": "advice",
       "meaning_zh": [
-        "勸告",
         "建議"
       ]
     },
@@ -143,8 +163,8 @@
     {
       "word": "reliability",
       "meaning_zh": [
-        "可靠性",
-        "可信賴性"
+        "可靠信",
+        "可信賴信"
       ]
     },
     {
@@ -158,7 +178,7 @@
       "word": "insight",
       "meaning_zh": [
         "深刻見解",
-        "洞察力"
+        "洞察裡"
       ]
     },
     {
@@ -211,7 +231,7 @@
       "word": "outlook",
       "meaning_zh": [
         "展望",
-        "前景"
+        "前進"
       ]
     },
     {
@@ -254,7 +274,7 @@
       ]
     },
     {
-      "word": "unprecedentedunprecedented",
+      "word": "unprecedented",
       "meaning_zh": [
         "前所未有的",
         "空前的"

@@ -6,7 +6,7 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day09.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 9. rapidly 迅速的、很快的, sore 高聲、急漲, assert 斷言、主張, boost 推動、促進、使上升, analyst 分析師, potential 潛在的、潛力、可能性, pleased 滿意的、高興的, remain 維持什麼的狀態,仍然有待 limited 有限的、costly 昂貴的、代價高的, particular 特定的, drastic 激烈的、猛烈的、徹底的, evenly evidence 證據、 prospect 展望、預期, lead 領導、引導,導致 fall 下降、 period 期間、時期 indicator 指標, industry 工業、產業, likely 很可能的, boom 繁榮、興盛 director 主管、董事, substitute 代替品、代替, consequence 結果、後果, fairly 相當、頗為 economical 經濟的、節約的, thrive 繁榮、成功, implication 暗示、可能造成的影響, wane 減少、衰退 prosperity 繁榮, depression 不景氣、蕭條, dwindle 逐漸減少、逐漸變小, impede 妨礙、阻礙, promising adversity 逆境、不幸",
+  "raw_transcript": "Hacker's Toic Vocabulary, Day 9. rapidly 迅速的,很快的, sore 高聲,擊掌 assert 斷言,主張 boost 推動,促進,使上升 analyst 分析師 potential 潛在的,潛力,可能性, pleased 滿意的,高興的 remain 維持什麼的狀態,仍然有待 limited 有限的, costly 昂貴的,代價高的 particular 特定的, drastic 激烈的,猛烈的,徹底的 evenly 均勻的,平均的 evidence 證據, prospect 展望,預期 lead 領導,引導,導致 fall 下降, period 期間,時期 indicator 指標, industry 工業,產業 likely, 很可能的, boom 繁榮,興盛 director 主管,懂事, substitute 代替品,代替 consequence 結果,後果, fairly 相當,頗為 economical 經濟的,節約的, thrive 繁榮,成功 implication 暗示,可能造成的影響 wane 減少,衰退, prosperity 繁榮 depression 不景氣,蕭條 dwindle 逐漸減少,逐漸變小 impede 妨礙,阻礙, promising 有希望的,有前途的 adversity 逆境,不幸",
   "vocab": [
     {
       "word": "rapidly",
@@ -19,7 +19,7 @@
       "word": "sore",
       "meaning_zh": [
         "高聲",
-        "急漲"
+        "擊掌"
       ]
     },
     {
@@ -93,7 +93,14 @@
       ]
     },
     {
-      "word": "evenly evidence",
+      "word": "evenly",
+      "meaning_zh": [
+        "均勻的",
+        "平均的"
+      ]
+    },
+    {
+      "word": "evidence",
       "meaning_zh": [
         "證據"
       ]
@@ -156,7 +163,7 @@
       "word": "director",
       "meaning_zh": [
         "主管",
-        "董事"
+        "懂事"
       ]
     },
     {
@@ -236,7 +243,14 @@
       ]
     },
     {
-      "word": "promising adversity",
+      "word": "promising",
+      "meaning_zh": [
+        "有希望的",
+        "有前途的"
+      ]
+    },
+    {
+      "word": "adversity",
       "meaning_zh": [
         "逆境",
         "不幸"

@@ -6,7 +6,7 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day22.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 22.agenda 議程、代議事項, convene 聚集、集會,召開, refute 反駁、駁斥coordination 協調, unanimous 意見一致的、一致同意的convince 說服、使確信 consensus 共識、一致的意見defer 延後、延期, usually 通常reschedule 重新安排什麼的時間meeting 會議determine 查明、判定、決定report 報告、報到、報告書、報到comment 評論、發表意見phase 階段approve 批准、贊成enclosed 被附上的、簡單的、容易的record 記錄、履歷、經歷suggestion 建議、提議attention 注意、專心object 反對coincidentally 巧合的、碰巧的、同時發生的crowded 擁擠的undergo 經歷、承受、接受outcome 結果narrowly 狹窄的、嚴格的、勉強、好不容易、以些微之差differ 不同、不一樣discuss 討論give 給予、發表、講授brief 向某人簡短說明、簡短的報告distract 事分心、分散emphasis 強調、重點press 報刊、新聞媒體、按、壓organize 組織、安排、整理mention 提到persuasive 有說服力的understanding 理解的、諒解的adjourn 是休會、是終止、是延期constructive 建設性的preside 主持、擔任會議主席irrelevant 無關的、不相關的constraint 限制condensed 簡要的、壓縮的、凝結的endorse 公開的支持、贊同、背書punctually 準時的、如期的、不延遲的",
+  "raw_transcript": "Hackers' TOEIC Vocabulary, Day 22.agenda 議程,代議事項convene 聚集,集會,召開refute 反駁,駁斥coordination 協調unanimous 意見一致的,一致同意的convince 說服,使確信consensus 共識,一致的意見defer 延後,延期usually 通常reschedule 重新安排什麼的時間meeting 會議determine 查明,判定,決定report 報告,報到,報告書,報到comment 評論,發表意見phase 階段approve 批准,贊成enclosed 被附上的easy 簡單的,容易的record 記錄,履歷,經歷record 記錄suggestion 建議,提議attention 注意,專心object 反對coincidentally 巧合地,碰巧地,同時發生地crowded 擁擠的undergo 經歷,承受,接受outcome 結果narrowly 狹窄地,嚴格地勉強,好不容易,以些微之差differ 不同,不一樣discuss 討論give 給予,發表,講授brief 向某人簡短說明,簡短的報告distract 是分心,分散emphasis 強調,重點press 報刊,新聞媒體,按壓organize 組織organize 組織,安排,整理mention 提到persuasive 有說服力的understanding 理解的,諒解的adjourn 是休會,是終止,是延期constructive 建設性的preside 主持,擔任會議主席irrelevant 無關的,不相關的constraint 限制condensed 簡要的,壓縮的,凝結的endorse 公開地支持,讚同,背書punctually 準時地,如期地,不延遲地",
   "vocab": [
     {
       "word": "agenda",
@@ -121,7 +121,12 @@
     {
       "word": "enclosed",
       "meaning_zh": [
-        "被附上的",
+        "被附上的"
+      ]
+    },
+    {
+      "word": "easy",
+      "meaning_zh": [
         "簡單的",
         "容易的"
       ]
@@ -157,9 +162,9 @@
     {
       "word": "coincidentally",
       "meaning_zh": [
-        "巧合的",
-        "碰巧的",
-        "同時發生的"
+        "巧合地",
+        "碰巧地",
+        "同時發生地"
       ]
     },
     {
@@ -185,9 +190,8 @@
     {
       "word": "narrowly",
       "meaning_zh": [
-        "狹窄的",
-        "嚴格的",
-        "勉強",
+        "狹窄地",
+        "嚴格地勉強",
         "好不容易",
         "以些微之差"
       ]
@@ -223,7 +227,7 @@
     {
       "word": "distract",
       "meaning_zh": [
-        "事分心",
+        "是分心",
         "分散"
       ]
     },
@@ -239,16 +243,13 @@
       "meaning_zh": [
         "報刊",
         "新聞媒體",
-        "按",
-        "壓"
+        "按壓"
       ]
     },
     {
       "word": "organize",
       "meaning_zh": [
-        "組織",
-        "安排",
-        "整理"
+        "組織"
       ]
     },
     {
@@ -315,17 +316,17 @@
     {
       "word": "endorse",
       "meaning_zh": [
-        "公開的支持",
-        "贊同",
+        "公開地支持",
+        "讚同",
         "背書"
       ]
     },
     {
       "word": "punctually",
       "meaning_zh": [
-        "準時的",
-        "如期的",
-        "不延遲的"
+        "準時地",
+        "如期地",
+        "不延遲地"
       ]
     }
   ]

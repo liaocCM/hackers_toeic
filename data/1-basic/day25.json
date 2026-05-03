@@ -6,8 +6,36 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day25.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 25.Fuel 燃料, malfunction 故障、機能失常, permit 許可允許, permit 許可證Transportation 運輸,運輸工具, opportunity 機會, clearly 清楚地,顯然, ongoingdetailed 詳細的, alternative 替代方案, obtain 得到、獲得designated 指定的, intersection 交叉入口, equip 使配備、使具備, commute 通勤downtown 在市中心, automotive 汽車的, closure 關閉vehicle 車輛,運載工具, platform 月臺, official 公務員、官員,官方的、正式的transit 運輸系統,運送, fare 搭乘交通工具的費用, expense 費用、支出trust 信願、信賴、相信, head 出發、前進, drive 開車、駕駛、驅動機器等fine 罰款, pass 經過、通過, securely 牢固地、穩固地、顯著地、顯眼地average 平均值、平均, collision 碰撞, tow 脫掉, reverse 相反的、背面的obstruct 遮擋、阻塞",
+  "raw_transcript": "Hacker's Toic Vocabulary, Day 25.Congestion, 交通堵塞,集滿Alleviate, 緩和,減輕Divert, 時轉向,時改道Detour, 繞道,繞行的路Fuel, 燃料Malfunction, 故障,機能失常Permit, 許可允許Permit, 許可證Transportation, 運輸工具Opportunity, 機會Clearly, 清楚地,顯然Ongoing, 持續進行中的Detailed, 詳細地Alternative, 替代方案Obtain, 得到,獲得Designated, 指定的Intersection, 交叉入口Equip, 使配備,使具備Commute, 通勤Downtown, 在市中心Automotive, 汽車的Closer, 關閉Vehicle, 車輛運載工具Platform, 月臺Official, 公務員,官員,官方的,正式的Transit, 運輸系統,運送Fair, 搭乘交通工具的費用Expense, 費用支出Trust, 信任,信賴,相信Head, 出發,前進Drive, 開車,駕駛,驅動機器等Fine, 罰款Pass, 經過,通過Securely, 牢固地,穩固地Prominently, 顯著地Reserved, 預約的,預定的,留座專用的Average, 平均值,平均Collision, 碰撞Tow, 脫掉Reverse, 相反的,背面的Obstract, 遮擋,阻塞",
   "vocab": [
+    {
+      "word": "congestion",
+      "meaning_zh": [
+        "交通堵塞",
+        "集滿"
+      ]
+    },
+    {
+      "word": "alleviate",
+      "meaning_zh": [
+        "緩和",
+        "減輕"
+      ]
+    },
+    {
+      "word": "divert",
+      "meaning_zh": [
+        "時轉向",
+        "時改道"
+      ]
+    },
+    {
+      "word": "detour",
+      "meaning_zh": [
+        "繞道",
+        "繞行的路"
+      ]
+    },
     {
       "word": "fuel",
       "meaning_zh": [
@@ -30,7 +58,6 @@
     {
       "word": "transportation",
       "meaning_zh": [
-        "運輸",
         "運輸工具"
       ]
     },
@@ -48,9 +75,15 @@
       ]
     },
     {
-      "word": "ongoingdetailed",
+      "word": "ongoing",
       "meaning_zh": [
-        "詳細的"
+        "持續進行中的"
+      ]
+    },
+    {
+      "word": "detailed",
+      "meaning_zh": [
+        "詳細地"
       ]
     },
     {
@@ -104,7 +137,7 @@
       ]
     },
     {
-      "word": "closure",
+      "word": "closer",
       "meaning_zh": [
         "關閉"
       ]
@@ -112,8 +145,7 @@
     {
       "word": "vehicle",
       "meaning_zh": [
-        "車輛",
-        "運載工具"
+        "車輛運載工具"
       ]
     },
     {
@@ -139,7 +171,7 @@
       ]
     },
     {
-      "word": "fare",
+      "word": "fair",
       "meaning_zh": [
         "搭乘交通工具的費用"
       ]
@@ -147,14 +179,13 @@
     {
       "word": "expense",
       "meaning_zh": [
-        "費用",
-        "支出"
+        "費用支出"
       ]
     },
     {
       "word": "trust",
       "meaning_zh": [
-        "信願",
+        "信任",
         "信賴",
         "相信"
       ]
@@ -191,9 +222,21 @@
       "word": "securely",
       "meaning_zh": [
         "牢固地",
-        "穩固地",
-        "顯著地",
-        "顯眼地"
+        "穩固地"
+      ]
+    },
+    {
+      "word": "prominently",
+      "meaning_zh": [
+        "顯著地"
+      ]
+    },
+    {
+      "word": "reserved",
+      "meaning_zh": [
+        "預約的",
+        "預定的",
+        "留座專用的"
       ]
     },
     {
@@ -223,7 +266,7 @@
       ]
     },
     {
-      "word": "obstruct",
+      "word": "obstract",
       "meaning_zh": [
         "遮擋",
         "阻塞"

@@ -6,12 +6,13 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day24.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 24.appoint 任命指派, appraisal 評價, promote 使身職促進, skilled 熟練的、有技能的, radically根本的、徹底的、優異的、例外的, appreciation 感謝、欣賞, evaluate 評價suggest 建議, preference 偏好, management 管理、經營、經營團隊predict 預測, transfer 轉移,使調職award 將授予, mandatory 義務性的、強制性的competent 有能力的、身認的performance 表現、成果、表演、演出、演奏reward 報償、回報, search 尋找、搜尋、調查inexperienced 沒經驗的、不熟練的, early 早的、提早的designate 指定、指派executive 經營管理的dedication 專心致力unanimously 全體意見一致的progress 前進、進步、進展congratulate 祝賀dismiss 解僱independence 獨立participation 參與、參加praise 稱讚accomplishment 成就deliberation 商議、審議leadership 領導、領導才能retire 退休nomination 提名、任命reorganize 重新組織、改組serve 服務、擔任encouragement 鼓勵resignation 辭職、辭呈strictly 嚴格地",
+  "raw_transcript": "Hackers' TOEIC Vocabulary, Day 24.appoint 任命,指派appraisal 評價promote 使生殖,促進skilled 熟練的,有技能的radically 根本的,徹底的exceptional 優異的,例外的appreciation 感謝,欣賞evaluate 評價suggest 建議preference 偏好management 管理,經營,經營團隊predict 預測transfer 轉移,使調職award 獎,授予mandatory 義務性的,強制性的competent 有能力的,身認的performance 表現,成果,表演,演出,演奏reward 報償,回報search 尋找,搜尋,調查inexperienced 沒經驗的,不熟練的early 早的,提早的designate 指定,指派executive 經營管理的dedication 專心致力unanimously 全體意見一致的progress 前進,進步,進展congratulate 祝賀dismiss 解僱independence 獨立participation 參與,參加,交流praise 稱讚accomplishment 成就deliberation 商議,審議leadership 領導,領導才能retire 退休nomination 提名,任命reorganize 重新組織,改組serve 服務,擔任encouragement 鼓勵resignation 辭職,辭程strictly 嚴格地",
   "vocab": [
     {
       "word": "appoint",
       "meaning_zh": [
-        "任命指派"
+        "任命",
+        "指派"
       ]
     },
     {
@@ -23,7 +24,8 @@
     {
       "word": "promote",
       "meaning_zh": [
-        "使身職促進"
+        "使生殖",
+        "促進"
       ]
     },
     {
@@ -37,7 +39,12 @@
       "word": "radically",
       "meaning_zh": [
         "根本的",
-        "徹底的",
+        "徹底的"
+      ]
+    },
+    {
+      "word": "exceptional",
+      "meaning_zh": [
         "優異的",
         "例外的"
       ]
@@ -91,7 +98,8 @@
     {
       "word": "award",
       "meaning_zh": [
-        "將授予"
+        "獎",
+        "授予"
       ]
     },
     {
@@ -202,7 +210,8 @@
       "word": "participation",
       "meaning_zh": [
         "參與",
-        "參加"
+        "參加",
+        "交流"
       ]
     },
     {
@@ -268,7 +277,7 @@
       "word": "resignation",
       "meaning_zh": [
         "辭職",
-        "辭呈"
+        "辭程"
       ]
     },
     {

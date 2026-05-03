@@ -6,12 +6,37 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day14.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14 第14Diverse 多樣的 Superb 極好的 一流的 Baggage 行李 Destination 目的地 Missing 遺失的 缺少的 Locate找到什麼的位置 使什麼坐落於 Approximately 大概 Duty 稅 關稅 責任 職責 Process 過程 程序 處理 Board上 登上 委員會 董事會 Comfortable 舒適的 Declare 申報 宣告 Specify 具體說明 Depart 出發Emergency 緊急情況 Passenger 乘客 Outgoing 從某地點出發的 離開的 即將離職的 Tightly 緊緊的 牢固的 Tour 導航 旅行Carrier 運輸公司 航空公司 運輸工具 Customarily 習慣上 習俗上 Confuse 使困惑 Arrive 到達 Brochure 摺頁 小冊子Involve 需要 包含 使某人 涉入 Ship 運送 船 Suitcase 行李箱 Unavailable 無法利用的 無法取得的 Fill out, fill inFill out, fill in 填寫 填好表格等文件 Customs 海關 Away 離開 遠離 Dramatic 戲劇性的 激動人心的 急劇的 Hospitality款待 殷勤招待 Indulge 沉迷 讓什麼享受 Proximity 接近 臨近 Seating 整體的座位安排 座位數量 Unlimited 無限制的 Simply僅僅 只是 簡單的 Besides 而且 此外 除什麼之外 Traditionally 傳統的",
+  "raw_transcript": "Hackers' TOEIC Vocabulary 日誌14International 國際的Attraction 景點Itinerary 旅遊行程Exotic 一國情調的,奇特的Diverse 多樣的Superb 極好的,一流的Baggage 行李Destination 目的地Missing 遺失的,缺少的Locate 找到什麼的位置,使什麼做落語Approximately 大概Duty 稅,關稅,責任,職責Process 過程,程序,處理Board 上,登上,委員會,董事會Comfortable 舒適的Declare 申報,宣告Specify 具體說明Depart 出發Emergency 緊急情況Passenger 乘客Outgoing 從某地點出發的,離開的,即將離職的Tightly 緊緊的,牢固的Tour 導覽,旅行Carrier 運輸公司,航空公司,運輸工具Customarily 習慣上,習俗上Confuse 使困惑Arrive 到達Brosher 折頁,小冊子Involve 需要,包含,使某人涉入Ship 運送,船Suitcase 行李箱Unavailable 無法利用的,無法取得的Fill out, fill in填寫,填好表格等文件Customs 海關Away 離開,遠離Dramatic 戲劇性的,激動人心的Hospitality 款待,殷勤招待Indulge 沉迷,讓什麼享受Proximity 接近,鄰近Seating 整體的座位安排,座位數量Unlimited 無限制的Simply 僅僅只是,簡單的Besides 而且,此外,除什麼之外Traditionally 傳統的",
   "vocab": [
     {
-      "word": "hackers toeic vocabulary",
+      "word": "hackers' toeic vocabulary",
       "meaning_zh": [
-        "第"
+        "日誌"
+      ]
+    },
+    {
+      "word": "international",
+      "meaning_zh": [
+        "國際的"
+      ]
+    },
+    {
+      "word": "attraction",
+      "meaning_zh": [
+        "景點"
+      ]
+    },
+    {
+      "word": "itinerary",
+      "meaning_zh": [
+        "旅遊行程"
+      ]
+    },
+    {
+      "word": "exotic",
+      "meaning_zh": [
+        "一國情調的",
+        "奇特的"
       ]
     },
     {
@@ -23,7 +48,8 @@
     {
       "word": "superb",
       "meaning_zh": [
-        "極好的"
+        "極好的",
+        "一流的"
       ]
     },
     {
@@ -41,13 +67,15 @@
     {
       "word": "missing",
       "meaning_zh": [
-        "遺失的"
+        "遺失的",
+        "缺少的"
       ]
     },
     {
       "word": "locate",
       "meaning_zh": [
-        "找到什麼的位置"
+        "找到什麼的位置",
+        "使什麼做落語"
       ]
     },
     {
@@ -59,19 +87,27 @@
     {
       "word": "duty",
       "meaning_zh": [
-        "稅"
+        "稅",
+        "關稅",
+        "責任",
+        "職責"
       ]
     },
     {
       "word": "process",
       "meaning_zh": [
-        "過程"
+        "過程",
+        "程序",
+        "處理"
       ]
     },
     {
       "word": "board",
       "meaning_zh": [
-        "上"
+        "上",
+        "登上",
+        "委員會",
+        "董事會"
       ]
     },
     {
@@ -83,7 +119,8 @@
     {
       "word": "declare",
       "meaning_zh": [
-        "申報"
+        "申報",
+        "宣告"
       ]
     },
     {
@@ -113,31 +150,38 @@
     {
       "word": "outgoing",
       "meaning_zh": [
-        "從某地點出發的"
+        "從某地點出發的",
+        "離開的",
+        "即將離職的"
       ]
     },
     {
       "word": "tightly",
       "meaning_zh": [
-        "緊緊的"
+        "緊緊的",
+        "牢固的"
       ]
     },
     {
       "word": "tour",
       "meaning_zh": [
-        "導航"
+        "導覽",
+        "旅行"
       ]
     },
     {
       "word": "carrier",
       "meaning_zh": [
-        "運輸公司"
+        "運輸公司",
+        "航空公司",
+        "運輸工具"
       ]
     },
     {
       "word": "customarily",
       "meaning_zh": [
-        "習慣上"
+        "習慣上",
+        "習俗上"
       ]
     },
     {
@@ -153,21 +197,25 @@
       ]
     },
     {
-      "word": "brochure",
+      "word": "brosher",
       "meaning_zh": [
-        "摺頁"
+        "折頁",
+        "小冊子"
       ]
     },
     {
       "word": "involve",
       "meaning_zh": [
-        "需要"
+        "需要",
+        "包含",
+        "使某人涉入"
       ]
     },
     {
       "word": "ship",
       "meaning_zh": [
-        "運送"
+        "運送",
+        "船"
       ]
     },
     {
@@ -179,7 +227,8 @@
     {
       "word": "unavailable",
       "meaning_zh": [
-        "無法利用的"
+        "無法利用的",
+        "無法取得的"
       ]
     },
     {
@@ -187,13 +236,10 @@
       "meaning_zh": []
     },
     {
-      "word": "fill infill out",
-      "meaning_zh": []
-    },
-    {
       "word": "fill in",
       "meaning_zh": [
-        "填寫"
+        "填寫",
+        "填好表格等文件"
       ]
     },
     {
@@ -205,37 +251,43 @@
     {
       "word": "away",
       "meaning_zh": [
-        "離開"
+        "離開",
+        "遠離"
       ]
     },
     {
       "word": "dramatic",
       "meaning_zh": [
-        "戲劇性的"
+        "戲劇性的",
+        "激動人心的"
       ]
     },
     {
       "word": "hospitality",
       "meaning_zh": [
-        "款待"
+        "款待",
+        "殷勤招待"
       ]
     },
     {
       "word": "indulge",
       "meaning_zh": [
-        "沉迷"
+        "沉迷",
+        "讓什麼享受"
       ]
     },
     {
       "word": "proximity",
       "meaning_zh": [
-        "接近"
+        "接近",
+        "鄰近"
       ]
     },
     {
       "word": "seating",
       "meaning_zh": [
-        "整體的座位安排"
+        "整體的座位安排",
+        "座位數量"
       ]
     },
     {
@@ -247,13 +299,16 @@
     {
       "word": "simply",
       "meaning_zh": [
-        "僅僅"
+        "僅僅只是",
+        "簡單的"
       ]
     },
     {
       "word": "besides",
       "meaning_zh": [
-        "而且"
+        "而且",
+        "此外",
+        "除什麼之外"
       ]
     },
     {

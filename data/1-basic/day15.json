@@ -6,7 +6,7 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day15.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, Day 15. proposal 提案、提議, alliance 同盟、聯盟, stipulation 契約規定、契約條款, term 條款、論期、期限, compromise 妥協、折衷辦法, negotiation 談判、協商, agreement 意見一致,同意、協議, deadlock 將舉, review 再檢查、審查, contract 合約, contract 簽約、收縮, signature 簽名, originally 原來、起初, direction 方向、指示、指揮, initially expire, 合約等到期,期限終止, collaborate, 合作, dedicate, 使致力於某事,奉獻,獻出 revised, 修改過的、修訂過的, imperative, 必須履行的、必要的, cooperatively, 合作的、配合的, commission 佣金、抽成、委員會,委任、委託什麼創作, omit, 遺漏、審閱, conflict, 衝突、意見不一致, renew, 展言合約等,換新 proficient, 熟練的、精通的, confidentiality, 機密, dispute, 爭論、爭執, objection, 反對,意義 define, 定義、界定, impression, 印象, security, 安全、保全、防護, option proceed, 進行、繼續, modify, 修改、更改, narrow, 縮小, bid, 出價、投標, settle, 解決、安排 terminate, 結束,始終至, challenging, 有挑戰性的、困難的, foundation, 基礎、建立、創辦, pending, 懸而未絕的、未絕的、迫近的",
+  "raw_transcript": "Hackers TOEIC Vocabulary Day 15 proposal 提案,提議, alliance 同盟,聯盟, stipulation 契約規定,契約條款, term, 條款,論期,期限, compromise, 妥協,折衷辦法, negotiation, 談判,協商, agreement 意見一致,同意,協議, deadlock 將舉, review 再檢查,審查, contract 合約, contract 簽約,收縮, signature, 簽名, originally, 原來,起初, direction, 方向,指示,指揮 initially, 起初, expire, 合約等到期,期限終止, collaborate, 合作, dedicate, 使致力於某事,奉獻,獻出 revised, 修改過的,修訂過的, imperative, 必須履行的,必要的, cooperatively, 合作的,配合的, commission 擁經,抽成,委員會,委任,委託什麼創作, omit, 遺漏,審閱, conflict, 衝突,意見不一致, renew, 展言合約等,換新 proficient, 熟練的,精通的, confidentiality, 機密, dispute, 爭論,爭執, objection, 反對,意義 define, 定義,界定, impression, 印象, security, 安全,保全,防護, option 選擇,選擇權, proceed, 進行,繼續, modify, 修改,更改, narrow, 縮小, bid, 出價,投標, settle, 解決,安排 terminate, 結束,始終, challenging, 有挑戰性的,困難的, foundation, 基礎,建立,創辦, pending, 懸而未絕的,未絕的,破鏡的",
   "vocab": [
     {
       "word": "proposal",
@@ -100,7 +100,13 @@
       ]
     },
     {
-      "word": "initially expire",
+      "word": "initially",
+      "meaning_zh": [
+        "起初"
+      ]
+    },
+    {
+      "word": "expire",
       "meaning_zh": [
         "合約等到期",
         "期限終止"
@@ -144,7 +150,7 @@
     {
       "word": "commission",
       "meaning_zh": [
-        "佣金",
+        "擁經",
         "抽成",
         "委員會",
         "委任",
@@ -221,7 +227,14 @@
       ]
     },
     {
-      "word": "option proceed",
+      "word": "option",
+      "meaning_zh": [
+        "選擇",
+        "選擇權"
+      ]
+    },
+    {
+      "word": "proceed",
       "meaning_zh": [
         "進行",
         "繼續"
@@ -258,7 +271,7 @@
       "word": "terminate",
       "meaning_zh": [
         "結束",
-        "始終至"
+        "始終"
       ]
     },
     {
@@ -281,7 +294,7 @@
       "meaning_zh": [
         "懸而未絕的",
         "未絕的",
-        "迫近的"
+        "破鏡的"
       ]
     }
   ]

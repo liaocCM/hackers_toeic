@@ -2,7 +2,7 @@
   "task": "transcribe",
   "language": "zh",
   "duration": 258.61225,
-  "text": "Hackers TOEIC vocabulary, day 29.dispose 處理、處置回收再利用晴朗的、清楚的、明顯的、清晰的、完全、遠離損害、傷害significant 相當大的、重要的、重大的解決方法發聲、出現理想的preserve 保存、保護援助過度的、過分的集中的不同、變化令人愉快的、令人滿意的得分、記號、標誌、慶祝不能進入的、不能利用的打擾汙染物質emission 排放物dense 密集的、濃密的environmental 環境的consistent 一致的、一貫的、持續的leak 洩漏、漏出、滲漏organization 組織、機構continually 頻繁的、一再的contaminate 汙染disaster 災難discharge 排放resource 資源prominent 著名的、顯著的deplete 耗盡purify 淨化endangered 瀕臨絕種的extinction 絕種drought 乾旱inflict 施加使遭受migration 遷移、移動ecology 生態habitat 棲息地",
+  "text": "Hackers' TOEIC Vocabulary, Day 29.dispose 處理,處置回收再利用晴朗的、清楚的、明顯的、清晰的、完全、遠離損害、傷害significant 相當大的、重要的、重大的解決方法發聲、出現理想的preserve 保存、保護援助過度的、過分的集中的不同、變化令人愉快的、令人滿意的得分、記號、標誌、慶祝不能進入的、不能利用的打擾汙染物質排放物密集的、濃密的環境的一致的、一貫的、持續的洩漏、露出、滲漏、漫長的organization組織、機構頻繁的、一再的汙染災難排放resourceprominent著名的、顯著的deplete耗盡purify淨化endangered瀕臨絕種的extinctiondrought乾旱inflict施加使遭受migration遷移、移動ecology生態學habitat七席地",
   "words": null,
   "segments": [
     {
@@ -10,26 +10,28 @@
       "seek": 0,
       "start": 0.0,
       "end": 4.0,
-      "text": "Hackers TOEIC vocabulary, day 29.",
+      "text": "Hackers' TOEIC Vocabulary, Day 29.",
       "tokens": [
         50364,
         39,
         501,
         433,
+        6,
         8232,
         36,
         2532,
-        19864,
+        8993,
+        19189,
         11,
-        786,
+        5226,
         9413,
         13,
         50564
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.4601004442998341,
-      "compression_ratio": 0.8048780487804879,
-      "no_speech_prob": 0.2093505859375,
+      "avg_logprob": -0.5708007887005806,
+      "compression_ratio": 0.8095238095238095,
+      "no_speech_prob": 0.26171875,
       "words": null
     },
     {
@@ -37,7 +39,7 @@
       "seek": 3000,
       "start": 31.0,
       "end": 34.0,
-      "text": "dispose 處理、處置",
+      "text": "dispose 處理,處置",
       "tokens": [
         50414,
         67,
@@ -46,15 +48,15 @@
         220,
         39289,
         13876,
-        1231,
+        11,
         39289,
         34719,
         50564
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.16090745192307693,
-      "compression_ratio": 1.1047619047619048,
-      "no_speech_prob": 0.98486328125,
+      "avg_logprob": -0.180138220007603,
+      "compression_ratio": 1.0961538461538463,
+      "no_speech_prob": 0.97802734375,
       "words": null
     },
     {
@@ -73,9 +75,9 @@
         50864
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.16090745192307693,
-      "compression_ratio": 1.1047619047619048,
-      "no_speech_prob": 0.98486328125,
+      "avg_logprob": -0.180138220007603,
+      "compression_ratio": 1.0961538461538463,
+      "no_speech_prob": 0.97802734375,
       "words": null
     },
     {
@@ -111,9 +113,9 @@
         51314
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.16090745192307693,
-      "compression_ratio": 1.1047619047619048,
-      "no_speech_prob": 0.98486328125,
+      "avg_logprob": -0.180138220007603,
+      "compression_ratio": 1.0961538461538463,
+      "no_speech_prob": 0.97802734375,
       "words": null
     },
     {
@@ -133,9 +135,9 @@
         51614
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.16090745192307693,
-      "compression_ratio": 1.1047619047619048,
-      "no_speech_prob": 0.98486328125,
+      "avg_logprob": -0.180138220007603,
+      "compression_ratio": 1.0961538461538463,
+      "no_speech_prob": 0.97802734375,
       "words": null
     },
     {
@@ -162,9 +164,9 @@
         50764
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.11378348299435206,
+      "avg_logprob": -0.14285714881760733,
       "compression_ratio": 1.0120481927710843,
-      "no_speech_prob": 0.1187744140625,
+      "no_speech_prob": 0.1146240234375,
       "words": null
     },
     {
@@ -182,9 +184,9 @@
         51014
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.11378348299435206,
+      "avg_logprob": -0.14285714881760733,
       "compression_ratio": 1.0120481927710843,
-      "no_speech_prob": 0.1187744140625,
+      "no_speech_prob": 0.1146240234375,
       "words": null
     },
     {
@@ -203,9 +205,9 @@
         51314
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.11378348299435206,
+      "avg_logprob": -0.14285714881760733,
       "compression_ratio": 1.0120481927710843,
-      "no_speech_prob": 0.1187744140625,
+      "no_speech_prob": 0.1146240234375,
       "words": null
     },
     {
@@ -222,9 +224,9 @@
         51564
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.11378348299435206,
+      "avg_logprob": -0.14285714881760733,
       "compression_ratio": 1.0120481927710843,
-      "no_speech_prob": 0.1187744140625,
+      "no_speech_prob": 0.1146240234375,
       "words": null
     },
     {
@@ -246,9 +248,9 @@
         50664
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.08935547123352687,
+      "avg_logprob": -0.1037326372332043,
       "compression_ratio": 0.9493670886075949,
-      "no_speech_prob": 0.056488037109375,
+      "no_speech_prob": 0.0750732421875,
       "words": null
     },
     {
@@ -265,9 +267,9 @@
         50864
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.08935547123352687,
+      "avg_logprob": -0.1037326372332043,
       "compression_ratio": 0.9493670886075949,
-      "no_speech_prob": 0.056488037109375,
+      "no_speech_prob": 0.0750732421875,
       "words": null
     },
     {
@@ -288,9 +290,9 @@
         51164
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.08935547123352687,
+      "avg_logprob": -0.1037326372332043,
       "compression_ratio": 0.9493670886075949,
-      "no_speech_prob": 0.056488037109375,
+      "no_speech_prob": 0.0750732421875,
       "words": null
     },
     {
@@ -307,9 +309,9 @@
         51464
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.08935547123352687,
+      "avg_logprob": -0.1037326372332043,
       "compression_ratio": 0.9493670886075949,
-      "no_speech_prob": 0.056488037109375,
+      "no_speech_prob": 0.0750732421875,
       "words": null
     },
     {
@@ -327,9 +329,9 @@
         51714
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.08935547123352687,
+      "avg_logprob": -0.1037326372332043,
       "compression_ratio": 0.9493670886075949,
-      "no_speech_prob": 0.056488037109375,
+      "no_speech_prob": 0.0750732421875,
       "words": null
     },
     {
@@ -355,9 +357,9 @@
         50564
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.06271701168130946,
+      "avg_logprob": -0.05891927145421505,
       "compression_ratio": 1.0353982300884956,
-      "no_speech_prob": 0.06524658203125,
+      "no_speech_prob": 0.072998046875,
       "words": null
     },
     {
@@ -385,9 +387,9 @@
         50914
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.06271701168130946,
+      "avg_logprob": -0.05891927145421505,
       "compression_ratio": 1.0353982300884956,
-      "no_speech_prob": 0.06524658203125,
+      "no_speech_prob": 0.072998046875,
       "words": null
     },
     {
@@ -410,9 +412,9 @@
         51264
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.06271701168130946,
+      "avg_logprob": -0.05891927145421505,
       "compression_ratio": 1.0353982300884956,
-      "no_speech_prob": 0.06524658203125,
+      "no_speech_prob": 0.072998046875,
       "words": null
     },
     {
@@ -429,9 +431,9 @@
         51564
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.06271701168130946,
+      "avg_logprob": -0.05891927145421505,
       "compression_ratio": 1.0353982300884956,
-      "no_speech_prob": 0.06524658203125,
+      "no_speech_prob": 0.072998046875,
       "words": null
     },
     {
@@ -450,44 +452,38 @@
         51814
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.06271701168130946,
+      "avg_logprob": -0.05891927145421505,
       "compression_ratio": 1.0353982300884956,
-      "no_speech_prob": 0.06524658203125,
+      "no_speech_prob": 0.072998046875,
       "words": null
     },
     {
       "id": 20,
       "seek": 13900,
-      "start": 139.0,
-      "end": 143.0,
-      "text": "emission 排放物",
+      "start": 140.0,
+      "end": 141.0,
+      "text": "排放物",
       "tokens": [
-        50364,
-        443,
-        3106,
-        220,
+        50414,
         44647,
         12744,
         23516,
-        50564
+        50464
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.14914772388609973,
-      "compression_ratio": 1.0763358778625953,
-      "no_speech_prob": 0.0179595947265625,
+      "avg_logprob": -0.2807017669343112,
+      "compression_ratio": 1.1134020618556701,
+      "no_speech_prob": 0.0149383544921875,
       "words": null
     },
     {
       "id": 21,
       "seek": 13900,
-      "start": 144.0,
-      "end": 148.0,
-      "text": "dense 密集的、濃密的",
+      "start": 145.0,
+      "end": 146.0,
+      "text": "密集的、濃密的",
       "tokens": [
-        50614,
-        67,
-        1288,
-        220,
+        50664,
         47838,
         26020,
         1546,
@@ -496,48 +492,43 @@
         225,
         47838,
         1546,
-        50814
+        50714
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.14914772388609973,
-      "compression_ratio": 1.0763358778625953,
-      "no_speech_prob": 0.0179595947265625,
+      "avg_logprob": -0.2807017669343112,
+      "compression_ratio": 1.1134020618556701,
+      "no_speech_prob": 0.0149383544921875,
       "words": null
     },
     {
       "id": 22,
       "seek": 13900,
-      "start": 149.0,
-      "end": 154.0,
-      "text": "environmental 環境的",
+      "start": 152.0,
+      "end": 153.0,
+      "text": "環境的",
       "tokens": [
-        50864,
-        46848,
-        15875,
-        220,
+        51014,
         40063,
         108,
         47885,
         1546,
-        51114
+        51064
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.14914772388609973,
-      "compression_ratio": 1.0763358778625953,
-      "no_speech_prob": 0.0179595947265625,
+      "avg_logprob": -0.2807017669343112,
+      "compression_ratio": 1.1134020618556701,
+      "no_speech_prob": 0.0149383544921875,
       "words": null
     },
     {
       "id": 23,
       "seek": 13900,
-      "start": 155.0,
-      "end": 162.0,
-      "text": "consistent 一致的、一貫的、持續的",
+      "start": 157.0,
+      "end": 159.0,
+      "text": "一致的、一貫的、持續的",
       "tokens": [
-        51164,
-        21190,
-        25367,
-        26923,
+        51264,
+        2257,
         6784,
         112,
         1546,
@@ -550,57 +541,74 @@
         17694,
         29583,
         1546,
-        51514
+        51364
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.14914772388609973,
-      "compression_ratio": 1.0763358778625953,
-      "no_speech_prob": 0.0179595947265625,
+      "avg_logprob": -0.2807017669343112,
+      "compression_ratio": 1.1134020618556701,
+      "no_speech_prob": 0.0149383544921875,
       "words": null
     },
     {
       "id": 24,
       "seek": 13900,
-      "start": 163.0,
-      "end": 168.0,
-      "text": "leak 洩漏、漏出、滲漏",
+      "start": 162.0,
+      "end": 165.0,
+      "text": "洩漏、露出、滲漏、漫長的",
       "tokens": [
-        51564,
-        306,
-        514,
-        220,
+        51514,
         12136,
         102,
         14065,
         237,
         1231,
-        14065,
-        237,
+        18594,
+        110,
         7781,
         1231,
         15868,
         110,
         14065,
         237,
-        51814
+        1231,
+        14065,
+        104,
+        15353,
+        1546,
+        51664
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.14914772388609973,
-      "compression_ratio": 1.0763358778625953,
-      "no_speech_prob": 0.0179595947265625,
+      "avg_logprob": -0.2807017669343112,
+      "compression_ratio": 1.1134020618556701,
+      "no_speech_prob": 0.0149383544921875,
       "words": null
     },
     {
       "id": 25,
       "seek": 16900,
       "start": 169.0,
-      "end": 175.0,
-      "text": "organization 組織、機構",
+      "end": 170.0,
+      "text": "organization",
       "tokens": [
         50364,
         12372,
         2144,
-        220,
+        50414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19024493887617783,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.05828857421875,
+      "words": null
+    },
+    {
+      "id": 26,
+      "seek": 16900,
+      "start": 174.0,
+      "end": 175.0,
+      "text": "組織、機構",
+      "tokens": [
+        50614,
         30052,
         23141,
         242,
@@ -610,23 +618,19 @@
         50664
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.0866745299888107,
-      "compression_ratio": 0.9565217391304348,
-      "no_speech_prob": 0.017974853515625,
+      "avg_logprob": -0.19024493887617783,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.05828857421875,
       "words": null
     },
     {
-      "id": 26,
+      "id": 27,
       "seek": 16900,
-      "start": 176.0,
+      "start": 180.0,
       "end": 181.0,
-      "text": "continually 頻繁的、一再的",
+      "text": "頻繁的、一再的",
       "tokens": [
-        50714,
-        9000,
-        259,
-        671,
-        220,
+        50914,
         29940,
         23141,
         223,
@@ -638,112 +642,112 @@
         50964
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.0866745299888107,
-      "compression_ratio": 0.9565217391304348,
-      "no_speech_prob": 0.017974853515625,
-      "words": null
-    },
-    {
-      "id": 27,
-      "seek": 16900,
-      "start": 182.0,
-      "end": 186.0,
-      "text": "contaminate 汙染",
-      "tokens": [
-        51014,
-        9000,
-        7428,
-        473,
-        220,
-        12800,
-        94,
-        46568,
-        51214
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.0866745299888107,
-      "compression_ratio": 0.9565217391304348,
-      "no_speech_prob": 0.017974853515625,
+      "avg_logprob": -0.19024493887617783,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.05828857421875,
       "words": null
     },
     {
       "id": 28,
       "seek": 16900,
-      "start": 187.0,
-      "end": 191.0,
-      "text": "disaster 災難",
+      "start": 186.0,
+      "end": 187.0,
+      "text": "汙染",
       "tokens": [
-        51264,
-        13731,
-        1727,
-        220,
-        13290,
-        121,
-        21192,
-        51464
+        51214,
+        12800,
+        94,
+        46568,
+        51264
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.0866745299888107,
-      "compression_ratio": 0.9565217391304348,
-      "no_speech_prob": 0.017974853515625,
+      "avg_logprob": -0.19024493887617783,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.05828857421875,
       "words": null
     },
     {
       "id": 29,
       "seek": 16900,
-      "start": 192.0,
-      "end": 197.0,
-      "text": "discharge 排放",
+      "start": 191.0,
+      "end": 192.0,
+      "text": "災難",
       "tokens": [
-        51514,
-        67,
-        5494,
-        289,
-        432,
-        220,
-        44647,
-        12744,
-        51764
+        51464,
+        13290,
+        121,
+        21192,
+        51514
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.0866745299888107,
-      "compression_ratio": 0.9565217391304348,
-      "no_speech_prob": 0.017974853515625,
+      "avg_logprob": -0.19024493887617783,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.05828857421875,
       "words": null
     },
     {
       "id": 30,
-      "seek": 19700,
-      "start": 198.0,
-      "end": 202.0,
-      "text": "resource 資源",
+      "seek": 16900,
+      "start": 197.0,
+      "end": 198.0,
+      "text": "排放",
       "tokens": [
-        50414,
-        495,
-        2948,
-        220,
-        35380,
-        47402,
-        50614
+        51764,
+        44647,
+        12744,
+        51814
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.08094617793405498,
-      "compression_ratio": 0.9252336448598131,
-      "no_speech_prob": 0.0209503173828125,
+      "avg_logprob": -0.19024493887617783,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.05828857421875,
       "words": null
     },
     {
       "id": 31,
-      "seek": 19700,
-      "start": 203.0,
-      "end": 207.0,
-      "text": "prominent 著名的、顯著的",
+      "seek": 19900,
+      "start": 199.0,
+      "end": 200.0,
+      "text": "resource",
       "tokens": [
-        50664,
+        50364,
+        495,
+        2948,
+        50414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.13466631507469437,
+      "compression_ratio": 0.9245283018867925,
+      "no_speech_prob": 0.01541900634765625,
+      "words": null
+    },
+    {
+      "id": 32,
+      "seek": 19900,
+      "start": 203.0,
+      "end": 204.0,
+      "text": "prominent",
+      "tokens": [
+        50564,
         1424,
         6981,
         317,
-        220,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.13466631507469437,
+      "compression_ratio": 0.9245283018867925,
+      "no_speech_prob": 0.01541900634765625,
+      "words": null
+    },
+    {
+      "id": 33,
+      "seek": 19900,
+      "start": 206.0,
+      "end": 207.0,
+      "text": "著名的、顯著的",
+      "tokens": [
+        50714,
         19382,
         15940,
         1546,
@@ -751,71 +755,116 @@
         46605,
         19382,
         1546,
-        50864
+        50764
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.08094617793405498,
-      "compression_ratio": 0.9252336448598131,
-      "no_speech_prob": 0.0209503173828125,
-      "words": null
-    },
-    {
-      "id": 32,
-      "seek": 19700,
-      "start": 208.0,
-      "end": 212.0,
-      "text": "deplete 耗盡",
-      "tokens": [
-        50914,
-        1479,
-        17220,
-        220,
-        4450,
-        245,
-        5419,
-        94,
-        51114
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.08094617793405498,
-      "compression_ratio": 0.9252336448598131,
-      "no_speech_prob": 0.0209503173828125,
-      "words": null
-    },
-    {
-      "id": 33,
-      "seek": 19700,
-      "start": 213.0,
-      "end": 217.0,
-      "text": "purify 淨化",
-      "tokens": [
-        51164,
-        35801,
-        2505,
-        220,
-        14176,
-        101,
-        23756,
-        51364
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.08094617793405498,
-      "compression_ratio": 0.9252336448598131,
-      "no_speech_prob": 0.0209503173828125,
+      "avg_logprob": -0.13466631507469437,
+      "compression_ratio": 0.9245283018867925,
+      "no_speech_prob": 0.01541900634765625,
       "words": null
     },
     {
       "id": 34,
-      "seek": 19700,
-      "start": 218.0,
-      "end": 223.0,
-      "text": "endangered 瀕臨絕種的",
+      "seek": 19900,
+      "start": 208.0,
+      "end": 209.0,
+      "text": "deplete",
       "tokens": [
-        51414,
+        50814,
+        1479,
+        17220,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.13466631507469437,
+      "compression_ratio": 0.9245283018867925,
+      "no_speech_prob": 0.01541900634765625,
+      "words": null
+    },
+    {
+      "id": 35,
+      "seek": 19900,
+      "start": 211.0,
+      "end": 212.0,
+      "text": "耗盡",
+      "tokens": [
+        50964,
+        4450,
+        245,
+        5419,
+        94,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.13466631507469437,
+      "compression_ratio": 0.9245283018867925,
+      "no_speech_prob": 0.01541900634765625,
+      "words": null
+    },
+    {
+      "id": 36,
+      "seek": 19900,
+      "start": 213.0,
+      "end": 214.0,
+      "text": "purify",
+      "tokens": [
+        51064,
+        35801,
+        2505,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.13466631507469437,
+      "compression_ratio": 0.9245283018867925,
+      "no_speech_prob": 0.01541900634765625,
+      "words": null
+    },
+    {
+      "id": 37,
+      "seek": 19900,
+      "start": 217.0,
+      "end": 218.0,
+      "text": "淨化",
+      "tokens": [
+        51264,
+        14176,
+        101,
+        23756,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.13466631507469437,
+      "compression_ratio": 0.9245283018867925,
+      "no_speech_prob": 0.01541900634765625,
+      "words": null
+    },
+    {
+      "id": 38,
+      "seek": 19900,
+      "start": 219.0,
+      "end": 220.0,
+      "text": "endangered",
+      "tokens": [
+        51364,
         521,
         3176,
         292,
-        220,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.13466631507469437,
+      "compression_ratio": 0.9245283018867925,
+      "no_speech_prob": 0.01541900634765625,
+      "words": null
+    },
+    {
+      "id": 39,
+      "seek": 19900,
+      "start": 222.0,
+      "end": 223.0,
+      "text": "瀕臨絕種的",
+      "tokens": [
+        51514,
         163,
         222,
         243,
@@ -825,69 +874,95 @@
         243,
         16516,
         1546,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.13466631507469437,
+      "compression_ratio": 0.9245283018867925,
+      "no_speech_prob": 0.01541900634765625,
+      "words": null
+    },
+    {
+      "id": 40,
+      "seek": 19900,
+      "start": 224.0,
+      "end": 225.0,
+      "text": "extinction",
+      "tokens": [
+        51614,
+        3828,
+        12987,
         51664
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.08094617793405498,
-      "compression_ratio": 0.9252336448598131,
-      "no_speech_prob": 0.0209503173828125,
+      "avg_logprob": -0.13466631507469437,
+      "compression_ratio": 0.9245283018867925,
+      "no_speech_prob": 0.01541900634765625,
       "words": null
     },
     {
-      "id": 35,
-      "seek": 22300,
-      "start": 223.0,
-      "end": 229.0,
-      "text": "extinction 絕種",
+      "id": 41,
+      "seek": 22500,
+      "start": 225.0,
+      "end": 226.0,
+      "text": "drought",
       "tokens": [
         50364,
-        3828,
-        12987,
-        220,
-        6948,
-        243,
-        16516,
-        50664
+        16753,
+        930,
+        50414
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.09813456875937325,
-      "compression_ratio": 0.9207920792079208,
-      "no_speech_prob": 0.04742431640625,
+      "avg_logprob": -0.27941176119972677,
+      "compression_ratio": 0.8817204301075269,
+      "no_speech_prob": 0.0244140625,
       "words": null
     },
     {
-      "id": 36,
-      "seek": 22300,
-      "start": 230.0,
-      "end": 233.0,
-      "text": "drought 乾旱",
+      "id": 42,
+      "seek": 22500,
+      "start": 229.0,
+      "end": 230.0,
+      "text": "乾旱",
       "tokens": [
-        50714,
-        16753,
-        930,
-        220,
+        50564,
         39698,
         4479,
         109,
-        50864
+        50614
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.09813456875937325,
-      "compression_ratio": 0.9207920792079208,
-      "no_speech_prob": 0.04742431640625,
+      "avg_logprob": -0.27941176119972677,
+      "compression_ratio": 0.8817204301075269,
+      "no_speech_prob": 0.0244140625,
       "words": null
     },
     {
-      "id": 37,
-      "seek": 22300,
-      "start": 234.0,
-      "end": 239.0,
-      "text": "inflict 施加使遭受",
+      "id": 43,
+      "seek": 22500,
+      "start": 231.0,
+      "end": 232.0,
+      "text": "inflict",
       "tokens": [
-        50914,
+        50664,
         27850,
         985,
-        220,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27941176119972677,
+      "compression_ratio": 0.8817204301075269,
+      "no_speech_prob": 0.0244140625,
+      "words": null
+    },
+    {
+      "id": 44,
+      "seek": 22500,
+      "start": 234.0,
+      "end": 235.0,
+      "text": "施加使遭受",
+      "tokens": [
+        50814,
         4307,
         121,
         9990,
@@ -895,25 +970,40 @@
         3330,
         255,
         23151,
-        51164
+        50864
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.09813456875937325,
-      "compression_ratio": 0.9207920792079208,
-      "no_speech_prob": 0.04742431640625,
+      "avg_logprob": -0.27941176119972677,
+      "compression_ratio": 0.8817204301075269,
+      "no_speech_prob": 0.0244140625,
       "words": null
     },
     {
-      "id": 38,
-      "seek": 22300,
-      "start": 240.0,
-      "end": 246.0,
-      "text": "migration 遷移、移動",
+      "id": 45,
+      "seek": 22500,
+      "start": 237.0,
+      "end": 238.0,
+      "text": "migration",
       "tokens": [
-        51214,
+        50964,
         76,
         36045,
-        220,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27941176119972677,
+      "compression_ratio": 0.8817204301075269,
+      "no_speech_prob": 0.0244140625,
+      "words": null
+    },
+    {
+      "id": 46,
+      "seek": 22500,
+      "start": 241.0,
+      "end": 242.0,
+      "text": "遷移、移動",
+      "tokens": [
+        51164,
         3330,
         115,
         8204,
@@ -922,56 +1012,87 @@
         8204,
         119,
         12572,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27941176119972677,
+      "compression_ratio": 0.8817204301075269,
+      "no_speech_prob": 0.0244140625,
+      "words": null
+    },
+    {
+      "id": 47,
+      "seek": 22500,
+      "start": 243.0,
+      "end": 244.0,
+      "text": "ecology",
+      "tokens": [
+        51264,
+        3045,
+        1793,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27941176119972677,
+      "compression_ratio": 0.8817204301075269,
+      "no_speech_prob": 0.0244140625,
+      "words": null
+    },
+    {
+      "id": 48,
+      "seek": 22500,
+      "start": 247.0,
+      "end": 248.0,
+      "text": "生態學",
+      "tokens": [
+        51464,
+        8244,
+        45248,
+        21372,
         51514
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.09813456875937325,
-      "compression_ratio": 0.9207920792079208,
-      "no_speech_prob": 0.04742431640625,
+      "avg_logprob": -0.27941176119972677,
+      "compression_ratio": 0.8817204301075269,
+      "no_speech_prob": 0.0244140625,
       "words": null
     },
     {
-      "id": 39,
-      "seek": 22300,
-      "start": 247.0,
-      "end": 252.0,
-      "text": "ecology 生態",
+      "id": 49,
+      "seek": 22500,
+      "start": 250.0,
+      "end": 251.0,
+      "text": "habitat",
       "tokens": [
-        51564,
-        3045,
-        1793,
-        220,
-        8244,
-        45248,
-        51814
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.09813456875937325,
-      "compression_ratio": 0.9207920792079208,
-      "no_speech_prob": 0.04742431640625,
-      "words": null
-    },
-    {
-      "id": 40,
-      "seek": 25300,
-      "start": 253.0,
-      "end": 259.0,
-      "text": "habitat 棲息地",
-      "tokens": [
-        50364,
+        51614,
         7821,
         14032,
-        220,
-        16407,
-        110,
-        26460,
-        10928,
-        50664
+        51664
       ],
       "temperature": 0.0,
-      "avg_logprob": -0.30976563692092896,
-      "compression_ratio": 0.6538461538461539,
-      "no_speech_prob": 0.474853515625,
+      "avg_logprob": -0.27941176119972677,
+      "compression_ratio": 0.8817204301075269,
+      "no_speech_prob": 0.0244140625,
+      "words": null
+    },
+    {
+      "id": 50,
+      "seek": 25100,
+      "start": 251.0,
+      "end": 252.0,
+      "text": "七席地",
+      "tokens": [
+        50364,
+        29920,
+        4845,
+        255,
+        10928,
+        50414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.49581471511295866,
+      "compression_ratio": 0.5,
+      "no_speech_prob": 0.347900390625,
       "words": null
     }
   ]

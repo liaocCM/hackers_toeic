@@ -6,13 +6,13 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day16.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 16.completely 完整的、完全的, refuse 拒絕, temporarily 暫時的, dealer 經銷業者、代理商bulk 大量的, inventory 庫存、庫存清單, short 短缺的, cost 費用、成本、花費selection 選擇、選出來的東西,可選擇的範圍commercial 商業的、商務的,廣告order 訂購,訂單、訂購的東西provide 提供contact 聯絡,可提供資訊的聯絡人、門路invoice 發票、發貨單move 移動、搬遷、行動、措施、對策supply 供應、用品、補給品discount 折扣distribute 分發、分配、分銷acquisition 獲得、獲得的東西,收購assure 向某人保證,使某人放心,使某人確信subject 容易受到什麼影響的,以什麼為條件的subject 使什麼受到seek 追求、尋找satisfactory 令人滿意的confirmation 確認unable 不能的payment 支付measure 措施、手段、測量bargain 特價商品、協議、交易stock 庫存、股票affordability 可負擔心clientele 顧客、所有委託員acclaim 喝采、稱讚represent 代表rating 等級、平等encompass 包含、圍繞finalize 完成、做最後確認market 市場retail 零售commodity 商品quote 報價consignment 委託",
+  "raw_transcript": "Hackers' TOEIC vocabulary, day 16.completely 完整地,完全地refuse 拒絕temporarily 暫時地dealer 經銷業者,代理商bulk 大量的inventory 庫存清單short 短缺的cost 費用、成本、花費selection 選擇、選出來的東西可選擇的範圍 commercial商業的、商務的、廣告 order訂購、訂單、訂購的東西 provide提供 contact聯絡,可提供資訊的聯絡人、門路invoice 發票、發貨單move 移動、搬遷、行動、措施、對策supply 供應、用品、補給品discount 折扣distribute 分發分配、分銷獲得、獲得的東西、收購向某人保證,使某人放心,使某人確信容易受到什麼影響的,以什麼為條件的使什麼受到 seek追求、尋找 satisfactory令人滿意的 confirmation確認、證實 unable不能的 payment支付 measure措施、手段、測量 bargain特價商品、協議、交易 stock庫存、股票 affordability可負擔信 clientele顧客、所有委託人 acclaim喝彩、稱讚 represent代表 rating等級、平等 encompass包含、圍繞 finalize完成、做最後確認 market市場 retail零售 commodity商品 quote報價 consignment委託",
   "vocab": [
     {
       "word": "completely",
       "meaning_zh": [
-        "完整的",
-        "完全的"
+        "完整地",
+        "完全地"
       ]
     },
     {
@@ -24,7 +24,7 @@
     {
       "word": "temporarily",
       "meaning_zh": [
-        "暫時的"
+        "暫時地"
       ]
     },
     {
@@ -43,7 +43,6 @@
     {
       "word": "inventory",
       "meaning_zh": [
-        "庫存",
         "庫存清單"
       ]
     },
@@ -65,8 +64,7 @@
       "word": "selection",
       "meaning_zh": [
         "選擇",
-        "選出來的東西",
-        "可選擇的範圍"
+        "選出來的東西可選擇的範圍"
       ]
     },
     {
@@ -133,32 +131,13 @@
     {
       "word": "distribute",
       "meaning_zh": [
-        "分發",
-        "分配",
-        "分銷"
-      ]
-    },
-    {
-      "word": "acquisition",
-      "meaning_zh": [
-        "獲得",
+        "分發分配",
+        "分銷獲得",
         "獲得的東西",
-        "收購"
-      ]
-    },
-    {
-      "word": "assure",
-      "meaning_zh": [
-        "向某人保證",
+        "收購向某人保證",
         "使某人放心",
-        "使某人確信"
-      ]
-    },
-    {
-      "word": "subject",
-      "meaning_zh": [
-        "容易受到什麼影響的",
-        "以什麼為條件的"
+        "使某人確信容易受到什麼影響的",
+        "以什麼為條件的使什麼受到"
       ]
     },
     {
@@ -177,7 +156,8 @@
     {
       "word": "confirmation",
       "meaning_zh": [
-        "確認"
+        "確認",
+        "證實"
       ]
     },
     {
@@ -218,20 +198,20 @@
     {
       "word": "affordability",
       "meaning_zh": [
-        "可負擔心"
+        "可負擔信"
       ]
     },
     {
       "word": "clientele",
       "meaning_zh": [
         "顧客",
-        "所有委託員"
+        "所有委託人"
       ]
     },
     {
       "word": "acclaim",
       "meaning_zh": [
-        "喝采",
+        "喝彩",
         "稱讚"
       ]
     },

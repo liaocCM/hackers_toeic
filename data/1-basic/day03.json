@@ -6,12 +6,32 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day03.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3 第3Division 部門 Request 要求 Efficiently 有效率地 Manage 經營 管理 設法做到 勉強做到Submit 提交 Directly 直接地 Remind 提醒 使響起 Instruct 指示 教導 Deadline 截止期限 最後期限Sample 樣本 樣品 試用品 試吃 抽樣檢查 Notify 通知 告知 Perform 執行 實施 Monitor 監視 監控 監督Deserve 值得 應該得到 Assignment 工作 任務 作業 Entire 整個的 Release 發表 公開 發行 上市Extension 延長 延期 分機 Electronically 以電子方式地 Attendance 出席 出勤 Absolutely 絕對地 完全地Delegate 委任 Delegate 代表 Attentively 專心地 聚精會神地 Supervision 監督 Workshop 專題討論會 工作方Draw 拉 吸引 Revision 修定 Reluctantly 不情願地 勉強地 Acquaint 使認識 使熟悉 Convey 傳達 Check檢查 查明 確認 Headquarters 總部 總公司 File 把什麼歸檔 正式提起或提出 Oversee 監督 Involved 有關的 牽涉在內的Concentrate 集中 專注",
+  "raw_transcript": "Hackers' TOEIC Vocabulary Day 3Acustomed 習慣的 corporation 股份公司,法人Demanding 要求很多的,吃力的 colleague 同事Division 部門 request 要求 efficiently 有效率的 manage經營,管理,設法做到,勉強做到提交, directly 直接地提醒,使響起指示,教導截止期限,最後期限樣本,樣品,試用品,試吃,抽樣檢查通知,告知執行,實施, monitor監視,監控,監督值得,應該得到, assignment工作,任務,作業Release,發表,公開,發行,上市Extension,延長,延期,分機Electronically,以電子方式地Attendance,出席,出勤,absolutely絕對地,完全地委任, delegate代表, attentively專心地,聚精會神地, supervision監督,workshop,專題討論會,工作坊Draw,拉,吸引, revision修訂, reluctantly不情願地,勉強地使認識,使熟悉, convey傳達, check檢查,查明,確認, headquarters總部,總公司, file把什麼歸檔,正式提起或提出Oversea, oversea監督, involved, involved有關的,牽涉在內的Concentrate, concentrate集中,專注",
   "vocab": [
     {
-      "word": "hackers toeic vocabulary",
+      "word": "acustomed",
       "meaning_zh": [
-        "第"
+        "習慣的"
+      ]
+    },
+    {
+      "word": "corporation",
+      "meaning_zh": [
+        "股份公司",
+        "法人"
+      ]
+    },
+    {
+      "word": "demanding",
+      "meaning_zh": [
+        "要求很多的",
+        "吃力的"
+      ]
+    },
+    {
+      "word": "colleague",
+      "meaning_zh": [
+        "同事"
       ]
     },
     {
@@ -29,97 +49,65 @@
     {
       "word": "efficiently",
       "meaning_zh": [
-        "有效率地"
+        "有效率的"
       ]
     },
     {
       "word": "manage",
       "meaning_zh": [
-        "經營"
-      ]
-    },
-    {
-      "word": "submit",
-      "meaning_zh": [
-        "提交"
+        "經營",
+        "管理",
+        "設法做到",
+        "勉強做到提交"
       ]
     },
     {
       "word": "directly",
       "meaning_zh": [
-        "直接地"
-      ]
-    },
-    {
-      "word": "remind",
-      "meaning_zh": [
-        "提醒"
-      ]
-    },
-    {
-      "word": "instruct",
-      "meaning_zh": [
-        "指示"
-      ]
-    },
-    {
-      "word": "deadline",
-      "meaning_zh": [
-        "截止期限"
-      ]
-    },
-    {
-      "word": "sample",
-      "meaning_zh": [
-        "樣本"
-      ]
-    },
-    {
-      "word": "notify",
-      "meaning_zh": [
-        "通知"
-      ]
-    },
-    {
-      "word": "perform",
-      "meaning_zh": [
-        "執行"
+        "直接地提醒",
+        "使響起指示",
+        "教導截止期限",
+        "最後期限樣本",
+        "樣品",
+        "試用品",
+        "試吃",
+        "抽樣檢查通知",
+        "告知執行",
+        "實施"
       ]
     },
     {
       "word": "monitor",
       "meaning_zh": [
-        "監視"
-      ]
-    },
-    {
-      "word": "deserve",
-      "meaning_zh": [
-        "值得"
+        "監視",
+        "監控",
+        "監督值得",
+        "應該得到"
       ]
     },
     {
       "word": "assignment",
       "meaning_zh": [
-        "工作"
-      ]
-    },
-    {
-      "word": "entire",
-      "meaning_zh": [
-        "整個的"
+        "工作",
+        "任務",
+        "作業"
       ]
     },
     {
       "word": "release",
       "meaning_zh": [
-        "發表"
+        "發表",
+        "公開",
+        "發行",
+        "上市"
       ]
     },
     {
       "word": "extension",
       "meaning_zh": [
-        "延長"
+        "延長",
+        "延期",
+        "分機"
       ]
     },
     {
@@ -131,25 +119,28 @@
     {
       "word": "attendance",
       "meaning_zh": [
-        "出席"
+        "出席",
+        "出勤"
       ]
     },
     {
       "word": "absolutely",
       "meaning_zh": [
-        "絕對地"
+        "絕對地",
+        "完全地委任"
       ]
     },
     {
       "word": "delegate",
       "meaning_zh": [
-        "委任"
+        "代表"
       ]
     },
     {
       "word": "attentively",
       "meaning_zh": [
-        "專心地"
+        "專心地",
+        "聚精會神地"
       ]
     },
     {
@@ -161,31 +152,29 @@
     {
       "word": "workshop",
       "meaning_zh": [
-        "專題討論會"
+        "專題討論會",
+        "工作坊"
       ]
     },
     {
       "word": "draw",
       "meaning_zh": [
-        "拉"
+        "拉",
+        "吸引"
       ]
     },
     {
       "word": "revision",
       "meaning_zh": [
-        "修定"
+        "修訂"
       ]
     },
     {
       "word": "reluctantly",
       "meaning_zh": [
-        "不情願地"
-      ]
-    },
-    {
-      "word": "acquaint",
-      "meaning_zh": [
-        "使認識"
+        "不情願地",
+        "勉強地使認識",
+        "使熟悉"
       ]
     },
     {
@@ -197,23 +186,27 @@
     {
       "word": "check",
       "meaning_zh": [
-        "檢查"
+        "檢查",
+        "查明",
+        "確認"
       ]
     },
     {
       "word": "headquarters",
       "meaning_zh": [
-        "總部"
+        "總部",
+        "總公司"
       ]
     },
     {
       "word": "file",
       "meaning_zh": [
-        "把什麼歸檔"
+        "把什麼歸檔",
+        "正式提起或提出"
       ]
     },
     {
-      "word": "oversee",
+      "word": "oversea",
       "meaning_zh": [
         "監督"
       ]
@@ -221,13 +214,15 @@
     {
       "word": "involved",
       "meaning_zh": [
-        "有關的"
+        "有關的",
+        "牽涉在內的"
       ]
     },
     {
       "word": "concentrate",
       "meaning_zh": [
-        "集中"
+        "集中",
+        "專注"
       ]
     }
   ]

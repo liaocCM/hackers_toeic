@@ -6,13 +6,48 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day04.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 4. 自願的、自動自發的, undertake 從事、承擔工作等. 假定、以為、承擔, occasionally 偶爾, employee 員工、受僱者 協助、援助, satisfied 感到滿意的、滿足的, manner, manner 方式、態度, responsible 應該負責的、負責任的. 進行、調整、適應, personnel 員工、人員、人事部門, agree 同意, supervise 監督、指導. 同事、共同工作者, direct 引導、指揮、指導. 機密的、秘密的, assign 分配、指派, leading 領導的、領先的、主要的, formal, formal. 正式的, remove, 去除、拔某人免職, collect, 收集、收取, coordinate, 協調, hardly, 幾乎不. 抽象的, directory, 通訊錄、工商名錄、電話簿, accountable, 應負責任的, skillfully. 巧妙的、熟練的, exclusive, 獨有的、排外的, intention, 意圖、意向. 改變、轉變, respectful, 尊重的、尊敬的, duplicate, 副本, contrary, 相反. 令人不安的、令人焦慮的、煩擾人的, engage, 參加、從事, foster, 促進、培養. 中立、中立性, widely, 廣泛的, externally, 外部的、外在的.",
+  "raw_transcript": "Hacker's Toic Vocabulary, Day 4. lax 鬆懈的,散漫的, procrastinate 拖延, combined 聯合的,結合的, accomplish voluntarily 自願的,自動自發的, undertake 從事,承擔工作等 assume 假定,以為,承擔 occasionally 偶爾 employee 員工,受僱者, assist 協助,援助, satisfied 感到滿意的,滿足的 manner 方式,態度, responsible 應該負責的,負責任的, conduct 進行 adjust 調整,適應, personnel 員工,人員,人事部門, agree 同意, supervise 監督,指導 coworker 同事,共同工作者, direct 引導,指揮,指導 confidential 機密的,秘密的, assign 分配,指派 leading 領導的,領先的,主要的, formal 正式的, remove 去除,罰某人免職 collect 收集,收取, coordinate 協調, hardly 幾乎不 abstract 抽象的, directory 通訊錄,工商名錄,電話簿 accountable 應負責任的, skillfully 巧妙的,熟練的, exclusive 獨有的,排外的 intention 意圖,意向, transform 改變,轉變, respectful 尊重的,尊敬的 duplicate 副本, contrary 相反, disturbing 令人不安的,令人焦慮的,煩擾人的 engage 參加,從事, foster 促進,培養, neutrality 中立,中立性, widely 廣泛的, externally 外部的,外在的",
   "vocab": [
+    {
+      "word": "lax",
+      "meaning_zh": [
+        "鬆懈的",
+        "散漫的"
+      ]
+    },
+    {
+      "word": "procrastinate",
+      "meaning_zh": [
+        "拖延"
+      ]
+    },
+    {
+      "word": "combined",
+      "meaning_zh": [
+        "聯合的",
+        "結合的"
+      ]
+    },
+    {
+      "word": "accomplish voluntarily",
+      "meaning_zh": [
+        "自願的",
+        "自動自發的"
+      ]
+    },
     {
       "word": "undertake",
       "meaning_zh": [
         "從事",
         "承擔工作等"
+      ]
+    },
+    {
+      "word": "assume",
+      "meaning_zh": [
+        "假定",
+        "以為",
+        "承擔"
       ]
     },
     {
@@ -26,6 +61,13 @@
       "meaning_zh": [
         "員工",
         "受僱者"
+      ]
+    },
+    {
+      "word": "assist",
+      "meaning_zh": [
+        "協助",
+        "援助"
       ]
     },
     {
@@ -50,6 +92,19 @@
       ]
     },
     {
+      "word": "conduct",
+      "meaning_zh": [
+        "進行"
+      ]
+    },
+    {
+      "word": "adjust",
+      "meaning_zh": [
+        "調整",
+        "適應"
+      ]
+    },
+    {
       "word": "personnel",
       "meaning_zh": [
         "員工",
@@ -71,11 +126,25 @@
       ]
     },
     {
+      "word": "coworker",
+      "meaning_zh": [
+        "同事",
+        "共同工作者"
+      ]
+    },
+    {
       "word": "direct",
       "meaning_zh": [
         "引導",
         "指揮",
         "指導"
+      ]
+    },
+    {
+      "word": "confidential",
+      "meaning_zh": [
+        "機密的",
+        "秘密的"
       ]
     },
     {
@@ -103,7 +172,7 @@
       "word": "remove",
       "meaning_zh": [
         "去除",
-        "拔某人免職"
+        "罰某人免職"
       ]
     },
     {
@@ -123,6 +192,12 @@
       "word": "hardly",
       "meaning_zh": [
         "幾乎不"
+      ]
+    },
+    {
+      "word": "abstract",
+      "meaning_zh": [
+        "抽象的"
       ]
     },
     {
@@ -161,6 +236,13 @@
       ]
     },
     {
+      "word": "transform",
+      "meaning_zh": [
+        "改變",
+        "轉變"
+      ]
+    },
+    {
       "word": "respectful",
       "meaning_zh": [
         "尊重的",
@@ -180,6 +262,14 @@
       ]
     },
     {
+      "word": "disturbing",
+      "meaning_zh": [
+        "令人不安的",
+        "令人焦慮的",
+        "煩擾人的"
+      ]
+    },
+    {
       "word": "engage",
       "meaning_zh": [
         "參加",
@@ -191,6 +281,13 @@
       "meaning_zh": [
         "促進",
         "培養"
+      ]
+    },
+    {
+      "word": "neutrality",
+      "meaning_zh": [
+        "中立",
+        "中立性"
       ]
     },
     {

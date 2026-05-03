@@ -6,7 +6,7 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day10.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 10.Purchase 購買, price 價格, affordable 價格負擔得起的,實惠的, exactly 確切的,正好.Installment 分期付款, notice 通知、公告, charge 收費、費用、責任,索取費用,把什麼記在帳上.Experienced 有經驗的、熟練的, instruction 實用說明,指示.Expert 專家、專門的、專業的, warranty 保證,保證書.Refund 退款, subscriber 訂閱者、用戶.Delivery 運送、交貨.Receipt 收據, carefully.Offer 提供、優惠.Benefit 利益、好處,受益、受惠.Exclusively 獨佔的、排外的.Description 說明、描述.Relatively 相對的.Preparation 準備工作.Spare 節省、另習,備用的、剩下的.Area 地區、區域.Clearance 清除、清空、全線.Alter 改變、修改.Apply 適用、應用、申請.Mutually 互相、彼此.Method 方法、方式.Acceptable 可接受的、還可以的.Desire 渴望、慾望、想要.Redeemable 可兌換的、可償還的.Officially 正式的.Consumption 消費、消耗.Qualify 實務人有資格.Fabric 布料.Auction 拍賣.Authentic 真正的、正統的.Valid 有效的.Vendor 小販、攤販,賣家、供應商.",
+  "raw_transcript": "Hackers' TOEIC vocabulary, day 10.Purchase 購買, price 價格, affordable價格負擔得起的,實惠的, exactly, 確切的,正好Installment 分期付款Notice 通知,公告Charge 收費,費用,責任,索取費用,把什麼記在帳上Experienced 有經驗的,熟練的Instruction 使用說明,指示Expert 專家,專門的,專業的Warranty 保證,保證書Refund 退款Subscriber 訂閱者,用戶Delivery 運送,交貨Receipt 收據, carefullyOffer 提供,優惠Benefit 利益,好處,受益,受惠Exclusively 獨佔的,排外的Description 說明,描述Relatively 相對的Preparation 準備工作Spare 節省,另習,備用的,剩下的Area 地區,區域Clearance 清除,清空,呈現Alter 改變,修改Apply 適用,應用,申請Mutually 互相,彼此Method 方法,方式Acceptable 可接受的,還可以的Desire 渴望,慾望,想要Redeemable 可兌換的,可償還的Officially 正式的Consumption 消費,消耗Qualify 使某人有資格Fabric 布料Auction 拍賣Authentic 真正的,正統的Valid 有效的Vendor 小販,攤販賣家,供應商",
   "vocab": [
     {
       "word": "purchase",
@@ -67,7 +67,7 @@
     {
       "word": "instruction",
       "meaning_zh": [
-        "實用說明",
+        "使用說明",
         "指示"
       ]
     },
@@ -113,11 +113,7 @@
       ]
     },
     {
-      "word": "carefully",
-      "meaning_zh": []
-    },
-    {
-      "word": "offer",
+      "word": "carefullyoffer",
       "meaning_zh": [
         "提供",
         "優惠"
@@ -179,7 +175,7 @@
       "meaning_zh": [
         "清除",
         "清空",
-        "全線"
+        "呈現"
       ]
     },
     {
@@ -249,7 +245,7 @@
     {
       "word": "qualify",
       "meaning_zh": [
-        "實務人有資格"
+        "使某人有資格"
       ]
     },
     {
@@ -281,8 +277,7 @@
       "word": "vendor",
       "meaning_zh": [
         "小販",
-        "攤販",
-        "賣家",
+        "攤販賣家",
         "供應商"
       ]
     }

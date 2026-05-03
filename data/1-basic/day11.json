@@ -6,109 +6,59 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day11.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": true,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 11.特徵、特色功能,以什麼為特色,特別看在靈感,鼓舞人心的人事物充足的, patent專利、專利權、專利品想像,在心中描繪延長,表示、給予在什麼之後,接下來的、隨後的打算、意圖授予、給予、補助金允許,使某人能夠做某事檢查、調查改善、提高增加、增加投資、投入各式各樣的,好幾個的升級、改良upgrade使升級、改進說明書、手冊探勘、探索答覆、反應外觀、外貌成功的、hold容納、裝著、舉辦、舉行進步、進展reliable、可信賴的、可靠的quality、品質domestic、國內的development、開發、發展availability、可得性、可利用性update、更新、最新消息更新、使成為最新accurate、精確的complicated、複雜的accomplished、精確的複雜的、accomplished熟練的、有造詣的諮詢、問題徵兆、指標製造商、製造業者相容的、能共處的優秀的、叫好的絕對的、完全的拓展、擴大腐蝕遠程的、從遠處",
+  "raw_transcript": "Hackers TOEIC Vocabulary Day 11特徵,特色功能,以什麼為特色,特別看在靈感,鼓舞人心的人事物充足的專利,專利權,專利品想像,在心中描繪延長,表示,給予在什麼之後,接下來的,隨後的打算,意圖grant, grantallow, allowinspect, inspectimprove, improveincreasingly, increasingly建增地,越來越投資,投入各式各樣的,好幾個的升級,改良使升級,改進說明書,手冊探勘,探索答覆,反應外觀,外貌成功的容納,裝著,舉辦,舉行進步,進展可信賴的,可靠的品質國內的開發,發展可得性,可利用性更新,最新消息更新,使成為最新精確的複雜的熟練的,有造詣的諮詢,問題徵兆,指標製造商,製造業者相容的,能共處的優秀的,叫好的絕對的,完全的拓展,擴大腐蝕遠程的,從遠處",
   "vocab": [
     {
-      "word": "patent",
-      "meaning_zh": [
-        "專利",
-        "專利權",
-        "專利品想像",
-        "在心中描繪延長",
-        "表示",
-        "給予在什麼之後",
-        "接下來的",
-        "隨後的打算",
-        "意圖授予",
-        "給予",
-        "補助金允許",
-        "使某人能夠做某事檢查",
-        "調查改善",
-        "提高增加",
-        "增加投資",
-        "投入各式各樣的",
-        "好幾個的升級",
-        "改良"
-      ]
+      "word": "grant",
+      "meaning_zh": []
     },
     {
-      "word": "upgrade",
+      "word": "grantallow",
+      "meaning_zh": []
+    },
+    {
+      "word": "allowinspect",
+      "meaning_zh": []
+    },
+    {
+      "word": "inspectimprove",
+      "meaning_zh": []
+    },
+    {
+      "word": "improveincreasingly",
+      "meaning_zh": []
+    },
+    {
+      "word": "increasingly",
       "meaning_zh": [
-        "使升級",
+        "建增地",
+        "越來越投資",
+        "投入各式各樣的",
+        "好幾個的升級",
+        "改良使升級",
         "改進說明書",
         "手冊探勘",
         "探索答覆",
         "反應外觀",
-        "外貌成功的"
-      ]
-    },
-    {
-      "word": "hold",
-      "meaning_zh": [
-        "容納",
+        "外貌成功的容納",
         "裝著",
         "舉辦",
         "舉行進步",
-        "進展"
-      ]
-    },
-    {
-      "word": "reliable",
-      "meaning_zh": [
-        "可信賴的",
-        "可靠的"
-      ]
-    },
-    {
-      "word": "quality",
-      "meaning_zh": [
-        "品質"
-      ]
-    },
-    {
-      "word": "domestic",
-      "meaning_zh": [
-        "國內的"
-      ]
-    },
-    {
-      "word": "development",
-      "meaning_zh": [
-        "開發",
-        "發展"
-      ]
-    },
-    {
-      "word": "availability",
-      "meaning_zh": [
-        "可得性",
-        "可利用性"
-      ]
-    },
-    {
-      "word": "update",
-      "meaning_zh": [
-        "更新",
+        "進展可信賴的",
+        "可靠的品質國內的開發",
+        "發展可得性",
+        "可利用性更新",
         "最新消息更新",
-        "使成為最新"
-      ]
-    },
-    {
-      "word": "accurate",
-      "meaning_zh": [
-        "精確的"
-      ]
-    },
-    {
-      "word": "complicated",
-      "meaning_zh": [
-        "複雜的"
-      ]
-    },
-    {
-      "word": "accomplished",
-      "meaning_zh": [
-        "精確的複雜的"
+        "使成為最新精確的複雜的熟練的",
+        "有造詣的諮詢",
+        "問題徵兆",
+        "指標製造商",
+        "製造業者相容的",
+        "能共處的優秀的",
+        "叫好的絕對的",
+        "完全的拓展",
+        "擴大腐蝕遠程的",
+        "從遠處"
       ]
     }
   ]

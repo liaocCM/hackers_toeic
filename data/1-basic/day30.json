@@ -6,7 +6,7 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day30.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary. Day 30. fatigue 疲勞, check-up, symptom, physician 內科醫師, diagnosis, 診斷, prescribe, 開藥方. recovery 恢復、康復, recognize, 認定、承認、認出、表彰. join 加入, comprehensive 全面的、綜合的, participate 參與、參加, recommend 推薦、建議 necessary 必要的, ability 能力, operation 手術, cleanliness 清潔, duration examination 檢查、審查, eliminate 排除、消除, easily dental 牙科的、牙齒的, dietary 飲食的、節食的, related, transmit 傳播、傳送, periodically 週期性的、定期的, reaction 反應, simple 簡單的 coverage 理培範圍,報導, exposure, 曝露, pharmaceutical 製藥的、藥劑學的, premium, 保險費, relieve, 緩解, combination 結合、組合, conscious, 有意識的、意識到的, deprivation 剝奪、缺乏, health, 健康、健全 induce, 引起, insurance, 保險, nutrition, 營養, prevention, 預防, susceptible 易受感染的、易受影響的, uncomfortably, 令人不快的、不舒服的",
+  "raw_transcript": "Hackers' TOEIC vocabulary. Day 30. fatigue 疲勞, checkup 健康檢查, symptom 症狀, physician 內科醫師, diagnosis, prescribe 開藥方, recovery 恢復,康復, recognize 認定,承認,認出,表彰 join, join, join, join, join, join, join, join, join, join, join, join, join, join, join, join, join, join, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, 製藥的,要繼學的, premium, premium, premium, 保險費, relieve, relieve, relieve, 緩解, combination, combination, combination, 結合,組合, conscious, conscious, conscious, 有意識的,意識到的, deprivation, deprivation, deprivation, 剝奪,缺乏, health, health, health, 健康,健全, induce, induce, 引起, insurance, insurance, 保險, nutrition, nutrition, 營養, prevention, prevention, prevention, 預防, susceptible, susceptible, susceptible, susceptible, susceptible, 易受感染的,易受影響的, uncomfortably, uncomfortably, 令人不快的,不舒服的。",
   "vocab": [
     {
       "word": "fatigue",
@@ -15,12 +15,16 @@
       ]
     },
     {
-      "word": "check-up",
-      "meaning_zh": []
+      "word": "checkup",
+      "meaning_zh": [
+        "健康檢查"
+      ]
     },
     {
       "word": "symptom",
-      "meaning_zh": []
+      "meaning_zh": [
+        "症狀"
+      ]
     },
     {
       "word": "physician",
@@ -30,9 +34,7 @@
     },
     {
       "word": "diagnosis",
-      "meaning_zh": [
-        "診斷"
-      ]
+      "meaning_zh": []
     },
     {
       "word": "prescribe",
@@ -58,131 +60,37 @@
     },
     {
       "word": "join",
-      "meaning_zh": [
-        "加入"
-      ]
-    },
-    {
-      "word": "comprehensive",
-      "meaning_zh": [
-        "全面的",
-        "綜合的"
-      ]
-    },
-    {
-      "word": "participate",
-      "meaning_zh": [
-        "參與",
-        "參加"
-      ]
-    },
-    {
-      "word": "recommend",
-      "meaning_zh": [
-        "推薦",
-        "建議"
-      ]
-    },
-    {
-      "word": "necessary",
-      "meaning_zh": [
-        "必要的"
-      ]
-    },
-    {
-      "word": "ability",
-      "meaning_zh": [
-        "能力"
-      ]
-    },
-    {
-      "word": "operation",
-      "meaning_zh": [
-        "手術"
-      ]
-    },
-    {
-      "word": "cleanliness",
-      "meaning_zh": [
-        "清潔"
-      ]
-    },
-    {
-      "word": "duration examination",
-      "meaning_zh": [
-        "檢查",
-        "審查"
-      ]
-    },
-    {
-      "word": "eliminate",
-      "meaning_zh": [
-        "排除",
-        "消除"
-      ]
-    },
-    {
-      "word": "easily dental",
-      "meaning_zh": [
-        "牙科的",
-        "牙齒的"
-      ]
-    },
-    {
-      "word": "dietary",
-      "meaning_zh": [
-        "飲食的",
-        "節食的"
-      ]
-    },
-    {
-      "word": "related",
       "meaning_zh": []
     },
     {
-      "word": "transmit",
-      "meaning_zh": [
-        "傳播",
-        "傳送"
-      ]
+      "word": "comprehensive",
+      "meaning_zh": []
+    },
+    {
+      "word": "comprehensive ability",
+      "meaning_zh": []
+    },
+    {
+      "word": "ability",
+      "meaning_zh": []
+    },
+    {
+      "word": "ability easily",
+      "meaning_zh": []
+    },
+    {
+      "word": "easily",
+      "meaning_zh": []
+    },
+    {
+      "word": "easily periodically",
+      "meaning_zh": []
     },
     {
       "word": "periodically",
       "meaning_zh": [
-        "週期性的",
-        "定期的"
-      ]
-    },
-    {
-      "word": "reaction",
-      "meaning_zh": [
-        "反應"
-      ]
-    },
-    {
-      "word": "simple",
-      "meaning_zh": [
-        "簡單的"
-      ]
-    },
-    {
-      "word": "coverage",
-      "meaning_zh": [
-        "理培範圍",
-        "報導"
-      ]
-    },
-    {
-      "word": "exposure",
-      "meaning_zh": [
-        "曝露"
-      ]
-    },
-    {
-      "word": "pharmaceutical",
-      "meaning_zh": [
         "製藥的",
-        "藥劑學的"
+        "要繼學的"
       ]
     },
     {

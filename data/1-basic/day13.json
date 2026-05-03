@@ -6,13 +6,40 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day13.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 13. respond 回應,回覆, infuriate 激怒,使大怒, courteous 有禮貌的, satisfaction 滿意, inconvenience 不便,對某人造成不便. complete 完成,結束,完整的、完成的, specific 具體的、明確的. return 歸還、退回, replace 取代、替換, presentation 簡報, evaluation 評價、評估. confident 有自信的、有信心的. cause 引起、造成、原因. commentary 評論、屏住、實況報道. notification 通知, apologize. interact 互動、交流、相互作用. certain 確定的、確信的,某個、某些. commitment 投身、投入、致力. applaud 為什麼鼓掌,稱讚. biography 戰記、精力介紹. critical 批評的、關鍵的、危急的. depend on 依賴、取決於. combine 使結合、合併. priority 優先,優先事項. observe 仔細觀察,注意到,遵守規則等. defective 有缺陷的. reflect 反應、顯示. attitude 態度、看法. disappoint 使失望. inquire 尋問. insert 插入. disclose 公開、透露. guarantee 保證、保障. politely 禮貌的, seriously. 認真地。",
+  "raw_transcript": "Hackers' TOEIC Vocabulary Day 13 complaint 抱怨, deal 處理,交易,分配 argumentative 爭辯的,愛爭論的 appropriately 是當地 respond 回應,回復 infuriate 激怒,使大怒 courteous 有禮貌的 satisfaction 滿意 inconvenience 不便,對某人造成不便 complete 完成,結束,完整的,完成的 specific 具體的,明確的 return 歸還,退回 replace 取代,替換 presentation 簡報 evaluation 評價,評估 confident 有自信的,有信心的 cause 引起,造成,原因 commentary 評論,屏住,實況報道 notification 通知 apologize 道歉 interact 互動,交流,相互作用 certain 確定的,確信的,某個,某些 commitment 投身,投入,致力 applaud 為什麼鼓掌,稱讚 biography 戰記,精力介紹 critical 批評的,關鍵的,危急的 depend on 依賴,取決於 combine 使結合,合併 priority 優先,優先事項 observe 仔細觀察,注意到,遵守規則等 defective 有缺陷的 reflect 反應,顯示 attitude 態度,看法 disappoint 使失望 inquire 詢問,insert disclose 公開,透露 guarantee 保證,保障 politely 禮貌的, seriously 認真的",
   "vocab": [
+    {
+      "word": "complaint",
+      "meaning_zh": [
+        "抱怨"
+      ]
+    },
+    {
+      "word": "deal",
+      "meaning_zh": [
+        "處理",
+        "交易",
+        "分配"
+      ]
+    },
+    {
+      "word": "argumentative",
+      "meaning_zh": [
+        "爭辯的",
+        "愛爭論的"
+      ]
+    },
+    {
+      "word": "appropriately",
+      "meaning_zh": [
+        "是當地"
+      ]
+    },
     {
       "word": "respond",
       "meaning_zh": [
         "回應",
-        "回覆"
+        "回復"
       ]
     },
     {
@@ -115,7 +142,9 @@
     },
     {
       "word": "apologize",
-      "meaning_zh": []
+      "meaning_zh": [
+        "道歉"
+      ]
     },
     {
       "word": "interact",
@@ -222,17 +251,11 @@
     {
       "word": "inquire",
       "meaning_zh": [
-        "尋問"
+        "詢問"
       ]
     },
     {
-      "word": "insert",
-      "meaning_zh": [
-        "插入"
-      ]
-    },
-    {
-      "word": "disclose",
+      "word": "insert disclose",
       "meaning_zh": [
         "公開",
         "透露"
@@ -254,7 +277,7 @@
     {
       "word": "seriously",
       "meaning_zh": [
-        "認真地"
+        "認真的"
       ]
     }
   ]

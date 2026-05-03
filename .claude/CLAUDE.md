@@ -68,7 +68,7 @@ Persist `~/.cache/huggingface` via volume mount or downloaded models vanish on r
 
 **Critical gotchas**:
 - `language=en` actively suppresses Chinese on some files. Auto-detect (no language flag) is more reliable for mixed CN+EN audio.
-- A bilingual `initial_prompt` showing the expected `English 中文` pattern dramatically improves coverage on otherwise-broken days. The current prompt lives in the rerun command (see `scripts/`).
+- A bilingual `initial_prompt` showing the expected `English 中文` pattern dramatically improves coverage on otherwise-broken days. **The example pairs in the prompt must not collide with actual vocab in the audio** — Whisper skips audio that matches the prompt, so using real vocab words drops them from the output. Use generic everyday-life words (apple/banana/computer/desk/etc).
 - Whisper output is Simplified Chinese; convert with `opencc -c s2tw` for Traditional. The converter is mature and essentially loss-free for this content.
 
 **Optimal client concurrency**: 6 (with `num_workers=3`). Beyond ~6 just queues.
@@ -82,9 +82,14 @@ Persist `~/.cache/huggingface` via volume mount or downloaded models vanish on r
 ## Common commands
 
 ```bash
-# Re-transcribe one folder (edit folder + model as needed)
+# Re-transcribe one folder (edit folder + model as needed).
+# IMPORTANT: prompt examples must NOT be real vocab from the audio. Whisper
+# treats `initial_prompt` as text it has already transcribed and will skip
+# audio segments matching it — using actual vocab caused the first 4-5 words
+# of every day to be silently dropped (e.g. day 1 lost resume/opening/
+# applicant/requirement). Use generic everyday words instead.
 D="audio/1-basic_Day01-30"
-PROMPT="Hackers TOEIC vocabulary list. resume 履歷表, opening 空缺、職缺、開張, applicant 申請者、應徵者, requirement 必要條件, qualified 有資格的, candidate 候選者, confidence 信心、自信, professional 專業的、職業的, achievement 成就、達成."
+PROMPT="Bilingual word list with Traditional Chinese definitions. apple 蘋果, banana 香蕉, computer 電腦, desk 書桌, elephant 大象, flower 花朵."
 for i in $(seq -w 01 30); do
   ( curl -s -X POST http://192.168.1.109:8000/v1/audio/transcriptions \
       -F "file=@$D/basic_Day$i.mp3" \

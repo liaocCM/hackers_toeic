@@ -6,7 +6,7 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day02.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 2. attire 服裝、衣著, code 規範、慣例、密碼concern 擔心、憂慮,使擔心、關係到、影響到policy 政策、規定、保單comply 遵守、遵從regulation 規定、exception 例外adhere 遵守、堅持severely 嚴厲的、嚴重的refrain 剋制、抑制permission 允許、許可access 使用權、接近、通道、接近、存取電腦資料等thoroughly 徹底的、完全的、非常revise 修訂、變更approach 接近、處理方法approval 批准、認可form 種類、類型、形式immediately 立即、馬上inspection 檢查、視察arrangement 安排、準備、佈置procedure 手續、程序negative 負面的、消極的mandate 使什麼成為必須的受權給、受權、命令效力、效果、影響、造成激烈的、大幅的、徹底的根據、依照enable 時母元能夠標準、規範、持續的、不斷的act 法案、法令、行為、行動、擔當compensation 補償金、報償ban 禁止、禁令obligation 義務、責任批准、授權某人、做某事禁止、 abolish廢除、enforce執行、實施法律等習慣、legislation立法、法律、法規限制、限定",
+  "raw_transcript": "Hackers' TOEIC Vocabulary, Day 2.Attire 服裝,衣著Code 規範,慣例,密碼Concern 擔心,憂慮,使擔心,關係到,影響到Policy 政策,規定,保單Comply 遵守,遵從Regulation 規定Exception 例外Adhere 遵守,堅持Severely 嚴厲的,嚴重的Refrain 剋制,抑制Permission 允許,許可Access 使用權,接近,通道接近,存取電腦資料等Thoroughly 徹底的,完全的,非常Revise 修訂,變更Approach 接近,處理方法Approval 批准,認可Form 種類,類型,形式Immediately 立即,馬上Inspection 檢查,視察Arrangement 安排,準備,佈置Procedure 手續,程序Negative 負面的,消極的Mandate 使什麼成為必須的授權給,授權,命令Effect 效力,效果,影響,造成Drastically 激烈的,大幅的,徹底的According to 根據,依照Enable 十畝源能夠Standard 標準,規範Constant 持續的,不斷的Act 法案,法令,行為,行動,擔當Compensation 補償金,報償Ban 禁止,禁令Obligation 義務,責任Authorize 批准授權某人做某事禁止廢除執行,實施法律等習慣立法,法律,法規限聚,限定",
   "vocab": [
     {
       "word": "attire",
@@ -93,7 +93,7 @@
       "meaning_zh": [
         "使用權",
         "接近",
-        "通道",
+        "通道接近",
         "存取電腦資料等"
       ]
     },
@@ -173,22 +173,51 @@
     {
       "word": "mandate",
       "meaning_zh": [
-        "使什麼成為必須的受權給",
-        "受權",
-        "命令效力",
+        "使什麼成為必須的授權給",
+        "授權",
+        "命令"
+      ]
+    },
+    {
+      "word": "effect",
+      "meaning_zh": [
+        "效力",
         "效果",
         "影響",
-        "造成激烈的",
+        "造成"
+      ]
+    },
+    {
+      "word": "drastically",
+      "meaning_zh": [
+        "激烈的",
         "大幅的",
-        "徹底的根據",
+        "徹底的"
+      ]
+    },
+    {
+      "word": "according to",
+      "meaning_zh": [
+        "根據",
         "依照"
       ]
     },
     {
       "word": "enable",
       "meaning_zh": [
-        "時母元能夠標準",
-        "規範",
+        "十畝源能夠"
+      ]
+    },
+    {
+      "word": "standard",
+      "meaning_zh": [
+        "標準",
+        "規範"
+      ]
+    },
+    {
+      "word": "constant",
+      "meaning_zh": [
         "持續的",
         "不斷的"
       ]
@@ -221,30 +250,16 @@
       "word": "obligation",
       "meaning_zh": [
         "義務",
-        "責任批准",
-        "授權某人",
-        "做某事禁止"
+        "責任"
       ]
     },
     {
-      "word": "abolish",
+      "word": "authorize",
       "meaning_zh": [
-        "廢除"
-      ]
-    },
-    {
-      "word": "enforce",
-      "meaning_zh": [
-        "執行",
-        "實施法律等習慣"
-      ]
-    },
-    {
-      "word": "legislation",
-      "meaning_zh": [
-        "立法",
+        "批准授權某人做某事禁止廢除執行",
+        "實施法律等習慣立法",
         "法律",
-        "法規限制",
+        "法規限聚",
         "限定"
       ]
     }

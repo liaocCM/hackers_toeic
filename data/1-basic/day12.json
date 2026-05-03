@@ -6,7 +6,7 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day12.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 12.equipment 設備、裝備, automate 自動化, specification 名系單、說明書、規格properly 適當的、正確的, safety 安全, precaution 預防措施, operate 運作、操作processing 加工、處理, capacity 能力、容量、容納量、職位assemble 組裝、召集, utilize 利用place 使什麼處於某種狀態,下指示、訂單、申請等fill 裝滿,滿足訂單需求manufacturing 製造的, renovate 翻新、翻修decision 決定, material 材料、質料success 成功、成就, attribute 把什麼歸因於efficiency 效率、效能, limit 限制、界限tailored 量身訂做的,依要求訂做的component 零件構成要素capable 有能力的, economize 節約、節省flexible 靈活的、有彈性的、可變通的comparable 可比較的、比得上的produce 生產, respectively 分別、各自device 裝置, trim 修剪、削減、除去launch 史上是separately 分別的、個別的expiration 到期,期滿maneuver 調動,巧妙操縱或控制coming 即將到來的damaged 受損的prevent 預防、防止power 力量、電力chemical 化學製品、化學藥品minimize 時間到最少、最小化",
+  "raw_transcript": "Hackers' TOEIC vocabulary, day 12.equipment 設備,裝備, automate, 自動化, specification名系單,說明書,規格是當地,正確地安全, precaution預防措施, operate, 運作,操作processing, 加工,處理capacity, 能力,容量,容納量,職位assemble, 組裝,召集utilize, 利用place, 使什麼處於某種狀態,下指示,訂單,申請等fill, 裝滿,滿足訂單需求manufacturing, 製造的renovate, 翻新,翻修decision, 決定material, 材料,質料success, 成功,成就attribute, 把什麼歸因於efficiency, 效率,效能limit, 限制,界限tailored, 量身訂做的,依要求訂做的component, 零件構成要素capable, 有能力的economize, 節約,節省flexible, 靈活的,有彈性的,可變通的comparable, 可比較的,比得上的produce, 生產respectively, 分別,各自device, 裝具trim, 修剪,削減,除去launch, 史上是separately, 分別的,個別的expiration, 到期,期滿maneuver, 調動,巧妙操縱或控制coming, 即將到來的damaged, 受損的prevent, 預防,防止power, 力量,電力chemical, 化學製品,化學藥品minimize, 時間到最少,最小化",
   "vocab": [
     {
       "word": "equipment",
@@ -26,20 +26,8 @@
       "meaning_zh": [
         "名系單",
         "說明書",
-        "規格"
-      ]
-    },
-    {
-      "word": "properly",
-      "meaning_zh": [
-        "適當的",
-        "正確的"
-      ]
-    },
-    {
-      "word": "safety",
-      "meaning_zh": [
-        "安全"
+        "規格是當地",
+        "正確地安全"
       ]
     },
     {
@@ -210,7 +198,7 @@
     {
       "word": "device",
       "meaning_zh": [
-        "裝置"
+        "裝具"
       ]
     },
     {

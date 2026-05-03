@@ -5,25 +5,110 @@
   "page": 474,
   "audio_source": "audio/1-basic_Day01-30/basic_Day26.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
-  "low_count_warning": true,
-  "raw_transcript": "Hackers TOEIC vocabulary 第26 第26 第26 第26 第26 第26 第26 第26 第26 第26 第26 第26 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27 第27賬戶餘額 存錢調查 賬戶 說明 考慮 解釋 佔對賬單 聲明 總數 數量 體領 之前 到期的 到支付期限的 應支付的收到 接收 預期 期待 證書 文件記錄 用文件證明 花費 支出 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的 成功的bill開賬單給 賬單 請款單pleasure愉快 高興 樂意study研究summary蓋要 粘要temporarylower降低transaction交易 買賣double變成兩倍identification身份證明dissatisfaction不滿 不滿意in common共通的 共同的interest興趣 利益 利息reject拒絕relation關係tentatively試驗性的 證實的alternatively不然的話或者attentive專注傾聽的 關心的convert轉換 轉變heavily程度很大底 非常loan借貸 貸款unexpected意料之外的cash兌現mortgage抵押貸款應支付的個人的practice慣例 實踐練習 實踐",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers' TOEIC Vocabulary, Day 26.delinquent, delinquent, delinquent, delinquent, delinquent, delinquent, delinquent, delinquent, delinquent, delinquent.regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably站,statement,statement,statement,對賬單,聲明,amount,amount,amount,總數,數量,withdrawal,withdrawal,withdrawal,體領,previously,previously,previously,之前,do,jew,jew,到期的,到支付期限的,應支付的,receive,receive,收到,接收,expect,expect,expect,預期,期待,certificate,certificate,證書,document,document,document,文件,document,document,document,記錄,用文件證明,spending,spending,spending,花費,支出,successfully,successfully,successfully,成功的,bill,bill,bill,開賬單給,賬單,請款單,pleasure,pleasure,愉快,高興,樂意,study,study,研究,summary,summary,蓋要,沾要,temporary,temporary,臨時的,暫時的,lower,lower,降低,transaction,transaction,交易,買賣,double,double,變成兩倍,identification,identification,身份證明,dissatisfaction,dissatisfaction,不滿,不滿意,in common,in common,共通的,共同的,interest,interest,興趣,利益,利息,reject,reject,拒絕,relation,relation,關係,tentatively,tentatively,試驗性的,暫時的,alternatively,alternatively,不然的話或者,attentive,attentive,專注傾聽的,關心的,convert,convert,轉換,轉變,heavily,heavily,程度很大底,非常,loan,loan,借貸,貸款,unexpected,unexpected,unexpected,意料之外的,cash,cash,兌現,mortgage,mortgage,抵押貸款,payable,payable,應支付的,personal,personal,個人的,practice,practice,慣例,實踐,練習,實踐,",
   "vocab": [
     {
-      "word": "hackers toeic vocabulary",
+      "word": "delinquent",
+      "meaning_zh": []
+    },
+    {
+      "word": "regrettably",
       "meaning_zh": [
-        "第"
+        "站"
+      ]
+    },
+    {
+      "word": "statement",
+      "meaning_zh": [
+        "對賬單",
+        "聲明"
+      ]
+    },
+    {
+      "word": "amount",
+      "meaning_zh": [
+        "總數",
+        "數量"
+      ]
+    },
+    {
+      "word": "withdrawal",
+      "meaning_zh": [
+        "體領"
+      ]
+    },
+    {
+      "word": "previously",
+      "meaning_zh": [
+        "之前"
+      ]
+    },
+    {
+      "word": "do",
+      "meaning_zh": []
+    },
+    {
+      "word": "jew",
+      "meaning_zh": [
+        "到期的",
+        "到支付期限的",
+        "應支付的"
+      ]
+    },
+    {
+      "word": "receive",
+      "meaning_zh": [
+        "收到",
+        "接收"
+      ]
+    },
+    {
+      "word": "expect",
+      "meaning_zh": [
+        "預期",
+        "期待"
+      ]
+    },
+    {
+      "word": "certificate",
+      "meaning_zh": [
+        "證書"
+      ]
+    },
+    {
+      "word": "document",
+      "meaning_zh": [
+        "文件"
+      ]
+    },
+    {
+      "word": "spending",
+      "meaning_zh": [
+        "花費",
+        "支出"
+      ]
+    },
+    {
+      "word": "successfully",
+      "meaning_zh": [
+        "成功的"
       ]
     },
     {
       "word": "bill",
       "meaning_zh": [
-        "開賬單給"
+        "開賬單給",
+        "賬單",
+        "請款單"
       ]
     },
     {
       "word": "pleasure",
       "meaning_zh": [
-        "愉快"
+        "愉快",
+        "高興",
+        "樂意"
       ]
     },
     {
@@ -35,11 +120,19 @@
     {
       "word": "summary",
       "meaning_zh": [
-        "蓋要"
+        "蓋要",
+        "沾要"
       ]
     },
     {
-      "word": "temporarylower",
+      "word": "temporary",
+      "meaning_zh": [
+        "臨時的",
+        "暫時的"
+      ]
+    },
+    {
+      "word": "lower",
       "meaning_zh": [
         "降低"
       ]
@@ -47,7 +140,8 @@
     {
       "word": "transaction",
       "meaning_zh": [
-        "交易"
+        "交易",
+        "買賣"
       ]
     },
     {
@@ -65,19 +159,23 @@
     {
       "word": "dissatisfaction",
       "meaning_zh": [
-        "不滿"
+        "不滿",
+        "不滿意"
       ]
     },
     {
       "word": "in common",
       "meaning_zh": [
-        "共通的"
+        "共通的",
+        "共同的"
       ]
     },
     {
       "word": "interest",
       "meaning_zh": [
-        "興趣"
+        "興趣",
+        "利益",
+        "利息"
       ]
     },
     {
@@ -95,7 +193,8 @@
     {
       "word": "tentatively",
       "meaning_zh": [
-        "試驗性的"
+        "試驗性的",
+        "暫時的"
       ]
     },
     {
@@ -107,25 +206,29 @@
     {
       "word": "attentive",
       "meaning_zh": [
-        "專注傾聽的"
+        "專注傾聽的",
+        "關心的"
       ]
     },
     {
       "word": "convert",
       "meaning_zh": [
-        "轉換"
+        "轉換",
+        "轉變"
       ]
     },
     {
       "word": "heavily",
       "meaning_zh": [
-        "程度很大底"
+        "程度很大底",
+        "非常"
       ]
     },
     {
       "word": "loan",
       "meaning_zh": [
-        "借貸"
+        "借貸",
+        "貸款"
       ]
     },
     {
@@ -143,13 +246,27 @@
     {
       "word": "mortgage",
       "meaning_zh": [
-        "抵押貸款應支付的個人的"
+        "抵押貸款"
+      ]
+    },
+    {
+      "word": "payable",
+      "meaning_zh": [
+        "應支付的"
+      ]
+    },
+    {
+      "word": "personal",
+      "meaning_zh": [
+        "個人的"
       ]
     },
     {
       "word": "practice",
       "meaning_zh": [
-        "慣例"
+        "慣例",
+        "實踐",
+        "練習"
       ]
     }
   ]

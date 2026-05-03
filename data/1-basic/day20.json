@@ -6,7 +6,7 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day20.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 20.audit 審計、查帳, accounting 會計, budget 預算, financial 財務的、金融的, curtail縮減、削減, deficit 赤字,不足而, recently 最近, substantially 大大地,相當多地, committee 委員會, frequently平凡地,經常 能力,才能, proceeds 收入, reimburse 補償,和消, considerably 相當多地adequate 足夠的、適當的, total 總計的、全部的, allocate 分配、分派inspector 檢查人員、稽查人員, preferred 偏好的、優先的, quarter 忌妒,四分之一interrupt 打斷、中斷, browse 瀏覽、隨意觀看, prompt 即時的、迅速的,導致促使deduct 扣除、剪除, measurement 測量、測定、尺寸shorten 縮短、變短, amend 修正, calculate 計算exempt 被免除的、不足的、缺乏的、比較 幸運的expenditure 支出、開支, accurately 精確的、值得什麼的、價值excess 超過、過量fiscal 會計的、財政的、 incidental 附帶的inflation 通貨膨脹liable 負有責任的,很可能會怎樣的spend 花費、花用turnover 營業額、交易額、人事異動率",
+  "raw_transcript": "Hackers' TOEIC vocabulary, day 20.Audit 審計,查帳Accounting 會計Budget 預算Financial 財務的,金融的Curtail 縮減Defisite 赤字,不足而Recently 最近Substantially 大大地,相當多地Committee 委員會Frequently 頻繁地Capability 能力,才能Proceeds 收入Reimburse 補償和消Considerably 相當多地Adequate 足夠的,適當的Total 總計的,全部的Allocate 分配,分派Inspector 檢查人員,稽查人員Preferred 偏好的,優先的Quarter 計度四分之一Interrupt 打斷,中斷Browse 瀏覽,隨意觀看Prompt 即時的,迅速的,導致促使Deduct 扣除,減除Measurement 測量,測定,尺寸Shorten 縮短,變短Amend 修正Calculate 計算Exempt 被免除的Deficient 不足的,缺乏的Compare 比較Fortunate 幸運的Expenditure 支出,開支Accurately 精確的Worth 值得什麼的,價值Excess 超過,過量Fiscal 會計的,財政的Incidental 附帶的Inflation 通貨膨脹Liable 負有責任的,很可能會怎樣的Spend 花費,花用Turnover 營業額,交易額,人事異動率",
   "vocab": [
     {
       "word": "audit",
@@ -37,12 +37,11 @@
     {
       "word": "curtail",
       "meaning_zh": [
-        "縮減",
-        "削減"
+        "縮減"
       ]
     },
     {
-      "word": "deficit",
+      "word": "defisite",
       "meaning_zh": [
         "赤字",
         "不足而"
@@ -70,8 +69,14 @@
     {
       "word": "frequently",
       "meaning_zh": [
-        "平凡地",
-        "經常"
+        "頻繁地"
+      ]
+    },
+    {
+      "word": "capability",
+      "meaning_zh": [
+        "能力",
+        "才能"
       ]
     },
     {
@@ -83,8 +88,7 @@
     {
       "word": "reimburse",
       "meaning_zh": [
-        "補償",
-        "和消"
+        "補償和消"
       ]
     },
     {
@@ -131,8 +135,7 @@
     {
       "word": "quarter",
       "meaning_zh": [
-        "忌妒",
-        "四分之一"
+        "計度四分之一"
       ]
     },
     {
@@ -161,7 +164,7 @@
       "word": "deduct",
       "meaning_zh": [
         "扣除",
-        "剪除"
+        "減除"
       ]
     },
     {
@@ -194,10 +197,26 @@
     {
       "word": "exempt",
       "meaning_zh": [
-        "被免除的",
+        "被免除的"
+      ]
+    },
+    {
+      "word": "deficient",
+      "meaning_zh": [
         "不足的",
-        "缺乏的",
+        "缺乏的"
+      ]
+    },
+    {
+      "word": "compare",
+      "meaning_zh": [
         "比較"
+      ]
+    },
+    {
+      "word": "fortunate",
+      "meaning_zh": [
+        "幸運的"
       ]
     },
     {
@@ -210,7 +229,12 @@
     {
       "word": "accurately",
       "meaning_zh": [
-        "精確的",
+        "精確的"
+      ]
+    },
+    {
+      "word": "worth",
+      "meaning_zh": [
         "值得什麼的",
         "價值"
       ]

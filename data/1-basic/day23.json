@@ -6,8 +6,41 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day23.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary, day 23.participant 參與者, attend 出席、參加, encourage 鼓勵、促使, leave 休假、離開、留下recommendation 推薦、建議、推薦信conference 會議、討論schedule 安排什麼的時間include 包含result 結果、導致register 登記、註冊require 要求grateful 感謝的、感激的overtime 加班時間、加班費responsibility 責任、義務assent 同意、贊成regard 認為什麼事、看待、關心、注意tentative 鎮定的、試驗性的welcome 受歡迎的、欣然接受的function 盛大的聚會、功能commence 開始objective 目標、目的excited 興奮的、激動的reimbursement 補償費用和消treatment 對待、處理honor 榮譽、尊敬emphasize 強調entry 參賽者、參賽作品bonus 獎金、紅利salary 薪水earn 賺、贏得、獲得arise 出現、產生labour 勞動、努力union 工會existing 現存的、現行的exploit 剝削、濫用用",
+  "raw_transcript": "Hackers TOEIC Vocabulary Day 23host 主辦, annual年度的,一年一度的, purpose目的,意圖, enroll登記, lecture講座,演講, participant參與者, attend出席,參加, encourage鼓勵,促使, leave休假,離開,留下推薦,建議,推薦信會議,討論安排什麼的時間包含, result結果,導致登記,註冊要求, grateful感謝的,感激的over time,加班時間,加班費responsibility,責任,義務assent,同意,贊成regard,認為什麼事看待,關心,注意tentative,鎮定的,試驗性的welcome,受歡迎的,欣然接受的歡迎, function盛大的聚會,功能commence,開始objective,目標,目的excited,興奮的,激動的reimbursement,補償費用,核銷treatment,對待,處理honor,榮譽,尊敬emphasize,強調entry,參賽者,參賽作品bonus,獎金,紅利salary,薪水earn,賺,贏得,獲得arise,出現,產生labour,勞動,努力union,工會existing,現存的,現行的exploit,剝削,濫用",
   "vocab": [
+    {
+      "word": "host",
+      "meaning_zh": [
+        "主辦"
+      ]
+    },
+    {
+      "word": "annual",
+      "meaning_zh": [
+        "年度的",
+        "一年一度的"
+      ]
+    },
+    {
+      "word": "purpose",
+      "meaning_zh": [
+        "目的",
+        "意圖"
+      ]
+    },
+    {
+      "word": "enroll",
+      "meaning_zh": [
+        "登記"
+      ]
+    },
+    {
+      "word": "lecture",
+      "meaning_zh": [
+        "講座",
+        "演講"
+      ]
+    },
     {
       "word": "participant",
       "meaning_zh": [
@@ -33,54 +66,18 @@
       "meaning_zh": [
         "休假",
         "離開",
-        "留下"
-      ]
-    },
-    {
-      "word": "recommendation",
-      "meaning_zh": [
-        "推薦",
+        "留下推薦",
         "建議",
-        "推薦信"
-      ]
-    },
-    {
-      "word": "conference",
-      "meaning_zh": [
-        "會議",
-        "討論"
-      ]
-    },
-    {
-      "word": "schedule",
-      "meaning_zh": [
-        "安排什麼的時間"
-      ]
-    },
-    {
-      "word": "include",
-      "meaning_zh": [
-        "包含"
+        "推薦信會議",
+        "討論安排什麼的時間包含"
       ]
     },
     {
       "word": "result",
       "meaning_zh": [
         "結果",
-        "導致"
-      ]
-    },
-    {
-      "word": "register",
-      "meaning_zh": [
-        "登記",
-        "註冊"
-      ]
-    },
-    {
-      "word": "require",
-      "meaning_zh": [
-        "要求"
+        "導致登記",
+        "註冊要求"
       ]
     },
     {
@@ -91,7 +88,7 @@
       ]
     },
     {
-      "word": "overtime",
+      "word": "over time",
       "meaning_zh": [
         "加班時間",
         "加班費"
@@ -114,8 +111,7 @@
     {
       "word": "regard",
       "meaning_zh": [
-        "認為什麼事",
-        "看待",
+        "認為什麼事看待",
         "關心",
         "注意"
       ]
@@ -131,7 +127,7 @@
       "word": "welcome",
       "meaning_zh": [
         "受歡迎的",
-        "欣然接受的"
+        "欣然接受的歡迎"
       ]
     },
     {
@@ -164,7 +160,8 @@
     {
       "word": "reimbursement",
       "meaning_zh": [
-        "補償費用和消"
+        "補償費用",
+        "核銷"
       ]
     },
     {
@@ -246,7 +243,7 @@
       "word": "exploit",
       "meaning_zh": [
         "剝削",
-        "濫用用"
+        "濫用"
       ]
     }
   ]

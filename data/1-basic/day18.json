@@ -6,10 +6,10 @@
   "audio_source": "audio/1-basic_Day01-30/basic_Day18.mp3",
   "transcript_model": "Systran/faster-whisper-medium",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC vocabulary Day 18check in 辦理旅館入住手續,辦理登機報到手續compensate 補償complementary 免費贈送的chef 主廚container 容器、貨櫃elegant 優雅的、高雅的flavor 味道、風味accommodate 容納、供某人住宿、迎合available 可利用的、有空的reception 接待、歡迎會、接待處in advance 事先、遇先refreshments 茶點、青石make 做、製作cater 供應飲食、承辦外匯reservation 預約、預定、保護區beverage 飲料confirm 確認cancel 取消rate 費用、價格conveniently 便利的decorate 裝飾、裝潢information 資訊retain 保持、保留atmosphere 氣氛、氛圍cuisine 料理sequence 順序、次序extensive 廣泛的、廣闊的prior 再前的、再先的book 預約amenity 便利設施belongings 攜帶物品entirely 完全地ease 減輕、緩和、容易、輕鬆自在ingredient 材料、成分sip 搓飲、小口喝stir 攪拌、攪動choice 選擇choice 選擇範圍、選擇的東西complication 使情況變複雜的問題、障礙freshness 新鮮occupancy 入住率spot 發財發現、認出、注意到、特定的地點",
+  "raw_transcript": "Hackers' TOEIC Vocabulary Day 18check-in 辦理旅館入住手續,辦理登機報到手續compensate 補償complimentary 免費贈送的chef 主廚container 容器,貨櫃elegant 優雅的,高雅的flavor 味道,風味accommodate 容納,供某人住宿,迎合available 可利用的,有空的reception 接待,歡迎會,接待處in advance 事先,遇先refreshments 茶點,侵蝕make 做,製作cater 供應飲食,承辦外匯reservation 預約,預定,保護區beverage 飲料confirm 確認cancel 取消rate 費用,價格conveniently 便利的decorate 裝飾,裝潢information 資訊retain 保持,保留atmosphere 氣氛,氛圍cuisine 料理sequence 順序,次序extensive 廣泛的,廣闊的prior 再前的,再先的book 預約amenity 便利設施belongings 攜帶物品entirely 完全地ease 簡輕,緩和,容易,輕鬆自在ingredient 材料,成分sip 錯飲,小口喝stir 攪拌,攪動choice 選擇choice 選擇,選擇範圍,選擇的東西complication 使情況變複雜的問題,障礙freshness 新鮮occupancy 入住率spot 發現,認出注意到特定的地點",
   "vocab": [
     {
-      "word": "check in",
+      "word": "check-in",
       "meaning_zh": [
         "辦理旅館入住手續",
         "辦理登機報到手續"
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "word": "complementary",
+      "word": "complimentary",
       "meaning_zh": [
         "免費贈送的"
       ]
@@ -88,7 +88,7 @@
       "word": "refreshments",
       "meaning_zh": [
         "茶點",
-        "青石"
+        "侵蝕"
       ]
     },
     {
@@ -225,7 +225,7 @@
     {
       "word": "ease",
       "meaning_zh": [
-        "減輕",
+        "簡輕",
         "緩和",
         "容易",
         "輕鬆自在"
@@ -241,7 +241,7 @@
     {
       "word": "sip",
       "meaning_zh": [
-        "搓飲",
+        "錯飲",
         "小口喝"
       ]
     },
@@ -280,10 +280,8 @@
     {
       "word": "spot",
       "meaning_zh": [
-        "發財發現",
-        "認出",
-        "注意到",
-        "特定的地點"
+        "發現",
+        "認出注意到特定的地點"
       ]
     }
   ]
