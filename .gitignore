@@ -1,8 +1,4 @@
-# Audio source files: large + copyrighted (Hacker's TOEIC publisher).
-# Folder 1 is published in this repo as the canonical reference for the
-# extracted vocab dataset; folders 2–6 stay local.
-audio/*
-!audio/1-basic_Day01-30/
+# (Audio source files now tracked — see audio/.)
 
 # Python
 __pycache__/
