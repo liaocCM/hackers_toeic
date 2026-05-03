@@ -1,0 +1,299 @@
+{
+  "day": 28,
+  "theme": "古典風采",
+  "category": "建築、住宅",
+  "page": 508,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day28.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers TOEIC vocabulary, day 28.furnished 配有傢俱的, residence 住處、住宅, spacious 寬敞的, drape 用窗簾等裝飾unoccupied 空著的、沒有人住的, renovation 整修、翻修, appropriate 合適的、適當的, delay 延遲、拖延community 社區、社群, construction 建設、建築物, repair 修理, currently 現在、目前, regularly 定期的arrange 佈置、整理, location 地點、位置, restore 恢復、修復, presently 現在, numerous 許多的abandon 放棄、中止、拋棄, contractor 承包商, develop 開發, maintain 維持、維護densely 密集地, prepare 準備, finally 最後,中餘district 地區、區域, renewal 更新compulsory 義務的、強制性的, interfere 妨礙、干涉relocation 搬遷、重新安置, totally 完全、全然actually 實際上、事實上, architect 建築師, enlarge 擴大, install 設置、安裝suppose 認為、猜想、永久的、臨接的、構成、組成utility 公用事業、公用事業設施",
+  "vocab": [
+    {
+      "word": "furnished",
+      "meaning_zh": [
+        "配有傢俱的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "residence",
+      "meaning_zh": [
+        "住處",
+        "住宅"
+      ],
+      "verified": false
+    },
+    {
+      "word": "spacious",
+      "meaning_zh": [
+        "寬敞的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "drape",
+      "meaning_zh": [
+        "用窗簾等裝飾"
+      ],
+      "verified": false
+    },
+    {
+      "word": "unoccupied",
+      "meaning_zh": [
+        "空著的",
+        "沒有人住的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "renovation",
+      "meaning_zh": [
+        "整修",
+        "翻修"
+      ],
+      "verified": false
+    },
+    {
+      "word": "appropriate",
+      "meaning_zh": [
+        "合適的",
+        "適當的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "delay",
+      "meaning_zh": [
+        "延遲",
+        "拖延"
+      ],
+      "verified": false
+    },
+    {
+      "word": "community",
+      "meaning_zh": [
+        "社區",
+        "社群"
+      ],
+      "verified": false
+    },
+    {
+      "word": "construction",
+      "meaning_zh": [
+        "建設",
+        "建築物"
+      ],
+      "verified": false
+    },
+    {
+      "word": "repair",
+      "meaning_zh": [
+        "修理"
+      ],
+      "verified": false
+    },
+    {
+      "word": "currently",
+      "meaning_zh": [
+        "現在",
+        "目前"
+      ],
+      "verified": false
+    },
+    {
+      "word": "regularly",
+      "meaning_zh": [
+        "定期的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "arrange",
+      "meaning_zh": [
+        "佈置",
+        "整理"
+      ],
+      "verified": false
+    },
+    {
+      "word": "location",
+      "meaning_zh": [
+        "地點",
+        "位置"
+      ],
+      "verified": false
+    },
+    {
+      "word": "restore",
+      "meaning_zh": [
+        "恢復",
+        "修復"
+      ],
+      "verified": false
+    },
+    {
+      "word": "presently",
+      "meaning_zh": [
+        "現在"
+      ],
+      "verified": false
+    },
+    {
+      "word": "numerous",
+      "meaning_zh": [
+        "許多的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "abandon",
+      "meaning_zh": [
+        "放棄",
+        "中止",
+        "拋棄"
+      ],
+      "verified": false
+    },
+    {
+      "word": "contractor",
+      "meaning_zh": [
+        "承包商"
+      ],
+      "verified": false
+    },
+    {
+      "word": "develop",
+      "meaning_zh": [
+        "開發"
+      ],
+      "verified": false
+    },
+    {
+      "word": "maintain",
+      "meaning_zh": [
+        "維持",
+        "維護"
+      ],
+      "verified": false
+    },
+    {
+      "word": "densely",
+      "meaning_zh": [
+        "密集地"
+      ],
+      "verified": false
+    },
+    {
+      "word": "prepare",
+      "meaning_zh": [
+        "準備"
+      ],
+      "verified": false
+    },
+    {
+      "word": "finally",
+      "meaning_zh": [
+        "最後",
+        "中餘"
+      ],
+      "verified": false
+    },
+    {
+      "word": "district",
+      "meaning_zh": [
+        "地區",
+        "區域"
+      ],
+      "verified": false
+    },
+    {
+      "word": "renewal",
+      "meaning_zh": [
+        "更新"
+      ],
+      "verified": false
+    },
+    {
+      "word": "compulsory",
+      "meaning_zh": [
+        "義務的",
+        "強制性的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "interfere",
+      "meaning_zh": [
+        "妨礙",
+        "干涉"
+      ],
+      "verified": false
+    },
+    {
+      "word": "relocation",
+      "meaning_zh": [
+        "搬遷",
+        "重新安置"
+      ],
+      "verified": false
+    },
+    {
+      "word": "totally",
+      "meaning_zh": [
+        "完全",
+        "全然"
+      ],
+      "verified": false
+    },
+    {
+      "word": "actually",
+      "meaning_zh": [
+        "實際上",
+        "事實上"
+      ],
+      "verified": false
+    },
+    {
+      "word": "architect",
+      "meaning_zh": [
+        "建築師"
+      ],
+      "verified": false
+    },
+    {
+      "word": "enlarge",
+      "meaning_zh": [
+        "擴大"
+      ],
+      "verified": false
+    },
+    {
+      "word": "install",
+      "meaning_zh": [
+        "設置",
+        "安裝"
+      ],
+      "verified": false
+    },
+    {
+      "word": "suppose",
+      "meaning_zh": [
+        "認為",
+        "猜想",
+        "永久的",
+        "臨接的",
+        "構成",
+        "組成"
+      ],
+      "verified": false
+    },
+    {
+      "word": "utility",
+      "meaning_zh": [
+        "公用事業",
+        "公用事業設施"
+      ],
+      "verified": false
+    }
+  ]
+}

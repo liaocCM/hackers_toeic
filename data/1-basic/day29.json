@@ -1,0 +1,207 @@
+{
+  "day": 29,
+  "theme": "天氣預報",
+  "category": "環境",
+  "page": 524,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day29.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": true,
+  "raw_transcript": "Hackers TOEIC vocabulary, day 29.dispose 處理、處置回收再利用晴朗的、清楚的、明顯的、清晰的、完全、遠離損害、傷害significant 相當大的、重要的、重大的解決方法發聲、出現理想的preserve 保存、保護援助過度的、過分的集中的不同、變化令人愉快的、令人滿意的得分、記號、標誌、慶祝不能進入的、不能利用的打擾汙染物質emission 排放物dense 密集的、濃密的environmental 環境的consistent 一致的、一貫的、持續的leak 洩漏、漏出、滲漏organization 組織、機構continually 頻繁的、一再的contaminate 汙染disaster 災難discharge 排放resource 資源prominent 著名的、顯著的deplete 耗盡purify 淨化endangered 瀕臨絕種的extinction 絕種drought 乾旱inflict 施加使遭受migration 遷移、移動ecology 生態habitat 棲息地",
+  "vocab": [
+    {
+      "word": "dispose",
+      "meaning_zh": [
+        "處理",
+        "處置回收再利用晴朗的",
+        "清楚的",
+        "明顯的",
+        "清晰的",
+        "完全",
+        "遠離損害",
+        "傷害"
+      ],
+      "verified": false
+    },
+    {
+      "word": "significant",
+      "meaning_zh": [
+        "相當大的",
+        "重要的",
+        "重大的解決方法發聲",
+        "出現理想的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "preserve",
+      "meaning_zh": [
+        "保存",
+        "保護援助過度的",
+        "過分的集中的不同",
+        "變化令人愉快的",
+        "令人滿意的得分",
+        "記號",
+        "標誌",
+        "慶祝不能進入的",
+        "不能利用的打擾汙染物質"
+      ],
+      "verified": false
+    },
+    {
+      "word": "emission",
+      "meaning_zh": [
+        "排放物"
+      ],
+      "verified": false
+    },
+    {
+      "word": "dense",
+      "meaning_zh": [
+        "密集的",
+        "濃密的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "environmental",
+      "meaning_zh": [
+        "環境的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "consistent",
+      "meaning_zh": [
+        "一致的",
+        "一貫的",
+        "持續的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "leak",
+      "meaning_zh": [
+        "洩漏",
+        "漏出",
+        "滲漏"
+      ],
+      "verified": false
+    },
+    {
+      "word": "organization",
+      "meaning_zh": [
+        "組織",
+        "機構"
+      ],
+      "verified": false
+    },
+    {
+      "word": "continually",
+      "meaning_zh": [
+        "頻繁的",
+        "一再的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "contaminate",
+      "meaning_zh": [
+        "汙染"
+      ],
+      "verified": false
+    },
+    {
+      "word": "disaster",
+      "meaning_zh": [
+        "災難"
+      ],
+      "verified": false
+    },
+    {
+      "word": "discharge",
+      "meaning_zh": [
+        "排放"
+      ],
+      "verified": false
+    },
+    {
+      "word": "resource",
+      "meaning_zh": [
+        "資源"
+      ],
+      "verified": false
+    },
+    {
+      "word": "prominent",
+      "meaning_zh": [
+        "著名的",
+        "顯著的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "deplete",
+      "meaning_zh": [
+        "耗盡"
+      ],
+      "verified": false
+    },
+    {
+      "word": "purify",
+      "meaning_zh": [
+        "淨化"
+      ],
+      "verified": false
+    },
+    {
+      "word": "endangered",
+      "meaning_zh": [
+        "瀕臨絕種的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "extinction",
+      "meaning_zh": [
+        "絕種"
+      ],
+      "verified": false
+    },
+    {
+      "word": "drought",
+      "meaning_zh": [
+        "乾旱"
+      ],
+      "verified": false
+    },
+    {
+      "word": "inflict",
+      "meaning_zh": [
+        "施加使遭受"
+      ],
+      "verified": false
+    },
+    {
+      "word": "migration",
+      "meaning_zh": [
+        "遷移",
+        "移動"
+      ],
+      "verified": false
+    },
+    {
+      "word": "ecology",
+      "meaning_zh": [
+        "生態"
+      ],
+      "verified": false
+    },
+    {
+      "word": "habitat",
+      "meaning_zh": [
+        "棲息地"
+      ],
+      "verified": false
+    }
+  ]
+}

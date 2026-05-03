@@ -1,0 +1,341 @@
+{
+  "day": 6,
+  "theme": "假日休息",
+  "category": "休閒、社交",
+  "page": 112,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day06.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers TOEIC vocabulary, day 6.rest 休息,剩餘部分, exhibition 展覽, celebrity 名人, live 現場表演的、直播的improvise 即興演奏、即時演講、即興創作, popular 受歡迎的, donation 捐贈、捐獻, alumni 校友們、畢業生們present 提出、出示, present 現在的、出席的admission 入場, banquet 宴會, anniversary 週年紀念日required 必要的、必須的, succeed 成功,接著發聲,繼任collection 收藏品、收集的東西,收取fundraising 募款, resume 繼續,重新開始issue 一起,問題、爭議subscription 訂閱, appear 出現,現身accompany 陪同,伴隨edition 版本, specifically 明確的、具體的、特別特別的anonymous 匿名的、不具名的commit 奉獻,使致力於某事informative 提供資訊的、有用的audience 聽眾、觀眾author 作家、作者note 注意到提及antique 古董manuscript 手稿、原稿beneficial 有益的、有利的upcoming 即將來臨的lend 借出current 現在的、目前的現行的、通用的local 地方的、當地的variety 多樣性、變化advocate 擁護者contributor 撰稿人、捐贈者defy 反抗,使不可能fascinating 迷人的、美妙的showing 上映、上演、展示",
+  "vocab": [
+    {
+      "word": "rest",
+      "meaning_zh": [
+        "休息",
+        "剩餘部分"
+      ],
+      "verified": false
+    },
+    {
+      "word": "exhibition",
+      "meaning_zh": [
+        "展覽"
+      ],
+      "verified": false
+    },
+    {
+      "word": "celebrity",
+      "meaning_zh": [
+        "名人"
+      ],
+      "verified": false
+    },
+    {
+      "word": "live",
+      "meaning_zh": [
+        "現場表演的",
+        "直播的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "improvise",
+      "meaning_zh": [
+        "即興演奏",
+        "即時演講",
+        "即興創作"
+      ],
+      "verified": false
+    },
+    {
+      "word": "popular",
+      "meaning_zh": [
+        "受歡迎的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "donation",
+      "meaning_zh": [
+        "捐贈",
+        "捐獻"
+      ],
+      "verified": false
+    },
+    {
+      "word": "alumni",
+      "meaning_zh": [
+        "校友們",
+        "畢業生們"
+      ],
+      "verified": false
+    },
+    {
+      "word": "present",
+      "meaning_zh": [
+        "提出",
+        "出示"
+      ],
+      "verified": false
+    },
+    {
+      "word": "admission",
+      "meaning_zh": [
+        "入場"
+      ],
+      "verified": false
+    },
+    {
+      "word": "banquet",
+      "meaning_zh": [
+        "宴會"
+      ],
+      "verified": false
+    },
+    {
+      "word": "anniversary",
+      "meaning_zh": [
+        "週年紀念日"
+      ],
+      "verified": false
+    },
+    {
+      "word": "required",
+      "meaning_zh": [
+        "必要的",
+        "必須的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "succeed",
+      "meaning_zh": [
+        "成功",
+        "接著發聲",
+        "繼任"
+      ],
+      "verified": false
+    },
+    {
+      "word": "collection",
+      "meaning_zh": [
+        "收藏品",
+        "收集的東西",
+        "收取"
+      ],
+      "verified": false
+    },
+    {
+      "word": "fundraising",
+      "meaning_zh": [
+        "募款"
+      ],
+      "verified": false
+    },
+    {
+      "word": "resume",
+      "meaning_zh": [
+        "繼續",
+        "重新開始"
+      ],
+      "verified": false
+    },
+    {
+      "word": "issue",
+      "meaning_zh": [
+        "一起",
+        "問題",
+        "爭議"
+      ],
+      "verified": false
+    },
+    {
+      "word": "subscription",
+      "meaning_zh": [
+        "訂閱"
+      ],
+      "verified": false
+    },
+    {
+      "word": "appear",
+      "meaning_zh": [
+        "出現",
+        "現身"
+      ],
+      "verified": false
+    },
+    {
+      "word": "accompany",
+      "meaning_zh": [
+        "陪同",
+        "伴隨"
+      ],
+      "verified": false
+    },
+    {
+      "word": "edition",
+      "meaning_zh": [
+        "版本"
+      ],
+      "verified": false
+    },
+    {
+      "word": "specifically",
+      "meaning_zh": [
+        "明確的",
+        "具體的",
+        "特別特別的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "anonymous",
+      "meaning_zh": [
+        "匿名的",
+        "不具名的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "commit",
+      "meaning_zh": [
+        "奉獻",
+        "使致力於某事"
+      ],
+      "verified": false
+    },
+    {
+      "word": "informative",
+      "meaning_zh": [
+        "提供資訊的",
+        "有用的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "audience",
+      "meaning_zh": [
+        "聽眾",
+        "觀眾"
+      ],
+      "verified": false
+    },
+    {
+      "word": "author",
+      "meaning_zh": [
+        "作家",
+        "作者"
+      ],
+      "verified": false
+    },
+    {
+      "word": "note",
+      "meaning_zh": [
+        "注意到提及"
+      ],
+      "verified": false
+    },
+    {
+      "word": "antique",
+      "meaning_zh": [
+        "古董"
+      ],
+      "verified": false
+    },
+    {
+      "word": "manuscript",
+      "meaning_zh": [
+        "手稿",
+        "原稿"
+      ],
+      "verified": false
+    },
+    {
+      "word": "beneficial",
+      "meaning_zh": [
+        "有益的",
+        "有利的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "upcoming",
+      "meaning_zh": [
+        "即將來臨的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "lend",
+      "meaning_zh": [
+        "借出"
+      ],
+      "verified": false
+    },
+    {
+      "word": "current",
+      "meaning_zh": [
+        "現在的",
+        "目前的現行的",
+        "通用的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "local",
+      "meaning_zh": [
+        "地方的",
+        "當地的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "variety",
+      "meaning_zh": [
+        "多樣性",
+        "變化"
+      ],
+      "verified": false
+    },
+    {
+      "word": "advocate",
+      "meaning_zh": [
+        "擁護者"
+      ],
+      "verified": false
+    },
+    {
+      "word": "contributor",
+      "meaning_zh": [
+        "撰稿人",
+        "捐贈者"
+      ],
+      "verified": false
+    },
+    {
+      "word": "defy",
+      "meaning_zh": [
+        "反抗",
+        "使不可能"
+      ],
+      "verified": false
+    },
+    {
+      "word": "fascinating",
+      "meaning_zh": [
+        "迷人的",
+        "美妙的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "showing",
+      "meaning_zh": [
+        "上映",
+        "上演",
+        "展示"
+      ],
+      "verified": false
+    }
+  ]
+}

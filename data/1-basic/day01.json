@@ -1,0 +1,277 @@
+{
+  "day": 1,
+  "theme": "應徵失業",
+  "category": "雇用",
+  "page": 22,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day01.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers TOEIC vocabulary, day 1.meet 滿足、符合, qualified 有資格的、升任的, candidate 候選者、應徵者, confidence 信心、自信、信任highly 非常 professional 專業的、職業的,專家interview 面試 higher 僱用, training 訓練reference 推薦信、參考, position 職位、位置、放置achievement 成就、達成, impressed 感到印象深刻的, excellent 優秀的、傑出的, eligible 有資格的、合適的, identify associate 時有關聯, condition 條件, employment 僱用lack 缺乏, managerial 管理的, diligent 勤奮的, familiar 熟悉的、親近的, proficiency 熟練精通prospective 預期的、未來的, appeal 呼籲、有吸引力specialize 專攻、專門從事, apprehensive 擔心的、憂慮的, consultantconsultant 顧問, entitle 給某人權力, degree 學位payroll 薪水賬冊,發薪名單recruit 招募certification 證明 occupation 職業wage 工資、薪水",
+  "vocab": [
+    {
+      "word": "meet",
+      "meaning_zh": [
+        "滿足",
+        "符合"
+      ],
+      "verified": false
+    },
+    {
+      "word": "qualified",
+      "meaning_zh": [
+        "有資格的",
+        "升任的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "candidate",
+      "meaning_zh": [
+        "候選者",
+        "應徵者"
+      ],
+      "verified": false
+    },
+    {
+      "word": "confidence",
+      "meaning_zh": [
+        "信心",
+        "自信",
+        "信任"
+      ],
+      "verified": false
+    },
+    {
+      "word": "highly",
+      "meaning_zh": [
+        "非常"
+      ],
+      "verified": false
+    },
+    {
+      "word": "professional",
+      "meaning_zh": [
+        "專業的",
+        "職業的",
+        "專家"
+      ],
+      "verified": false
+    },
+    {
+      "word": "interview",
+      "meaning_zh": [
+        "面試"
+      ],
+      "verified": false
+    },
+    {
+      "word": "higher",
+      "meaning_zh": [
+        "僱用"
+      ],
+      "verified": false
+    },
+    {
+      "word": "training",
+      "meaning_zh": [
+        "訓練"
+      ],
+      "verified": false
+    },
+    {
+      "word": "reference",
+      "meaning_zh": [
+        "推薦信",
+        "參考"
+      ],
+      "verified": false
+    },
+    {
+      "word": "position",
+      "meaning_zh": [
+        "職位",
+        "位置",
+        "放置"
+      ],
+      "verified": false
+    },
+    {
+      "word": "achievement",
+      "meaning_zh": [
+        "成就",
+        "達成"
+      ],
+      "verified": false
+    },
+    {
+      "word": "impressed",
+      "meaning_zh": [
+        "感到印象深刻的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "excellent",
+      "meaning_zh": [
+        "優秀的",
+        "傑出的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "eligible",
+      "meaning_zh": [
+        "有資格的",
+        "合適的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "identify associate",
+      "meaning_zh": [
+        "時有關聯"
+      ],
+      "verified": false
+    },
+    {
+      "word": "condition",
+      "meaning_zh": [
+        "條件"
+      ],
+      "verified": false
+    },
+    {
+      "word": "employment",
+      "meaning_zh": [
+        "僱用"
+      ],
+      "verified": false
+    },
+    {
+      "word": "lack",
+      "meaning_zh": [
+        "缺乏"
+      ],
+      "verified": false
+    },
+    {
+      "word": "managerial",
+      "meaning_zh": [
+        "管理的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "diligent",
+      "meaning_zh": [
+        "勤奮的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "familiar",
+      "meaning_zh": [
+        "熟悉的",
+        "親近的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "proficiency",
+      "meaning_zh": [
+        "熟練精通"
+      ],
+      "verified": false
+    },
+    {
+      "word": "prospective",
+      "meaning_zh": [
+        "預期的",
+        "未來的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "appeal",
+      "meaning_zh": [
+        "呼籲",
+        "有吸引力"
+      ],
+      "verified": false
+    },
+    {
+      "word": "specialize",
+      "meaning_zh": [
+        "專攻",
+        "專門從事"
+      ],
+      "verified": false
+    },
+    {
+      "word": "apprehensive",
+      "meaning_zh": [
+        "擔心的",
+        "憂慮的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "consultantconsultant",
+      "meaning_zh": [
+        "顧問"
+      ],
+      "verified": false
+    },
+    {
+      "word": "entitle",
+      "meaning_zh": [
+        "給某人權力"
+      ],
+      "verified": false
+    },
+    {
+      "word": "degree",
+      "meaning_zh": [
+        "學位"
+      ],
+      "verified": false
+    },
+    {
+      "word": "payroll",
+      "meaning_zh": [
+        "薪水賬冊",
+        "發薪名單"
+      ],
+      "verified": false
+    },
+    {
+      "word": "recruit",
+      "meaning_zh": [
+        "招募"
+      ],
+      "verified": false
+    },
+    {
+      "word": "certification",
+      "meaning_zh": [
+        "證明"
+      ],
+      "verified": false
+    },
+    {
+      "word": "occupation",
+      "meaning_zh": [
+        "職業"
+      ],
+      "verified": false
+    },
+    {
+      "word": "wage",
+      "meaning_zh": [
+        "工資",
+        "薪水"
+      ],
+      "verified": false
+    }
+  ]
+}

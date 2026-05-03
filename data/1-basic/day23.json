@@ -1,0 +1,288 @@
+{
+  "day": 23,
+  "theme": "將心比心",
+  "category": "員工福利",
+  "page": 422,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day23.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers TOEIC vocabulary, day 23.participant 參與者, attend 出席、參加, encourage 鼓勵、促使, leave 休假、離開、留下recommendation 推薦、建議、推薦信conference 會議、討論schedule 安排什麼的時間include 包含result 結果、導致register 登記、註冊require 要求grateful 感謝的、感激的overtime 加班時間、加班費responsibility 責任、義務assent 同意、贊成regard 認為什麼事、看待、關心、注意tentative 鎮定的、試驗性的welcome 受歡迎的、欣然接受的function 盛大的聚會、功能commence 開始objective 目標、目的excited 興奮的、激動的reimbursement 補償費用和消treatment 對待、處理honor 榮譽、尊敬emphasize 強調entry 參賽者、參賽作品bonus 獎金、紅利salary 薪水earn 賺、贏得、獲得arise 出現、產生labour 勞動、努力union 工會existing 現存的、現行的exploit 剝削、濫用用",
+  "vocab": [
+    {
+      "word": "participant",
+      "meaning_zh": [
+        "參與者"
+      ],
+      "verified": false
+    },
+    {
+      "word": "attend",
+      "meaning_zh": [
+        "出席",
+        "參加"
+      ],
+      "verified": false
+    },
+    {
+      "word": "encourage",
+      "meaning_zh": [
+        "鼓勵",
+        "促使"
+      ],
+      "verified": false
+    },
+    {
+      "word": "leave",
+      "meaning_zh": [
+        "休假",
+        "離開",
+        "留下"
+      ],
+      "verified": false
+    },
+    {
+      "word": "recommendation",
+      "meaning_zh": [
+        "推薦",
+        "建議",
+        "推薦信"
+      ],
+      "verified": false
+    },
+    {
+      "word": "conference",
+      "meaning_zh": [
+        "會議",
+        "討論"
+      ],
+      "verified": false
+    },
+    {
+      "word": "schedule",
+      "meaning_zh": [
+        "安排什麼的時間"
+      ],
+      "verified": false
+    },
+    {
+      "word": "include",
+      "meaning_zh": [
+        "包含"
+      ],
+      "verified": false
+    },
+    {
+      "word": "result",
+      "meaning_zh": [
+        "結果",
+        "導致"
+      ],
+      "verified": false
+    },
+    {
+      "word": "register",
+      "meaning_zh": [
+        "登記",
+        "註冊"
+      ],
+      "verified": false
+    },
+    {
+      "word": "require",
+      "meaning_zh": [
+        "要求"
+      ],
+      "verified": false
+    },
+    {
+      "word": "grateful",
+      "meaning_zh": [
+        "感謝的",
+        "感激的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "overtime",
+      "meaning_zh": [
+        "加班時間",
+        "加班費"
+      ],
+      "verified": false
+    },
+    {
+      "word": "responsibility",
+      "meaning_zh": [
+        "責任",
+        "義務"
+      ],
+      "verified": false
+    },
+    {
+      "word": "assent",
+      "meaning_zh": [
+        "同意",
+        "贊成"
+      ],
+      "verified": false
+    },
+    {
+      "word": "regard",
+      "meaning_zh": [
+        "認為什麼事",
+        "看待",
+        "關心",
+        "注意"
+      ],
+      "verified": false
+    },
+    {
+      "word": "tentative",
+      "meaning_zh": [
+        "鎮定的",
+        "試驗性的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "welcome",
+      "meaning_zh": [
+        "受歡迎的",
+        "欣然接受的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "function",
+      "meaning_zh": [
+        "盛大的聚會",
+        "功能"
+      ],
+      "verified": false
+    },
+    {
+      "word": "commence",
+      "meaning_zh": [
+        "開始"
+      ],
+      "verified": false
+    },
+    {
+      "word": "objective",
+      "meaning_zh": [
+        "目標",
+        "目的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "excited",
+      "meaning_zh": [
+        "興奮的",
+        "激動的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "reimbursement",
+      "meaning_zh": [
+        "補償費用和消"
+      ],
+      "verified": false
+    },
+    {
+      "word": "treatment",
+      "meaning_zh": [
+        "對待",
+        "處理"
+      ],
+      "verified": false
+    },
+    {
+      "word": "honor",
+      "meaning_zh": [
+        "榮譽",
+        "尊敬"
+      ],
+      "verified": false
+    },
+    {
+      "word": "emphasize",
+      "meaning_zh": [
+        "強調"
+      ],
+      "verified": false
+    },
+    {
+      "word": "entry",
+      "meaning_zh": [
+        "參賽者",
+        "參賽作品"
+      ],
+      "verified": false
+    },
+    {
+      "word": "bonus",
+      "meaning_zh": [
+        "獎金",
+        "紅利"
+      ],
+      "verified": false
+    },
+    {
+      "word": "salary",
+      "meaning_zh": [
+        "薪水"
+      ],
+      "verified": false
+    },
+    {
+      "word": "earn",
+      "meaning_zh": [
+        "賺",
+        "贏得",
+        "獲得"
+      ],
+      "verified": false
+    },
+    {
+      "word": "arise",
+      "meaning_zh": [
+        "出現",
+        "產生"
+      ],
+      "verified": false
+    },
+    {
+      "word": "labour",
+      "meaning_zh": [
+        "勞動",
+        "努力"
+      ],
+      "verified": false
+    },
+    {
+      "word": "union",
+      "meaning_zh": [
+        "工會"
+      ],
+      "verified": false
+    },
+    {
+      "word": "existing",
+      "meaning_zh": [
+        "現存的",
+        "現行的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "exploit",
+      "meaning_zh": [
+        "剝削",
+        "濫用用"
+      ],
+      "verified": false
+    }
+  ]
+}

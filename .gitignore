@@ -1,0 +1,19 @@
+# Audio source files: large + copyrighted (Hacker's TOEIC publisher)
+audio/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Local scratch
+/tmp/
+*.bak

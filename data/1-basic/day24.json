@@ -1,0 +1,321 @@
+{
+  "day": 24,
+  "theme": "升遷第一天",
+  "category": "人事異動",
+  "page": 440,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day24.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers TOEIC vocabulary, day 24.appoint 任命指派, appraisal 評價, promote 使身職促進, skilled 熟練的、有技能的, radically根本的、徹底的、優異的、例外的, appreciation 感謝、欣賞, evaluate 評價suggest 建議, preference 偏好, management 管理、經營、經營團隊predict 預測, transfer 轉移,使調職award 將授予, mandatory 義務性的、強制性的competent 有能力的、身認的performance 表現、成果、表演、演出、演奏reward 報償、回報, search 尋找、搜尋、調查inexperienced 沒經驗的、不熟練的, early 早的、提早的designate 指定、指派executive 經營管理的dedication 專心致力unanimously 全體意見一致的progress 前進、進步、進展congratulate 祝賀dismiss 解僱independence 獨立participation 參與、參加praise 稱讚accomplishment 成就deliberation 商議、審議leadership 領導、領導才能retire 退休nomination 提名、任命reorganize 重新組織、改組serve 服務、擔任encouragement 鼓勵resignation 辭職、辭呈strictly 嚴格地",
+  "vocab": [
+    {
+      "word": "appoint",
+      "meaning_zh": [
+        "任命指派"
+      ],
+      "verified": false
+    },
+    {
+      "word": "appraisal",
+      "meaning_zh": [
+        "評價"
+      ],
+      "verified": false
+    },
+    {
+      "word": "promote",
+      "meaning_zh": [
+        "使身職促進"
+      ],
+      "verified": false
+    },
+    {
+      "word": "skilled",
+      "meaning_zh": [
+        "熟練的",
+        "有技能的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "radically",
+      "meaning_zh": [
+        "根本的",
+        "徹底的",
+        "優異的",
+        "例外的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "appreciation",
+      "meaning_zh": [
+        "感謝",
+        "欣賞"
+      ],
+      "verified": false
+    },
+    {
+      "word": "evaluate",
+      "meaning_zh": [
+        "評價"
+      ],
+      "verified": false
+    },
+    {
+      "word": "suggest",
+      "meaning_zh": [
+        "建議"
+      ],
+      "verified": false
+    },
+    {
+      "word": "preference",
+      "meaning_zh": [
+        "偏好"
+      ],
+      "verified": false
+    },
+    {
+      "word": "management",
+      "meaning_zh": [
+        "管理",
+        "經營",
+        "經營團隊"
+      ],
+      "verified": false
+    },
+    {
+      "word": "predict",
+      "meaning_zh": [
+        "預測"
+      ],
+      "verified": false
+    },
+    {
+      "word": "transfer",
+      "meaning_zh": [
+        "轉移",
+        "使調職"
+      ],
+      "verified": false
+    },
+    {
+      "word": "award",
+      "meaning_zh": [
+        "將授予"
+      ],
+      "verified": false
+    },
+    {
+      "word": "mandatory",
+      "meaning_zh": [
+        "義務性的",
+        "強制性的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "competent",
+      "meaning_zh": [
+        "有能力的",
+        "身認的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "performance",
+      "meaning_zh": [
+        "表現",
+        "成果",
+        "表演",
+        "演出",
+        "演奏"
+      ],
+      "verified": false
+    },
+    {
+      "word": "reward",
+      "meaning_zh": [
+        "報償",
+        "回報"
+      ],
+      "verified": false
+    },
+    {
+      "word": "search",
+      "meaning_zh": [
+        "尋找",
+        "搜尋",
+        "調查"
+      ],
+      "verified": false
+    },
+    {
+      "word": "inexperienced",
+      "meaning_zh": [
+        "沒經驗的",
+        "不熟練的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "early",
+      "meaning_zh": [
+        "早的",
+        "提早的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "designate",
+      "meaning_zh": [
+        "指定",
+        "指派"
+      ],
+      "verified": false
+    },
+    {
+      "word": "executive",
+      "meaning_zh": [
+        "經營管理的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "dedication",
+      "meaning_zh": [
+        "專心致力"
+      ],
+      "verified": false
+    },
+    {
+      "word": "unanimously",
+      "meaning_zh": [
+        "全體意見一致的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "progress",
+      "meaning_zh": [
+        "前進",
+        "進步",
+        "進展"
+      ],
+      "verified": false
+    },
+    {
+      "word": "congratulate",
+      "meaning_zh": [
+        "祝賀"
+      ],
+      "verified": false
+    },
+    {
+      "word": "dismiss",
+      "meaning_zh": [
+        "解僱"
+      ],
+      "verified": false
+    },
+    {
+      "word": "independence",
+      "meaning_zh": [
+        "獨立"
+      ],
+      "verified": false
+    },
+    {
+      "word": "participation",
+      "meaning_zh": [
+        "參與",
+        "參加"
+      ],
+      "verified": false
+    },
+    {
+      "word": "praise",
+      "meaning_zh": [
+        "稱讚"
+      ],
+      "verified": false
+    },
+    {
+      "word": "accomplishment",
+      "meaning_zh": [
+        "成就"
+      ],
+      "verified": false
+    },
+    {
+      "word": "deliberation",
+      "meaning_zh": [
+        "商議",
+        "審議"
+      ],
+      "verified": false
+    },
+    {
+      "word": "leadership",
+      "meaning_zh": [
+        "領導",
+        "領導才能"
+      ],
+      "verified": false
+    },
+    {
+      "word": "retire",
+      "meaning_zh": [
+        "退休"
+      ],
+      "verified": false
+    },
+    {
+      "word": "nomination",
+      "meaning_zh": [
+        "提名",
+        "任命"
+      ],
+      "verified": false
+    },
+    {
+      "word": "reorganize",
+      "meaning_zh": [
+        "重新組織",
+        "改組"
+      ],
+      "verified": false
+    },
+    {
+      "word": "serve",
+      "meaning_zh": [
+        "服務",
+        "擔任"
+      ],
+      "verified": false
+    },
+    {
+      "word": "encouragement",
+      "meaning_zh": [
+        "鼓勵"
+      ],
+      "verified": false
+    },
+    {
+      "word": "resignation",
+      "meaning_zh": [
+        "辭職",
+        "辭呈"
+      ],
+      "verified": false
+    },
+    {
+      "word": "strictly",
+      "meaning_zh": [
+        "嚴格地"
+      ],
+      "verified": false
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "day": 4,
+  "theme": "工作職缺",
+  "category": "一般工作 (2)",
+  "page": 76,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day04.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers TOEIC vocabulary, day 4. 自願的、自動自發的, undertake 從事、承擔工作等. 假定、以為、承擔, occasionally 偶爾, employee 員工、受僱者 協助、援助, satisfied 感到滿意的、滿足的, manner, manner 方式、態度, responsible 應該負責的、負責任的. 進行、調整、適應, personnel 員工、人員、人事部門, agree 同意, supervise 監督、指導. 同事、共同工作者, direct 引導、指揮、指導. 機密的、秘密的, assign 分配、指派, leading 領導的、領先的、主要的, formal, formal. 正式的, remove, 去除、拔某人免職, collect, 收集、收取, coordinate, 協調, hardly, 幾乎不. 抽象的, directory, 通訊錄、工商名錄、電話簿, accountable, 應負責任的, skillfully. 巧妙的、熟練的, exclusive, 獨有的、排外的, intention, 意圖、意向. 改變、轉變, respectful, 尊重的、尊敬的, duplicate, 副本, contrary, 相反. 令人不安的、令人焦慮的、煩擾人的, engage, 參加、從事, foster, 促進、培養. 中立、中立性, widely, 廣泛的, externally, 外部的、外在的.",
+  "vocab": [
+    {
+      "word": "undertake",
+      "meaning_zh": [
+        "從事",
+        "承擔工作等"
+      ],
+      "verified": false
+    },
+    {
+      "word": "occasionally",
+      "meaning_zh": [
+        "偶爾"
+      ],
+      "verified": false
+    },
+    {
+      "word": "employee",
+      "meaning_zh": [
+        "員工",
+        "受僱者"
+      ],
+      "verified": false
+    },
+    {
+      "word": "satisfied",
+      "meaning_zh": [
+        "感到滿意的",
+        "滿足的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "manner",
+      "meaning_zh": [
+        "方式",
+        "態度"
+      ],
+      "verified": false
+    },
+    {
+      "word": "responsible",
+      "meaning_zh": [
+        "應該負責的",
+        "負責任的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "personnel",
+      "meaning_zh": [
+        "員工",
+        "人員",
+        "人事部門"
+      ],
+      "verified": false
+    },
+    {
+      "word": "agree",
+      "meaning_zh": [
+        "同意"
+      ],
+      "verified": false
+    },
+    {
+      "word": "supervise",
+      "meaning_zh": [
+        "監督",
+        "指導"
+      ],
+      "verified": false
+    },
+    {
+      "word": "direct",
+      "meaning_zh": [
+        "引導",
+        "指揮",
+        "指導"
+      ],
+      "verified": false
+    },
+    {
+      "word": "assign",
+      "meaning_zh": [
+        "分配",
+        "指派"
+      ],
+      "verified": false
+    },
+    {
+      "word": "leading",
+      "meaning_zh": [
+        "領導的",
+        "領先的",
+        "主要的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "formal",
+      "meaning_zh": [
+        "正式的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "remove",
+      "meaning_zh": [
+        "去除",
+        "拔某人免職"
+      ],
+      "verified": false
+    },
+    {
+      "word": "collect",
+      "meaning_zh": [
+        "收集",
+        "收取"
+      ],
+      "verified": false
+    },
+    {
+      "word": "coordinate",
+      "meaning_zh": [
+        "協調"
+      ],
+      "verified": false
+    },
+    {
+      "word": "hardly",
+      "meaning_zh": [
+        "幾乎不"
+      ],
+      "verified": false
+    },
+    {
+      "word": "directory",
+      "meaning_zh": [
+        "通訊錄",
+        "工商名錄",
+        "電話簿"
+      ],
+      "verified": false
+    },
+    {
+      "word": "accountable",
+      "meaning_zh": [
+        "應負責任的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "skillfully",
+      "meaning_zh": [
+        "巧妙的",
+        "熟練的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "exclusive",
+      "meaning_zh": [
+        "獨有的",
+        "排外的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "intention",
+      "meaning_zh": [
+        "意圖",
+        "意向"
+      ],
+      "verified": false
+    },
+    {
+      "word": "respectful",
+      "meaning_zh": [
+        "尊重的",
+        "尊敬的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "duplicate",
+      "meaning_zh": [
+        "副本"
+      ],
+      "verified": false
+    },
+    {
+      "word": "contrary",
+      "meaning_zh": [
+        "相反"
+      ],
+      "verified": false
+    },
+    {
+      "word": "engage",
+      "meaning_zh": [
+        "參加",
+        "從事"
+      ],
+      "verified": false
+    },
+    {
+      "word": "foster",
+      "meaning_zh": [
+        "促進",
+        "培養"
+      ],
+      "verified": false
+    },
+    {
+      "word": "widely",
+      "meaning_zh": [
+        "廣泛的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "externally",
+      "meaning_zh": [
+        "外部的",
+        "外在的"
+      ],
+      "verified": false
+    }
+  ]
+}

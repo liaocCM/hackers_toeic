@@ -1,0 +1,61 @@
+{
+  "book": "Hacker's TOEIC Vocabulary",
+  "folders": {
+    "1-basic_Day01-30": {
+      "description": "Core vocab list (US accent), word → Chinese definition",
+      "format": "word_list"
+    },
+    "2-all_Day01-30": {
+      "description": "Core vocab + 2 example sentences per word (each repeated twice)",
+      "format": "word_with_sentences"
+    },
+    "3-score-basic_Day01-30": {
+      "description": "Score-targeted basic vocab, split by LC (Listening) and RC (Reading) sections",
+      "format": "word_list_lc_rc"
+    },
+    "4-score-800_Day01-30": {
+      "description": "Score-targeted 800+ vocab and phrases, LC/RC split",
+      "format": "word_list_lc_rc"
+    },
+    "5-score-900_Day01-30": {
+      "description": "Score-targeted 900+ advanced vocab, LC/RC split",
+      "format": "word_list_lc_rc"
+    },
+    "6-phrase120": {
+      "description": "120 idiomatic TOEIC phrases (standalone track, not day-indexed)",
+      "format": "phrase_list"
+    }
+  },
+  "days": [
+    { "day": 1,  "theme": "應徵失業",  "category": "雇用",            "page": 22  },
+    { "day": 2,  "theme": "雇用規定",  "category": "規則、法律", "page": 40  },
+    { "day": 3,  "theme": "工作達人",  "category": "一般工作 (1)", "page": 58  },
+    { "day": 4,  "theme": "工作職缺",  "category": "一般工作 (2)", "page": 76  },
+    { "day": 5,  "theme": "秘密武器",  "category": "一般工作 (3)", "page": 94  },
+    { "day": 6,  "theme": "假日休息",  "category": "休閒、社交", "page": 112 },
+    { "day": 7,  "theme": "銷售策略",  "category": "行銷 (1)",       "page": 130 },
+    { "day": 8,  "theme": "國際行銷",  "category": "行銷 (2)",       "page": 150 },
+    { "day": 9,  "theme": "拯救經濟",  "category": "經濟",            "page": 168 },
+    { "day": 10, "theme": "購物高手",  "category": "購物",            "page": 184 },
+    { "day": 11, "theme": "新產品上市", "category": "產品開發", "page": 204 },
+    { "day": 12, "theme": "工廠自動化", "category": "生產",        "page": 222 },
+    { "day": 13, "theme": "顧客至上",  "category": "顧客服務", "page": 240 },
+    { "day": 14, "theme": "出差的目的", "category": "旅遊、機場", "page": 258 },
+    { "day": 15, "theme": "談判的場合", "category": "契約",        "page": 276 },
+    { "day": 16, "theme": "貿易協定",  "category": "商業",            "page": 294 },
+    { "day": 17, "theme": "限時配送",  "category": "貿易、貨運", "page": 312 },
+    { "day": 18, "theme": "特別料理",  "category": "住宿、餐廳", "page": 330 },
+    { "day": 19, "theme": "獎金呢？",  "category": "收益",            "page": 346 },
+    { "day": 20, "theme": "節省經費",  "category": "會計",            "page": 364 },
+    { "day": 21, "theme": "辦公室氣氛", "category": "公司動向", "page": 384 },
+    { "day": 22, "theme": "緊急會議",  "category": "會議",            "page": 402 },
+    { "day": 23, "theme": "將心比心",  "category": "員工福利", "page": 422 },
+    { "day": 24, "theme": "升遷第一天", "category": "人事異動", "page": 440 },
+    { "day": 25, "theme": "開車",              "category": "交通",            "page": 456 },
+    { "day": 26, "theme": "存款與盡孝", "category": "銀行",        "page": 474 },
+    { "day": 27, "theme": "友情與投資", "category": "投資",        "page": 492 },
+    { "day": 28, "theme": "古典風采",  "category": "建築、住宅", "page": 508 },
+    { "day": 29, "theme": "天氣預報",  "category": "環境",            "page": 524 },
+    { "day": 30, "theme": "重大疾病",  "category": "健康",            "page": 542 }
+  ]
+}

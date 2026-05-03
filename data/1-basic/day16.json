@@ -1,0 +1,337 @@
+{
+  "day": 16,
+  "theme": "貿易協定",
+  "category": "商業",
+  "page": 294,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day16.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers TOEIC vocabulary, day 16.completely 完整的、完全的, refuse 拒絕, temporarily 暫時的, dealer 經銷業者、代理商bulk 大量的, inventory 庫存、庫存清單, short 短缺的, cost 費用、成本、花費selection 選擇、選出來的東西,可選擇的範圍commercial 商業的、商務的,廣告order 訂購,訂單、訂購的東西provide 提供contact 聯絡,可提供資訊的聯絡人、門路invoice 發票、發貨單move 移動、搬遷、行動、措施、對策supply 供應、用品、補給品discount 折扣distribute 分發、分配、分銷acquisition 獲得、獲得的東西,收購assure 向某人保證,使某人放心,使某人確信subject 容易受到什麼影響的,以什麼為條件的subject 使什麼受到seek 追求、尋找satisfactory 令人滿意的confirmation 確認unable 不能的payment 支付measure 措施、手段、測量bargain 特價商品、協議、交易stock 庫存、股票affordability 可負擔心clientele 顧客、所有委託員acclaim 喝采、稱讚represent 代表rating 等級、平等encompass 包含、圍繞finalize 完成、做最後確認market 市場retail 零售commodity 商品quote 報價consignment 委託",
+  "vocab": [
+    {
+      "word": "completely",
+      "meaning_zh": [
+        "完整的",
+        "完全的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "refuse",
+      "meaning_zh": [
+        "拒絕"
+      ],
+      "verified": false
+    },
+    {
+      "word": "temporarily",
+      "meaning_zh": [
+        "暫時的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "dealer",
+      "meaning_zh": [
+        "經銷業者",
+        "代理商"
+      ],
+      "verified": false
+    },
+    {
+      "word": "bulk",
+      "meaning_zh": [
+        "大量的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "inventory",
+      "meaning_zh": [
+        "庫存",
+        "庫存清單"
+      ],
+      "verified": false
+    },
+    {
+      "word": "short",
+      "meaning_zh": [
+        "短缺的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "cost",
+      "meaning_zh": [
+        "費用",
+        "成本",
+        "花費"
+      ],
+      "verified": false
+    },
+    {
+      "word": "selection",
+      "meaning_zh": [
+        "選擇",
+        "選出來的東西",
+        "可選擇的範圍"
+      ],
+      "verified": false
+    },
+    {
+      "word": "commercial",
+      "meaning_zh": [
+        "商業的",
+        "商務的",
+        "廣告"
+      ],
+      "verified": false
+    },
+    {
+      "word": "order",
+      "meaning_zh": [
+        "訂購",
+        "訂單",
+        "訂購的東西"
+      ],
+      "verified": false
+    },
+    {
+      "word": "provide",
+      "meaning_zh": [
+        "提供"
+      ],
+      "verified": false
+    },
+    {
+      "word": "contact",
+      "meaning_zh": [
+        "聯絡",
+        "可提供資訊的聯絡人",
+        "門路"
+      ],
+      "verified": false
+    },
+    {
+      "word": "invoice",
+      "meaning_zh": [
+        "發票",
+        "發貨單"
+      ],
+      "verified": false
+    },
+    {
+      "word": "move",
+      "meaning_zh": [
+        "移動",
+        "搬遷",
+        "行動",
+        "措施",
+        "對策"
+      ],
+      "verified": false
+    },
+    {
+      "word": "supply",
+      "meaning_zh": [
+        "供應",
+        "用品",
+        "補給品"
+      ],
+      "verified": false
+    },
+    {
+      "word": "discount",
+      "meaning_zh": [
+        "折扣"
+      ],
+      "verified": false
+    },
+    {
+      "word": "distribute",
+      "meaning_zh": [
+        "分發",
+        "分配",
+        "分銷"
+      ],
+      "verified": false
+    },
+    {
+      "word": "acquisition",
+      "meaning_zh": [
+        "獲得",
+        "獲得的東西",
+        "收購"
+      ],
+      "verified": false
+    },
+    {
+      "word": "assure",
+      "meaning_zh": [
+        "向某人保證",
+        "使某人放心",
+        "使某人確信"
+      ],
+      "verified": false
+    },
+    {
+      "word": "subject",
+      "meaning_zh": [
+        "容易受到什麼影響的",
+        "以什麼為條件的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "seek",
+      "meaning_zh": [
+        "追求",
+        "尋找"
+      ],
+      "verified": false
+    },
+    {
+      "word": "satisfactory",
+      "meaning_zh": [
+        "令人滿意的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "confirmation",
+      "meaning_zh": [
+        "確認"
+      ],
+      "verified": false
+    },
+    {
+      "word": "unable",
+      "meaning_zh": [
+        "不能的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "payment",
+      "meaning_zh": [
+        "支付"
+      ],
+      "verified": false
+    },
+    {
+      "word": "measure",
+      "meaning_zh": [
+        "措施",
+        "手段",
+        "測量"
+      ],
+      "verified": false
+    },
+    {
+      "word": "bargain",
+      "meaning_zh": [
+        "特價商品",
+        "協議",
+        "交易"
+      ],
+      "verified": false
+    },
+    {
+      "word": "stock",
+      "meaning_zh": [
+        "庫存",
+        "股票"
+      ],
+      "verified": false
+    },
+    {
+      "word": "affordability",
+      "meaning_zh": [
+        "可負擔心"
+      ],
+      "verified": false
+    },
+    {
+      "word": "clientele",
+      "meaning_zh": [
+        "顧客",
+        "所有委託員"
+      ],
+      "verified": false
+    },
+    {
+      "word": "acclaim",
+      "meaning_zh": [
+        "喝采",
+        "稱讚"
+      ],
+      "verified": false
+    },
+    {
+      "word": "represent",
+      "meaning_zh": [
+        "代表"
+      ],
+      "verified": false
+    },
+    {
+      "word": "rating",
+      "meaning_zh": [
+        "等級",
+        "平等"
+      ],
+      "verified": false
+    },
+    {
+      "word": "encompass",
+      "meaning_zh": [
+        "包含",
+        "圍繞"
+      ],
+      "verified": false
+    },
+    {
+      "word": "finalize",
+      "meaning_zh": [
+        "完成",
+        "做最後確認"
+      ],
+      "verified": false
+    },
+    {
+      "word": "market",
+      "meaning_zh": [
+        "市場"
+      ],
+      "verified": false
+    },
+    {
+      "word": "retail",
+      "meaning_zh": [
+        "零售"
+      ],
+      "verified": false
+    },
+    {
+      "word": "commodity",
+      "meaning_zh": [
+        "商品"
+      ],
+      "verified": false
+    },
+    {
+      "word": "quote",
+      "meaning_zh": [
+        "報價"
+      ],
+      "verified": false
+    },
+    {
+      "word": "consignment",
+      "meaning_zh": [
+        "委託"
+      ],
+      "verified": false
+    }
+  ]
+}

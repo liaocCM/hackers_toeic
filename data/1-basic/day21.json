@@ -1,0 +1,352 @@
+{
+  "day": 21,
+  "theme": "辦公室氣氛",
+  "category": "公司動向",
+  "page": 384,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day21.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers TOEIC vocabulary, day twenty-one.announce 宣佈、公告, interested有利害關係的、感興趣的, active積極的、活躍的, accept接受、採用, foresee 預見、預知expansion 擴張、擴大relocate 搬遷competitor 競爭業者asset 資產contribute 捐獻、貢獻dedicated 專注的、奉獻的misplace 放錯地方、放在想不起來的地方considerable 相當重要相當大的、相當多的last 持續emerge 出現、浮現grow 成長、使生長select 選擇、挑選merge 合併融合、 imply暗示、意味著、vital必要的、persist堅持、堅持不懈、持續independent 獨立的、自立的force 勢力、有影響力的人或事物establish 創立、建立initiate 開始事業等、開始實施enhance 提升、提高、改善renowned 著名的、有名的、有聲譽的informed 瞭解情況的、消息靈通的minutes 會議記錄wave 放棄、免除reach 達到、抵達authority 權力、當局acquire 取得、收購surpass 超越、勝過run 經營、營運improbable 不太可能的、不太可能發生的edge 優勢、邊緣simultaneously 同時的reveal 揭露、展現productivity 生產力uncertain 不確定的、不明確的premier 第一的、首要的",
+  "vocab": [
+    {
+      "word": "hackers toeic vocabulary",
+      "meaning_zh": [],
+      "verified": false
+    },
+    {
+      "word": "day twenty-one",
+      "meaning_zh": [],
+      "verified": false
+    },
+    {
+      "word": "announce",
+      "meaning_zh": [
+        "宣佈",
+        "公告"
+      ],
+      "verified": false
+    },
+    {
+      "word": "interested",
+      "meaning_zh": [
+        "有利害關係的",
+        "感興趣的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "active",
+      "meaning_zh": [
+        "積極的",
+        "活躍的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "accept",
+      "meaning_zh": [
+        "接受",
+        "採用"
+      ],
+      "verified": false
+    },
+    {
+      "word": "foresee",
+      "meaning_zh": [
+        "預見",
+        "預知"
+      ],
+      "verified": false
+    },
+    {
+      "word": "expansion",
+      "meaning_zh": [
+        "擴張",
+        "擴大"
+      ],
+      "verified": false
+    },
+    {
+      "word": "relocate",
+      "meaning_zh": [
+        "搬遷"
+      ],
+      "verified": false
+    },
+    {
+      "word": "competitor",
+      "meaning_zh": [
+        "競爭業者"
+      ],
+      "verified": false
+    },
+    {
+      "word": "asset",
+      "meaning_zh": [
+        "資產"
+      ],
+      "verified": false
+    },
+    {
+      "word": "contribute",
+      "meaning_zh": [
+        "捐獻",
+        "貢獻"
+      ],
+      "verified": false
+    },
+    {
+      "word": "dedicated",
+      "meaning_zh": [
+        "專注的",
+        "奉獻的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "misplace",
+      "meaning_zh": [
+        "放錯地方",
+        "放在想不起來的地方"
+      ],
+      "verified": false
+    },
+    {
+      "word": "considerable",
+      "meaning_zh": [
+        "相當重要相當大的",
+        "相當多的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "last",
+      "meaning_zh": [
+        "持續"
+      ],
+      "verified": false
+    },
+    {
+      "word": "emerge",
+      "meaning_zh": [
+        "出現",
+        "浮現"
+      ],
+      "verified": false
+    },
+    {
+      "word": "grow",
+      "meaning_zh": [
+        "成長",
+        "使生長"
+      ],
+      "verified": false
+    },
+    {
+      "word": "select",
+      "meaning_zh": [
+        "選擇",
+        "挑選"
+      ],
+      "verified": false
+    },
+    {
+      "word": "merge",
+      "meaning_zh": [
+        "合併融合"
+      ],
+      "verified": false
+    },
+    {
+      "word": "imply",
+      "meaning_zh": [
+        "暗示",
+        "意味著"
+      ],
+      "verified": false
+    },
+    {
+      "word": "vital",
+      "meaning_zh": [
+        "必要的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "persist",
+      "meaning_zh": [
+        "堅持",
+        "堅持不懈",
+        "持續"
+      ],
+      "verified": false
+    },
+    {
+      "word": "independent",
+      "meaning_zh": [
+        "獨立的",
+        "自立的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "force",
+      "meaning_zh": [
+        "勢力",
+        "有影響力的人或事物"
+      ],
+      "verified": false
+    },
+    {
+      "word": "establish",
+      "meaning_zh": [
+        "創立",
+        "建立"
+      ],
+      "verified": false
+    },
+    {
+      "word": "initiate",
+      "meaning_zh": [
+        "開始事業等",
+        "開始實施"
+      ],
+      "verified": false
+    },
+    {
+      "word": "enhance",
+      "meaning_zh": [
+        "提升",
+        "提高",
+        "改善"
+      ],
+      "verified": false
+    },
+    {
+      "word": "renowned",
+      "meaning_zh": [
+        "著名的",
+        "有名的",
+        "有聲譽的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "informed",
+      "meaning_zh": [
+        "瞭解情況的",
+        "消息靈通的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "minutes",
+      "meaning_zh": [
+        "會議記錄"
+      ],
+      "verified": false
+    },
+    {
+      "word": "wave",
+      "meaning_zh": [
+        "放棄",
+        "免除"
+      ],
+      "verified": false
+    },
+    {
+      "word": "reach",
+      "meaning_zh": [
+        "達到",
+        "抵達"
+      ],
+      "verified": false
+    },
+    {
+      "word": "authority",
+      "meaning_zh": [
+        "權力",
+        "當局"
+      ],
+      "verified": false
+    },
+    {
+      "word": "acquire",
+      "meaning_zh": [
+        "取得",
+        "收購"
+      ],
+      "verified": false
+    },
+    {
+      "word": "surpass",
+      "meaning_zh": [
+        "超越",
+        "勝過"
+      ],
+      "verified": false
+    },
+    {
+      "word": "run",
+      "meaning_zh": [
+        "經營",
+        "營運"
+      ],
+      "verified": false
+    },
+    {
+      "word": "improbable",
+      "meaning_zh": [
+        "不太可能的",
+        "不太可能發生的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "edge",
+      "meaning_zh": [
+        "優勢",
+        "邊緣"
+      ],
+      "verified": false
+    },
+    {
+      "word": "simultaneously",
+      "meaning_zh": [
+        "同時的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "reveal",
+      "meaning_zh": [
+        "揭露",
+        "展現"
+      ],
+      "verified": false
+    },
+    {
+      "word": "productivity",
+      "meaning_zh": [
+        "生產力"
+      ],
+      "verified": false
+    },
+    {
+      "word": "uncertain",
+      "meaning_zh": [
+        "不確定的",
+        "不明確的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "premier",
+      "meaning_zh": [
+        "第一的",
+        "首要的"
+      ],
+      "verified": false
+    }
+  ]
+}

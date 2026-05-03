@@ -1,0 +1,297 @@
+{
+  "day": 13,
+  "theme": "顧客至上",
+  "category": "顧客服務",
+  "page": 240,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day13.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers TOEIC vocabulary, day 13. respond 回應,回覆, infuriate 激怒,使大怒, courteous 有禮貌的, satisfaction 滿意, inconvenience 不便,對某人造成不便. complete 完成,結束,完整的、完成的, specific 具體的、明確的. return 歸還、退回, replace 取代、替換, presentation 簡報, evaluation 評價、評估. confident 有自信的、有信心的. cause 引起、造成、原因. commentary 評論、屏住、實況報道. notification 通知, apologize. interact 互動、交流、相互作用. certain 確定的、確信的,某個、某些. commitment 投身、投入、致力. applaud 為什麼鼓掌,稱讚. biography 戰記、精力介紹. critical 批評的、關鍵的、危急的. depend on 依賴、取決於. combine 使結合、合併. priority 優先,優先事項. observe 仔細觀察,注意到,遵守規則等. defective 有缺陷的. reflect 反應、顯示. attitude 態度、看法. disappoint 使失望. inquire 尋問. insert 插入. disclose 公開、透露. guarantee 保證、保障. politely 禮貌的, seriously. 認真地。",
+  "vocab": [
+    {
+      "word": "respond",
+      "meaning_zh": [
+        "回應",
+        "回覆"
+      ],
+      "verified": false
+    },
+    {
+      "word": "infuriate",
+      "meaning_zh": [
+        "激怒",
+        "使大怒"
+      ],
+      "verified": false
+    },
+    {
+      "word": "courteous",
+      "meaning_zh": [
+        "有禮貌的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "satisfaction",
+      "meaning_zh": [
+        "滿意"
+      ],
+      "verified": false
+    },
+    {
+      "word": "inconvenience",
+      "meaning_zh": [
+        "不便",
+        "對某人造成不便"
+      ],
+      "verified": false
+    },
+    {
+      "word": "complete",
+      "meaning_zh": [
+        "完成",
+        "結束",
+        "完整的",
+        "完成的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "specific",
+      "meaning_zh": [
+        "具體的",
+        "明確的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "return",
+      "meaning_zh": [
+        "歸還",
+        "退回"
+      ],
+      "verified": false
+    },
+    {
+      "word": "replace",
+      "meaning_zh": [
+        "取代",
+        "替換"
+      ],
+      "verified": false
+    },
+    {
+      "word": "presentation",
+      "meaning_zh": [
+        "簡報"
+      ],
+      "verified": false
+    },
+    {
+      "word": "evaluation",
+      "meaning_zh": [
+        "評價",
+        "評估"
+      ],
+      "verified": false
+    },
+    {
+      "word": "confident",
+      "meaning_zh": [
+        "有自信的",
+        "有信心的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "cause",
+      "meaning_zh": [
+        "引起",
+        "造成",
+        "原因"
+      ],
+      "verified": false
+    },
+    {
+      "word": "commentary",
+      "meaning_zh": [
+        "評論",
+        "屏住",
+        "實況報道"
+      ],
+      "verified": false
+    },
+    {
+      "word": "notification",
+      "meaning_zh": [
+        "通知"
+      ],
+      "verified": false
+    },
+    {
+      "word": "apologize",
+      "meaning_zh": [],
+      "verified": false
+    },
+    {
+      "word": "interact",
+      "meaning_zh": [
+        "互動",
+        "交流",
+        "相互作用"
+      ],
+      "verified": false
+    },
+    {
+      "word": "certain",
+      "meaning_zh": [
+        "確定的",
+        "確信的",
+        "某個",
+        "某些"
+      ],
+      "verified": false
+    },
+    {
+      "word": "commitment",
+      "meaning_zh": [
+        "投身",
+        "投入",
+        "致力"
+      ],
+      "verified": false
+    },
+    {
+      "word": "applaud",
+      "meaning_zh": [
+        "為什麼鼓掌",
+        "稱讚"
+      ],
+      "verified": false
+    },
+    {
+      "word": "biography",
+      "meaning_zh": [
+        "戰記",
+        "精力介紹"
+      ],
+      "verified": false
+    },
+    {
+      "word": "critical",
+      "meaning_zh": [
+        "批評的",
+        "關鍵的",
+        "危急的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "depend on",
+      "meaning_zh": [
+        "依賴",
+        "取決於"
+      ],
+      "verified": false
+    },
+    {
+      "word": "combine",
+      "meaning_zh": [
+        "使結合",
+        "合併"
+      ],
+      "verified": false
+    },
+    {
+      "word": "priority",
+      "meaning_zh": [
+        "優先",
+        "優先事項"
+      ],
+      "verified": false
+    },
+    {
+      "word": "observe",
+      "meaning_zh": [
+        "仔細觀察",
+        "注意到",
+        "遵守規則等"
+      ],
+      "verified": false
+    },
+    {
+      "word": "defective",
+      "meaning_zh": [
+        "有缺陷的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "reflect",
+      "meaning_zh": [
+        "反應",
+        "顯示"
+      ],
+      "verified": false
+    },
+    {
+      "word": "attitude",
+      "meaning_zh": [
+        "態度",
+        "看法"
+      ],
+      "verified": false
+    },
+    {
+      "word": "disappoint",
+      "meaning_zh": [
+        "使失望"
+      ],
+      "verified": false
+    },
+    {
+      "word": "inquire",
+      "meaning_zh": [
+        "尋問"
+      ],
+      "verified": false
+    },
+    {
+      "word": "insert",
+      "meaning_zh": [
+        "插入"
+      ],
+      "verified": false
+    },
+    {
+      "word": "disclose",
+      "meaning_zh": [
+        "公開",
+        "透露"
+      ],
+      "verified": false
+    },
+    {
+      "word": "guarantee",
+      "meaning_zh": [
+        "保證",
+        "保障"
+      ],
+      "verified": false
+    },
+    {
+      "word": "politely",
+      "meaning_zh": [
+        "禮貌的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "seriously",
+      "meaning_zh": [
+        "認真地"
+      ],
+      "verified": false
+    }
+  ]
+}

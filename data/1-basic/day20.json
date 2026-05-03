@@ -1,0 +1,304 @@
+{
+  "day": 20,
+  "theme": "節省經費",
+  "category": "會計",
+  "page": 364,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day20.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers TOEIC vocabulary, day 20.audit 審計、查帳, accounting 會計, budget 預算, financial 財務的、金融的, curtail縮減、削減, deficit 赤字,不足而, recently 最近, substantially 大大地,相當多地, committee 委員會, frequently平凡地,經常 能力,才能, proceeds 收入, reimburse 補償,和消, considerably 相當多地adequate 足夠的、適當的, total 總計的、全部的, allocate 分配、分派inspector 檢查人員、稽查人員, preferred 偏好的、優先的, quarter 忌妒,四分之一interrupt 打斷、中斷, browse 瀏覽、隨意觀看, prompt 即時的、迅速的,導致促使deduct 扣除、剪除, measurement 測量、測定、尺寸shorten 縮短、變短, amend 修正, calculate 計算exempt 被免除的、不足的、缺乏的、比較 幸運的expenditure 支出、開支, accurately 精確的、值得什麼的、價值excess 超過、過量fiscal 會計的、財政的、 incidental 附帶的inflation 通貨膨脹liable 負有責任的,很可能會怎樣的spend 花費、花用turnover 營業額、交易額、人事異動率",
+  "vocab": [
+    {
+      "word": "audit",
+      "meaning_zh": [
+        "審計",
+        "查帳"
+      ],
+      "verified": false
+    },
+    {
+      "word": "accounting",
+      "meaning_zh": [
+        "會計"
+      ],
+      "verified": false
+    },
+    {
+      "word": "budget",
+      "meaning_zh": [
+        "預算"
+      ],
+      "verified": false
+    },
+    {
+      "word": "financial",
+      "meaning_zh": [
+        "財務的",
+        "金融的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "curtail",
+      "meaning_zh": [
+        "縮減",
+        "削減"
+      ],
+      "verified": false
+    },
+    {
+      "word": "deficit",
+      "meaning_zh": [
+        "赤字",
+        "不足而"
+      ],
+      "verified": false
+    },
+    {
+      "word": "recently",
+      "meaning_zh": [
+        "最近"
+      ],
+      "verified": false
+    },
+    {
+      "word": "substantially",
+      "meaning_zh": [
+        "大大地",
+        "相當多地"
+      ],
+      "verified": false
+    },
+    {
+      "word": "committee",
+      "meaning_zh": [
+        "委員會"
+      ],
+      "verified": false
+    },
+    {
+      "word": "frequently",
+      "meaning_zh": [
+        "平凡地",
+        "經常"
+      ],
+      "verified": false
+    },
+    {
+      "word": "proceeds",
+      "meaning_zh": [
+        "收入"
+      ],
+      "verified": false
+    },
+    {
+      "word": "reimburse",
+      "meaning_zh": [
+        "補償",
+        "和消"
+      ],
+      "verified": false
+    },
+    {
+      "word": "considerably",
+      "meaning_zh": [
+        "相當多地"
+      ],
+      "verified": false
+    },
+    {
+      "word": "adequate",
+      "meaning_zh": [
+        "足夠的",
+        "適當的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "total",
+      "meaning_zh": [
+        "總計的",
+        "全部的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "allocate",
+      "meaning_zh": [
+        "分配",
+        "分派"
+      ],
+      "verified": false
+    },
+    {
+      "word": "inspector",
+      "meaning_zh": [
+        "檢查人員",
+        "稽查人員"
+      ],
+      "verified": false
+    },
+    {
+      "word": "preferred",
+      "meaning_zh": [
+        "偏好的",
+        "優先的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "quarter",
+      "meaning_zh": [
+        "忌妒",
+        "四分之一"
+      ],
+      "verified": false
+    },
+    {
+      "word": "interrupt",
+      "meaning_zh": [
+        "打斷",
+        "中斷"
+      ],
+      "verified": false
+    },
+    {
+      "word": "browse",
+      "meaning_zh": [
+        "瀏覽",
+        "隨意觀看"
+      ],
+      "verified": false
+    },
+    {
+      "word": "prompt",
+      "meaning_zh": [
+        "即時的",
+        "迅速的",
+        "導致促使"
+      ],
+      "verified": false
+    },
+    {
+      "word": "deduct",
+      "meaning_zh": [
+        "扣除",
+        "剪除"
+      ],
+      "verified": false
+    },
+    {
+      "word": "measurement",
+      "meaning_zh": [
+        "測量",
+        "測定",
+        "尺寸"
+      ],
+      "verified": false
+    },
+    {
+      "word": "shorten",
+      "meaning_zh": [
+        "縮短",
+        "變短"
+      ],
+      "verified": false
+    },
+    {
+      "word": "amend",
+      "meaning_zh": [
+        "修正"
+      ],
+      "verified": false
+    },
+    {
+      "word": "calculate",
+      "meaning_zh": [
+        "計算"
+      ],
+      "verified": false
+    },
+    {
+      "word": "exempt",
+      "meaning_zh": [
+        "被免除的",
+        "不足的",
+        "缺乏的",
+        "比較"
+      ],
+      "verified": false
+    },
+    {
+      "word": "expenditure",
+      "meaning_zh": [
+        "支出",
+        "開支"
+      ],
+      "verified": false
+    },
+    {
+      "word": "accurately",
+      "meaning_zh": [
+        "精確的",
+        "值得什麼的",
+        "價值"
+      ],
+      "verified": false
+    },
+    {
+      "word": "excess",
+      "meaning_zh": [
+        "超過",
+        "過量"
+      ],
+      "verified": false
+    },
+    {
+      "word": "fiscal",
+      "meaning_zh": [
+        "會計的",
+        "財政的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "incidental",
+      "meaning_zh": [
+        "附帶的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "inflation",
+      "meaning_zh": [
+        "通貨膨脹"
+      ],
+      "verified": false
+    },
+    {
+      "word": "liable",
+      "meaning_zh": [
+        "負有責任的",
+        "很可能會怎樣的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "spend",
+      "meaning_zh": [
+        "花費",
+        "花用"
+      ],
+      "verified": false
+    },
+    {
+      "word": "turnover",
+      "meaning_zh": [
+        "營業額",
+        "交易額",
+        "人事異動率"
+      ],
+      "verified": false
+    }
+  ]
+}

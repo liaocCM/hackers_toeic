@@ -1,0 +1,328 @@
+{
+  "day": 19,
+  "theme": "獎金呢？",
+  "category": "收益",
+  "page": 346,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day19.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers TOEIC vocabulary, day 19.decline 減少、下降、拒絕, markedly 顯著的、明顯的increase 增加revenue 收入、projection 預測、substantial 相當大的、相當多的anticipate 預期、期望、significantly 顯著的、大大的estimate 估計、估價shift 轉移、挪動、轉變、輪班工作時間fee 費用、服務費用production 生產、產量銷售額、銷售量、降價特賣impressive 令人印象深刻的representative 代表、代表人員recent 最近的exceed 超過improvement 改善employer 僱主regular 定期的、慣常的summarise 總結、概述typically 典型的、通常whole 全部的、整個的growth 成長、發展figure 數字steady 穩定的、堅定的frequent 頻繁的、常發生的achieve 達成、成就assumption 假定、假設share 分享、共用、一份、股份encouraging 鼓勵的、令人振奮的incur 遭受、招致slightly 稍微profit 利潤、利益reliant 依賴的、依靠的illustrate 說明、圖解inaccurate 不精確的percentage 百分比、比例reduce 減少、縮減tend 傾向、益於、往往會beyond 超越範圍等在什麼之外",
+  "vocab": [
+    {
+      "word": "decline",
+      "meaning_zh": [
+        "減少",
+        "下降",
+        "拒絕"
+      ],
+      "verified": false
+    },
+    {
+      "word": "markedly",
+      "meaning_zh": [
+        "顯著的",
+        "明顯的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "increase",
+      "meaning_zh": [
+        "增加"
+      ],
+      "verified": false
+    },
+    {
+      "word": "revenue",
+      "meaning_zh": [
+        "收入"
+      ],
+      "verified": false
+    },
+    {
+      "word": "projection",
+      "meaning_zh": [
+        "預測"
+      ],
+      "verified": false
+    },
+    {
+      "word": "substantial",
+      "meaning_zh": [
+        "相當大的",
+        "相當多的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "anticipate",
+      "meaning_zh": [
+        "預期",
+        "期望"
+      ],
+      "verified": false
+    },
+    {
+      "word": "significantly",
+      "meaning_zh": [
+        "顯著的",
+        "大大的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "estimate",
+      "meaning_zh": [
+        "估計",
+        "估價"
+      ],
+      "verified": false
+    },
+    {
+      "word": "shift",
+      "meaning_zh": [
+        "轉移",
+        "挪動",
+        "轉變",
+        "輪班工作時間"
+      ],
+      "verified": false
+    },
+    {
+      "word": "fee",
+      "meaning_zh": [
+        "費用",
+        "服務費用"
+      ],
+      "verified": false
+    },
+    {
+      "word": "production",
+      "meaning_zh": [
+        "生產",
+        "產量銷售額",
+        "銷售量",
+        "降價特賣"
+      ],
+      "verified": false
+    },
+    {
+      "word": "impressive",
+      "meaning_zh": [
+        "令人印象深刻的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "representative",
+      "meaning_zh": [
+        "代表",
+        "代表人員"
+      ],
+      "verified": false
+    },
+    {
+      "word": "recent",
+      "meaning_zh": [
+        "最近的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "exceed",
+      "meaning_zh": [
+        "超過"
+      ],
+      "verified": false
+    },
+    {
+      "word": "improvement",
+      "meaning_zh": [
+        "改善"
+      ],
+      "verified": false
+    },
+    {
+      "word": "employer",
+      "meaning_zh": [
+        "僱主"
+      ],
+      "verified": false
+    },
+    {
+      "word": "regular",
+      "meaning_zh": [
+        "定期的",
+        "慣常的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "summarise",
+      "meaning_zh": [
+        "總結",
+        "概述"
+      ],
+      "verified": false
+    },
+    {
+      "word": "typically",
+      "meaning_zh": [
+        "典型的",
+        "通常"
+      ],
+      "verified": false
+    },
+    {
+      "word": "whole",
+      "meaning_zh": [
+        "全部的",
+        "整個的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "growth",
+      "meaning_zh": [
+        "成長",
+        "發展"
+      ],
+      "verified": false
+    },
+    {
+      "word": "figure",
+      "meaning_zh": [
+        "數字"
+      ],
+      "verified": false
+    },
+    {
+      "word": "steady",
+      "meaning_zh": [
+        "穩定的",
+        "堅定的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "frequent",
+      "meaning_zh": [
+        "頻繁的",
+        "常發生的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "achieve",
+      "meaning_zh": [
+        "達成",
+        "成就"
+      ],
+      "verified": false
+    },
+    {
+      "word": "assumption",
+      "meaning_zh": [
+        "假定",
+        "假設"
+      ],
+      "verified": false
+    },
+    {
+      "word": "share",
+      "meaning_zh": [
+        "分享",
+        "共用",
+        "一份",
+        "股份"
+      ],
+      "verified": false
+    },
+    {
+      "word": "encouraging",
+      "meaning_zh": [
+        "鼓勵的",
+        "令人振奮的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "incur",
+      "meaning_zh": [
+        "遭受",
+        "招致"
+      ],
+      "verified": false
+    },
+    {
+      "word": "slightly",
+      "meaning_zh": [
+        "稍微"
+      ],
+      "verified": false
+    },
+    {
+      "word": "profit",
+      "meaning_zh": [
+        "利潤",
+        "利益"
+      ],
+      "verified": false
+    },
+    {
+      "word": "reliant",
+      "meaning_zh": [
+        "依賴的",
+        "依靠的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "illustrate",
+      "meaning_zh": [
+        "說明",
+        "圖解"
+      ],
+      "verified": false
+    },
+    {
+      "word": "inaccurate",
+      "meaning_zh": [
+        "不精確的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "percentage",
+      "meaning_zh": [
+        "百分比",
+        "比例"
+      ],
+      "verified": false
+    },
+    {
+      "word": "reduce",
+      "meaning_zh": [
+        "減少",
+        "縮減"
+      ],
+      "verified": false
+    },
+    {
+      "word": "tend",
+      "meaning_zh": [
+        "傾向",
+        "益於",
+        "往往會"
+      ],
+      "verified": false
+    },
+    {
+      "word": "beyond",
+      "meaning_zh": [
+        "超越範圍等在什麼之外"
+      ],
+      "verified": false
+    }
+  ]
+}

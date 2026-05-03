@@ -1,0 +1,266 @@
+{
+  "day": 25,
+  "theme": "開車",
+  "category": "交通",
+  "page": 456,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day25.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers TOEIC vocabulary, day 25.Fuel 燃料, malfunction 故障、機能失常, permit 許可允許, permit 許可證Transportation 運輸,運輸工具, opportunity 機會, clearly 清楚地,顯然, ongoingdetailed 詳細的, alternative 替代方案, obtain 得到、獲得designated 指定的, intersection 交叉入口, equip 使配備、使具備, commute 通勤downtown 在市中心, automotive 汽車的, closure 關閉vehicle 車輛,運載工具, platform 月臺, official 公務員、官員,官方的、正式的transit 運輸系統,運送, fare 搭乘交通工具的費用, expense 費用、支出trust 信願、信賴、相信, head 出發、前進, drive 開車、駕駛、驅動機器等fine 罰款, pass 經過、通過, securely 牢固地、穩固地、顯著地、顯眼地average 平均值、平均, collision 碰撞, tow 脫掉, reverse 相反的、背面的obstruct 遮擋、阻塞",
+  "vocab": [
+    {
+      "word": "fuel",
+      "meaning_zh": [
+        "燃料"
+      ],
+      "verified": false
+    },
+    {
+      "word": "malfunction",
+      "meaning_zh": [
+        "故障",
+        "機能失常"
+      ],
+      "verified": false
+    },
+    {
+      "word": "permit",
+      "meaning_zh": [
+        "許可允許"
+      ],
+      "verified": false
+    },
+    {
+      "word": "transportation",
+      "meaning_zh": [
+        "運輸",
+        "運輸工具"
+      ],
+      "verified": false
+    },
+    {
+      "word": "opportunity",
+      "meaning_zh": [
+        "機會"
+      ],
+      "verified": false
+    },
+    {
+      "word": "clearly",
+      "meaning_zh": [
+        "清楚地",
+        "顯然"
+      ],
+      "verified": false
+    },
+    {
+      "word": "ongoingdetailed",
+      "meaning_zh": [
+        "詳細的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "alternative",
+      "meaning_zh": [
+        "替代方案"
+      ],
+      "verified": false
+    },
+    {
+      "word": "obtain",
+      "meaning_zh": [
+        "得到",
+        "獲得"
+      ],
+      "verified": false
+    },
+    {
+      "word": "designated",
+      "meaning_zh": [
+        "指定的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "intersection",
+      "meaning_zh": [
+        "交叉入口"
+      ],
+      "verified": false
+    },
+    {
+      "word": "equip",
+      "meaning_zh": [
+        "使配備",
+        "使具備"
+      ],
+      "verified": false
+    },
+    {
+      "word": "commute",
+      "meaning_zh": [
+        "通勤"
+      ],
+      "verified": false
+    },
+    {
+      "word": "downtown",
+      "meaning_zh": [
+        "在市中心"
+      ],
+      "verified": false
+    },
+    {
+      "word": "automotive",
+      "meaning_zh": [
+        "汽車的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "closure",
+      "meaning_zh": [
+        "關閉"
+      ],
+      "verified": false
+    },
+    {
+      "word": "vehicle",
+      "meaning_zh": [
+        "車輛",
+        "運載工具"
+      ],
+      "verified": false
+    },
+    {
+      "word": "platform",
+      "meaning_zh": [
+        "月臺"
+      ],
+      "verified": false
+    },
+    {
+      "word": "official",
+      "meaning_zh": [
+        "公務員",
+        "官員",
+        "官方的",
+        "正式的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "transit",
+      "meaning_zh": [
+        "運輸系統",
+        "運送"
+      ],
+      "verified": false
+    },
+    {
+      "word": "fare",
+      "meaning_zh": [
+        "搭乘交通工具的費用"
+      ],
+      "verified": false
+    },
+    {
+      "word": "expense",
+      "meaning_zh": [
+        "費用",
+        "支出"
+      ],
+      "verified": false
+    },
+    {
+      "word": "trust",
+      "meaning_zh": [
+        "信願",
+        "信賴",
+        "相信"
+      ],
+      "verified": false
+    },
+    {
+      "word": "head",
+      "meaning_zh": [
+        "出發",
+        "前進"
+      ],
+      "verified": false
+    },
+    {
+      "word": "drive",
+      "meaning_zh": [
+        "開車",
+        "駕駛",
+        "驅動機器等"
+      ],
+      "verified": false
+    },
+    {
+      "word": "fine",
+      "meaning_zh": [
+        "罰款"
+      ],
+      "verified": false
+    },
+    {
+      "word": "pass",
+      "meaning_zh": [
+        "經過",
+        "通過"
+      ],
+      "verified": false
+    },
+    {
+      "word": "securely",
+      "meaning_zh": [
+        "牢固地",
+        "穩固地",
+        "顯著地",
+        "顯眼地"
+      ],
+      "verified": false
+    },
+    {
+      "word": "average",
+      "meaning_zh": [
+        "平均值",
+        "平均"
+      ],
+      "verified": false
+    },
+    {
+      "word": "collision",
+      "meaning_zh": [
+        "碰撞"
+      ],
+      "verified": false
+    },
+    {
+      "word": "tow",
+      "meaning_zh": [
+        "脫掉"
+      ],
+      "verified": false
+    },
+    {
+      "word": "reverse",
+      "meaning_zh": [
+        "相反的",
+        "背面的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "obstruct",
+      "meaning_zh": [
+        "遮擋",
+        "阻塞"
+      ],
+      "verified": false
+    }
+  ]
+}

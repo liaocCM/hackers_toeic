@@ -1,0 +1,74 @@
+{
+  "day": 8,
+  "theme": "國際行銷",
+  "category": "行銷 (2)",
+  "page": 150,
+  "audio_source": "audio/1-basic_Day01-30/basic_Day08.mp3",
+  "transcript_model": "Systran/faster-whisper-medium",
+  "low_count_warning": true,
+  "raw_transcript": "Hackers TOEIC vocabulary, day 8.advertisement 廣告, marginal 微小的、邊緣的, customer顧客 影響 立即、馬上 創造性的、有創意的 積極的目標 策略 指出、顯示 吸引、引起經驗、體驗、經歷 分析 介紹、發表 勸告、建議absence 缺少、缺席、缺勤 方法、手段 和其他相比更喜歡,偏好advantage 優點、優勢 向前、轉焦、轉際同時代的、當代的、現代的 討論、談論開始的、最初的、平穩的、穩定的、必然解決、察覺、發現、強化、增強、使什麼變強烈善意的、順利的、包含、支付、覆蓋 較小的、較小的大部分、大多數、踩納、大部分、主要、不理會、忽視、努力incentive 誘因、獎金、need 需要、需求、mastermind 策劃者",
+  "vocab": [
+    {
+      "word": "advertisement",
+      "meaning_zh": [
+        "廣告"
+      ],
+      "verified": false
+    },
+    {
+      "word": "marginal",
+      "meaning_zh": [
+        "微小的",
+        "邊緣的"
+      ],
+      "verified": false
+    },
+    {
+      "word": "customer",
+      "meaning_zh": [
+        "顧客"
+      ],
+      "verified": false
+    },
+    {
+      "word": "absence",
+      "meaning_zh": [
+        "缺少",
+        "缺席",
+        "缺勤"
+      ],
+      "verified": false
+    },
+    {
+      "word": "advantage",
+      "meaning_zh": [
+        "優點",
+        "優勢"
+      ],
+      "verified": false
+    },
+    {
+      "word": "incentive",
+      "meaning_zh": [
+        "誘因",
+        "獎金"
+      ],
+      "verified": false
+    },
+    {
+      "word": "need",
+      "meaning_zh": [
+        "需要",
+        "需求"
+      ],
+      "verified": false
+    },
+    {
+      "word": "mastermind",
+      "meaning_zh": [
+        "策劃者"
+      ],
+      "verified": false
+    }
+  ]
+}
