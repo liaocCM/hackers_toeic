@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hackers TOEIC — Basic Vocabulary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+TC:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --canvas: #f7f7f4;
+    --canvas-soft: #fafaf7;
+    --surface-card: #ffffff;
+    --surface-strong: #e6e5e0;
+    --ink: #26251e;
+    --body: #5a5852;
+    --body-strong: #26251e;
+    --muted: #807d72;
+    --muted-soft: #a09c92;
+    --primary: #f54e00;
+    --primary-active: #d04200;
+    --on-primary: #ffffff;
+    --hairline: #e6e5e0;
+    --hairline-soft: #efeee8;
+    --hairline-strong: #cfcdc4;
+    --accent-mark: #fff0b2;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--canvas);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.005em;
+  }
+  :lang(zh-Hant), .zh {
+    font-family: 'Noto Serif TC', 'Inter', system-ui, sans-serif;
+  }
+
+  /* ----- Top nav ----- */
+  .top-nav {
+    position: sticky; top: 0; z-index: 20;
+    background: var(--canvas);
+    border-bottom: 1px solid var(--hairline);
+    height: 64px;
+  }
+  .top-nav .inner {
+    max-width: 1280px; margin: 0 auto; padding: 0 24px;
+    height: 100%; display: flex; align-items: center; gap: 24px;
+  }
+  .brand {
+    font-size: 18px; font-weight: 500; letter-spacing: -0.02em;
+    text-decoration: none; color: var(--ink);
+    flex-shrink: 0;
+  }
+  .brand .accent { color: var(--primary); }
+  .search-wrap { flex: 1; max-width: 480px; position: relative; }
+  .search-input {
+    width: 100%; height: 40px; padding: 8px 14px 8px 38px;
+    border: 1px solid var(--hairline-strong);
+    border-radius: 8px; background: var(--surface-card);
+    color: var(--ink); font: inherit; font-size: 14px;
+    transition: border-color 120ms ease;
+  }
+  .search-input::placeholder { color: var(--muted-soft); }
+  .search-input:focus {
+    outline: none; border-color: var(--ink);
+  }
+  .search-icon {
+    position: absolute; top: 50%; left: 12px; transform: translateY(-50%);
+    width: 16px; height: 16px; color: var(--muted);
+    pointer-events: none;
+  }
+  .nav-meta {
+    margin-left: auto; font-size: 13px; color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 0;
+  }
+
+  /* ----- Layout ----- */
+  .layout {
+    max-width: 1280px; margin: 0 auto; padding: 0 24px;
+    display: grid; grid-template-columns: 280px 1fr; gap: 32px;
+    align-items: start;
+  }
+  .sidebar {
+    position: sticky; top: 88px;
+    height: calc(100vh - 112px);
+    overflow: hidden;
+    display: flex; flex-direction: column;
+    padding: 24px 0;
+  }
+  .sidebar-header {
+    margin-bottom: 16px;
+  }
+  .sidebar-header .label {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--muted);
+  }
+  .sidebar-header .title {
+    font-size: 22px; font-weight: 400; letter-spacing: -0.011em;
+    margin: 4px 0 0;
+  }
+  .day-list {
+    flex: 1; overflow-y: auto;
+    margin: 0; padding: 0; list-style: none;
+    border-top: 1px solid var(--hairline-soft);
+  }
+  .day-list li { border-bottom: 1px solid var(--hairline-soft); }
+  .day-link {
+    display: grid; grid-template-columns: 32px 1fr auto; gap: 10px;
+    align-items: baseline;
+    padding: 12px 12px 12px 14px;
+    text-decoration: none; color: var(--ink);
+    cursor: pointer;
+    transition: background 120ms ease;
+  }
+  .day-link:hover { background: var(--surface-strong); }
+  .day-link.active {
+    background: var(--canvas-soft);
+    border-left: 2px solid var(--primary);
+    padding-left: 12px;
+  }
+  .day-link.dim { opacity: 0.35; }
+  .day-link .num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px; font-weight: 500; color: var(--muted);
+    letter-spacing: 0;
+  }
+  .day-link .theme {
+    font-size: 14px; font-weight: 500;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .day-link.active .theme { color: var(--ink); }
+  .day-link .count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px; color: var(--muted);
+  }
+  .day-link .match-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; color: var(--primary); font-weight: 500;
+  }
+
+  /* ----- Main pane ----- */
+  .main { padding: 48px 0 96px; min-width: 0; }
+  .day-header .label {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--muted);
+  }
+  .day-header h1 {
+    font-size: 56px; font-weight: 400; letter-spacing: -0.024em;
+    line-height: 1.1; margin: 8px 0 16px;
+  }
+  .day-header .meta-row {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 12px;
+  }
+  .badge {
+    display: inline-flex; align-items: center;
+    background: var(--surface-strong); color: var(--ink);
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase; padding: 4px 10px;
+    border-radius: 9999px;
+  }
+  .meta-text { font-size: 14px; color: var(--muted); }
+
+  .audio-card {
+    margin: 32px 0 16px;
+    background: var(--surface-card);
+    border: 1px solid var(--hairline);
+    border-radius: 12px;
+    padding: 16px 20px;
+    display: flex; align-items: center; gap: 16px;
+  }
+  .audio-label {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--muted);
+    flex-shrink: 0;
+  }
+  audio { flex: 1; min-width: 0; height: 36px; }
+
+  /* ----- Practice toolbar ----- */
+  .practice-bar {
+    display: flex; align-items: center; gap: 8px;
+    margin: 0 0 16px;
+    flex-wrap: wrap;
+  }
+  .practice-label {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--muted);
+    margin-right: 4px;
+  }
+  .practice-btn {
+    background: var(--surface-card);
+    border: 1px solid var(--hairline-strong);
+    color: var(--ink);
+    font: inherit; font-size: 13px; font-weight: 500;
+    padding: 6px 14px;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background 120ms ease, border-color 120ms ease, color 120ms ease;
+  }
+  .practice-btn:hover { background: var(--surface-strong); }
+  .practice-btn.active {
+    background: var(--ink); color: var(--canvas);
+    border-color: var(--ink);
+  }
+  .practice-hint {
+    font-size: 12px; color: var(--muted);
+    margin-left: 4px;
+  }
+
+  .vocab-card {
+    background: var(--surface-card);
+    border: 1px solid var(--hairline);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  table { width: 100%; border-collapse: collapse; }
+  thead th {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--muted);
+    background: var(--canvas-soft);
+    text-align: left;
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  tbody td {
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--hairline-soft);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: 0; }
+  tbody tr.match { background: var(--canvas-soft); }
+  tbody tr.dim { opacity: 0.35; }
+  td.idx {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px; color: var(--muted);
+    width: 48px;
+  }
+  td.word {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15px; font-weight: 500;
+    width: 38%;
+    word-break: break-word;
+  }
+  td.gloss {
+    color: var(--body);
+    font-size: 16px;
+    font-family: 'Noto Serif TC', 'Inter', system-ui, sans-serif;
+  }
+
+  /* Practice masking — applied to the vocab-card */
+  .vocab-card.hide-en td.word,
+  .vocab-card.hide-zh td.gloss {
+    cursor: pointer;
+    user-select: none;
+  }
+  .vocab-card.hide-en td.word .content,
+  .vocab-card.hide-zh td.gloss .content {
+    visibility: hidden;
+  }
+  .vocab-card.hide-en td.word::after,
+  .vocab-card.hide-zh td.gloss::after {
+    content: '— tap to reveal —';
+    position: absolute;
+    left: 20px; top: 50%; transform: translateY(-50%);
+    color: var(--muted-soft);
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 12px; font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    pointer-events: none;
+  }
+  .vocab-card.hide-en td.word.revealed .content,
+  .vocab-card.hide-zh td.gloss.revealed .content {
+    visibility: visible;
+  }
+  .vocab-card.hide-en td.word.revealed::after,
+  .vocab-card.hide-zh td.gloss.revealed::after {
+    display: none;
+  }
+  .vocab-card.hide-en td.word,
+  .vocab-card.hide-zh td.gloss {
+    position: relative;
+  }
+  mark {
+    background: var(--accent-mark);
+    color: var(--ink);
+    padding: 0 2px;
+    border-radius: 2px;
+  }
+
+  /* ----- Footer pager ----- */
+  .pager {
+    margin-top: 48px;
+    display: flex; justify-content: space-between; gap: 16px;
+    border-top: 1px solid var(--hairline-soft);
+    padding-top: 24px;
+  }
+  .pager a {
+    flex: 1; padding: 16px;
+    background: var(--surface-card);
+    border: 1px solid var(--hairline);
+    border-radius: 12px;
+    text-decoration: none; color: var(--ink);
+    transition: border-color 120ms ease;
+  }
+  .pager a:hover { border-color: var(--hairline-strong); }
+  .pager a.next { text-align: right; }
+  .pager .label {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--muted);
+  }
+  .pager .theme {
+    margin-top: 4px; font-size: 18px;
+  }
+  .pager a.disabled {
+    opacity: 0.35; pointer-events: none;
+  }
+
+  /* ----- Empty state ----- */
+  .empty {
+    padding: 64px 24px; text-align: center;
+    color: var(--muted);
+    border: 1px dashed var(--hairline-strong);
+    border-radius: 12px;
+    background: var(--canvas-soft);
+  }
+
+  /* ----- Footer ----- */
+  .site-footer {
+    border-top: 1px solid var(--hairline);
+    padding: 32px 0;
+    margin-top: 48px;
+  }
+  .site-footer .inner {
+    max-width: 1280px; margin: 0 auto; padding: 0 24px;
+    display: flex; flex-wrap: wrap; gap: 24px; justify-content: space-between;
+    font-size: 13px; color: var(--muted);
+  }
+  .site-footer code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px; color: var(--body);
+  }
+
+  /* ----- Responsive ----- */
+  @media (max-width: 960px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar {
+      position: static; height: auto; max-height: 360px;
+      padding-top: 0;
+    }
+    .day-header h1 { font-size: 36px; }
+    .pager .theme { font-size: 14px; }
+  }
+  @media (max-width: 640px) {
+    .top-nav .inner { gap: 12px; padding: 0 16px; }
+    .nav-meta { display: none; }
+    .layout { padding: 0 16px; }
+    .day-header h1 { font-size: 28px; }
+    td.word { font-size: 14px; }
+    td.gloss { font-size: 14px; }
+    th, td { padding: 10px 12px !important; }
+  }
+
+  /* ----- Reduced motion ----- */
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<header class="top-nav">
+  <div class="inner">
+    <a href="#" class="brand" id="brand-link">Hackers TOEIC <span class="accent">Basic</span></a>
+    <div class="search-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="7"></circle>
+        <line x1="20" y1="20" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input id="search" class="search-input" type="search" placeholder="Search words or 中文 glosses…" autocomplete="off">
+    </div>
+    <div class="nav-meta">1,242 · 30 days</div>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="label">Index</div>
+      <div class="title">30 Days</div>
+    </div>
+    <ul class="day-list" id="day-list"></ul>
+  </aside>
+
+  <main class="main" id="main"></main>
+</div>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div>Generated from <code>data/1-basic/all.json</code> · Audio at <code>nebo/toeic/1-basic/</code></div>
+    <div>Use <code>←</code> / <code>→</code> to step days · <code>R</code> to cycle practice mode · <code>/</code> to focus search</div>
+  </div>
+</footer>
+
+<script id="data" type="application/json">[{"day": 1, "theme": "應徵失業", "category": "雇用", "page": 22, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day01.mp3", "vocab": [{"word": "resume", "meaning_zh": ["履歷表"]}, {"word": "opening", "meaning_zh": ["空缺", "職缺", "開張", "開始"]}, {"word": "applicant", "meaning_zh": ["申請者", "應徵者"]}, {"word": "requirement", "meaning_zh": ["必要條件"]}, {"word": "meet", "meaning_zh": ["滿足", "符合"]}, {"word": "qualified", "meaning_zh": ["有資格的", "勝任的"]}, {"word": "candidate", "meaning_zh": ["候選者", "應徵者"]}, {"word": "confidence", "meaning_zh": ["信心", "自信", "信任"]}, {"word": "highly", "meaning_zh": ["很", "非常"]}, {"word": "professional", "meaning_zh": ["專業的", "職業的", "專家"]}, {"word": "interview", "meaning_zh": ["面試"]}, {"word": "hire", "meaning_zh": ["僱用"]}, {"word": "training", "meaning_zh": ["訓練"]}, {"word": "reference", "meaning_zh": ["推薦信", "參考"]}, {"word": "position", "meaning_zh": ["職位", "位置", "放置"]}, {"word": "achievement", "meaning_zh": ["成就", "達成"]}, {"word": "impress", "meaning_zh": ["感到印象深刻的"]}, {"word": "excellent", "meaning_zh": ["優秀的", "傑出的"]}, {"word": "eligible", "meaning_zh": ["有資格的", "合適的"]}, {"word": "identify", "meaning_zh": ["辨認", "認出"]}, {"word": "associate", "meaning_zh": ["使有關聯"]}, {"word": "condition", "meaning_zh": ["條件"]}, {"word": "employment", "meaning_zh": ["僱用"]}, {"word": "lack", "meaning_zh": ["缺乏"]}, {"word": "managerial", "meaning_zh": ["管理的"]}, {"word": "diligent", "meaning_zh": ["勤奮的"]}, {"word": "familiar", "meaning_zh": ["熟悉的", "親近的"]}, {"word": "proficiency", "meaning_zh": ["熟練", "精通"]}, {"word": "prospective", "meaning_zh": ["預期的", "未來的"]}, {"word": "appeal", "meaning_zh": ["呼籲", "有吸引力"]}, {"word": "specialize", "meaning_zh": ["專攻", "專門從事"]}, {"word": "apprehensive", "meaning_zh": ["擔心的", "憂慮的"]}, {"word": "consultant", "meaning_zh": ["顧問"]}, {"word": "entitle", "meaning_zh": ["給某人權利"]}, {"word": "degree", "meaning_zh": ["學位"]}, {"word": "payroll", "meaning_zh": ["薪水帳冊", "發薪名單"]}, {"word": "recruit", "meaning_zh": ["招募"]}, {"word": "certification", "meaning_zh": ["證明"]}, {"word": "occupation", "meaning_zh": ["職業"]}, {"word": "wage", "meaning_zh": ["工資", "薪水"]}]}, {"day": 2, "theme": "雇用規定", "category": "規則、法律", "page": 40, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day02.mp3", "vocab": [{"word": "attire", "meaning_zh": ["服裝", "衣著"]}, {"word": "code", "meaning_zh": ["規範", "慣例", "密碼"]}, {"word": "concern", "meaning_zh": ["擔心", "憂慮", "使擔心", "關係到", "影響到"]}, {"word": "policy", "meaning_zh": ["政策", "規定", "保單"]}, {"word": "comply", "meaning_zh": ["遵守", "遵從"]}, {"word": "regulation", "meaning_zh": ["規定"]}, {"word": "exception", "meaning_zh": ["例外"]}, {"word": "adhere", "meaning_zh": ["遵守", "堅持"]}, {"word": "severely", "meaning_zh": ["嚴厲地", "嚴重地"]}, {"word": "refrain", "meaning_zh": ["剋制", "抑制"]}, {"word": "permission", "meaning_zh": ["允許", "許可"]}, {"word": "access", "meaning_zh": ["使用權", "接近", "通道", "存取電腦資料等"]}, {"word": "thoroughly", "meaning_zh": ["徹底地", "完全地", "非常"]}, {"word": "revise", "meaning_zh": ["修訂", "變更"]}, {"word": "approach", "meaning_zh": ["接近", "處理方法"]}, {"word": "approval", "meaning_zh": ["批准", "認可"]}, {"word": "form", "meaning_zh": ["種類", "類型", "形式"]}, {"word": "immediately", "meaning_zh": ["立即", "馬上"]}, {"word": "inspection", "meaning_zh": ["檢查", "視察"]}, {"word": "arrangement", "meaning_zh": ["安排", "準備", "佈局"]}, {"word": "procedure", "meaning_zh": ["程序"]}, {"word": "negative", "meaning_zh": ["負面的", "消極的"]}, {"word": "mandate", "meaning_zh": ["使什麼成為必須的", "授權給", "授權", "命令"]}, {"word": "effect", "meaning_zh": ["效力", "效果", "影響", "造成"]}, {"word": "drastically", "meaning_zh": ["激烈地", "大幅地", "徹底地"]}, {"word": "according to", "meaning_zh": ["根據", "依照"]}, {"word": "enable", "meaning_zh": ["使某人能夠"]}, {"word": "standard", "meaning_zh": ["標準", "規範"]}, {"word": "constant", "meaning_zh": ["持續地", "不斷地"]}, {"word": "act", "meaning_zh": ["法案", "法令", "行為", "行動", "擔當"]}, {"word": "compensation", "meaning_zh": ["補償金", "報償"]}, {"word": "ban", "meaning_zh": ["禁止", "禁令"]}, {"word": "obligation", "meaning_zh": ["義務", "責任"]}, {"word": "authorize", "meaning_zh": ["批准", "授權某人做某事"]}, {"word": "prohibit", "meaning_zh": ["禁止"]}, {"word": "abolish", "meaning_zh": ["廢除"]}, {"word": "enforce", "meaning_zh": ["執行", "實施法律等"]}, {"word": "habit", "meaning_zh": ["習慣"]}, {"word": "legislation", "meaning_zh": ["立法", "法律", "法規"]}, {"word": "restrict", "meaning_zh": ["限制", "限定"]}]}, {"day": 3, "theme": "工作達人", "category": "一般工作 (1)", "page": 58, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day03.mp3", "vocab": [{"word": "accustomed", "meaning_zh": ["習慣的"]}, {"word": "corporation", "meaning_zh": ["股份公司", "法人"]}, {"word": "demanding", "meaning_zh": ["要求很多的", "吃力的"]}, {"word": "colleague", "meaning_zh": ["同時"]}, {"word": "division", "meaning_zh": ["部門"]}, {"word": "request", "meaning_zh": ["要求"]}, {"word": "efficiently", "meaning_zh": ["有效率的"]}, {"word": "manage", "meaning_zh": ["經營", "管理", "設法做到", "勉強做到"]}, {"word": "submit", "meaning_zh": ["提交"]}, {"word": "directly", "meaning_zh": ["直接的"]}, {"word": "remind", "meaning_zh": ["提醒", "使想起"]}, {"word": "instruct", "meaning_zh": ["指示", "教導"]}, {"word": "deadline", "meaning_zh": ["截止期限", "最後期限"]}, {"word": "sample", "meaning_zh": ["樣本", "樣品", "試用品", "試吃", "抽樣檢查"]}, {"word": "notify", "meaning_zh": ["通知", "告知"]}, {"word": "perform", "meaning_zh": ["執行", "實施"]}, {"word": "monitor", "meaning_zh": ["監視", "監控", "監督"]}, {"word": "deserve", "meaning_zh": ["值得", "應該得到"]}, {"word": "assignment", "meaning_zh": ["工作", "任務", "作業"]}, {"word": "entire", "meaning_zh": ["整個的"]}, {"word": "release", "meaning_zh": ["發表", "公開", "發行", "上市"]}, {"word": "extension", "meaning_zh": ["延長", "延期", "分機"]}, {"word": "electronically", "meaning_zh": ["以電子方式地"]}, {"word": "attendance", "meaning_zh": ["出席", "出勤"]}, {"word": "absolutely", "meaning_zh": ["絕對的", "完全的"]}, {"word": "delegate", "meaning_zh": ["委任"]}, {"word": "attentively", "meaning_zh": ["專心地", "聚精會神地"]}, {"word": "supervision", "meaning_zh": ["監督"]}, {"word": "workshop", "meaning_zh": ["專題討論會", "工作坊"]}, {"word": "draw", "meaning_zh": ["拉", "吸引"]}, {"word": "revision", "meaning_zh": ["修訂"]}, {"word": "reluctantly", "meaning_zh": ["不情願的", "勉強的"]}, {"word": "acquaint", "meaning_zh": ["使認識", "使熟悉"]}, {"word": "convey", "meaning_zh": ["傳達"]}, {"word": "check", "meaning_zh": ["檢查", "查明", "確認"]}, {"word": "headquarters", "meaning_zh": ["總部", "總公司"]}, {"word": "file", "meaning_zh": ["把什麼歸檔", "正式提起或提出"]}, {"word": "oversee", "meaning_zh": ["監督"]}, {"word": "involved", "meaning_zh": ["有關的", "牽涉在內的"]}, {"word": "concentrate", "meaning_zh": ["集中", "專注"]}]}, {"day": 4, "theme": "工作職缺", "category": "一般工作 (2)", "page": 76, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day04.mp3", "vocab": [{"word": "lax", "meaning_zh": ["鬆懈的", "散漫的"]}, {"word": "procrastinate", "meaning_zh": ["拖延"]}, {"word": "combined", "meaning_zh": ["聯合的", "結合的"]}, {"word": "accomplish", "meaning_zh": ["達成"]}, {"word": "voluntarily", "meaning_zh": ["自願地", "自動自發地"]}, {"word": "undertake", "meaning_zh": ["從事", "承擔工作等"]}, {"word": "assume", "meaning_zh": ["假定", "以為", "承擔"]}, {"word": "occasionally", "meaning_zh": ["偶爾"]}, {"word": "employee", "meaning_zh": ["員工", "受僱者"]}, {"word": "assist", "meaning_zh": ["協助", "援助"]}, {"word": "satisfied", "meaning_zh": ["感到滿意的", "滿足的"]}, {"word": "manner", "meaning_zh": ["方式", "態度"]}, {"word": "responsible", "meaning_zh": ["應該負責的", "負責任的"]}, {"word": "conduct", "meaning_zh": ["進行"]}, {"word": "adjust", "meaning_zh": ["調整", "適應"]}, {"word": "personnel", "meaning_zh": ["員工", "人員", "人事部門"]}, {"word": "agree", "meaning_zh": ["同意"]}, {"word": "supervise", "meaning_zh": ["監督", "指導"]}, {"word": "coworker", "meaning_zh": ["同事", "共同工作者"]}, {"word": "direct", "meaning_zh": ["引導", "指揮", "指導"]}, {"word": "confidential", "meaning_zh": ["機密的", "秘密的"]}, {"word": "assign", "meaning_zh": ["分配", "指派"]}, {"word": "leading", "meaning_zh": ["領導的", "領先的", "主要的"]}, {"word": "formal", "meaning_zh": ["正式的"]}, {"word": "remove", "meaning_zh": ["去除", "把某人免職"]}, {"word": "collect", "meaning_zh": ["收集", "收取"]}, {"word": "coordinate", "meaning_zh": ["協調"]}, {"word": "hardly", "meaning_zh": ["幾乎不"]}, {"word": "abstract", "meaning_zh": ["抽象的"]}, {"word": "directory", "meaning_zh": ["通訊錄", "工商名錄", "電話簿"]}, {"word": "accountable", "meaning_zh": ["應負責任的"]}, {"word": "skillfully", "meaning_zh": ["巧妙地", "熟練地"]}, {"word": "exclusive", "meaning_zh": ["獨有的", "排外的"]}, {"word": "intention", "meaning_zh": ["意圖", "意向"]}, {"word": "transform", "meaning_zh": ["改變", "轉變"]}, {"word": "respectful", "meaning_zh": ["尊重的", "尊敬的"]}, {"word": "duplicate", "meaning_zh": ["副本"]}, {"word": "contrary", "meaning_zh": ["相反"]}, {"word": "disturbing", "meaning_zh": ["令人不安的", "令人焦慮的", "煩擾人的"]}, {"word": "engage", "meaning_zh": ["參加", "從事"]}, {"word": "foster", "meaning_zh": ["促進", "培養"]}, {"word": "neutrality", "meaning_zh": ["中立", "中立性"]}, {"word": "widely", "meaning_zh": ["廣泛地"]}, {"word": "externally", "meaning_zh": ["外部的", "外在的"]}]}, {"day": 5, "theme": "秘密武器", "category": "一般工作 (3)", "page": 94, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day05.mp3", "vocab": [{"word": "sophisticated", "meaning_zh": ["精密的", "複雜的", "高雅的"]}, {"word": "timely", "meaning_zh": ["及時的", "適時的"]}, {"word": "realistically", "meaning_zh": ["實際上", "在現實情況下"]}, {"word": "promptly", "meaning_zh": ["迅速地", "準時地"]}, {"word": "accessible", "meaning_zh": ["可進入的", "可利用的"]}, {"word": "implement", "meaning_zh": ["實施", "執行"]}, {"word": "feedback", "meaning_zh": ["回饋意見", "反響"]}, {"word": "outstanding", "meaning_zh": ["傑出的", "未償付的"]}, {"word": "inform", "meaning_zh": ["通知"]}, {"word": "replacement", "meaning_zh": ["代替", "代替物", "代替者"]}, {"word": "announcement", "meaning_zh": ["公告", "宣佈"]}, {"word": "department", "meaning_zh": ["部門"]}, {"word": "permanently", "meaning_zh": ["永久地"]}, {"word": "fulfill", "meaning_zh": ["滿足", "履行"]}, {"word": "outline", "meaning_zh": ["概要", "大綱", "概述", "略述"]}, {"word": "explain", "meaning_zh": ["說明"]}, {"word": "contain", "meaning_zh": ["包含", "容納"]}, {"word": "compile", "meaning_zh": ["彙整資料等", "收集"]}, {"word": "subsequent", "meaning_zh": ["後來的", "隨後的"]}, {"word": "overview", "meaning_zh": ["概要", "概觀"]}, {"word": "provider", "meaning_zh": ["供應商", "提供者"]}, {"word": "matter", "meaning_zh": ["問題", "事情"]}, {"word": "expertise", "meaning_zh": ["專門知識", "專門技術"]}, {"word": "demonstrate", "meaning_zh": ["證明", "說明", "示範操作"]}, {"word": "remainder", "meaning_zh": ["剩餘"]}, {"word": "essential", "meaning_zh": ["必要的", "不可或缺的", "本質上的"]}, {"word": "divide", "meaning_zh": ["劃分", "分開"]}, {"word": "major", "meaning_zh": ["主要的", "重大的"]}, {"word": "compliance", "meaning_zh": ["遵守"]}, {"word": "clarify", "meaning_zh": ["闡明"]}, {"word": "face", "meaning_zh": ["面對", "面向", "正對"]}, {"word": "follow", "meaning_zh": ["跟隨", "密切注意", "聽懂", "瞭解"]}, {"word": "aspect", "meaning_zh": ["觀點", "方面"]}, {"word": "apparently", "meaning_zh": ["顯然", "看來", "似乎"]}, {"word": "aware", "meaning_zh": ["知道的", "意識到的"]}, {"word": "extended", "meaning_zh": ["延長的", "延伸的"]}, {"word": "accidentally", "meaning_zh": ["意外地", "偶然地"]}, {"word": "advisable", "meaning_zh": ["可取的", "明智的"]}, {"word": "concerned", "meaning_zh": ["擔心的", "有關的"]}, {"word": "speak", "meaning_zh": ["講話"]}]}, {"day": 6, "theme": "假日休息", "category": "休閒、社交", "page": 112, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day06.mp3", "vocab": [{"word": "rest", "meaning_zh": ["休息"]}, {"word": "exhibition", "meaning_zh": ["展覽"]}, {"word": "celebrity", "meaning_zh": ["名人"]}, {"word": "live", "meaning_zh": ["現場表演的"]}, {"word": "improvise", "meaning_zh": ["即興演奏"]}, {"word": "popular", "meaning_zh": ["受歡迎的"]}, {"word": "donation", "meaning_zh": ["軍贈"]}, {"word": "alumni", "meaning_zh": ["校友們"]}, {"word": "present", "meaning_zh": ["提出"]}, {"word": "admission", "meaning_zh": ["入場"]}, {"word": "banquet", "meaning_zh": ["宴會"]}, {"word": "anniversary", "meaning_zh": ["週年紀念日"]}, {"word": "required", "meaning_zh": ["必要的"]}, {"word": "succeed", "meaning_zh": ["成功"]}, {"word": "collection", "meaning_zh": ["收藏品"]}, {"word": "fundraising", "meaning_zh": ["募款"]}, {"word": "resume", "meaning_zh": ["繼續"]}, {"word": "issue", "meaning_zh": ["一起"]}, {"word": "subscription", "meaning_zh": ["訂閱"]}, {"word": "appear", "meaning_zh": ["出現"]}, {"word": "accompany", "meaning_zh": ["陪同"]}, {"word": "edition", "meaning_zh": ["版本"]}, {"word": "specifically", "meaning_zh": ["明確地"]}, {"word": "anonymous", "meaning_zh": ["匿名的"]}, {"word": "commit", "meaning_zh": ["奉獻"]}, {"word": "informative", "meaning_zh": ["提供資訊的"]}, {"word": "audience", "meaning_zh": ["聽眾"]}, {"word": "author", "meaning_zh": ["作家"]}, {"word": "note", "meaning_zh": ["注意到"]}, {"word": "antique", "meaning_zh": ["古董"]}, {"word": "manuscript", "meaning_zh": ["手稿"]}, {"word": "beneficial", "meaning_zh": ["有益的"]}, {"word": "upcoming", "meaning_zh": ["即將來臨的"]}, {"word": "lend", "meaning_zh": ["借出"]}, {"word": "current", "meaning_zh": ["現在的"]}, {"word": "local", "meaning_zh": ["地方的"]}, {"word": "variety", "meaning_zh": ["多樣性"]}, {"word": "advocate", "meaning_zh": ["擁護者"]}, {"word": "contributor", "meaning_zh": ["專稿人"]}, {"word": "defy", "meaning_zh": ["反抗"]}, {"word": "fascinating", "meaning_zh": ["迷人的"]}, {"word": "showing", "meaning_zh": ["上映"]}]}, {"day": 7, "theme": "銷售策略", "category": "行銷 (1)", "page": 130, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day07.mp3", "vocab": [{"word": "survey", "meaning_zh": ["調查", "意見調查"]}, {"word": "analysis", "meaning_zh": ["分析"]}, {"word": "respondent", "meaning_zh": ["回答者", "受訪者"]}, {"word": "monopoly", "meaning_zh": ["獨佔", "壟斷"]}, {"word": "competition", "meaning_zh": ["競爭"]}, {"word": "consistently", "meaning_zh": ["一貫地", "始終如一地"]}, {"word": "demand", "meaning_zh": ["需求", "要求"]}, {"word": "do one's utmost", "meaning_zh": ["盡什麼的全力"]}, {"word": "expand", "meaning_zh": ["擴張", "擴大"]}, {"word": "advanced", "meaning_zh": ["高級的", "先進的"]}, {"word": "postpone", "meaning_zh": ["使延期", "延後"]}, {"word": "additional", "meaning_zh": ["額外的", "附加的"]}, {"word": "appreciate", "meaning_zh": ["感謝", "賞識", "欣賞"]}, {"word": "demonstration", "meaning_zh": ["證明", "說明", "示範操作"]}, {"word": "buy", "meaning_zh": ["買", "購買"]}, {"word": "examine", "meaning_zh": ["檢視", "審問"]}, {"word": "effective", "meaning_zh": ["有效的", "生效的", "已實行的"]}, {"word": "like", "meaning_zh": ["喜歡"]}, {"word": "especially", "meaning_zh": ["尤其", "特別"]}, {"word": "closely", "meaning_zh": ["仔細地", "密切地"]}, {"word": "reserve", "meaning_zh": ["預約", "保留", "保存"]}, {"word": "cooperate", "meaning_zh": ["協力", "合作"]}, {"word": "very", "meaning_zh": ["非常", "很"]}, {"word": "consecutive", "meaning_zh": ["連續的"]}, {"word": "expectation", "meaning_zh": ["預期", "期待"]}, {"word": "publicize", "meaning_zh": ["公佈", "宣傳"]}, {"word": "raise", "meaning_zh": ["提高", "增加", "提出"]}, {"word": "extremely", "meaning_zh": ["極度地", "非常"]}, {"word": "affect", "meaning_zh": ["影響", "對什麼產生不好的作用"]}, {"word": "target", "meaning_zh": ["目標", "以什麼為目標"]}, {"word": "campaign", "meaning_zh": ["宣傳活動", "競選活動"]}, {"word": "probable", "meaning_zh": ["有可能的"]}, {"word": "focus", "meaning_zh": ["聚焦", "集中"]}, {"word": "seasonal", "meaning_zh": ["季節的", "季節性的"]}, {"word": "impact", "meaning_zh": ["影響", "衝擊"]}, {"word": "comparison", "meaning_zh": ["比較"]}, {"word": "gap", "meaning_zh": ["差距"]}, {"word": "mounting", "meaning_zh": ["增加中的", "上升中的"]}, {"word": "reflective", "meaning_zh": ["反映的"]}]}, {"day": 8, "theme": "國際行銷", "category": "行銷 (2)", "page": 150, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day08.mp3", "vocab": [{"word": "advertisement", "meaning_zh": ["廣告"]}, {"word": "marginal", "meaning_zh": ["微小的", "邊緣的"]}, {"word": "customer", "meaning_zh": ["顧客"]}, {"word": "influence", "meaning_zh": ["影響"]}, {"word": "instantly", "meaning_zh": ["立即", "馬上"]}, {"word": "creative", "meaning_zh": ["創造性的", "有創意的"]}, {"word": "aggressively", "meaning_zh": ["積極的"]}, {"word": "aim", "meaning_zh": ["以什麼為目標", "目標", "目的"]}, {"word": "strategy", "meaning_zh": ["策略"]}, {"word": "indicate", "meaning_zh": ["指出", "顯示"]}, {"word": "attract", "meaning_zh": ["吸引", "引起"]}, {"word": "experience", "meaning_zh": ["經驗", "體驗", "經歷"]}, {"word": "analyze", "meaning_zh": ["分析"]}, {"word": "introduce", "meaning_zh": ["介紹", "發表"]}, {"word": "advise", "meaning_zh": ["勸告", "建議"]}, {"word": "subscribe", "meaning_zh": ["訂閱"]}, {"word": "absence", "meaning_zh": ["不在", "缺少", "缺席", "缺勤"]}, {"word": "means", "meaning_zh": ["方法", "手段"]}, {"word": "prefer", "meaning_zh": ["和其他相比更喜歡", "偏好"]}, {"word": "advantage", "meaning_zh": ["優點", "優勢"]}, {"word": "forward", "meaning_zh": ["向前", "轉交", "轉寄"]}, {"word": "contemporary", "meaning_zh": ["同時代的", "當代的", "現代的"]}, {"word": "discussion", "meaning_zh": ["討論", "談論"]}, {"word": "initial", "meaning_zh": ["開始的", "最初的"]}, {"word": "steadily", "meaning_zh": ["平穩地", "穩定地"]}, {"word": "necessarily", "meaning_zh": ["必然"]}, {"word": "resolve", "meaning_zh": ["解決"]}, {"word": "detect", "meaning_zh": ["察覺", "發現"]}, {"word": "intensify", "meaning_zh": ["強化", "增強", "使什麼變強烈"]}, {"word": "favorably", "meaning_zh": ["善意地", "順利地"]}, {"word": "cover", "meaning_zh": ["包含", "支付", "覆蓋"]}, {"word": "less", "meaning_zh": ["較小的"]}, {"word": "majority", "meaning_zh": ["大部分", "大多數"]}, {"word": "adopt", "meaning_zh": ["採納"]}, {"word": "largely", "meaning_zh": ["大部分", "主要"]}, {"word": "disregard", "meaning_zh": ["不理會", "忽視"]}, {"word": "effort", "meaning_zh": ["努力"]}, {"word": "incentive", "meaning_zh": ["誘因", "獎金"]}, {"word": "need", "meaning_zh": ["需要", "需求"]}, {"word": "mastermind", "meaning_zh": ["策劃者"]}]}, {"day": 9, "theme": "拯救經濟", "category": "經濟", "page": 168, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day09.mp3", "vocab": [{"word": "stagnant", "meaning_zh": ["停滯的", "不景氣的"]}, {"word": "dramatically", "meaning_zh": ["戲劇性的"]}, {"word": "brisk", "meaning_zh": ["活潑的", "興旺的"]}, {"word": "unstable", "meaning_zh": ["不穩定的", "易變的"]}, {"word": "rapidly", "meaning_zh": ["迅速的", "很快的"]}, {"word": "soar", "meaning_zh": ["高升", "急漲"]}, {"word": "assert", "meaning_zh": ["斷言", "主張"]}, {"word": "boost", "meaning_zh": ["推動", "促進", "使上升"]}, {"word": "analyst", "meaning_zh": ["分析師"]}, {"word": "potential", "meaning_zh": ["潛在的", "潛力", "可能性"]}, {"word": "pleased", "meaning_zh": ["滿意的", "高興的"]}, {"word": "remain", "meaning_zh": ["維持什麼的狀態", "仍然有待"]}, {"word": "limited", "meaning_zh": ["有限的"]}, {"word": "costly", "meaning_zh": ["昂貴的", "代價高的"]}, {"word": "particular", "meaning_zh": ["特定的"]}, {"word": "drastic", "meaning_zh": ["激烈的", "猛烈的", "徹底的"]}, {"word": "evenly", "meaning_zh": ["均勻的", "平均的"]}, {"word": "evidence", "meaning_zh": ["證據"]}, {"word": "prospect", "meaning_zh": ["展望", "預期"]}, {"word": "lead", "meaning_zh": ["領導", "引導", "導致"]}, {"word": "fall", "meaning_zh": ["下降"]}, {"word": "period", "meaning_zh": ["期間", "時期"]}, {"word": "indicator", "meaning_zh": ["指標"]}, {"word": "industry", "meaning_zh": ["工業", "產業"]}, {"word": "likely", "meaning_zh": ["很可能的"]}, {"word": "boom", "meaning_zh": ["繁榮", "興盛"]}, {"word": "director", "meaning_zh": ["主管", "董事"]}, {"word": "substitute", "meaning_zh": ["代替品", "代替"]}, {"word": "consequence", "meaning_zh": ["結果", "後果"]}, {"word": "fairly", "meaning_zh": ["相當", "頗為"]}, {"word": "economical", "meaning_zh": ["經濟的", "節約的"]}, {"word": "thrive", "meaning_zh": ["繁榮", "成功"]}, {"word": "implication", "meaning_zh": ["暗示", "可能造成的影響"]}, {"word": "wane", "meaning_zh": ["減少", "衰退"]}, {"word": "prosperity", "meaning_zh": ["繁榮"]}, {"word": "depression", "meaning_zh": ["不景氣", "蕭條"]}, {"word": "dwindle", "meaning_zh": ["逐漸減少", "逐漸變小"]}, {"word": "impede", "meaning_zh": ["妨礙", "阻礙"]}, {"word": "promising", "meaning_zh": ["有希望的", "有前途的"]}, {"word": "adversity", "meaning_zh": ["逆境", "不幸"]}]}, {"day": 10, "theme": "購物高手", "category": "購物", "page": 184, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day10.mp3", "vocab": [{"word": "purchase", "meaning_zh": ["購買"]}, {"word": "price", "meaning_zh": ["價格"]}, {"word": "affordable", "meaning_zh": ["價格負擔得起的", "實惠的"]}, {"word": "exactly", "meaning_zh": ["確切地", "正好"]}, {"word": "installment", "meaning_zh": ["分期付款"]}, {"word": "notice", "meaning_zh": ["通知", "公告"]}, {"word": "charge", "meaning_zh": ["收費", "費用", "責任"]}, {"word": "experience", "meaning_zh": ["有經驗的", "熟練的"]}, {"word": "instruction", "meaning_zh": ["使用說明", "指示"]}, {"word": "expert", "meaning_zh": ["專家", "專門的", "專業的"]}, {"word": "warranty", "meaning_zh": ["保證", "保證書"]}, {"word": "refund", "meaning_zh": ["退款"]}, {"word": "subscriber", "meaning_zh": ["訂閱者", "用戶"]}, {"word": "delivery", "meaning_zh": ["運送", "交貨"]}, {"word": "receipt", "meaning_zh": ["收據"]}, {"word": "carefully", "meaning_zh": ["小心謹慎的", "仔細的"]}, {"word": "offer", "meaning_zh": ["提供", "優惠"]}, {"word": "benefit", "meaning_zh": ["利益", "好處", "受益", "受惠"]}, {"word": "exclusively", "meaning_zh": ["獨佔的", "排外的"]}, {"word": "description", "meaning_zh": ["說明", "描述"]}, {"word": "relatively", "meaning_zh": ["相對的"]}, {"word": "preparation", "meaning_zh": ["準備工作"]}, {"word": "spare", "meaning_zh": ["節省", "另期", "備用的", "剩下的"]}, {"word": "area", "meaning_zh": ["地區", "區域"]}, {"word": "clearance", "meaning_zh": ["清除", "清空", "權限"]}, {"word": "alter", "meaning_zh": ["改變", "修改"]}, {"word": "apply", "meaning_zh": ["適用", "應用", "申請"]}, {"word": "mutually", "meaning_zh": ["互相", "彼此"]}, {"word": "method", "meaning_zh": ["方法", "方式"]}, {"word": "acceptable", "meaning_zh": ["可接受的", "還可以的"]}, {"word": "desire", "meaning_zh": ["渴望", "慾望", "想要"]}, {"word": "redeemable", "meaning_zh": ["可兌換的", "可償還的"]}, {"word": "officially", "meaning_zh": ["正式的"]}, {"word": "consumption", "meaning_zh": ["消費", "消耗"]}, {"word": "qualify", "meaning_zh": ["實務人有資格"]}, {"word": "fabric", "meaning_zh": ["布料"]}, {"word": "auction", "meaning_zh": ["拍賣"]}, {"word": "authentic", "meaning_zh": ["真正的", "正統的"]}, {"word": "valid", "meaning_zh": ["有效的"]}, {"word": "vendor", "meaning_zh": ["小販", "攤販", "賣家", "供應商"]}]}, {"day": 11, "theme": "新產品上市", "category": "產品開發", "page": 204, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day11.mp3", "vocab": [{"word": "research", "meaning_zh": ["研究"]}, {"word": "devise", "meaning_zh": ["設計出來"]}, {"word": "revolutionary", "meaning_zh": ["革命性的"]}, {"word": "innovative", "meaning_zh": ["創新的"]}, {"word": "feature", "meaning_zh": ["特徵"]}, {"word": "inspiration", "meaning_zh": ["靈感"]}, {"word": "sufficiently", "meaning_zh": ["充足地"]}, {"word": "patent", "meaning_zh": ["專利"]}, {"word": "envision", "meaning_zh": ["想象"]}, {"word": "extend", "meaning_zh": ["延長"]}, {"word": "following", "meaning_zh": ["在什麼之後"]}, {"word": "intend", "meaning_zh": ["打算"]}, {"word": "grant", "meaning_zh": ["授予"]}, {"word": "allow", "meaning_zh": ["允許"]}, {"word": "inspect", "meaning_zh": ["檢查"]}, {"word": "improve", "meaning_zh": ["改善"]}, {"word": "increasingly", "meaning_zh": ["漸增地"]}, {"word": "invest", "meaning_zh": ["投資"]}, {"word": "various", "meaning_zh": ["各式各樣的"]}, {"word": "upgrade", "meaning_zh": ["升級"]}, {"word": "manual", "meaning_zh": ["說明書"]}, {"word": "explore", "meaning_zh": ["探勘"]}, {"word": "response", "meaning_zh": ["答覆"]}, {"word": "appearance", "meaning_zh": ["外觀"]}, {"word": "successful", "meaning_zh": ["成功的"]}, {"word": "hold", "meaning_zh": ["容納"]}, {"word": "advance", "meaning_zh": ["進步"]}, {"word": "reliable", "meaning_zh": ["可信賴的"]}, {"word": "quality", "meaning_zh": ["品質"]}, {"word": "domestic", "meaning_zh": ["國內的"]}, {"word": "development", "meaning_zh": ["開發"]}, {"word": "availability", "meaning_zh": ["可得性"]}, {"word": "update", "meaning_zh": ["更新"]}, {"word": "accurate", "meaning_zh": ["精確的"]}, {"word": "complicated", "meaning_zh": ["複雜的"]}, {"word": "accomplished", "meaning_zh": ["熟練的"]}, {"word": "inquiry", "meaning_zh": ["諮詢"]}, {"word": "indication", "meaning_zh": ["徵兆"]}, {"word": "manufacturer", "meaning_zh": ["製造商"]}, {"word": "compatible", "meaning_zh": ["相容的"]}, {"word": "superior", "meaning_zh": ["優秀的"]}, {"word": "absolute", "meaning_zh": ["絕對的"]}, {"word": "broaden", "meaning_zh": ["拓展"]}, {"word": "corrosion", "meaning_zh": ["腐蝕"]}, {"word": "remotely", "meaning_zh": ["遠程地"]}]}, {"day": 12, "theme": "工廠自動化", "category": "生產", "page": 222, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day12.mp3", "vocab": [{"word": "equipment", "meaning_zh": ["設備", "裝備"]}, {"word": "automate", "meaning_zh": ["自動化"]}, {"word": "specification", "meaning_zh": ["名氣單", "說明書", "規格"]}, {"word": "properly", "meaning_zh": ["適當地", "正確地"]}, {"word": "safety", "meaning_zh": ["安全"]}, {"word": "precaution", "meaning_zh": ["預防措施"]}, {"word": "operate", "meaning_zh": ["運作", "操作"]}, {"word": "processing", "meaning_zh": ["加工", "處理"]}, {"word": "capacity", "meaning_zh": ["能力", "容量", "容納量", "職位"]}, {"word": "assemble", "meaning_zh": ["組裝", "交集"]}, {"word": "utilize", "meaning_zh": ["利用"]}, {"word": "place", "meaning_zh": ["使什麼處於某種狀態"]}, {"word": "fill", "meaning_zh": ["裝滿", "滿足訂單需求"]}, {"word": "manufacturing", "meaning_zh": ["製造的"]}, {"word": "renovate", "meaning_zh": ["翻新", "翻修"]}, {"word": "decision", "meaning_zh": ["決定"]}, {"word": "material", "meaning_zh": ["材料", "質料"]}, {"word": "success", "meaning_zh": ["成功", "成就"]}, {"word": "attribute", "meaning_zh": ["把什麼歸因於"]}, {"word": "efficiency", "meaning_zh": ["效率", "效能"]}, {"word": "limit", "meaning_zh": ["限制", "界限"]}, {"word": "tailored", "meaning_zh": ["量身定做的", "依要求定做的"]}, {"word": "component", "meaning_zh": ["零件", "構成要素"]}, {"word": "capable", "meaning_zh": ["有能力的"]}, {"word": "economize", "meaning_zh": ["節約", "節省"]}, {"word": "flexible", "meaning_zh": ["靈活的", "有彈性的", "可變通的"]}, {"word": "comparable", "meaning_zh": ["可比較的", "比得上的"]}, {"word": "produce", "meaning_zh": ["生產"]}, {"word": "respectively", "meaning_zh": ["分別", "各自"]}, {"word": "device", "meaning_zh": ["裝置"]}, {"word": "trim", "meaning_zh": ["修剪", "削減", "除去"]}, {"word": "launch", "meaning_zh": ["使上市"]}, {"word": "separately", "meaning_zh": ["分別地", "個別地"]}, {"word": "expiration", "meaning_zh": ["到期", "期滿"]}, {"word": "maneuver", "meaning_zh": ["調動", "巧妙操縱或控制"]}, {"word": "coming", "meaning_zh": ["即將到來的"]}, {"word": "damaged", "meaning_zh": ["受損的"]}, {"word": "prevent", "meaning_zh": ["預防", "防止"]}, {"word": "power", "meaning_zh": ["力量", "電力"]}, {"word": "chemical", "meaning_zh": ["化學制品", "化學藥品"]}, {"word": "minimize", "meaning_zh": ["使減到最少", "再想化"]}]}, {"day": 13, "theme": "顧客至上", "category": "顧客服務", "page": 240, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day13.mp3", "vocab": [{"word": "complaint", "meaning_zh": ["抱怨"]}, {"word": "deal", "meaning_zh": ["處理", "交易", "分配"]}, {"word": "argumentative", "meaning_zh": ["爭辯的", "愛爭論的"]}, {"word": "appropriately", "meaning_zh": ["適當的"]}, {"word": "respond", "meaning_zh": ["回應", "回覆"]}, {"word": "infuriate", "meaning_zh": ["激怒", "使大怒"]}, {"word": "courteous", "meaning_zh": ["有禮貌的"]}, {"word": "satisfaction", "meaning_zh": ["滿意"]}, {"word": "inconvenience", "meaning_zh": ["不便", "對某人造成不便"]}, {"word": "complete", "meaning_zh": ["完成", "結束", "完整的", "完成的"]}, {"word": "specific", "meaning_zh": ["具體的", "明確的"]}, {"word": "return", "meaning_zh": ["歸還", "退回"]}, {"word": "replace", "meaning_zh": ["取代", "替換"]}, {"word": "presentation", "meaning_zh": ["簡報"]}, {"word": "evaluation", "meaning_zh": ["評價", "評估"]}, {"word": "confident", "meaning_zh": ["有自信的", "有信心的"]}, {"word": "cause", "meaning_zh": ["引起", "造成", "原因"]}, {"word": "commentary", "meaning_zh": ["評論", "評註", "實況報導"]}, {"word": "notification", "meaning_zh": ["通知"]}, {"word": "apologize", "meaning_zh": ["道歉"]}, {"word": "interact", "meaning_zh": ["互動", "交流", "相互作用"]}, {"word": "certain", "meaning_zh": ["確定的", "確信的", "某個", "某些"]}, {"word": "commitment", "meaning_zh": ["投身", "投入", "智力"]}, {"word": "applaud", "meaning_zh": ["為什麼鼓掌", "稱讚"]}, {"word": "biography", "meaning_zh": ["傳記", "經歷介紹"]}, {"word": "critical", "meaning_zh": ["批評的", "關鍵的", "危急的"]}, {"word": "depend on", "meaning_zh": ["依賴", "取決於"]}, {"word": "combine", "meaning_zh": ["使結合", "合併"]}, {"word": "priority", "meaning_zh": ["優先", "優先事項"]}, {"word": "observe", "meaning_zh": ["仔細觀察", "注意到", "遵守規則等"]}, {"word": "defective", "meaning_zh": ["有缺陷的"]}, {"word": "reflect", "meaning_zh": ["反應", "顯示"]}, {"word": "attitude", "meaning_zh": ["態度", "看法"]}, {"word": "disappoint", "meaning_zh": ["使失望"]}, {"word": "inquire", "meaning_zh": ["詢問"]}, {"word": "insert", "meaning_zh": ["插入"]}, {"word": "disclose", "meaning_zh": ["公開", "透露"]}, {"word": "guarantee", "meaning_zh": ["保證", "保障"]}, {"word": "politely", "meaning_zh": ["禮貌地"]}, {"word": "seriously", "meaning_zh": ["認真的"]}]}, {"day": 14, "theme": "出差的目的", "category": "旅遊、機場", "page": 258, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day14.mp3", "vocab": [{"word": "international", "meaning_zh": ["國際的"]}, {"word": "attraction", "meaning_zh": ["景點"]}, {"word": "itinerary", "meaning_zh": ["旅遊行程"]}, {"word": "exotic", "meaning_zh": ["異國情調的", "奇特的"]}, {"word": "diverse", "meaning_zh": ["多樣的"]}, {"word": "superb", "meaning_zh": ["極好的", "一流的"]}, {"word": "baggage", "meaning_zh": ["行李"]}, {"word": "destination", "meaning_zh": ["目的地"]}, {"word": "missing", "meaning_zh": ["遺失的", "缺少的"]}, {"word": "locate", "meaning_zh": ["找到什麼的位置", "使什麼坐落於"]}, {"word": "approximately", "meaning_zh": ["大概"]}, {"word": "duty", "meaning_zh": ["稅", "關稅", "責任", "職責"]}, {"word": "process", "meaning_zh": ["過程", "程序", "處理"]}, {"word": "board", "meaning_zh": ["上", "登上", "委員會", "董事會"]}, {"word": "comfortable", "meaning_zh": ["舒適的"]}, {"word": "declare", "meaning_zh": ["申報", "宣告"]}, {"word": "specify", "meaning_zh": ["具體說明"]}, {"word": "depart", "meaning_zh": ["出發"]}, {"word": "emergency", "meaning_zh": ["緊急情況"]}, {"word": "passenger", "meaning_zh": ["乘客"]}, {"word": "outgoing", "meaning_zh": ["從某地點出發的", "離開的", "即將離職的"]}, {"word": "tightly", "meaning_zh": ["緊緊地", "牢固地"]}, {"word": "tour", "meaning_zh": ["導覽", "旅行"]}, {"word": "carrier", "meaning_zh": ["運輸公司", "航空公司", "運輸工具"]}, {"word": "customarily", "meaning_zh": ["習慣上", "習俗上"]}, {"word": "confuse", "meaning_zh": ["使困惑"]}, {"word": "arrive", "meaning_zh": ["到達"]}, {"word": "brochure", "meaning_zh": ["摺頁", "小冊子"]}, {"word": "involve", "meaning_zh": ["需要", "包含", "使某人涉入"]}, {"word": "ship", "meaning_zh": ["運送", "船"]}, {"word": "suitcase", "meaning_zh": ["行李箱"]}, {"word": "unavailable", "meaning_zh": ["無法利用的", "無法取得的"]}, {"word": "fill out", "meaning_zh": ["填寫", "填好表格等文件"]}, {"word": "fill in", "meaning_zh": ["填寫", "填好表格等文件"]}, {"word": "customs", "meaning_zh": ["海關"]}, {"word": "away", "meaning_zh": ["離開", "遠離"]}, {"word": "dramatic", "meaning_zh": ["戲劇性的", "激動人心的", "急劇的"]}, {"word": "hospitality", "meaning_zh": ["款待", "殷勤招待"]}, {"word": "indulge", "meaning_zh": ["沈迷", "讓什麼享受"]}, {"word": "proximity", "meaning_zh": ["接近", "鄰近"]}, {"word": "seating", "meaning_zh": ["整體的座位安排", "座位數量"]}, {"word": "unlimited", "meaning_zh": ["無限制的"]}, {"word": "simply", "meaning_zh": ["僅僅", "只是", "簡單地"]}, {"word": "besides", "meaning_zh": ["而且", "此外", "除什麼之外"]}, {"word": "traditionally", "meaning_zh": ["傳統地"]}]}, {"day": 15, "theme": "談判的場合", "category": "契約", "page": 276, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day15.mp3", "vocab": [{"word": "proposal", "meaning_zh": ["提案", "提議"]}, {"word": "alliance", "meaning_zh": ["同盟", "聯盟"]}, {"word": "stipulation", "meaning_zh": ["契約規定", "契約條款"]}, {"word": "term", "meaning_zh": ["條款", "任期", "期限"]}, {"word": "compromise", "meaning_zh": ["妥協", "折衷辦法"]}, {"word": "negotiation", "meaning_zh": ["談判", "協商"]}, {"word": "agreement", "meaning_zh": ["意見一致", "同意", "協議"]}, {"word": "deadlock", "meaning_zh": ["僵局"]}, {"word": "review", "meaning_zh": ["再檢查", "審查"]}, {"word": "contract", "meaning_zh": ["合約"]}, {"word": "signature", "meaning_zh": ["簽名"]}, {"word": "originally", "meaning_zh": ["原來", "起初"]}, {"word": "direction", "meaning_zh": ["方向", "指示", "指揮"]}, {"word": "initially", "meaning_zh": ["起初"]}, {"word": "expire", "meaning_zh": ["合約等到期", "期限終止"]}, {"word": "collaborate", "meaning_zh": ["合作"]}, {"word": "dedicate", "meaning_zh": ["使致力於某事", "奉獻", "獻出"]}, {"word": "revised", "meaning_zh": ["修改過的", "修訂過的"]}, {"word": "imperative", "meaning_zh": ["必須履行的", "必要的"]}, {"word": "cooperatively", "meaning_zh": ["合作地", "配合地"]}, {"word": "commission", "meaning_zh": ["佣金", "抽成", "委員會", "委任", "委託什麼創作"]}, {"word": "omit", "meaning_zh": ["遺漏", "省略"]}, {"word": "conflict", "meaning_zh": ["衝突", "意見不一致"]}, {"word": "renew", "meaning_zh": ["展延合約等", "喚醒"]}, {"word": "proficient", "meaning_zh": ["熟練的", "精通的"]}, {"word": "confidentiality", "meaning_zh": ["機密"]}, {"word": "dispute", "meaning_zh": ["爭論", "爭執"]}, {"word": "objection", "meaning_zh": ["反對", "異議"]}, {"word": "define", "meaning_zh": ["定義", "界定"]}, {"word": "impression", "meaning_zh": ["印象"]}, {"word": "security", "meaning_zh": ["安全", "保全", "防護"]}, {"word": "option", "meaning_zh": ["選擇", "選擇權"]}, {"word": "proceed", "meaning_zh": ["進行", "繼續"]}, {"word": "modify", "meaning_zh": ["修改", "更改"]}, {"word": "narrow", "meaning_zh": ["縮小"]}, {"word": "bid", "meaning_zh": ["出價", "投標"]}, {"word": "settle", "meaning_zh": ["解決", "安排"]}, {"word": "terminate", "meaning_zh": ["結束", "始終止"]}, {"word": "challenging", "meaning_zh": ["有挑戰性的", "困難的"]}, {"word": "foundation", "meaning_zh": ["基礎", "建立", "創辦"]}, {"word": "pending", "meaning_zh": ["懸而未決的", "未決的", "迫近的"]}]}, {"day": 16, "theme": "貿易協定", "category": "商業", "page": 294, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day16.mp3", "vocab": [{"word": "completely", "meaning_zh": ["完全地"]}, {"word": "refuse", "meaning_zh": ["拒絕"]}, {"word": "temporarily", "meaning_zh": ["暫時地"]}, {"word": "dealer", "meaning_zh": ["經銷業者", "代理商"]}, {"word": "bulk", "meaning_zh": ["大量的"]}, {"word": "inventory", "meaning_zh": ["庫存", "庫存清單"]}, {"word": "short", "meaning_zh": ["短缺的"]}, {"word": "cost", "meaning_zh": ["費用", "成本", "花費"]}, {"word": "selection", "meaning_zh": ["選擇", "選出來的東西", "可選擇的範圍"]}, {"word": "commercial", "meaning_zh": ["商業的", "商務的", "廣告"]}, {"word": "order", "meaning_zh": ["訂購", "訂單", "訂購的東西"]}, {"word": "provide", "meaning_zh": ["提供"]}, {"word": "contact", "meaning_zh": ["聯絡", "可提供資訊的聯絡人", "門路"]}, {"word": "invoice", "meaning_zh": ["發票", "發貨單"]}, {"word": "move", "meaning_zh": ["移動", "搬遷", "行動", "措施", "對策"]}, {"word": "supply", "meaning_zh": ["供應", "用品", "補給品"]}, {"word": "discount", "meaning_zh": ["折扣"]}, {"word": "distribute", "meaning_zh": ["分發", "分配", "分銷"]}, {"word": "acquisition", "meaning_zh": ["獲得", "獲得的東西", "收購"]}, {"word": "assure", "meaning_zh": ["向某人保證", "使某人放心", "使某人確信"]}, {"word": "subject", "meaning_zh": ["容易受到什麼影響的", "以什麼為條件的"]}, {"word": "seek", "meaning_zh": ["追求", "尋找"]}, {"word": "satisfactory", "meaning_zh": ["令人滿意的"]}, {"word": "confirmation", "meaning_zh": ["確認", "證實"]}, {"word": "unable", "meaning_zh": ["不能的"]}, {"word": "payment", "meaning_zh": ["支付"]}, {"word": "measure", "meaning_zh": ["措施", "手段", "測量"]}, {"word": "bargain", "meaning_zh": ["特價商品", "協議", "交易"]}, {"word": "stock", "meaning_zh": ["庫存", "股票"]}, {"word": "affordability", "meaning_zh": ["可負擔性"]}, {"word": "clientele", "meaning_zh": ["顧客", "所有委託人"]}, {"word": "acclaim", "meaning_zh": ["喝采", "稱讚"]}, {"word": "represent", "meaning_zh": ["代表"]}, {"word": "rating", "meaning_zh": ["等級", "平等"]}, {"word": "encompass", "meaning_zh": ["包含", "圍繞"]}, {"word": "finalize", "meaning_zh": ["完成", "做最後確認"]}, {"word": "market", "meaning_zh": ["市場"]}, {"word": "retail", "meaning_zh": ["零售"]}, {"word": "commodity", "meaning_zh": ["商品"]}, {"word": "quote", "meaning_zh": ["報價"]}, {"word": "consignment", "meaning_zh": ["委託"]}]}, {"day": 17, "theme": "限時配送", "category": "貿易、貨運", "page": 312, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day17.mp3", "vocab": [{"word": "fragile", "meaning_zh": ["易碎的"]}, {"word": "perishable", "meaning_zh": ["易腐壞的"]}, {"word": "deliver", "meaning_zh": ["運輸", "送到", "發表"]}, {"word": "ensure", "meaning_zh": ["保證", "確保"]}, {"word": "courier", "meaning_zh": ["快遞公司", "快遞員"]}, {"word": "carton", "meaning_zh": ["紙箱"]}, {"word": "address", "meaning_zh": ["地址"]}, {"word": "shipment", "meaning_zh": ["運輸", "運輸的貨物"]}, {"word": "particularly", "meaning_zh": ["尤其", "特別是"]}, {"word": "adequately", "meaning_zh": ["適當的"]}, {"word": "article", "meaning_zh": ["物品", "物件", "文章", "報道"]}, {"word": "efficient", "meaning_zh": ["有效果的", "有效率的"]}, {"word": "agency", "meaning_zh": ["代辦處", "代理機構"]}, {"word": "enclose", "meaning_zh": ["封入", "圍繞"]}, {"word": "careful", "meaning_zh": ["小心的", "謹慎的"]}, {"word": "pick up", "meaning_zh": ["取走", "用車載"]}, {"word": "carry", "meaning_zh": ["搬運", "攜帶", "有售"]}, {"word": "attach", "meaning_zh": ["貼上", "附加"]}, {"word": "formally", "meaning_zh": ["以前"]}, {"word": "package", "meaning_zh": ["包裹", "包裝"]}, {"word": "react", "meaning_zh": ["反應", "做出反應"]}, {"word": "content", "meaning_zh": ["內容"]}, {"word": "convenience", "meaning_zh": ["便利", "方便"]}, {"word": "acknowledge", "meaning_zh": ["承認", "告知"]}, {"word": "caution", "meaning_zh": ["小心", "警告"]}, {"word": "correspondence", "meaning_zh": ["通信", "信件"]}, {"word": "separate", "meaning_zh": ["分開", "區分", "分開的", "個別的", "獨立的"]}, {"word": "remarkable", "meaning_zh": ["出色的", "引人注目的"]}, {"word": "handle", "meaning_zh": ["處理", "搬動"]}, {"word": "warehouse", "meaning_zh": ["倉庫", "倉儲"]}, {"word": "impose", "meaning_zh": ["課徵稅金等"]}, {"word": "storage", "meaning_zh": ["儲藏", "儲藏空間"]}, {"word": "detach", "meaning_zh": ["分開", "撕下"]}, {"word": "envelope", "meaning_zh": ["信封"]}, {"word": "exclusion", "meaning_zh": ["排除在外"]}, {"word": "recipient", "meaning_zh": ["收件人"]}, {"word": "affix", "meaning_zh": ["貼上"]}, {"word": "incorrect", "meaning_zh": ["不正確的"]}, {"word": "oblige", "meaning_zh": ["使不得不做某事", "迫使做某事"]}, {"word": "step", "meaning_zh": ["步驟", "階段", "措施"]}, {"word": "distinctive", "meaning_zh": ["特別的", "具特色的"]}, {"word": "discreet", "meaning_zh": ["謹慎的", "慎重的", "懂得分寸的"]}]}, {"day": 18, "theme": "特別料理", "category": "住宿、餐廳", "page": 330, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day18.mp3", "vocab": [{"word": "check-in", "meaning_zh": ["辦理旅館入住手續", "辦理登機報道手續"]}, {"word": "compensate", "meaning_zh": ["補償"]}, {"word": "complimentary", "meaning_zh": ["免費贈送的"]}, {"word": "chef", "meaning_zh": ["主廚"]}, {"word": "container", "meaning_zh": ["容器或櫃"]}, {"word": "elegant", "meaning_zh": ["優雅的", "高雅的"]}, {"word": "flavor", "meaning_zh": ["味道", "風味"]}, {"word": "accommodate", "meaning_zh": ["容納", "供某人住宿", "迎合"]}, {"word": "available", "meaning_zh": ["可利用的", "有空的"]}, {"word": "reception", "meaning_zh": ["接待", "歡迎會", "接待處"]}, {"word": "in advance", "meaning_zh": ["事先", "預先"]}, {"word": "refreshments", "meaning_zh": ["茶點", "輕食"]}, {"word": "make", "meaning_zh": ["做", "製作"]}, {"word": "cater", "meaning_zh": ["供應飲食", "承辦外匯"]}, {"word": "reservation", "meaning_zh": ["預約", "預定", "保護區"]}, {"word": "beverage", "meaning_zh": ["飲料"]}, {"word": "confirm", "meaning_zh": ["確認"]}, {"word": "cancel", "meaning_zh": ["取消"]}, {"word": "rate", "meaning_zh": ["費用", "價格"]}, {"word": "conveniently", "meaning_zh": ["便利地"]}, {"word": "decorate", "meaning_zh": ["裝飾", "裝潢"]}, {"word": "information", "meaning_zh": ["資訊"]}, {"word": "retain", "meaning_zh": ["保持", "保留"]}, {"word": "atmosphere", "meaning_zh": ["氣氛", "氛圍"]}, {"word": "cuisine", "meaning_zh": ["料理"]}, {"word": "sequence", "meaning_zh": ["順序", "次序"]}, {"word": "extensive", "meaning_zh": ["廣泛的", "廣闊的"]}, {"word": "prior", "meaning_zh": ["在前的", "在先的"]}, {"word": "book", "meaning_zh": ["預約"]}, {"word": "amenity", "meaning_zh": ["便利設施"]}, {"word": "belongings", "meaning_zh": ["攜帶物品"]}, {"word": "entirely", "meaning_zh": ["完全地"]}, {"word": "ease", "meaning_zh": ["減輕", "緩和", "容易", "輕鬆自在"]}, {"word": "ingredient", "meaning_zh": ["材料", "成分"]}, {"word": "sip", "meaning_zh": ["啜飲", "小口喝"]}, {"word": "stir", "meaning_zh": ["攪拌", "攪動"]}, {"word": "choice", "meaning_zh": ["選擇", "選擇範圍", "選擇的東西"]}, {"word": "complication", "meaning_zh": ["使情況變複雜的問題", "障礙"]}, {"word": "freshness", "meaning_zh": ["新鮮"]}, {"word": "occupancy", "meaning_zh": ["佔據"]}, {"word": "spot", "meaning_zh": ["發現", "認出", "注意到", "特定的地點"]}]}, {"day": 19, "theme": "獎金呢？", "category": "收益", "page": 346, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day19.mp3", "vocab": [{"word": "decline", "meaning_zh": ["減少", "下降", "拒絕"]}, {"word": "markedly", "meaning_zh": ["顯著地", "明顯地"]}, {"word": "increase", "meaning_zh": ["增加"]}, {"word": "revenue", "meaning_zh": ["收入"]}, {"word": "projection", "meaning_zh": ["預測"]}, {"word": "substantial", "meaning_zh": ["相當大的", "相當多的"]}, {"word": "anticipate", "meaning_zh": ["預期", "期望"]}, {"word": "significantly", "meaning_zh": ["顯著地", "大大地"]}, {"word": "estimate", "meaning_zh": ["估計", "估價"]}, {"word": "shift", "meaning_zh": ["轉移", "挪動", "轉變", "輪班工作時間"]}, {"word": "fee", "meaning_zh": ["費用", "服務費用"]}, {"word": "production", "meaning_zh": ["生產", "產量"]}, {"word": "sale", "meaning_zh": ["銷售額", "銷售量", "降價特賣"]}, {"word": "impressive", "meaning_zh": ["令人印象深刻的"]}, {"word": "representative", "meaning_zh": ["代表", "代表人員"]}, {"word": "recent", "meaning_zh": ["最近的"]}, {"word": "exceed", "meaning_zh": ["超過"]}, {"word": "improvement", "meaning_zh": ["改善"]}, {"word": "employer", "meaning_zh": ["僱主"]}, {"word": "regular", "meaning_zh": ["定期的", "慣常的"]}, {"word": "summarize", "meaning_zh": ["總結", "概述"]}, {"word": "typically", "meaning_zh": ["典型地", "通常"]}, {"word": "whole", "meaning_zh": ["全部的", "整個的"]}, {"word": "growth", "meaning_zh": ["成長", "發展"]}, {"word": "figure", "meaning_zh": ["數字"]}, {"word": "steady", "meaning_zh": ["穩定的", "堅定的"]}, {"word": "frequent", "meaning_zh": ["頻繁的", "常發生的"]}, {"word": "achieve", "meaning_zh": ["達成", "成就"]}, {"word": "assumption", "meaning_zh": ["假定", "假設"]}, {"word": "share", "meaning_zh": ["分享", "共用"]}, {"word": "encouraging", "meaning_zh": ["鼓勵的", "令人振奮的"]}, {"word": "incur", "meaning_zh": ["遭受", "招致"]}, {"word": "slightly", "meaning_zh": ["稍微"]}, {"word": "profit", "meaning_zh": ["利潤", "利益"]}, {"word": "reliant", "meaning_zh": ["依賴的", "依靠的"]}, {"word": "illustrate", "meaning_zh": ["說明", "圖解"]}, {"word": "inaccurate", "meaning_zh": ["不精確的"]}, {"word": "percentage", "meaning_zh": ["百分比", "比例"]}, {"word": "reduce", "meaning_zh": ["減少", "縮減"]}, {"word": "tend", "meaning_zh": ["傾向", "易於", "往往會"]}, {"word": "beyond", "meaning_zh": ["超越範圍等", "在什麼之外"]}]}, {"day": 20, "theme": "節省經費", "category": "會計", "page": 364, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day20.mp3", "vocab": [{"word": "audit", "meaning_zh": ["審計", "查賬"]}, {"word": "accounting", "meaning_zh": ["會計"]}, {"word": "budget", "meaning_zh": ["預算"]}, {"word": "financial", "meaning_zh": ["財務的", "金融的"]}, {"word": "curtail", "meaning_zh": ["縮減", "削減"]}, {"word": "deficit", "meaning_zh": ["赤字", "不足額"]}, {"word": "recently", "meaning_zh": ["最近"]}, {"word": "substantially", "meaning_zh": ["大大的", "相當多的"]}, {"word": "committee", "meaning_zh": ["委員會"]}, {"word": "frequently", "meaning_zh": ["頻繁地", "經常"]}, {"word": "capability", "meaning_zh": ["能力", "才能"]}, {"word": "proceeds", "meaning_zh": ["收入"]}, {"word": "reimburse", "meaning_zh": ["補償", "核銷"]}, {"word": "considerably", "meaning_zh": ["相當", "相當多的"]}, {"word": "adequate", "meaning_zh": ["足夠的", "適當的"]}, {"word": "total", "meaning_zh": ["總計的", "全部的"]}, {"word": "allocate", "meaning_zh": ["分配", "分派"]}, {"word": "inspector", "meaning_zh": ["檢查人員", "稽查人員"]}, {"word": "preferred", "meaning_zh": ["偏好的", "優先的"]}, {"word": "quarter", "meaning_zh": ["季度", "四分之一"]}, {"word": "interrupt", "meaning_zh": ["打斷", "中斷"]}, {"word": "browse", "meaning_zh": ["瀏覽", "隨意觀看"]}, {"word": "prompt", "meaning_zh": ["及時的", "迅速的", "導致", "促使"]}, {"word": "deduct", "meaning_zh": ["扣除", "減除"]}, {"word": "measurement", "meaning_zh": ["測量", "測定", "尺寸"]}, {"word": "shorten", "meaning_zh": ["縮短", "變短"]}, {"word": "amend", "meaning_zh": ["修正"]}, {"word": "calculate", "meaning_zh": ["計算"]}, {"word": "exempt", "meaning_zh": ["被免除的"]}, {"word": "deficient", "meaning_zh": ["不足的", "缺乏的"]}, {"word": "compare", "meaning_zh": ["比較"]}, {"word": "fortunate", "meaning_zh": ["幸運的"]}, {"word": "expenditure", "meaning_zh": ["支出", "開支"]}, {"word": "accurately", "meaning_zh": ["精確地"]}, {"word": "worth", "meaning_zh": ["值得什麼的", "價值"]}, {"word": "excess", "meaning_zh": ["超過", "過量"]}, {"word": "fiscal", "meaning_zh": ["會計的", "財政的"]}, {"word": "incidental", "meaning_zh": ["附帶的"]}, {"word": "inflation", "meaning_zh": ["通貨膨脹"]}, {"word": "liable", "meaning_zh": ["負有責任的", "很可能會怎樣的"]}, {"word": "spend", "meaning_zh": ["花費", "花用"]}, {"word": "turnover", "meaning_zh": ["營業額", "交易額", "人事異動率"]}]}, {"day": 21, "theme": "辦公室氣氛", "category": "公司動向", "page": 384, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day21.mp3", "vocab": [{"word": "announce", "meaning_zh": ["宣佈", "公告"]}, {"word": "interested", "meaning_zh": ["有利害關係的", "感興趣的"]}, {"word": "active", "meaning_zh": ["積極的", "活躍的"]}, {"word": "accept", "meaning_zh": ["接受", "採用"]}, {"word": "foresee", "meaning_zh": ["預見", "預知"]}, {"word": "expansion", "meaning_zh": ["擴張", "擴大"]}, {"word": "relocate", "meaning_zh": ["搬遷"]}, {"word": "competitor", "meaning_zh": ["競爭者", "競爭業者"]}, {"word": "asset", "meaning_zh": ["資產"]}, {"word": "contribute", "meaning_zh": ["捐獻", "貢獻"]}, {"word": "dedicated", "meaning_zh": ["專注的", "奉獻的"]}, {"word": "misplace", "meaning_zh": ["放錯地方", "放在想不起來的地方"]}, {"word": "considerable", "meaning_zh": ["相當大的", "相當多的"]}, {"word": "last", "meaning_zh": ["持續"]}, {"word": "emerge", "meaning_zh": ["出現", "浮現"]}, {"word": "grow", "meaning_zh": ["成長", "使生長"]}, {"word": "select", "meaning_zh": ["選擇", "挑選"]}, {"word": "merge", "meaning_zh": ["合併", "融合"]}, {"word": "imply", "meaning_zh": ["暗示", "意味著"]}, {"word": "vital", "meaning_zh": ["必要的"]}, {"word": "persist", "meaning_zh": ["堅持", "堅持不懈", "持續"]}, {"word": "independent", "meaning_zh": ["獨立的", "自立的"]}, {"word": "force", "meaning_zh": ["勢力", "有影響力的人或事物"]}, {"word": "establish", "meaning_zh": ["創立", "建立"]}, {"word": "initiate", "meaning_zh": ["開始事業等", "開始實施"]}, {"word": "enhance", "meaning_zh": ["提升", "提高", "改善"]}, {"word": "renowned", "meaning_zh": ["著名的", "有名的", "有聲譽的"]}, {"word": "informed", "meaning_zh": ["瞭解情況的", "消息靈通的"]}, {"word": "minutes", "meaning_zh": ["會議記錄"]}, {"word": "waive", "meaning_zh": ["放棄", "免除"]}, {"word": "reach", "meaning_zh": ["達到", "抵達"]}, {"word": "authority", "meaning_zh": ["權力", "當局"]}, {"word": "acquire", "meaning_zh": ["取得", "收購"]}, {"word": "surpass", "meaning_zh": ["超越", "勝過"]}, {"word": "run", "meaning_zh": ["經營", "營運"]}, {"word": "improbable", "meaning_zh": ["不太可能的", "不太可能發生的"]}, {"word": "edge", "meaning_zh": ["優勢", "邊緣"]}, {"word": "simultaneously", "meaning_zh": ["同時地"]}, {"word": "reveal", "meaning_zh": ["揭露", "展現"]}, {"word": "productivity", "meaning_zh": ["生產力"]}, {"word": "uncertain", "meaning_zh": ["不確定的", "不明確的"]}, {"word": "premier", "meaning_zh": ["第一的", "首要的"]}]}, {"day": 22, "theme": "緊急會議", "category": "會議", "page": 402, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day22.mp3", "vocab": [{"word": "agenda", "meaning_zh": ["議程", "代議事項"]}, {"word": "convene", "meaning_zh": ["聚集", "集會", "召開"]}, {"word": "refute", "meaning_zh": ["反駁", "駁斥"]}, {"word": "coordination", "meaning_zh": ["協調"]}, {"word": "unanimous", "meaning_zh": ["意見一致的", "一致同意的"]}, {"word": "convince", "meaning_zh": ["說服", "使確信"]}, {"word": "consensus", "meaning_zh": ["共識", "一致的意見"]}, {"word": "defer", "meaning_zh": ["延後", "延期"]}, {"word": "usually", "meaning_zh": ["通常"]}, {"word": "reschedule", "meaning_zh": ["重新安排什麼的時間"]}, {"word": "meeting", "meaning_zh": ["會議"]}, {"word": "determine", "meaning_zh": ["查明", "判定", "決定"]}, {"word": "report", "meaning_zh": ["報告", "報道", "報告書"]}, {"word": "comment", "meaning_zh": ["評論", "發表意見"]}, {"word": "phase", "meaning_zh": ["階段"]}, {"word": "approve", "meaning_zh": ["批准", "贊成"]}, {"word": "enclosed", "meaning_zh": ["被附上的"]}, {"word": "easy", "meaning_zh": ["簡單的", "容易的"]}, {"word": "record", "meaning_zh": ["記錄", "履歷", "經歷"]}, {"word": "suggestion", "meaning_zh": ["建議", "提議"]}, {"word": "attention", "meaning_zh": ["注意", "專心"]}, {"word": "object", "meaning_zh": ["反對"]}, {"word": "coincidentally", "meaning_zh": ["巧合地", "碰巧地", "同時發生地"]}, {"word": "crowded", "meaning_zh": ["擁擠的"]}, {"word": "undergo", "meaning_zh": ["經歷", "承受", "接受"]}, {"word": "outcome", "meaning_zh": ["結果"]}, {"word": "narrowly", "meaning_zh": ["狹窄地", "嚴格地", "勉強", "好不容易", "以些為之差"]}, {"word": "differ", "meaning_zh": ["不同", "不一樣"]}, {"word": "discuss", "meaning_zh": ["討論"]}, {"word": "give", "meaning_zh": ["給予", "發表", "講授"]}, {"word": "brief", "meaning_zh": ["向某人簡短說明", "簡短的報告"]}, {"word": "distract", "meaning_zh": ["使分心", "分散"]}, {"word": "emphasis", "meaning_zh": ["強調", "重點"]}, {"word": "press", "meaning_zh": ["報刊", "新聞媒體", "按", "壓"]}, {"word": "organize", "meaning_zh": ["組織", "安排", "整理"]}, {"word": "mention", "meaning_zh": ["提到"]}, {"word": "persuasive", "meaning_zh": ["有說服力的"]}, {"word": "understanding", "meaning_zh": ["理解的", "諒解的"]}, {"word": "adjourn", "meaning_zh": ["使收會", "始中止", "始延期"]}, {"word": "constructive", "meaning_zh": ["建設性的"]}, {"word": "preside", "meaning_zh": ["主持", "擔任會議主席"]}, {"word": "irrelevant", "meaning_zh": ["無關的", "不相關的"]}, {"word": "constraint", "meaning_zh": ["限制"]}, {"word": "condensed", "meaning_zh": ["簡要的", "壓縮的", "凝結的"]}, {"word": "endorse", "meaning_zh": ["公開地支持", "贊同", "背書"]}, {"word": "punctually", "meaning_zh": ["準時地", "如期地", "不延遲地"]}]}, {"day": 23, "theme": "將心比心", "category": "員工福利", "page": 422, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day23.mp3", "vocab": [{"word": "host", "meaning_zh": ["主辦"]}, {"word": "annual", "meaning_zh": ["年度的", "一年一度的"]}, {"word": "purpose", "meaning_zh": ["目的", "意圖"]}, {"word": "enroll", "meaning_zh": ["登記"]}, {"word": "lecture", "meaning_zh": ["講座", "演講"]}, {"word": "participant", "meaning_zh": ["參與者"]}, {"word": "attend", "meaning_zh": ["出席", "參加"]}, {"word": "encourage", "meaning_zh": ["鼓勵", "促使"]}, {"word": "leave", "meaning_zh": ["休假", "離開", "留下"]}, {"word": "recommendation", "meaning_zh": ["推薦", "建議", "推薦信"]}, {"word": "conference", "meaning_zh": ["會議", "討論"]}, {"word": "schedule", "meaning_zh": ["安排什麼的時間"]}, {"word": "include", "meaning_zh": ["包含"]}, {"word": "result", "meaning_zh": ["結果", "導致"]}, {"word": "register", "meaning_zh": ["登記", "註冊"]}, {"word": "require", "meaning_zh": ["要求"]}, {"word": "grateful", "meaning_zh": ["感謝的", "感激的"]}, {"word": "overtime", "meaning_zh": ["加班時間", "加班費"]}, {"word": "responsibility", "meaning_zh": ["責任", "義務"]}, {"word": "assent", "meaning_zh": ["同意", "贊成"]}, {"word": "regard", "meaning_zh": ["認為什麼是"]}, {"word": "tentative", "meaning_zh": ["鎮定的", "試驗性的"]}, {"word": "welcome", "meaning_zh": ["受歡迎的", "欣然接受的"]}, {"word": "function", "meaning_zh": ["盛大的聚會", "功能"]}, {"word": "commence", "meaning_zh": ["開始"]}, {"word": "objective", "meaning_zh": ["目標", "目的"]}, {"word": "excited", "meaning_zh": ["興奮的", "激動的"]}, {"word": "reimbursement", "meaning_zh": ["補償", "費用和銷"]}, {"word": "treatment", "meaning_zh": ["對待", "處理"]}, {"word": "honor", "meaning_zh": ["榮譽", "尊敬"]}, {"word": "emphasize", "meaning_zh": ["強調"]}, {"word": "entry", "meaning_zh": ["參賽者", "參賽作品"]}, {"word": "bonus", "meaning_zh": ["獎金", "紅利"]}, {"word": "salary", "meaning_zh": ["薪水"]}, {"word": "earn", "meaning_zh": ["賺", "贏得", "獲得"]}, {"word": "arise", "meaning_zh": ["出現", "產生"]}, {"word": "labor", "meaning_zh": ["勞動", "努力"]}, {"word": "union", "meaning_zh": ["工會"]}, {"word": "existing", "meaning_zh": ["現存的", "現行的"]}, {"word": "exploit", "meaning_zh": ["剝削", "濫用"]}]}, {"day": 24, "theme": "升遷第一天", "category": "人事異動", "page": 440, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day24.mp3", "vocab": [{"word": "appoint", "meaning_zh": ["任命", "指派"]}, {"word": "appraisal", "meaning_zh": ["評價"]}, {"word": "promote", "meaning_zh": ["使升職", "促進"]}, {"word": "skilled", "meaning_zh": ["熟練的", "有技能的"]}, {"word": "radically", "meaning_zh": ["根本地", "徹底地"]}, {"word": "exceptional", "meaning_zh": ["優異的", "例外的"]}, {"word": "appreciation", "meaning_zh": ["感謝", "欣賞"]}, {"word": "evaluate", "meaning_zh": ["評價"]}, {"word": "suggest", "meaning_zh": ["建議"]}, {"word": "preference", "meaning_zh": ["偏好"]}, {"word": "management", "meaning_zh": ["管理", "經營", "經營團隊"]}, {"word": "predict", "meaning_zh": ["預測"]}, {"word": "transfer", "meaning_zh": ["轉移", "使調職"]}, {"word": "award", "meaning_zh": ["獎", "授予"]}, {"word": "mandatory", "meaning_zh": ["義務性的", "強制性的"]}, {"word": "competent", "meaning_zh": ["有能力的", "勝任的"]}, {"word": "performance", "meaning_zh": ["表現", "成果", "表演", "演出", "演奏"]}, {"word": "reward", "meaning_zh": ["報償", "回報"]}, {"word": "search", "meaning_zh": ["尋找", "搜尋", "調查"]}, {"word": "inexperienced", "meaning_zh": ["沒經驗的", "不熟練的"]}, {"word": "early", "meaning_zh": ["早的", "提早的"]}, {"word": "designate", "meaning_zh": ["指定", "指派"]}, {"word": "executive", "meaning_zh": ["經營管理的"]}, {"word": "dedication", "meaning_zh": ["專心致力"]}, {"word": "unanimously", "meaning_zh": ["全體意見一致地"]}, {"word": "progress", "meaning_zh": ["前進", "進步", "進展"]}, {"word": "congratulate", "meaning_zh": ["祝賀"]}, {"word": "dismiss", "meaning_zh": ["解僱"]}, {"word": "independence", "meaning_zh": ["獨立"]}, {"word": "participation", "meaning_zh": ["參與", "參加", "加入"]}, {"word": "praise", "meaning_zh": ["稱讚"]}, {"word": "accomplishment", "meaning_zh": ["成就"]}, {"word": "deliberation", "meaning_zh": ["商議", "審議"]}, {"word": "leadership", "meaning_zh": ["領導", "領導才能"]}, {"word": "retire", "meaning_zh": ["退休"]}, {"word": "nomination", "meaning_zh": ["提名", "任命"]}, {"word": "reorganize", "meaning_zh": ["重新組織", "改組"]}, {"word": "serve", "meaning_zh": ["服務", "擔任"]}, {"word": "encouragement", "meaning_zh": ["鼓勵"]}, {"word": "resignation", "meaning_zh": ["辭職", "辭呈"]}, {"word": "strictly", "meaning_zh": ["嚴格地"]}]}, {"day": 25, "theme": "開車", "category": "交通", "page": 456, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day25.mp3", "vocab": [{"word": "congestion", "meaning_zh": ["交通堵塞", "壅滿"]}, {"word": "alleviate", "meaning_zh": ["緩和", "減輕"]}, {"word": "divert", "meaning_zh": ["使轉向", "使改道"]}, {"word": "detour", "meaning_zh": ["繞道", "繞行的路"]}, {"word": "fuel", "meaning_zh": ["燃料"]}, {"word": "malfunction", "meaning_zh": ["故障", "機能失常"]}, {"word": "permit", "meaning_zh": ["許可", "允許"]}, {"word": "transportation", "meaning_zh": ["運輸", "運輸工具"]}, {"word": "opportunity", "meaning_zh": ["機會"]}, {"word": "clearly", "meaning_zh": ["清楚地", "顯然"]}, {"word": "ongoing", "meaning_zh": ["持續進行中的"]}, {"word": "detailed", "meaning_zh": ["詳細的"]}, {"word": "alternative", "meaning_zh": ["替代方案", "替代的"]}, {"word": "obtain", "meaning_zh": ["得到", "獲得"]}, {"word": "designated", "meaning_zh": ["指定的"]}, {"word": "intersection", "meaning_zh": ["交叉路口"]}, {"word": "equip", "meaning_zh": ["使配備", "使具備"]}, {"word": "commute", "meaning_zh": ["通勤"]}, {"word": "downtown", "meaning_zh": ["在市中心"]}, {"word": "automotive", "meaning_zh": ["汽車的"]}, {"word": "closure", "meaning_zh": ["關閉"]}, {"word": "vehicle", "meaning_zh": ["車輛", "運載工具"]}, {"word": "platform", "meaning_zh": ["月臺"]}, {"word": "official", "meaning_zh": ["公務員", "官員官方的", "正式的"]}, {"word": "transit", "meaning_zh": ["運輸系統", "運送"]}, {"word": "fare", "meaning_zh": ["搭乘交通工具的費用"]}, {"word": "expense", "meaning_zh": ["費用", "支出"]}, {"word": "trust", "meaning_zh": ["信任", "信賴", "相信"]}, {"word": "head", "meaning_zh": ["出發", "前進"]}, {"word": "drive", "meaning_zh": ["開車", "駕駛", "驅動及驅動"]}, {"word": "fine", "meaning_zh": ["罰款"]}, {"word": "pass", "meaning_zh": ["經過", "通過"]}, {"word": "securely", "meaning_zh": ["牢固地", "穩固地"]}, {"word": "prominently", "meaning_zh": ["顯著地", "顯眼地"]}, {"word": "reserved", "meaning_zh": ["預約的", "預定的", "留作專用的"]}, {"word": "average", "meaning_zh": ["平均值", "平均"]}, {"word": "collision", "meaning_zh": ["碰撞"]}, {"word": "tow", "meaning_zh": ["拖吊"]}, {"word": "reverse", "meaning_zh": ["相反的", "背面的"]}, {"word": "obstruct", "meaning_zh": ["遮擋", "阻塞"]}]}, {"day": 26, "theme": "存款與盡孝", "category": "銀行", "page": 474, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day26.mp3", "vocab": [{"word": "delinquent", "meaning_zh": ["到期未付的", "拖欠的"]}, {"word": "overdue", "meaning_zh": ["逾期未付的", "超過支付期限的"]}, {"word": "regrettably", "meaning_zh": ["遺憾地"]}, {"word": "balance", "meaning_zh": ["結餘", "賬戶餘額"]}, {"word": "deposit", "meaning_zh": ["存錢"]}, {"word": "investigation", "meaning_zh": ["調查"]}, {"word": "account", "meaning_zh": ["賬戶", "說明", "考慮", "解釋"]}, {"word": "statement", "meaning_zh": ["對賬單", "聲明"]}, {"word": "amount", "meaning_zh": ["總數", "數量"]}, {"word": "withdrawal", "meaning_zh": ["提領"]}, {"word": "previously", "meaning_zh": ["之前"]}, {"word": "due", "meaning_zh": ["到期的", "到支付期限的", "應支付的"]}, {"word": "receive", "meaning_zh": ["收到", "接收"]}, {"word": "expect", "meaning_zh": ["預計", "期待"]}, {"word": "certificate", "meaning_zh": ["證書"]}, {"word": "document", "meaning_zh": ["文件"]}, {"word": "spending", "meaning_zh": ["花費", "支出"]}, {"word": "successfully", "meaning_zh": ["成功地"]}, {"word": "bill", "meaning_zh": ["開賬單給", "賬單", "請款單"]}, {"word": "pleasure", "meaning_zh": ["愉快", "高興", "樂意"]}, {"word": "study", "meaning_zh": ["研究"]}, {"word": "summary", "meaning_zh": ["概要", "摘要"]}, {"word": "temporary", "meaning_zh": ["臨時的", "暫時的"]}, {"word": "lower", "meaning_zh": ["降低"]}, {"word": "transaction", "meaning_zh": ["交易", "買賣"]}, {"word": "double", "meaning_zh": ["變成兩倍"]}, {"word": "identification", "meaning_zh": ["身份證明"]}, {"word": "dissatisfaction", "meaning_zh": ["不滿", "不滿意"]}, {"word": "in common", "meaning_zh": ["共同地", "共同的"]}, {"word": "interest", "meaning_zh": ["興趣", "利益", "利息"]}, {"word": "reject", "meaning_zh": ["拒絕"]}, {"word": "relation", "meaning_zh": ["關係"]}, {"word": "tentatively", "meaning_zh": ["試驗性地", "暫時地"]}, {"word": "alternatively", "meaning_zh": ["不然的話", "或者"]}, {"word": "attentive", "meaning_zh": ["專注傾聽的", "關心的"]}, {"word": "convert", "meaning_zh": ["轉換", "轉變"]}, {"word": "heavily", "meaning_zh": ["程度很大的", "非常"]}, {"word": "loan", "meaning_zh": ["借貸", "貸款"]}, {"word": "unexpected", "meaning_zh": ["意料之外的"]}, {"word": "cash", "meaning_zh": ["兌現"]}, {"word": "mortgage", "meaning_zh": ["抵押貸款"]}, {"word": "payable", "meaning_zh": ["應支付的"]}, {"word": "personal", "meaning_zh": ["個人的"]}, {"word": "practice", "meaning_zh": ["慣例", "實踐", "練習"]}]}, {"day": 27, "theme": "友情與投資", "category": "投資", "page": 492, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day27.mp3", "vocab": [{"word": "investment", "meaning_zh": ["投資", "投資額"]}, {"word": "lucrative", "meaning_zh": ["有利可圖的", "賺錢的"]}, {"word": "inherently", "meaning_zh": ["本來", "本質上"]}, {"word": "secure", "meaning_zh": ["確保", "獲得", "使安全", "使牢固"]}, {"word": "foreseeable", "meaning_zh": ["可預見的"]}, {"word": "innate", "meaning_zh": ["天生的"]}, {"word": "property", "meaning_zh": ["財產", "房地產"]}, {"word": "on behalf of", "meaning_zh": ["代表"]}, {"word": "lease", "meaning_zh": ["租賃", "租約"]}, {"word": "sponsor", "meaning_zh": ["贊助", "贊助者"]}, {"word": "propose", "meaning_zh": ["提議"]}, {"word": "support", "meaning_zh": ["支持", "支援", "供養", "維持"]}, {"word": "distribution", "meaning_zh": ["分發", "分配"]}, {"word": "consider", "meaning_zh": ["考慮"]}, {"word": "nearly", "meaning_zh": ["幾乎", "將近"]}, {"word": "consent", "meaning_zh": ["同意", "贊同"]}, {"word": "gratitude", "meaning_zh": ["感謝", "謝意"]}, {"word": "consult", "meaning_zh": ["商量", "諮詢"]}, {"word": "advice", "meaning_zh": ["勸告", "建議"]}, {"word": "partially", "meaning_zh": ["部分的", "一部分"]}, {"word": "evident", "meaning_zh": ["明顯的"]}, {"word": "reliability", "meaning_zh": ["可靠性", "可信賴性"]}, {"word": "cautious", "meaning_zh": ["小心的", "謹慎的"]}, {"word": "insight", "meaning_zh": ["深刻見解", "洞察力"]}, {"word": "portfolio", "meaning_zh": ["作品集", "投資組合"]}, {"word": "possible", "meaning_zh": ["可能的", "可能發生的"]}, {"word": "speculation", "meaning_zh": ["推測", "猜測"]}, {"word": "solely", "meaning_zh": ["單獨的", "僅僅"]}, {"word": "entrepreneur", "meaning_zh": ["企業家"]}, {"word": "eventually", "meaning_zh": ["最終", "最後"]}, {"word": "shareholder", "meaning_zh": ["股東"]}, {"word": "outlook", "meaning_zh": ["展望", "前景"]}, {"word": "stability", "meaning_zh": ["穩定", "穩定性"]}, {"word": "bond", "meaning_zh": ["債券"]}, {"word": "depreciation", "meaning_zh": ["貶值"]}, {"word": "increasing", "meaning_zh": ["增加中的"]}, {"word": "prevalent", "meaning_zh": ["流行的", "普遍的"]}, {"word": "rapid", "meaning_zh": ["迅速的", "快速的"]}, {"word": "unprecedented", "meaning_zh": ["前所未有的", "空前的"]}, {"word": "yield", "meaning_zh": ["產生"]}]}, {"day": 28, "theme": "古典風采", "category": "建築、住宅", "page": 508, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day28.mp3", "vocab": [{"word": "furnished", "meaning_zh": ["配有傢俱的"]}, {"word": "residence", "meaning_zh": ["住處", "住宅"]}, {"word": "spacious", "meaning_zh": ["寬敞的"]}, {"word": "drape", "meaning_zh": ["用窗簾等裝飾"]}, {"word": "unoccupied", "meaning_zh": ["空穴的", "沒有人住的"]}, {"word": "renovation", "meaning_zh": ["整修", "翻修"]}, {"word": "appropriate", "meaning_zh": ["合適的", "適當的"]}, {"word": "delay", "meaning_zh": ["延遲", "拖延"]}, {"word": "community", "meaning_zh": ["社區", "社群"]}, {"word": "construction", "meaning_zh": ["建設", "建築物"]}, {"word": "repair", "meaning_zh": ["修理"]}, {"word": "currently", "meaning_zh": ["現在", "目前"]}, {"word": "regularly", "meaning_zh": ["定期地"]}, {"word": "arrange", "meaning_zh": ["佈置", "整理"]}, {"word": "location", "meaning_zh": ["地點", "位置"]}, {"word": "restore", "meaning_zh": ["恢復", "修復"]}, {"word": "presently", "meaning_zh": ["現在"]}, {"word": "numerous", "meaning_zh": ["許多的"]}, {"word": "abandon", "meaning_zh": ["放棄", "中止", "拋棄"]}, {"word": "contractor", "meaning_zh": ["承包商"]}, {"word": "develop", "meaning_zh": ["開發"]}, {"word": "maintain", "meaning_zh": ["維持", "維護"]}, {"word": "densely", "meaning_zh": ["密集地"]}, {"word": "prepare", "meaning_zh": ["準備"]}, {"word": "finally", "meaning_zh": ["最後", "終於"]}, {"word": "district", "meaning_zh": ["地區", "區域"]}, {"word": "renewal", "meaning_zh": ["更新"]}, {"word": "compulsory", "meaning_zh": ["義務的", "強制性的"]}, {"word": "interfere", "meaning_zh": ["妨礙", "干涉"]}, {"word": "relocation", "meaning_zh": ["搬遷", "重新安置"]}, {"word": "totally", "meaning_zh": ["完全", "全然"]}, {"word": "actually", "meaning_zh": ["實際上", "事實上"]}, {"word": "architect", "meaning_zh": ["建築師"]}, {"word": "enlarge", "meaning_zh": ["擴大"]}, {"word": "install", "meaning_zh": ["設置", "安裝"]}, {"word": "suppose", "meaning_zh": ["認為", "猜想"]}, {"word": "permanent", "meaning_zh": ["永久的"]}, {"word": "adjacent", "meaning_zh": ["鄰接的"]}, {"word": "consist", "meaning_zh": ["構成", "組成"]}, {"word": "utility", "meaning_zh": ["公用事業", "公用事業設施"]}]}, {"day": 29, "theme": "天氣預報", "category": "環境", "page": 524, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day29.mp3", "vocab": [{"word": "conserve", "meaning_zh": ["保存"]}, {"word": "chance", "meaning_zh": ["可能性"]}, {"word": "forecast", "meaning_zh": ["預報"]}, {"word": "waste", "meaning_zh": ["廢棄物"]}, {"word": "dispose", "meaning_zh": ["處理"]}, {"word": "recycling", "meaning_zh": ["回收再利用"]}, {"word": "clear", "meaning_zh": ["晴朗的"]}, {"word": "damage", "meaning_zh": ["損害"]}, {"word": "significant", "meaning_zh": ["相當大的"]}, {"word": "solution", "meaning_zh": ["解決方法"]}, {"word": "occur", "meaning_zh": ["發生"]}, {"word": "ideal", "meaning_zh": ["理想的"]}, {"word": "preserve", "meaning_zh": ["保存"]}, {"word": "aid", "meaning_zh": ["援助"]}, {"word": "excessive", "meaning_zh": ["過度的"]}, {"word": "intensively", "meaning_zh": ["集中的"]}, {"word": "vary", "meaning_zh": ["不同"]}, {"word": "pleasing", "meaning_zh": ["令人愉快的"]}, {"word": "mark", "meaning_zh": ["得分"]}, {"word": "inaccessible", "meaning_zh": ["不能進入的"]}, {"word": "disturb", "meaning_zh": ["打擾"]}, {"word": "pollutant", "meaning_zh": ["汙染物質"]}, {"word": "emission", "meaning_zh": ["排放"]}, {"word": "dense", "meaning_zh": ["密集的"]}, {"word": "environmental", "meaning_zh": ["環境的"]}, {"word": "consistent", "meaning_zh": ["一致的"]}, {"word": "leak", "meaning_zh": ["洩漏"]}, {"word": "organization", "meaning_zh": ["組織"]}, {"word": "continually", "meaning_zh": ["頻繁地"]}, {"word": "contaminate", "meaning_zh": ["汙染"]}, {"word": "disaster", "meaning_zh": ["災難"]}, {"word": "discharge", "meaning_zh": ["排放"]}, {"word": "resource", "meaning_zh": ["資源"]}, {"word": "prominent", "meaning_zh": ["著名的"]}, {"word": "deplete", "meaning_zh": ["耗盡"]}, {"word": "purify", "meaning_zh": ["淨化"]}, {"word": "endangered", "meaning_zh": ["瀕臨絕種的"]}, {"word": "extinction", "meaning_zh": ["絕種"]}, {"word": "drought", "meaning_zh": ["乾旱"]}, {"word": "inflict", "meaning_zh": ["施加"]}, {"word": "migration", "meaning_zh": ["遷移"]}, {"word": "ecology", "meaning_zh": ["生態"]}, {"word": "habitat", "meaning_zh": ["棲息地"]}]}, {"day": 30, "theme": "重大疾病", "category": "健康", "page": 542, "audio_url": "https://s3.tutorabc.com/nebo/toeic/1-basic/basic_Day30.mp3", "vocab": [{"word": "fatigue", "meaning_zh": ["疲勞"]}, {"word": "checkup", "meaning_zh": ["健康檢查"]}, {"word": "symptom", "meaning_zh": ["症狀"]}, {"word": "physician", "meaning_zh": ["內科醫師"]}, {"word": "diagnosis", "meaning_zh": ["診斷"]}, {"word": "prescribe", "meaning_zh": ["開藥方"]}, {"word": "recovery", "meaning_zh": ["恢復康復"]}, {"word": "recognize", "meaning_zh": ["認定承認認出表彰"]}, {"word": "join", "meaning_zh": ["加入"]}, {"word": "comprehensive", "meaning_zh": ["全面的綜合的"]}, {"word": "participate", "meaning_zh": ["參與參加"]}, {"word": "recommend", "meaning_zh": ["推薦建議"]}, {"word": "necessary", "meaning_zh": ["必要的"]}, {"word": "ability", "meaning_zh": ["能力"]}, {"word": "operation", "meaning_zh": ["手術"]}, {"word": "cleanliness", "meaning_zh": ["清潔"]}, {"word": "duration", "meaning_zh": ["持續期間"]}, {"word": "examination", "meaning_zh": ["檢查審查"]}, {"word": "eliminate", "meaning_zh": ["排除消除"]}, {"word": "easily", "meaning_zh": ["容易地"]}, {"word": "dental", "meaning_zh": ["牙科的牙齒的"]}, {"word": "dietary", "meaning_zh": ["飲食的節食的"]}, {"word": "related", "meaning_zh": ["有關的"]}, {"word": "transmit", "meaning_zh": ["傳播傳送"]}, {"word": "periodically", "meaning_zh": ["週期性地定期地"]}, {"word": "reaction", "meaning_zh": ["反應"]}, {"word": "simple", "meaning_zh": ["簡單的"]}, {"word": "coverage", "meaning_zh": ["理賠範圍報道"]}, {"word": "exposure", "meaning_zh": ["暴露"]}, {"word": "pharmaceutical", "meaning_zh": ["製藥的藥劑學的"]}, {"word": "premium", "meaning_zh": ["保險費"]}, {"word": "relieve", "meaning_zh": ["緩解"]}, {"word": "combination", "meaning_zh": ["結合組合"]}, {"word": "conscious", "meaning_zh": ["有意識的意識到的"]}, {"word": "deprivation", "meaning_zh": ["剝奪缺乏"]}, {"word": "health", "meaning_zh": ["健康健全"]}, {"word": "induce", "meaning_zh": ["引起"]}, {"word": "insurance", "meaning_zh": ["保險"]}, {"word": "nutrition", "meaning_zh": ["營養"]}, {"word": "prevention", "meaning_zh": ["預防"]}, {"word": "susceptible", "meaning_zh": ["易受感染的易受影響的"]}, {"word": "uncomfortably", "meaning_zh": ["令人不快地不舒服地"]}]}]</script>
+<script>
+(function() {
+  const DAYS = JSON.parse(document.getElementById('data').textContent);
+  const byDay = Object.fromEntries(DAYS.map(d => [d.day, d]));
+  const dayList = document.getElementById('day-list');
+  const main = document.getElementById('main');
+  const search = document.getElementById('search');
+  const brandLink = document.getElementById('brand-link');
+
+  let activeDay = 1;
+  let query = '';
+  let practiceMode = 'all'; // 'all' | 'hide-en' | 'hide-zh'
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    })[c]);
+  }
+
+  function highlight(text, q) {
+    const t = escapeHtml(text);
+    if (!q) return t;
+    const i = text.toLowerCase().indexOf(q);
+    if (i < 0) return t;
+    return escapeHtml(text.slice(0, i))
+      + '<mark>' + escapeHtml(text.slice(i, i + q.length)) + '</mark>'
+      + escapeHtml(text.slice(i + q.length));
+  }
+
+  function dayMatches(d, q) {
+    if (!q) return d.vocab.length;
+    let count = 0;
+    for (const v of d.vocab) {
+      if (v.word.toLowerCase().includes(q)) { count++; continue; }
+      if (v.meaning_zh.some(g => g.toLowerCase().includes(q))) count++;
+    }
+    return count;
+  }
+
+  function renderSidebar() {
+    const q = query;
+    dayList.innerHTML = DAYS.map(d => {
+      const matches = q ? dayMatches(d, q) : d.vocab.length;
+      const dim = q && matches === 0;
+      const active = d.day === activeDay;
+      const cls = ['day-link'];
+      if (active) cls.push('active');
+      if (dim) cls.push('dim');
+      const right = q
+        ? (matches > 0 ? '<span class="match-count">' + matches + '</span>' : '<span class="count">0</span>')
+        : '<span class="count">' + d.vocab.length + '</span>';
+      return '<li><a class="' + cls.join(' ') + '" href="#day-' + d.day + '" data-day="' + d.day + '">'
+        + '<span class="num">' + String(d.day).padStart(2, '0') + '</span>'
+        + '<span class="theme zh">' + escapeHtml(d.theme) + '</span>'
+        + right
+        + '</a></li>';
+    }).join('');
+  }
+
+  function renderDay(dayNum) {
+    const d = byDay[dayNum];
+    if (!d) {
+      main.innerHTML = '<div class="empty">Day not found.</div>';
+      return;
+    }
+    const q = query;
+    const prev = byDay[dayNum - 1];
+    const next = byDay[dayNum + 1];
+
+    const rows = d.vocab.map((v, i) => {
+      const wordMatch = q && v.word.toLowerCase().includes(q);
+      const glossMatch = q && v.meaning_zh.some(g => g.toLowerCase().includes(q));
+      const matched = wordMatch || glossMatch;
+      const dim = q && !matched;
+      const cls = [];
+      if (matched) cls.push('match');
+      if (dim) cls.push('dim');
+      const wordHtml = wordMatch ? highlight(v.word, q) : escapeHtml(v.word);
+      const glossHtml = v.meaning_zh.map(g => {
+        return (q && g.toLowerCase().includes(q)) ? highlight(g, q) : escapeHtml(g);
+      }).join(', ');
+      return '<tr' + (cls.length ? ' class="' + cls.join(' ') + '"' : '') + '>'
+        + '<td class="idx">' + (i + 1) + '</td>'
+        + '<td class="word"><span class="content">' + wordHtml + '</span></td>'
+        + '<td class="gloss zh"><span class="content">' + glossHtml + '</span></td>'
+        + '</tr>';
+    }).join('');
+
+    const cardClass = practiceMode === 'hide-en' ? 'vocab-card hide-en'
+                    : practiceMode === 'hide-zh' ? 'vocab-card hide-zh'
+                    : 'vocab-card';
+    const btn = (mode, label) => '<button class="practice-btn' + (practiceMode === mode ? ' active' : '') + '" data-mode="' + mode + '">' + label + '</button>';
+    const showHint = practiceMode !== 'all';
+
+    main.innerHTML = ''
+      + '<div class="day-header">'
+      +   '<div class="label">Day ' + d.day + ' / 30</div>'
+      +   '<h1 class="zh">' + escapeHtml(d.theme) + '</h1>'
+      +   '<div class="meta-row">'
+      +     '<span class="badge zh">' + escapeHtml(d.category) + '</span>'
+      +     '<span class="meta-text">Page ' + escapeHtml(String(d.page)) + ' · ' + d.vocab.length + ' words</span>'
+      +   '</div>'
+      + '</div>'
+      + '<div class="audio-card">'
+      +   '<span class="audio-label">Audio</span>'
+      +   '<audio controls preload="none" src="' + d.audio_url + '"></audio>'
+      + '</div>'
+      + '<div class="practice-bar">'
+      +   '<span class="practice-label">Practice</span>'
+      +   btn('all', 'Show all')
+      +   btn('hide-en', 'Hide English')
+      +   btn('hide-zh', 'Hide 中文')
+      +   (showHint ? '<span class="practice-hint">tap a cell to reveal · press <code style="font-family:\'JetBrains Mono\',monospace">R</code> to flip mode</span>' : '')
+      + '</div>'
+      + '<div class="' + cardClass + '"><table>'
+      +   '<thead><tr><th>#</th><th>Word</th><th>中文</th></tr></thead>'
+      +   '<tbody>' + rows + '</tbody>'
+      + '</table></div>'
+      + '<nav class="pager">'
+      +   (prev
+            ? '<a class="prev" href="#day-' + prev.day + '" data-day="' + prev.day + '"><div class="label">← Day ' + prev.day + '</div><div class="theme zh">' + escapeHtml(prev.theme) + '</div></a>'
+            : '<a class="prev disabled"><div class="label">Start</div><div class="theme">—</div></a>')
+      +   (next
+            ? '<a class="next" href="#day-' + next.day + '" data-day="' + next.day + '"><div class="label">Day ' + next.day + ' →</div><div class="theme zh">' + escapeHtml(next.theme) + '</div></a>'
+            : '<a class="next disabled"><div class="label">End</div><div class="theme">—</div></a>')
+      + '</nav>';
+  }
+
+  function setDay(dayNum, push) {
+    if (!byDay[dayNum]) return;
+    activeDay = dayNum;
+    if (push) {
+      const target = '#day-' + dayNum;
+      if (location.hash !== target) history.replaceState(null, '', target);
+    }
+    renderSidebar();
+    renderDay(dayNum);
+    main.scrollIntoView({ behavior: 'auto', block: 'start' });
+  }
+
+  // Routing: clicks
+  document.addEventListener('click', e => {
+    const a = e.target.closest('a[data-day]');
+    if (!a) return;
+    e.preventDefault();
+    setDay(parseInt(a.dataset.day, 10), true);
+  });
+
+  // Practice mode buttons
+  main.addEventListener('click', e => {
+    const btn = e.target.closest('.practice-btn');
+    if (!btn) return;
+    practiceMode = btn.dataset.mode;
+    renderDay(activeDay);
+  });
+
+  // Click-to-reveal masked cells
+  main.addEventListener('click', e => {
+    const td = e.target.closest('td.word, td.gloss');
+    if (!td) return;
+    const card = td.closest('.vocab-card');
+    if (!card) return;
+    const isHiddenEn = card.classList.contains('hide-en') && td.classList.contains('word');
+    const isHiddenZh = card.classList.contains('hide-zh') && td.classList.contains('gloss');
+    if (isHiddenEn || isHiddenZh) td.classList.toggle('revealed');
+  });
+
+  brandLink.addEventListener('click', e => {
+    e.preventDefault();
+    setDay(1, true);
+    search.value = ''; query = ''; renderSidebar(); renderDay(activeDay);
+  });
+
+  // Routing: hash on load + popstate
+  function dayFromHash() {
+    const m = location.hash.match(/^#day-(\d+)$/);
+    return m ? parseInt(m[1], 10) : 1;
+  }
+  window.addEventListener('hashchange', () => setDay(dayFromHash(), false));
+
+  // Search
+  let searchT;
+  search.addEventListener('input', () => {
+    clearTimeout(searchT);
+    searchT = setTimeout(() => {
+      query = search.value.trim().toLowerCase();
+      renderSidebar();
+      renderDay(activeDay);
+    }, 80);
+  });
+
+  // Keyboard nav
+  document.addEventListener('keydown', e => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+      if (e.key === 'Escape') { search.value = ''; query = ''; renderSidebar(); renderDay(activeDay); search.blur(); }
+      return;
+    }
+    if (e.key === '/') { e.preventDefault(); search.focus(); return; }
+    if (e.key === 'ArrowLeft' && byDay[activeDay - 1]) setDay(activeDay - 1, true);
+    if (e.key === 'ArrowRight' && byDay[activeDay + 1]) setDay(activeDay + 1, true);
+    if (e.key === 'r' || e.key === 'R') {
+      practiceMode = practiceMode === 'all' ? 'hide-en'
+                   : practiceMode === 'hide-en' ? 'hide-zh'
+                   : 'all';
+      renderDay(activeDay);
+    }
+  });
+
+  // Initial paint
+  setDay(dayFromHash(), false);
+})();
+</script>
+</body>
+</html>
