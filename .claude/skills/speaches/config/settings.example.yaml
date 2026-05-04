@@ -1,0 +1,5 @@
+# Copy this file to settings.yaml and fill in your speaches server URL.
+# settings.yaml is gitignored — your real URL/key won't leak.
+
+base_url: ""    # e.g. https://your-speaches-host.example.com
+api_key: ""    # leave empty if your server has no auth
