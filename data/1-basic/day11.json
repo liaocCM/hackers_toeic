@@ -4,61 +4,278 @@
   "category": "產品開發",
   "page": 204,
   "audio_source": "audio/1-basic_Day01-30/basic_Day11.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
-  "low_count_warning": true,
-  "raw_transcript": "Hackers TOEIC Vocabulary Day 11特徵,特色功能,以什麼為特色,特別看在靈感,鼓舞人心的人事物充足的專利,專利權,專利品想像,在心中描繪延長,表示,給予在什麼之後,接下來的,隨後的打算,意圖grant, grantallow, allowinspect, inspectimprove, improveincreasingly, increasingly建增地,越來越投資,投入各式各樣的,好幾個的升級,改良使升級,改進說明書,手冊探勘,探索答覆,反應外觀,外貌成功的容納,裝著,舉辦,舉行進步,進展可信賴的,可靠的品質國內的開發,發展可得性,可利用性更新,最新消息更新,使成為最新精確的複雜的熟練的,有造詣的諮詢,問題徵兆,指標製造商,製造業者相容的,能共處的優秀的,叫好的絕對的,完全的拓展,擴大腐蝕遠程的,從遠處",
+  "transcript_model": "openai/gpt-4o-transcribe",
+  "low_count_warning": false,
+  "raw_transcript": "Hackers TOEIC Vocabulary, Day 11\n\nResearch\n\n研究, 調查\n\nDevise\n\n設計出來, 發明\n\nRevolutionary\n\n革命性的\n\nInnovative\n\n創新的\n\nFeature\n\n特徵, 特色功能\n\n以什麼為特色, 特別刊載\n\nInspiration\n\n靈感, 鼓舞人心的人事物\n\nSufficiently\n\n充足地\n\nPatent\n\n專利, 專利權, 專利品\n\nEnvision\n\n想象, 在心中描繪\n\nExtend\n\n延長, 表示, 給予\n\nFollowing\n\n在什麼之後, 接下來的, 隨後的\n\nIntend\n\n打算, 意圖\n\nGrant\n\n授予, 給予, 補助金\n\nAllow\n\n允許, 使某人能夠做某事\n\nInspect\n\n檢查, 調查\n\nImprove\n\n改善, 提高\n\nIncreasingly\n\n漸增地, 越來越\n\nInvest\n\n投資, 投入\n\nVarious\n\n各式各樣的, 好幾個的\n\nUpgrade\n\n升級, 改良\n\nUpgrade\n\n使升級, 改進\n\nManual\n\n說明書, 手冊\n\nExplore\n\n探勘, 探索\n\nResponse\n\n答覆, 反應\n\nAppearance\n\n外觀, 外貌\n\nSuccessful\n\n成功的\n\nHold\n\n容納, 裝著, 舉辦, 舉行\n\nAdvance\n\n進步, 進展\n\nReliable\n\n可信賴的, 可靠的\n\nQuality\n\n品質\n\nDomestic\n\n國內的\n\nDevelopment\n\n開發, 發展\n\nAvailability\n\n可得性, 可利用性\n\nUpdate\n\n更新, 最新消息\n\nUpdate\n\n更新, 使成為最新\n\nAccurate\n\n精確的\n\nComplicated\n\n複雜的\n\nAccomplished\n\n熟練的, 有造詣的\n\nInquiry\n\n諮詢, 問題\n\nIndication\n\n徵兆, 指標\n\nManufacturer\n\n製造商, 製造業者\n\nCompatible\n\n相容的, 能共處的\n\nSuperior\n\n優秀的, 較好的\n\nAbsolute\n\n絕對的, 完全的\n\nBroaden\n\n拓展, 擴大\n\nCorrosion\n\n腐蝕\n\nRemotely\n\n遠程地, 從遠處",
   "vocab": [
     {
+      "word": "research",
+      "meaning_zh": [
+        "研究"
+      ]
+    },
+    {
+      "word": "devise",
+      "meaning_zh": [
+        "設計出來"
+      ]
+    },
+    {
+      "word": "revolutionary",
+      "meaning_zh": [
+        "革命性的"
+      ]
+    },
+    {
+      "word": "innovative",
+      "meaning_zh": [
+        "創新的"
+      ]
+    },
+    {
+      "word": "feature",
+      "meaning_zh": [
+        "特徵"
+      ]
+    },
+    {
+      "word": "inspiration",
+      "meaning_zh": [
+        "靈感"
+      ]
+    },
+    {
+      "word": "sufficiently",
+      "meaning_zh": [
+        "充足地"
+      ]
+    },
+    {
+      "word": "patent",
+      "meaning_zh": [
+        "專利"
+      ]
+    },
+    {
+      "word": "envision",
+      "meaning_zh": [
+        "想象"
+      ]
+    },
+    {
+      "word": "extend",
+      "meaning_zh": [
+        "延長"
+      ]
+    },
+    {
+      "word": "following",
+      "meaning_zh": [
+        "在什麼之後"
+      ]
+    },
+    {
+      "word": "intend",
+      "meaning_zh": [
+        "打算"
+      ]
+    },
+    {
       "word": "grant",
-      "meaning_zh": []
+      "meaning_zh": [
+        "授予"
+      ]
     },
     {
-      "word": "grantallow",
-      "meaning_zh": []
+      "word": "allow",
+      "meaning_zh": [
+        "允許"
+      ]
     },
     {
-      "word": "allowinspect",
-      "meaning_zh": []
+      "word": "inspect",
+      "meaning_zh": [
+        "檢查"
+      ]
     },
     {
-      "word": "inspectimprove",
-      "meaning_zh": []
-    },
-    {
-      "word": "improveincreasingly",
-      "meaning_zh": []
+      "word": "improve",
+      "meaning_zh": [
+        "改善"
+      ]
     },
     {
       "word": "increasingly",
       "meaning_zh": [
-        "建增地",
-        "越來越投資",
-        "投入各式各樣的",
-        "好幾個的升級",
-        "改良使升級",
-        "改進說明書",
-        "手冊探勘",
-        "探索答覆",
-        "反應外觀",
-        "外貌成功的容納",
-        "裝著",
-        "舉辦",
-        "舉行進步",
-        "進展可信賴的",
-        "可靠的品質國內的開發",
-        "發展可得性",
-        "可利用性更新",
-        "最新消息更新",
-        "使成為最新精確的複雜的熟練的",
-        "有造詣的諮詢",
-        "問題徵兆",
-        "指標製造商",
-        "製造業者相容的",
-        "能共處的優秀的",
-        "叫好的絕對的",
-        "完全的拓展",
-        "擴大腐蝕遠程的",
-        "從遠處"
+        "漸增地"
+      ]
+    },
+    {
+      "word": "invest",
+      "meaning_zh": [
+        "投資"
+      ]
+    },
+    {
+      "word": "various",
+      "meaning_zh": [
+        "各式各樣的"
+      ]
+    },
+    {
+      "word": "upgrade",
+      "meaning_zh": [
+        "升級"
+      ]
+    },
+    {
+      "word": "manual",
+      "meaning_zh": [
+        "說明書"
+      ]
+    },
+    {
+      "word": "explore",
+      "meaning_zh": [
+        "探勘"
+      ]
+    },
+    {
+      "word": "response",
+      "meaning_zh": [
+        "答覆"
+      ]
+    },
+    {
+      "word": "appearance",
+      "meaning_zh": [
+        "外觀"
+      ]
+    },
+    {
+      "word": "successful",
+      "meaning_zh": [
+        "成功的"
+      ]
+    },
+    {
+      "word": "hold",
+      "meaning_zh": [
+        "容納"
+      ]
+    },
+    {
+      "word": "advance",
+      "meaning_zh": [
+        "進步"
+      ]
+    },
+    {
+      "word": "reliable",
+      "meaning_zh": [
+        "可信賴的"
+      ]
+    },
+    {
+      "word": "quality",
+      "meaning_zh": [
+        "品質"
+      ]
+    },
+    {
+      "word": "domestic",
+      "meaning_zh": [
+        "國內的"
+      ]
+    },
+    {
+      "word": "development",
+      "meaning_zh": [
+        "開發"
+      ]
+    },
+    {
+      "word": "availability",
+      "meaning_zh": [
+        "可得性"
+      ]
+    },
+    {
+      "word": "update",
+      "meaning_zh": [
+        "更新"
+      ]
+    },
+    {
+      "word": "accurate",
+      "meaning_zh": [
+        "精確的"
+      ]
+    },
+    {
+      "word": "complicated",
+      "meaning_zh": [
+        "複雜的"
+      ]
+    },
+    {
+      "word": "accomplished",
+      "meaning_zh": [
+        "熟練的"
+      ]
+    },
+    {
+      "word": "inquiry",
+      "meaning_zh": [
+        "諮詢"
+      ]
+    },
+    {
+      "word": "indication",
+      "meaning_zh": [
+        "徵兆"
+      ]
+    },
+    {
+      "word": "manufacturer",
+      "meaning_zh": [
+        "製造商"
+      ]
+    },
+    {
+      "word": "compatible",
+      "meaning_zh": [
+        "相容的"
+      ]
+    },
+    {
+      "word": "superior",
+      "meaning_zh": [
+        "優秀的"
+      ]
+    },
+    {
+      "word": "absolute",
+      "meaning_zh": [
+        "絕對的"
+      ]
+    },
+    {
+      "word": "broaden",
+      "meaning_zh": [
+        "拓展"
+      ]
+    },
+    {
+      "word": "corrosion",
+      "meaning_zh": [
+        "腐蝕"
+      ]
+    },
+    {
+      "word": "remotely",
+      "meaning_zh": [
+        "遠程地"
       ]
     }
   ]

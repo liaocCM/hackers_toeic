@@ -4,9 +4,9 @@
   "category": "人事異動",
   "page": 440,
   "audio_source": "audio/1-basic_Day01-30/basic_Day24.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC Vocabulary, Day 24.appoint 任命,指派appraisal 評價promote 使生殖,促進skilled 熟練的,有技能的radically 根本的,徹底的exceptional 優異的,例外的appreciation 感謝,欣賞evaluate 評價suggest 建議preference 偏好management 管理,經營,經營團隊predict 預測transfer 轉移,使調職award 獎,授予mandatory 義務性的,強制性的competent 有能力的,身認的performance 表現,成果,表演,演出,演奏reward 報償,回報search 尋找,搜尋,調查inexperienced 沒經驗的,不熟練的early 早的,提早的designate 指定,指派executive 經營管理的dedication 專心致力unanimously 全體意見一致的progress 前進,進步,進展congratulate 祝賀dismiss 解僱independence 獨立participation 參與,參加,交流praise 稱讚accomplishment 成就deliberation 商議,審議leadership 領導,領導才能retire 退休nomination 提名,任命reorganize 重新組織,改組serve 服務,擔任encouragement 鼓勵resignation 辭職,辭程strictly 嚴格地",
+  "raw_transcript": "Hackers TOEIC Vocabulary Day 24\nappoint\n任命,指派\nappraisal\n評價\npromote\n使升職,促進\nskilled\n熟練的,有技能的\nradically\n根本地,徹底地\nexceptional\n優異的,例外的\nappreciation\n感謝,欣賞\nevaluate\n評價\nsuggest\n建議\npreference\n偏好\nmanagement\n管理,經營,經營團隊\npredict\n預測\ntransfer\n轉移,使調職\naward\n獎,授予\nmandatory\n義務性的,強制性的\ncompetent\n有能力的,勝任的\nperformance\n表現,成果,表演,演出,演奏\nreward\n報償,回報\nsearch\n尋找,搜尋,調查\ninexperienced\n沒經驗的,不熟練的\nearly\n早的,提早的\ndesignate\n指定,指派\nexecutive\n經營管理的\ndedication\n專心致力\nunanimously\n全體意見一致地\nprogress\n前進,進步,進展\ncongratulate\n祝賀\ndismiss\n解僱\nindependence\n獨立\nparticipation\n參與,參加,加入\npraise\n稱讚\naccomplishment\n成就\ndeliberation\n商議,審議\nleadership\n領導,領導才能\nretire\n退休\nnomination\n提名,任命\nreorganize\n重新組織,改組\nserve\n服務,擔任\nencouragement\n鼓勵\nresignation\n辭職,辭呈\nstrictly\n嚴格地",
   "vocab": [
     {
       "word": "appoint",
@@ -24,7 +24,7 @@
     {
       "word": "promote",
       "meaning_zh": [
-        "使生殖",
+        "使升職",
         "促進"
       ]
     },
@@ -38,8 +38,8 @@
     {
       "word": "radically",
       "meaning_zh": [
-        "根本的",
-        "徹底的"
+        "根本地",
+        "徹底地"
       ]
     },
     {
@@ -113,7 +113,7 @@
       "word": "competent",
       "meaning_zh": [
         "有能力的",
-        "身認的"
+        "勝任的"
       ]
     },
     {
@@ -177,7 +177,7 @@
     {
       "word": "unanimously",
       "meaning_zh": [
-        "全體意見一致的"
+        "全體意見一致地"
       ]
     },
     {
@@ -211,7 +211,7 @@
       "meaning_zh": [
         "參與",
         "參加",
-        "交流"
+        "加入"
       ]
     },
     {
@@ -277,7 +277,7 @@
       "word": "resignation",
       "meaning_zh": [
         "辭職",
-        "辭程"
+        "辭呈"
       ]
     },
     {

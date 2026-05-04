@@ -4,18 +4,10 @@
   "category": "投資",
   "page": 492,
   "audio_source": "audio/1-basic_Day01-30/basic_Day27.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC vocabulary, day twenty-seven.investment 投資,投資額lucrative 有利可圖的,賺錢的inherently 本來,本質上secure 確保,獲得,使安全,使牢固foreseeable 可預見的innate 天生的property 財產,房地產on behalf of 代表lease 租賃,租約sponsor 贊助,贊助者propose 提議support 支持,支援,供養,維持distribution 分發,分發分發,分配 consider 考慮nearly 幾乎,將近consent 同意,贊同gratitude 感謝,謝意consult 商量advice 建議partially 部分的,一部分evident 明顯的reliability 可靠信,可信賴信cautious 小心的,謹慎的insight 深刻見解,洞察裡portfolio 作品及投資組合possible 可能的,可能發生的speculation 推測,猜測solely 單獨的,僅僅entrepreneur 企業家eventually 最終,最後shareholder 股東outlook 展望,前進stability 穩定,穩定性bond 債券depreciation 貶值increasing 增加中的prevalent 流行的,普遍的rapid 迅速的,快速的unprecedented 前所未有的,空前的yield 產生",
+  "raw_transcript": "Hackers Toeic Vocabulary, Day 27\n\nInvestment\n\nInvestment\n\n投資,投資額\n\nLucrative\n\nLucrative\n\n有利可圖的,賺錢的\n\nInherently\n\nInherently\n\n本來,本質上\n\nSecure\n\nSecure\n\n確保,獲得,使安全,使牢固\n\nForeseeable\n\nForeseeable\n\n可預見的\n\nInnate\n\nInnate\n\n天生的\n\nProperty\n\nProperty\n\n財產,房地產\n\nOn behalf of\n\nOn behalf of\n\n代表\n\nLease\n\nLease\n\n租賃,租約\n\nSponsor\n\nSponsor\n\n贊助,贊助者\n\nPropose\n\nPropose\n\n提議\n\nSupport\n\nSupport\n\n支持,支援,供養,維持\n\nDistribution\n\nDistribution\n\n分發,分配\n\nConsider\n\nConsider\n\n考慮,Nearly\n\nNearly\n\n幾乎,將近\n\nConsent\n\nConsent\n\n同意,贊同\n\nGratitude\n\nGratitude\n\n感謝,謝意\n\nConsult\n\nConsult\n\n商量,諮詢\n\nAdvice\n\nAdvice\n\n勸告,建議\n\nPartially\n\nPartially\n\n部分的,一部分\n\nEvident\n\nEvident\n\n明顯的\n\nReliability\n\nReliability\n\n可靠性,可信賴性\n\nCautious\n\nCautious\n\n小心的,謹慎的\n\nInsight\n\nInsight\n\n深刻見解,洞察力\n\nPortfolio\n\nPortfolio\n\n作品集,投資組合\n\nPossible\n\nPossible\n\n可能的,可能發生的\n\nSpeculation\n\nSpeculation\n\n推測,猜測\n\nSolely\n\nSolely\n\n單獨的,僅僅\n\nEntrepreneur\n\nEntrepreneur\n\n企業家\n\nEventually\n\nEventually\n\n最終,最後\n\nShareholder\n\nShareholder\n\n股東\n\nOutlook\n\nOutlook\n\n展望,前景\n\nStability\n\nStability\n\n穩定,穩定性\n\nBond\n\nBond\n\n債券\n\nDepreciation\n\nDepreciation\n\n貶值\n\nIncreasing\n\nIncreasing\n\n增加中的\n\nPrevalent\n\nPrevalent\n\n流行的,普遍的\n\nRapid\n\nRapid\n\n迅速的,快速的\n\nUnprecedented\n\nUnprecedented\n\n前所未有的,空前的\n\nYield\n\nYield\n\n產生",
   "vocab": [
-    {
-      "word": "hackers' toeic vocabulary",
-      "meaning_zh": []
-    },
-    {
-      "word": "day twenty-seven",
-      "meaning_zh": []
-    },
     {
       "word": "investment",
       "meaning_zh": [
@@ -104,7 +96,6 @@
       "word": "distribution",
       "meaning_zh": [
         "分發",
-        "分發分發",
         "分配"
       ]
     },
@@ -138,12 +129,14 @@
     {
       "word": "consult",
       "meaning_zh": [
-        "商量"
+        "商量",
+        "諮詢"
       ]
     },
     {
       "word": "advice",
       "meaning_zh": [
+        "勸告",
         "建議"
       ]
     },
@@ -163,8 +156,8 @@
     {
       "word": "reliability",
       "meaning_zh": [
-        "可靠信",
-        "可信賴信"
+        "可靠性",
+        "可信賴性"
       ]
     },
     {
@@ -178,13 +171,14 @@
       "word": "insight",
       "meaning_zh": [
         "深刻見解",
-        "洞察裡"
+        "洞察力"
       ]
     },
     {
       "word": "portfolio",
       "meaning_zh": [
-        "作品及投資組合"
+        "作品集",
+        "投資組合"
       ]
     },
     {
@@ -231,7 +225,7 @@
       "word": "outlook",
       "meaning_zh": [
         "展望",
-        "前進"
+        "前景"
       ]
     },
     {

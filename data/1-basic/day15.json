@@ -4,9 +4,9 @@
   "category": "契約",
   "page": 276,
   "audio_source": "audio/1-basic_Day01-30/basic_Day15.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers TOEIC Vocabulary Day 15 proposal 提案,提議, alliance 同盟,聯盟, stipulation 契約規定,契約條款, term, 條款,論期,期限, compromise, 妥協,折衷辦法, negotiation, 談判,協商, agreement 意見一致,同意,協議, deadlock 將舉, review 再檢查,審查, contract 合約, contract 簽約,收縮, signature, 簽名, originally, 原來,起初, direction, 方向,指示,指揮 initially, 起初, expire, 合約等到期,期限終止, collaborate, 合作, dedicate, 使致力於某事,奉獻,獻出 revised, 修改過的,修訂過的, imperative, 必須履行的,必要的, cooperatively, 合作的,配合的, commission 擁經,抽成,委員會,委任,委託什麼創作, omit, 遺漏,審閱, conflict, 衝突,意見不一致, renew, 展言合約等,換新 proficient, 熟練的,精通的, confidentiality, 機密, dispute, 爭論,爭執, objection, 反對,意義 define, 定義,界定, impression, 印象, security, 安全,保全,防護, option 選擇,選擇權, proceed, 進行,繼續, modify, 修改,更改, narrow, 縮小, bid, 出價,投標, settle, 解決,安排 terminate, 結束,始終, challenging, 有挑戰性的,困難的, foundation, 基礎,建立,創辦, pending, 懸而未絕的,未絕的,破鏡的",
+  "raw_transcript": "Hackers TOEIC Vocabulary Day 15\n\nProposal\n提案、提議\nAlliance\n同盟、聯盟\nStipulation\n契約規定、契約條款\nTerm\n條款、任期、期限\nCompromise\n妥協、折衷辦法\nNegotiation\n談判、協商\nAgreement\n意見一致、同意、協議\nDeadlock\n僵局\nReview\n再檢查、審查\nContract\n合約\nContract\n簽約、收縮\nSignature\n簽名\nOriginally\n原來、起初\nDirection\n方向、指示、指揮\nInitially\n起初\nExpire\n合約等到期、期限終止\nCollaborate\n合作\nDedicate\n使致力於某事、奉獻、獻出\nRevised\n修改過的、修訂過的\nImperative\n必須履行的、必要的\nCooperatively\n合作地、配合地\nCommission\n佣金、抽成、委員會、委任、委託什麼創作\nOmit\n遺漏、省略\nConflict\n衝突、意見不一致\nRenew\n展延合約等、喚醒\nProficient\n熟練的、精通的\nConfidentiality\n機密\nDispute\n爭論、爭執\nObjection\n反對、異議\nDefine\n定義、界定\nImpression\n印象\nSecurity\n安全、保全、防護\nOption\n選擇、選擇權\nProceed\n進行、繼續\nModify\n修改、更改\nNarrow\n縮小\nBid\n出價、投標\nSettle\n解決、安排\nTerminate\n結束、始終止\nChallenging\n有挑戰性的、困難的\nFoundation\n基礎、建立、創辦\nPending\n懸而未決的、未決的、迫近的",
   "vocab": [
     {
       "word": "proposal",
@@ -33,7 +33,7 @@
       "word": "term",
       "meaning_zh": [
         "條款",
-        "論期",
+        "任期",
         "期限"
       ]
     },
@@ -62,7 +62,7 @@
     {
       "word": "deadlock",
       "meaning_zh": [
-        "將舉"
+        "僵局"
       ]
     },
     {
@@ -143,14 +143,14 @@
     {
       "word": "cooperatively",
       "meaning_zh": [
-        "合作的",
-        "配合的"
+        "合作地",
+        "配合地"
       ]
     },
     {
       "word": "commission",
       "meaning_zh": [
-        "擁經",
+        "佣金",
         "抽成",
         "委員會",
         "委任",
@@ -161,7 +161,7 @@
       "word": "omit",
       "meaning_zh": [
         "遺漏",
-        "審閱"
+        "省略"
       ]
     },
     {
@@ -174,8 +174,8 @@
     {
       "word": "renew",
       "meaning_zh": [
-        "展言合約等",
-        "換新"
+        "展延合約等",
+        "喚醒"
       ]
     },
     {
@@ -202,7 +202,7 @@
       "word": "objection",
       "meaning_zh": [
         "反對",
-        "意義"
+        "異議"
       ]
     },
     {
@@ -271,7 +271,7 @@
       "word": "terminate",
       "meaning_zh": [
         "結束",
-        "始終"
+        "始終止"
       ]
     },
     {
@@ -292,9 +292,9 @@
     {
       "word": "pending",
       "meaning_zh": [
-        "懸而未絕的",
-        "未絕的",
-        "破鏡的"
+        "懸而未決的",
+        "未決的",
+        "迫近的"
       ]
     }
   ]

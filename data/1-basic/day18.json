@@ -4,15 +4,15 @@
   "category": "住宿、餐廳",
   "page": 330,
   "audio_source": "audio/1-basic_Day01-30/basic_Day18.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC Vocabulary Day 18check-in 辦理旅館入住手續,辦理登機報到手續compensate 補償complimentary 免費贈送的chef 主廚container 容器,貨櫃elegant 優雅的,高雅的flavor 味道,風味accommodate 容納,供某人住宿,迎合available 可利用的,有空的reception 接待,歡迎會,接待處in advance 事先,遇先refreshments 茶點,侵蝕make 做,製作cater 供應飲食,承辦外匯reservation 預約,預定,保護區beverage 飲料confirm 確認cancel 取消rate 費用,價格conveniently 便利的decorate 裝飾,裝潢information 資訊retain 保持,保留atmosphere 氣氛,氛圍cuisine 料理sequence 順序,次序extensive 廣泛的,廣闊的prior 再前的,再先的book 預約amenity 便利設施belongings 攜帶物品entirely 完全地ease 簡輕,緩和,容易,輕鬆自在ingredient 材料,成分sip 錯飲,小口喝stir 攪拌,攪動choice 選擇choice 選擇,選擇範圍,選擇的東西complication 使情況變複雜的問題,障礙freshness 新鮮occupancy 入住率spot 發現,認出注意到特定的地點",
+  "raw_transcript": "Hacker Stoic Vocabulary, Day 18\n\nCheck-in\n\nCheck-in\n\n辦理旅館入住手續,辦理登機報道手續\n\nCompensate\n\nCompensate\n\n補償\n\nComplimentary\n\nComplimentary\n\n免費贈送的\n\nChef\n\nChef\n\n主廚\n\nContainer\n\nContainer\n\n容器或櫃\n\nElegant\n\nElegant\n\n優雅的,高雅的\n\nFlavor\n\nFlavor\n\n味道,風味\n\nAccommodate\n\nAccommodate\n\n容納,供某人住宿,迎合\n\nAvailable\n\nAvailable\n\nAvailable\n\n可利用的,有空的\n\nReception\n\nReception\n\nReception\n\n接待,歡迎會,接待處\n\nIn advance\n\nIn advance\n\nIn advance\n\n事先,預先\n\nRefreshments\n\nRefreshments\n\nRefreshments\n\n茶點,輕食\n\nMake\n\nMake\n\n做,製作\n\nCater\n\nCater\n\n供應飲食,承辦外匯\n\nReservation\n\nReservation\n\nReservation\n\n預約,預定,保護區\n\nBeverage\n\nBeverage\n\nBeverage\n\n飲料\n\nConfirm\n\nConfirm\n\n確認\n\nCancel\n\nCancel\n\n取消\n\nRate\n\nRate\n\nRate\n\n費用,價格\n\nConveniently\n\nConveniently\n\nConveniently\n\n便利地\n\nDecorate\n\nDecorate\n\nDecorate\n\n裝飾,裝潢\n\nInformation\n\nInformation\n\nInformation\n\n資訊\n\nRetain\n\nRetain\n\nRetain\n\n保持,保留\n\nAtmosphere\n\nAtmosphere\n\nAtmosphere\n\n氣氛,氛圍\n\nCuisine\n\nCuisine\n\nCuisine\n\n料理\n\nSequence\n\nSequence\n\nSequence\n\n順序,次序\n\nExtensive\n\nExtensive\n\nExtensive\n\n廣泛的,廣闊的\n\nPrior\n\nPrior\n\nPrior\n\n在前的,在先的\n\nBook\n\nBook\n\n預約\n\nAmenity\n\nAmenity\n\n便利設施\n\nBelongings\n\nBelongings\n\n攜帶物品\n\nEntirely\n\nEntirely\n\n完全地\n\nEase\n\nEase\n\nEase\n\n減輕,緩和,容易,輕鬆自在\n\nIngredient\n\nIngredient\n\nIngredient\n\n材料,成分\n\nSip\n\nSip\n\nSip\n\n啜飲,小口喝\n\nStir\n\nStir\n\nStir\n\n攪拌,攪動\n\nChoice\n\nChoice\n\n選擇,選擇範圍,選擇的東西\n\nComplication\n\nComplication\n\n使情況變複雜的問題,障礙\n\nFreshness\n\nFreshness\n\n新鮮\n\nOccupancy\n\n佔據\n\n佔據\n\n佔據率\n\n佔據率\n\nSpot\n\nSpot\n\n發現,認出,注意到,特定的地點",
   "vocab": [
     {
       "word": "check-in",
       "meaning_zh": [
         "辦理旅館入住手續",
-        "辦理登機報到手續"
+        "辦理登機報道手續"
       ]
     },
     {
@@ -36,8 +36,7 @@
     {
       "word": "container",
       "meaning_zh": [
-        "容器",
-        "貨櫃"
+        "容器或櫃"
       ]
     },
     {
@@ -81,14 +80,14 @@
       "word": "in advance",
       "meaning_zh": [
         "事先",
-        "遇先"
+        "預先"
       ]
     },
     {
       "word": "refreshments",
       "meaning_zh": [
         "茶點",
-        "侵蝕"
+        "輕食"
       ]
     },
     {
@@ -141,7 +140,7 @@
     {
       "word": "conveniently",
       "meaning_zh": [
-        "便利的"
+        "便利地"
       ]
     },
     {
@@ -194,8 +193,8 @@
     {
       "word": "prior",
       "meaning_zh": [
-        "再前的",
-        "再先的"
+        "在前的",
+        "在先的"
       ]
     },
     {
@@ -225,7 +224,7 @@
     {
       "word": "ease",
       "meaning_zh": [
-        "簡輕",
+        "減輕",
         "緩和",
         "容易",
         "輕鬆自在"
@@ -241,7 +240,7 @@
     {
       "word": "sip",
       "meaning_zh": [
-        "錯飲",
+        "啜飲",
         "小口喝"
       ]
     },
@@ -255,7 +254,9 @@
     {
       "word": "choice",
       "meaning_zh": [
-        "選擇"
+        "選擇",
+        "選擇範圍",
+        "選擇的東西"
       ]
     },
     {
@@ -274,14 +275,16 @@
     {
       "word": "occupancy",
       "meaning_zh": [
-        "入住率"
+        "佔據"
       ]
     },
     {
       "word": "spot",
       "meaning_zh": [
         "發現",
-        "認出注意到特定的地點"
+        "認出",
+        "注意到",
+        "特定的地點"
       ]
     }
   ]

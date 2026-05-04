@@ -4,9 +4,9 @@
   "category": "顧客服務",
   "page": 240,
   "audio_source": "audio/1-basic_Day01-30/basic_Day13.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC Vocabulary Day 13 complaint 抱怨, deal 處理,交易,分配 argumentative 爭辯的,愛爭論的 appropriately 是當地 respond 回應,回復 infuriate 激怒,使大怒 courteous 有禮貌的 satisfaction 滿意 inconvenience 不便,對某人造成不便 complete 完成,結束,完整的,完成的 specific 具體的,明確的 return 歸還,退回 replace 取代,替換 presentation 簡報 evaluation 評價,評估 confident 有自信的,有信心的 cause 引起,造成,原因 commentary 評論,屏住,實況報道 notification 通知 apologize 道歉 interact 互動,交流,相互作用 certain 確定的,確信的,某個,某些 commitment 投身,投入,致力 applaud 為什麼鼓掌,稱讚 biography 戰記,精力介紹 critical 批評的,關鍵的,危急的 depend on 依賴,取決於 combine 使結合,合併 priority 優先,優先事項 observe 仔細觀察,注意到,遵守規則等 defective 有缺陷的 reflect 反應,顯示 attitude 態度,看法 disappoint 使失望 inquire 詢問,insert disclose 公開,透露 guarantee 保證,保障 politely 禮貌的, seriously 認真的",
+  "raw_transcript": "Hackerstoic Vocabulary Day 13\ncomplaint\n抱怨\ndeal\n處理、交易、分配\nargumentative\n爭辯的、愛爭論的\nappropriately\n適當的\nrespond\n回應、回覆\ninfuriate\n激怒、使大怒\ncourteous\n有禮貌的\nsatisfaction\n滿意\ninconvenience\n不便、對某人造成不便\ncomplete\n完成、結束、完整的、完成的\nspecific\n具體的、明確的\nreturn\n歸還、退回\nreplace\n取代、替換\npresentation\n簡報\nevaluation\n評價、評估\nconfident\n有自信的、有信心的\ncause\n引起、造成、原因\ncommentary\n評論、評註、實況報導\nnotification\n通知\napologize\n道歉\ninteract\n互動、交流、相互作用\ncertain\n確定的、確信的、某個、某些\ncommitment\n投身、投入、智力\napplaud\n為什麼鼓掌、稱讚\nbiography\n傳記、經歷介紹\ncritical\n批評的、關鍵的、危急的\ndepend on\n依賴、取決於\ncombine\n使結合、合併\npriority\n優先、優先事項\nobserve\n仔細觀察、注意到、遵守規則等\ndefective\n有缺陷的\nreflect\n反應、顯示\nattitude\n態度、看法\ndisappoint\n使失望\ninquire\n詢問\ninsert\n插入\ndisclose\n公開、透露\nguarantee\n保證、保障\npolitely\n禮貌地\nseriously\n認真的",
   "vocab": [
     {
       "word": "complaint",
@@ -32,14 +32,14 @@
     {
       "word": "appropriately",
       "meaning_zh": [
-        "是當地"
+        "適當的"
       ]
     },
     {
       "word": "respond",
       "meaning_zh": [
         "回應",
-        "回復"
+        "回覆"
       ]
     },
     {
@@ -130,8 +130,8 @@
       "word": "commentary",
       "meaning_zh": [
         "評論",
-        "屏住",
-        "實況報道"
+        "評註",
+        "實況報導"
       ]
     },
     {
@@ -168,7 +168,7 @@
       "meaning_zh": [
         "投身",
         "投入",
-        "致力"
+        "智力"
       ]
     },
     {
@@ -181,8 +181,8 @@
     {
       "word": "biography",
       "meaning_zh": [
-        "戰記",
-        "精力介紹"
+        "傳記",
+        "經歷介紹"
       ]
     },
     {
@@ -255,7 +255,13 @@
       ]
     },
     {
-      "word": "insert disclose",
+      "word": "insert",
+      "meaning_zh": [
+        "插入"
+      ]
+    },
+    {
+      "word": "disclose",
       "meaning_zh": [
         "公開",
         "透露"
@@ -271,7 +277,7 @@
     {
       "word": "politely",
       "meaning_zh": [
-        "禮貌的"
+        "禮貌地"
       ]
     },
     {

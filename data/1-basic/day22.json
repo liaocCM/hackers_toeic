@@ -4,9 +4,9 @@
   "category": "會議",
   "page": 402,
   "audio_source": "audio/1-basic_Day01-30/basic_Day22.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC Vocabulary, Day 22.agenda 議程,代議事項convene 聚集,集會,召開refute 反駁,駁斥coordination 協調unanimous 意見一致的,一致同意的convince 說服,使確信consensus 共識,一致的意見defer 延後,延期usually 通常reschedule 重新安排什麼的時間meeting 會議determine 查明,判定,決定report 報告,報到,報告書,報到comment 評論,發表意見phase 階段approve 批准,贊成enclosed 被附上的easy 簡單的,容易的record 記錄,履歷,經歷record 記錄suggestion 建議,提議attention 注意,專心object 反對coincidentally 巧合地,碰巧地,同時發生地crowded 擁擠的undergo 經歷,承受,接受outcome 結果narrowly 狹窄地,嚴格地勉強,好不容易,以些微之差differ 不同,不一樣discuss 討論give 給予,發表,講授brief 向某人簡短說明,簡短的報告distract 是分心,分散emphasis 強調,重點press 報刊,新聞媒體,按壓organize 組織organize 組織,安排,整理mention 提到persuasive 有說服力的understanding 理解的,諒解的adjourn 是休會,是終止,是延期constructive 建設性的preside 主持,擔任會議主席irrelevant 無關的,不相關的constraint 限制condensed 簡要的,壓縮的,凝結的endorse 公開地支持,讚同,背書punctually 準時地,如期地,不延遲地",
+  "raw_transcript": "Hackers TOEIC Vocabulary Day 22\nAgenda\n議程,代議事項\nConvene\n聚集,集會,召開\nRefute\n反駁,駁斥\nCoordination\n協調\nUnanimous\n意見一致的,一致同意的\nConvince\n說服,使確信\nConsensus\n共識,一致的意見\nDefer\n延後,延期\nUsually\n通常\nReschedule\n重新安排什麼的時間\nMeeting\n會議\nDetermine\n查明,判定,決定\nReport\n報告,報道,報告書,報道\nComment\n評論,發表意見\nPhase\n階段\nApprove\n批准,贊成\nEnclosed\n被附上的\nEasy\n簡單的,容易的\nRecord\n記錄,履歷,經歷\nRecord\n記錄\nSuggestion\n建議,提議\nAttention\n注意,專心\nObject\n反對\nCoincidentally\n巧合地,碰巧地,同時發生地\nCrowded\n擁擠的\nUndergo\n經歷,承受,接受\nOutcome\n結果\nNarrowly\n狹窄地,嚴格地,勉強,好不容易,以些為之差\nDiffer\n不同,不一樣\nDiscuss\n討論\nGive\n給予,發表,講授\nBrief\n向某人簡短說明,簡短的報告\nDistract\n使分心,分散\nEmphasis\n強調,重點\nPress\n報刊,新聞媒體,按,壓\nOrganize\n組織,安排,整理\nMention\n提到\nPersuasive\n有說服力的\nUnderstanding\n理解的,諒解的\nAdjourn\n使收會,始中止,始延期\nConstructive\n建設性的\nPreside\n主持,擔任會議主席\nIrrelevant\n無關的,不相關的\nConstraint\n限制\nCondensed\n簡要的,壓縮的,凝結的\nEndorse\n公開地支持,贊同,背書\nPunctually\n準時地,如期地,不延遲地",
   "vocab": [
     {
       "word": "agenda",
@@ -94,7 +94,7 @@
       "word": "report",
       "meaning_zh": [
         "報告",
-        "報到",
+        "報道",
         "報告書"
       ]
     },
@@ -191,9 +191,10 @@
       "word": "narrowly",
       "meaning_zh": [
         "狹窄地",
-        "嚴格地勉強",
+        "嚴格地",
+        "勉強",
         "好不容易",
-        "以些微之差"
+        "以些為之差"
       ]
     },
     {
@@ -227,7 +228,7 @@
     {
       "word": "distract",
       "meaning_zh": [
-        "是分心",
+        "使分心",
         "分散"
       ]
     },
@@ -243,13 +244,16 @@
       "meaning_zh": [
         "報刊",
         "新聞媒體",
-        "按壓"
+        "按",
+        "壓"
       ]
     },
     {
       "word": "organize",
       "meaning_zh": [
-        "組織"
+        "組織",
+        "安排",
+        "整理"
       ]
     },
     {
@@ -274,9 +278,9 @@
     {
       "word": "adjourn",
       "meaning_zh": [
-        "是休會",
-        "是終止",
-        "是延期"
+        "使收會",
+        "始中止",
+        "始延期"
       ]
     },
     {
@@ -317,7 +321,7 @@
       "word": "endorse",
       "meaning_zh": [
         "公開地支持",
-        "讚同",
+        "贊同",
         "背書"
       ]
     },

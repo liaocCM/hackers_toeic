@@ -4,10 +4,37 @@
   "category": "經濟",
   "page": 168,
   "audio_source": "audio/1-basic_Day01-30/basic_Day09.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hacker's Toic Vocabulary, Day 9. rapidly 迅速的,很快的, sore 高聲,擊掌 assert 斷言,主張 boost 推動,促進,使上升 analyst 分析師 potential 潛在的,潛力,可能性, pleased 滿意的,高興的 remain 維持什麼的狀態,仍然有待 limited 有限的, costly 昂貴的,代價高的 particular 特定的, drastic 激烈的,猛烈的,徹底的 evenly 均勻的,平均的 evidence 證據, prospect 展望,預期 lead 領導,引導,導致 fall 下降, period 期間,時期 indicator 指標, industry 工業,產業 likely, 很可能的, boom 繁榮,興盛 director 主管,懂事, substitute 代替品,代替 consequence 結果,後果, fairly 相當,頗為 economical 經濟的,節約的, thrive 繁榮,成功 implication 暗示,可能造成的影響 wane 減少,衰退, prosperity 繁榮 depression 不景氣,蕭條 dwindle 逐漸減少,逐漸變小 impede 妨礙,阻礙, promising 有希望的,有前途的 adversity 逆境,不幸",
+  "raw_transcript": "Hackers TOEIC Vocabulary Day 9\n\nstagnant停滯的,不景氣的dramatically戲劇性的brisk活潑的,興旺的unstable不穩定的,易變的rapidly迅速的,很快的soar高升,急漲assert斷言,主張boost推動,促進,使上升analyst分析師potential潛在的,潛力,可能性pleased滿意的,高興的remain維持什麼的狀態,仍然有待limited有限的costly昂貴的,代價高的particular特定的drastic激烈的,猛烈的,徹底的evenly均勻的,平均的evidence證據prospect展望,預期lead領導,引導,導致fall下降period期間,時期indicator指標industry工業,產業likely很可能的boom繁榮,興盛director主管,董事substitute代替品,代替consequence結果,後果fairly相當,頗為economical經濟的,節約的thrive繁榮,成功implication暗示,可能造成的影響wane減少,衰退prosperity繁榮depression不景氣,蕭條dwindle逐漸減少,逐漸變小impede妨礙,阻礙promising有希望的,有前途的adversity逆境,不幸",
   "vocab": [
+    {
+      "word": "stagnant",
+      "meaning_zh": [
+        "停滯的",
+        "不景氣的"
+      ]
+    },
+    {
+      "word": "dramatically",
+      "meaning_zh": [
+        "戲劇性的"
+      ]
+    },
+    {
+      "word": "brisk",
+      "meaning_zh": [
+        "活潑的",
+        "興旺的"
+      ]
+    },
+    {
+      "word": "unstable",
+      "meaning_zh": [
+        "不穩定的",
+        "易變的"
+      ]
+    },
     {
       "word": "rapidly",
       "meaning_zh": [
@@ -16,10 +43,10 @@
       ]
     },
     {
-      "word": "sore",
+      "word": "soar",
       "meaning_zh": [
-        "高聲",
-        "擊掌"
+        "高升",
+        "急漲"
       ]
     },
     {
@@ -163,7 +190,7 @@
       "word": "director",
       "meaning_zh": [
         "主管",
-        "懂事"
+        "董事"
       ]
     },
     {

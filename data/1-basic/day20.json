@@ -4,15 +4,15 @@
   "category": "會計",
   "page": 364,
   "audio_source": "audio/1-basic_Day01-30/basic_Day20.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC vocabulary, day 20.Audit 審計,查帳Accounting 會計Budget 預算Financial 財務的,金融的Curtail 縮減Defisite 赤字,不足而Recently 最近Substantially 大大地,相當多地Committee 委員會Frequently 頻繁地Capability 能力,才能Proceeds 收入Reimburse 補償和消Considerably 相當多地Adequate 足夠的,適當的Total 總計的,全部的Allocate 分配,分派Inspector 檢查人員,稽查人員Preferred 偏好的,優先的Quarter 計度四分之一Interrupt 打斷,中斷Browse 瀏覽,隨意觀看Prompt 即時的,迅速的,導致促使Deduct 扣除,減除Measurement 測量,測定,尺寸Shorten 縮短,變短Amend 修正Calculate 計算Exempt 被免除的Deficient 不足的,缺乏的Compare 比較Fortunate 幸運的Expenditure 支出,開支Accurately 精確的Worth 值得什麼的,價值Excess 超過,過量Fiscal 會計的,財政的Incidental 附帶的Inflation 通貨膨脹Liable 負有責任的,很可能會怎樣的Spend 花費,花用Turnover 營業額,交易額,人事異動率",
+  "raw_transcript": "Hacker's TOEIC Vocabulary Day 20\n\nAudit\n審計、查賬\n\nAccounting\n會計\n\nBudget\n預算\n\nFinancial\n財務的、金融的\n\nCurtail\n縮減、削減\n\nDeficit\n赤字、不足額\n\nRecently\n最近\n\nSubstantially\n大大的、相當多的\n\nCommittee\n委員會\n\nFrequently\n頻繁地、經常\n\nCapability\n能力、才能\n\nProceeds\n收入\n\nReimburse\n補償、核銷\n\nConsiderably\n相當、相當多的\n\nAdequate\n足夠的、適當的\n\nTotal\n總計的、全部的\n\nAllocate\n分配、分派\n\nInspector\n檢查人員、稽查人員\n\nPreferred\n偏好的、優先的\n\nQuarter\n季度、四分之一\n\nInterrupt\n打斷、中斷\n\nBrowse\n瀏覽、隨意觀看\n\nPrompt\n及時的、迅速的、導致、促使\n\nDeduct\n扣除、減除\n\nMeasurement\n測量、測定、尺寸\n\nShorten\n縮短、變短\n\nAmend\n修正\n\nCalculate\n計算\n\nExempt\n被免除的\n\nDeficient\n不足的、缺乏的\n\nCompare\n比較\n\nFortunate\n幸運的\n\nExpenditure\n支出、開支\n\nAccurately\n精確地\n\nWorth\n值得什麼的、價值\n\nExcess\n超過、過量\n\nFiscal\n會計的、財政的\n\nIncidental\n附帶的\n\nInflation\n通貨膨脹\n\nLiable\n負有責任的、很可能會怎樣的\n\nSpend\n花費、花用\n\nTurnover\n營業額、交易額、人事異動率",
   "vocab": [
     {
       "word": "audit",
       "meaning_zh": [
         "審計",
-        "查帳"
+        "查賬"
       ]
     },
     {
@@ -37,14 +37,15 @@
     {
       "word": "curtail",
       "meaning_zh": [
-        "縮減"
+        "縮減",
+        "削減"
       ]
     },
     {
-      "word": "defisite",
+      "word": "deficit",
       "meaning_zh": [
         "赤字",
-        "不足而"
+        "不足額"
       ]
     },
     {
@@ -56,8 +57,8 @@
     {
       "word": "substantially",
       "meaning_zh": [
-        "大大地",
-        "相當多地"
+        "大大的",
+        "相當多的"
       ]
     },
     {
@@ -69,7 +70,8 @@
     {
       "word": "frequently",
       "meaning_zh": [
-        "頻繁地"
+        "頻繁地",
+        "經常"
       ]
     },
     {
@@ -88,13 +90,15 @@
     {
       "word": "reimburse",
       "meaning_zh": [
-        "補償和消"
+        "補償",
+        "核銷"
       ]
     },
     {
       "word": "considerably",
       "meaning_zh": [
-        "相當多地"
+        "相當",
+        "相當多的"
       ]
     },
     {
@@ -135,7 +139,8 @@
     {
       "word": "quarter",
       "meaning_zh": [
-        "計度四分之一"
+        "季度",
+        "四分之一"
       ]
     },
     {
@@ -155,9 +160,10 @@
     {
       "word": "prompt",
       "meaning_zh": [
-        "即時的",
+        "及時的",
         "迅速的",
-        "導致促使"
+        "導致",
+        "促使"
       ]
     },
     {
@@ -229,7 +235,7 @@
     {
       "word": "accurately",
       "meaning_zh": [
-        "精確的"
+        "精確地"
       ]
     },
     {

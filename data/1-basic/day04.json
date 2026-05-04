@@ -4,9 +4,9 @@
   "category": "一般工作 (2)",
   "page": 76,
   "audio_source": "audio/1-basic_Day01-30/basic_Day04.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hacker's Toic Vocabulary, Day 4. lax 鬆懈的,散漫的, procrastinate 拖延, combined 聯合的,結合的, accomplish voluntarily 自願的,自動自發的, undertake 從事,承擔工作等 assume 假定,以為,承擔 occasionally 偶爾 employee 員工,受僱者, assist 協助,援助, satisfied 感到滿意的,滿足的 manner 方式,態度, responsible 應該負責的,負責任的, conduct 進行 adjust 調整,適應, personnel 員工,人員,人事部門, agree 同意, supervise 監督,指導 coworker 同事,共同工作者, direct 引導,指揮,指導 confidential 機密的,秘密的, assign 分配,指派 leading 領導的,領先的,主要的, formal 正式的, remove 去除,罰某人免職 collect 收集,收取, coordinate 協調, hardly 幾乎不 abstract 抽象的, directory 通訊錄,工商名錄,電話簿 accountable 應負責任的, skillfully 巧妙的,熟練的, exclusive 獨有的,排外的 intention 意圖,意向, transform 改變,轉變, respectful 尊重的,尊敬的 duplicate 副本, contrary 相反, disturbing 令人不安的,令人焦慮的,煩擾人的 engage 參加,從事, foster 促進,培養, neutrality 中立,中立性, widely 廣泛的, externally 外部的,外在的",
+  "raw_transcript": "Hackers TOEIC Vocabulary Day 4\nLax\nLax\n鬆懈的,散漫的\nProcrastinate\nProcrastinate\n拖延\nCombined\nCombined\n聯合的,結合的\nAccomplish\nAccomplish\n達成\nVoluntarily\nVoluntarily\n自願地,自動自發地\nUndertake\nUndertake\n從事,承擔工作等\nAssume\nAssume\nAssume\n假定,以為,承擔\nOccasionally\nOccasionally\n偶爾\nEmployee\nEmployee\n員工,受僱者\nAssist\nAssist\n協助,援助\nSatisfied\nSatisfied\n感到滿意的,滿足的\nManner\nManner\n方式,態度\nResponsible\nResponsible\n應該負責的,負責任的\nConduct\nConduct\nConduct\n進行\nAdjust\nAdjust\n調整,適應\nPersonnel\nPersonnel\n員工,人員,人事部門\nAgree\nAgree\n同意\nSupervise\nSupervise\n監督,指導\nCoworker\nCoworker\n同事,共同工作者\nDirect\nDirect\n引導,指揮,指導\nConfidential\nConfidential\n機密的,秘密的\nAssign\nAssign\n分配,指派\nLeading\nLeading\n領導的,領先的,主要的\nFormal\nFormal\n正式的\nRemove\nRemove\nRemove\n去除,把某人免職\nCollect\nCollect\n收集,收取\nCoordinate\nCoordinate\n協調\nHardly\nHardly\n幾乎不\nAbstract\nAbstract\n抽象的\nDirectory\nDirectory\n通訊錄,工商名錄,電話簿\nAccountable\nAccountable\n應負責任的\nSkillfully\nSkillfully\n巧妙地,熟練地\nExclusive\nExclusive\n獨有的,排外的\nIntention\nIntention\n意圖,意向\nTransform\nTransform\n改變,轉變\nRespectful\nRespectful\n尊重的,尊敬的\nDuplicate\nDuplicate\n副本\nContrary\nContrary\n相反\nDisturbing\nDisturbing\n令人不安的,令人焦慮的,煩擾人的\nEngage\nEngage\n參加,從事\nFoster\nFoster\n促進,培養\nNeutrality\nNeutrality\n中立,中立性\nWidely\nWidely\n廣泛地\nExternally\nExternally\n外部的,外在的",
   "vocab": [
     {
       "word": "lax",
@@ -29,10 +29,16 @@
       ]
     },
     {
-      "word": "accomplish voluntarily",
+      "word": "accomplish",
       "meaning_zh": [
-        "自願的",
-        "自動自發的"
+        "達成"
+      ]
+    },
+    {
+      "word": "voluntarily",
+      "meaning_zh": [
+        "自願地",
+        "自動自發地"
       ]
     },
     {
@@ -172,7 +178,7 @@
       "word": "remove",
       "meaning_zh": [
         "去除",
-        "罰某人免職"
+        "把某人免職"
       ]
     },
     {
@@ -217,8 +223,8 @@
     {
       "word": "skillfully",
       "meaning_zh": [
-        "巧妙的",
-        "熟練的"
+        "巧妙地",
+        "熟練地"
       ]
     },
     {
@@ -293,7 +299,7 @@
     {
       "word": "widely",
       "meaning_zh": [
-        "廣泛的"
+        "廣泛地"
       ]
     },
     {

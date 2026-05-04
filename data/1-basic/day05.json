@@ -4,9 +4,9 @@
   "category": "一般工作 (3)",
   "page": 94,
   "audio_source": "audio/1-basic_Day01-30/basic_Day05.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC vocabulary, day 5.sophisticated 精密的,複雜的,高雅的, timely 及時的,適時的, realistically 實際上,在現實情況下, promptly 迅速的,準時的, accessible 可進入的,可利用的, implement 實施,執行feedback 回饋意見,反響, outstanding 傑出的,未嘗付的, inform 通知replacement 代替,代替物,代替者announcement 公告,宣佈department 部門, permanently 永久的fulfill 滿足,旅行outline 概要,大綱,概述,略述explain 說明, contain 包含,容納compile 會整資料等,收集, subsequent 後來的,隨後的overview 概要,概觀provider 供應商,提供者matter 問題,事情expertise 專門知識,專門技術demonstrate 證明,說明,示範操作remainder 剩餘essential 必要的,不可或缺的,本質上的divide 劃分,分開major 主要的,重大的compliance 遵守clarify 產名face 面對,面向,正對follow 跟隨,密切注意,聽懂,瞭解aspect 觀點,方面apparently 顯然,看來,似乎aware 知道的,意識到的extended 延長的,延伸的accidentally 意外的,偶然的advisable 可取的,明智的concerned 擔心的,有關的speak 講話",
+  "raw_transcript": "Hacker Stoic Vocabulary Day 5\n\nSophisticated\n\nSophisticated\n\n精密的、複雜的、高雅的\n\nTimely\n\nTimely\n\n及時的、適時的\n\nRealistically\n\nRealistically\n\n實際上、在現實情況下\n\nPromptly\n\nPromptly\n\n迅速地、準時地\n\nAccessible\n\nAccessible\n\n可進入的、可利用的\n\nImplement\n\nImplement\n\n實施、執行\n\nFeedback\n\nFeedback\n\n回饋意見、反響\n\nOutstanding\n\nOutstanding\n\n傑出的、未償付的\n\nInform\n\nInform\n\n通知\n\nReplacement\n\nReplacement\n\n代替、代替物、代替者\n\nAnnouncement\n\nAnnouncement\n\n公告、宣佈\n\nDepartment\n\nDepartment\n\n部門\n\nPermanently\n\nPermanently\n\n永久地\n\nFulfill\n\nFulfill\n\n滿足、履行\n\nOutline\n\nOutline\n\n概要、大綱、概述、略述\n\nExplain\n\nExplain\n\n說明\n\nContain\n\nContain\n\n包含、容納\n\nCompile\n\nCompile\n\n彙整資料等、收集\n\nSubsequent\n\nSubsequent\n\n後來的、隨後的\n\nOverview\n\nOverview\n\n概要、概觀\n\nProvider\n\nProvider\n\n供應商、提供者\n\nMatter\n\nMatter\n\n問題、事情\n\nExpertise\n\nExpertise\n\n專門知識、專門技術\n\nDemonstrate\n\nDemonstrate\n\n證明、說明、示範操作\n\nRemainder\n\nRemainder\n\n剩餘\n\nEssential\n\nEssential\n\n必要的、不可或缺的、本質上的\n\nDivide\n\nDivide\n\n劃分、分開\n\nMajor\n\nMajor\n\n主要的、重大的\n\nCompliance\n\nCompliance\n\n遵守\n\nClarify\n\nClarify\n\n闡明\n\nFace\n\nFace\n\n面對、面向、正對\n\nFollow\n\nFollow\n\n跟隨、密切注意、聽懂、瞭解\n\nAspect\n\nAspect\n\n觀點、方面\n\nApparently\n\nApparently\n\n顯然、看來、似乎\n\nAware\n\nAware\n\n知道的、意識到的\n\nExtended\n\nExtended\n\n延長的、延伸的\n\nAccidentally\n\nAccidentally\n\n意外地、偶然地\n\nAdvisable\n\nAdvisable\n\n可取的、明智的\n\nConcerned\n\nConcerned\n\n擔心的、有關的\n\nSpeak\n\nSpeak\n\n講話",
   "vocab": [
     {
       "word": "sophisticated",
@@ -33,8 +33,8 @@
     {
       "word": "promptly",
       "meaning_zh": [
-        "迅速的",
-        "準時的"
+        "迅速地",
+        "準時地"
       ]
     },
     {
@@ -62,7 +62,7 @@
       "word": "outstanding",
       "meaning_zh": [
         "傑出的",
-        "未嘗付的"
+        "未償付的"
       ]
     },
     {
@@ -95,14 +95,14 @@
     {
       "word": "permanently",
       "meaning_zh": [
-        "永久的"
+        "永久地"
       ]
     },
     {
       "word": "fulfill",
       "meaning_zh": [
         "滿足",
-        "旅行"
+        "履行"
       ]
     },
     {
@@ -130,7 +130,7 @@
     {
       "word": "compile",
       "meaning_zh": [
-        "會整資料等",
+        "彙整資料等",
         "收集"
       ]
     },
@@ -214,7 +214,7 @@
     {
       "word": "clarify",
       "meaning_zh": [
-        "產名"
+        "闡明"
       ]
     },
     {
@@ -266,8 +266,8 @@
     {
       "word": "accidentally",
       "meaning_zh": [
-        "意外的",
-        "偶然的"
+        "意外地",
+        "偶然地"
       ]
     },
     {

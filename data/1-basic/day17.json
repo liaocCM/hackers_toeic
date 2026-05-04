@@ -4,32 +4,32 @@
   "category": "貿易、貨運",
   "page": 312,
   "audio_source": "audio/1-basic_Day01-30/basic_Day17.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC Vocabulary, Day 17.fragile一歲的perishable一腐壞的deliver運送,送到,發表, insure保證,確保, courier快遞公司,快遞員, carton紙箱, address地址, address處理,解決, shipment運輸,運輸的貨物尤其,特別是, adequately是當地, article物品,物件,文章,報道有效果的,有效率的, agency代辦處,代理機構, enclose封入,圍繞, careful小心的,謹慎的, pick up取走,用車載, carry搬運,攜帶,有售, attach貼上,附加, formerly以前, package包裹,包裝, react反應,做出反應, content內容, convenience便利,方便, acknowledge承認,告知, caution小心,警告, correspondence通信,信件, separate分開,區分,分開的,個別的,獨立的remarkable,出色的,引人注目的handle,處理,搬動warehouse,倉庫,倉廚impose,客徵,稅金等storage,主藏,主藏空間detach,分開,私下envelope,信封exclusion,排除在外recipient,收件人affix,貼上incorrect,不正確的oblige,使不得不做某事,迫使做某事step,步驟,階段,措施distinctive,特別的,具特色的discrete,謹慎的,慎重的,懂得分寸的",
+  "raw_transcript": "Hacker Stoic Vocabulary\nDay 17\n\nFragile\n易碎的\nPerishable\n易腐壞的\nDeliver\n運輸、送到、發表\nEnsure\n保證、確保\nCourier\n快遞公司、快遞員\nCarton\n紙箱\nAddress\n地址\nAddress\n處理、解決\nShipment\n運輸、運輸的貨物\nParticularly\n尤其、特別是\nAdequately\n適當的\nArticle\n物品、物件、文章、報道\nEfficient\n有效果的、有效率的\nAgency\n代辦處、代理機構\nEnclose\n封入、圍繞\nCareful\n小心的、謹慎的\nPick up\n取走、用車載\nCarry\n搬運、攜帶、有售\nAttach\n貼上、附加\nFormally\n以前\nPackage\n包裹、包裝\nReact\n反應、做出反應\nContent\n內容\nConvenience\n便利、方便\nAcknowledge\n承認、告知\nCaution\n小心、警告\nCorrespondence\n通信、信件\nSeparate\n分開、區分、分開的、個別的、獨立的\nRemarkable\n出色的、引人注目的\nHandle\n處理、搬動\nWarehouse\n倉庫、倉儲\nImpose\n課徵稅金等\nStorage\n儲藏、儲藏空間\nDetach\n分開、撕下\nEnvelope\n信封\nExclusion\n排除在外\nRecipient\n收件人\nAffix\n貼上\nIncorrect\n不正確的\nOblige\n使不得不做某事、迫使做某事\nStep\n步驟、階段、措施\nDistinctive\n特別的、具特色的\nDiscreet\n謹慎的、慎重的、懂得分寸的",
   "vocab": [
     {
       "word": "fragile",
       "meaning_zh": [
-        "一歲的"
+        "易碎的"
       ]
     },
     {
       "word": "perishable",
       "meaning_zh": [
-        "一腐壞的"
+        "易腐壞的"
       ]
     },
     {
       "word": "deliver",
       "meaning_zh": [
-        "運送",
+        "運輸",
         "送到",
         "發表"
       ]
     },
     {
-      "word": "insure",
+      "word": "ensure",
       "meaning_zh": [
         "保證",
         "確保"
@@ -58,14 +58,20 @@
       "word": "shipment",
       "meaning_zh": [
         "運輸",
-        "運輸的貨物尤其",
+        "運輸的貨物"
+      ]
+    },
+    {
+      "word": "particularly",
+      "meaning_zh": [
+        "尤其",
         "特別是"
       ]
     },
     {
       "word": "adequately",
       "meaning_zh": [
-        "是當地"
+        "適當的"
       ]
     },
     {
@@ -74,7 +80,13 @@
         "物品",
         "物件",
         "文章",
-        "報道有效果的",
+        "報道"
+      ]
+    },
+    {
+      "word": "efficient",
+      "meaning_zh": [
+        "有效果的",
         "有效率的"
       ]
     },
@@ -122,7 +134,7 @@
       ]
     },
     {
-      "word": "formerly",
+      "word": "formally",
       "meaning_zh": [
         "以前"
       ]
@@ -203,28 +215,27 @@
       "word": "warehouse",
       "meaning_zh": [
         "倉庫",
-        "倉廚"
+        "倉儲"
       ]
     },
     {
       "word": "impose",
       "meaning_zh": [
-        "客徵",
-        "稅金等"
+        "課徵稅金等"
       ]
     },
     {
       "word": "storage",
       "meaning_zh": [
-        "主藏",
-        "主藏空間"
+        "儲藏",
+        "儲藏空間"
       ]
     },
     {
       "word": "detach",
       "meaning_zh": [
         "分開",
-        "私下"
+        "撕下"
       ]
     },
     {
@@ -280,7 +291,7 @@
       ]
     },
     {
-      "word": "discrete",
+      "word": "discreet",
       "meaning_zh": [
         "謹慎的",
         "慎重的",

@@ -4,9 +4,9 @@
   "category": "規則、法律",
   "page": 40,
   "audio_source": "audio/1-basic_Day01-30/basic_Day02.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC Vocabulary, Day 2.Attire 服裝,衣著Code 規範,慣例,密碼Concern 擔心,憂慮,使擔心,關係到,影響到Policy 政策,規定,保單Comply 遵守,遵從Regulation 規定Exception 例外Adhere 遵守,堅持Severely 嚴厲的,嚴重的Refrain 剋制,抑制Permission 允許,許可Access 使用權,接近,通道接近,存取電腦資料等Thoroughly 徹底的,完全的,非常Revise 修訂,變更Approach 接近,處理方法Approval 批准,認可Form 種類,類型,形式Immediately 立即,馬上Inspection 檢查,視察Arrangement 安排,準備,佈置Procedure 手續,程序Negative 負面的,消極的Mandate 使什麼成為必須的授權給,授權,命令Effect 效力,效果,影響,造成Drastically 激烈的,大幅的,徹底的According to 根據,依照Enable 十畝源能夠Standard 標準,規範Constant 持續的,不斷的Act 法案,法令,行為,行動,擔當Compensation 補償金,報償Ban 禁止,禁令Obligation 義務,責任Authorize 批准授權某人做某事禁止廢除執行,實施法律等習慣立法,法律,法規限聚,限定",
+  "raw_transcript": "Hacker's TOEIC Vocabulary Day 2\nAttire\n服裝,衣著\nCode\n規範,慣例,密碼\nConcern\n擔心,憂慮,使擔心,關係到,影響到\nPolicy\n政策,規定,保單\nComply\n遵守,遵從\nRegulation\n規定\nException\n例外\nAdhere\n遵守,堅持\nSeverely\n嚴厲地,嚴重地\nRefrain\n剋制,抑制\nPermission\n允許,許可\nAccess\n使用權,接近,通道,接近,存取電腦資料等\nThoroughly\n徹底地,完全地,非常\nRevise\n修訂,變更\nApproach\n接近,處理方法\n接近,靠近\nApproval\n批准,認可\nForm\n種類,類型,形式\nImmediately\n立即,馬上\nInspection\n檢查,視察\nArrangement\n安排,準備,佈局\nProcedure\n程序\nNegative\n負面的,消極的\nMandate\nMandate\nMandate\n使什麼成為必須的,授權給,授權,命令\nEffect\n效力,效果,影響,造成\nDrastically\n激烈地,大幅地,徹底地\nAccording to\n根據,依照\nEnable\nEnable\n使某人能夠\nStandard\n標準,規範\nConstant\n持續地,不斷地\nAct\n法案,法令,行為,行動,擔當\nCompensation\nCompensation\n補償金,報償\nBan\n禁止,禁令\nObligation\nObligation\n義務,責任\nAuthorize\n批准,授權某人做某事\nProhibit\n禁止\nAbolish\n廢除\nEnforce\n執行,實施法律等\nHabit\n習慣\nLegislation\n立法,法律,法規\nRestrict\n限制,限定",
   "vocab": [
     {
       "word": "attire",
@@ -70,8 +70,8 @@
     {
       "word": "severely",
       "meaning_zh": [
-        "嚴厲的",
-        "嚴重的"
+        "嚴厲地",
+        "嚴重地"
       ]
     },
     {
@@ -93,15 +93,15 @@
       "meaning_zh": [
         "使用權",
         "接近",
-        "通道接近",
+        "通道",
         "存取電腦資料等"
       ]
     },
     {
       "word": "thoroughly",
       "meaning_zh": [
-        "徹底的",
-        "完全的",
+        "徹底地",
+        "完全地",
         "非常"
       ]
     },
@@ -153,13 +153,12 @@
       "meaning_zh": [
         "安排",
         "準備",
-        "佈置"
+        "佈局"
       ]
     },
     {
       "word": "procedure",
       "meaning_zh": [
-        "手續",
         "程序"
       ]
     },
@@ -173,7 +172,8 @@
     {
       "word": "mandate",
       "meaning_zh": [
-        "使什麼成為必須的授權給",
+        "使什麼成為必須的",
+        "授權給",
         "授權",
         "命令"
       ]
@@ -190,9 +190,9 @@
     {
       "word": "drastically",
       "meaning_zh": [
-        "激烈的",
-        "大幅的",
-        "徹底的"
+        "激烈地",
+        "大幅地",
+        "徹底地"
       ]
     },
     {
@@ -205,7 +205,7 @@
     {
       "word": "enable",
       "meaning_zh": [
-        "十畝源能夠"
+        "使某人能夠"
       ]
     },
     {
@@ -218,8 +218,8 @@
     {
       "word": "constant",
       "meaning_zh": [
-        "持續的",
-        "不斷的"
+        "持續地",
+        "不斷地"
       ]
     },
     {
@@ -256,10 +256,47 @@
     {
       "word": "authorize",
       "meaning_zh": [
-        "批准授權某人做某事禁止廢除執行",
-        "實施法律等習慣立法",
+        "批准",
+        "授權某人做某事"
+      ]
+    },
+    {
+      "word": "prohibit",
+      "meaning_zh": [
+        "禁止"
+      ]
+    },
+    {
+      "word": "abolish",
+      "meaning_zh": [
+        "廢除"
+      ]
+    },
+    {
+      "word": "enforce",
+      "meaning_zh": [
+        "執行",
+        "實施法律等"
+      ]
+    },
+    {
+      "word": "habit",
+      "meaning_zh": [
+        "習慣"
+      ]
+    },
+    {
+      "word": "legislation",
+      "meaning_zh": [
+        "立法",
         "法律",
-        "法規限聚",
+        "法規"
+      ]
+    },
+    {
+      "word": "restrict",
+      "meaning_zh": [
+        "限制",
         "限定"
       ]
     }

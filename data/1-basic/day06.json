@@ -4,15 +4,14 @@
   "category": "休閒、社交",
   "page": 112,
   "audio_source": "audio/1-basic_Day01-30/basic_Day06.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hacker's Toic Vocabulary, Day 6.Rest 休息,剩餘部分Exhibition 展覽Celebrity 名人Live 現場表演的,直播的Improvise 即興演奏,即席演講,即興創作Popular 受歡迎的Donation 捐贈,捐獻Alumni 校友們,畢業生們Present 提出,出示Present 現在的,出席的Admission 入場Banquet 宴會Anniversary 週年紀念日Required 必要的,必須的Succeed 成功,接著發聲繼任 收藏品,收集的東西,收取Fundraising 募款Resume 繼續,重新開始Issue 一起,問題,爭議Subscription 訂閱Appear 出現,現身Accompany 陪同,伴隨Edition 版本Specifically 明確的,具體的,特別,特別的Anonymous 匿名的,不具名的Commit 奉獻,使致力於某事Informative 提供資訊的提供資訊的,有用的聽眾,觀眾作家,作者注意到提及古董手稿,原稿有益的,有利的即將來臨的,借出Current 現在的,目前的,現行的,通用的Local 地方的,當地的Variety 多樣性,變化Advocate 擁護者Contributor 撰稿人,捐贈者Defy 反抗,使不可能Fascinating 迷人的,美妙的Showing 上映,上演,展示",
+  "raw_transcript": "Hacker Stoic Vocabulary Day 6\nRest\nRest\n休息 剩餘部分\nExhibition\nExhibition\n展覽\nCelebrity\nCelebrity\n名人\nLive\nLive\n現場表演的 直播的\nImprovise\nImprovise\n即興演奏 即席演講 即興創作\nPopular\nPopular\n受歡迎的\nDonation\nDonation\n軍贈 捐獻\nAlumni\nAlumni\n校友們 畢業生們\nPresent\nPresent\n提出 出事\nPresent\n現在的 出席的\nAdmission\nAdmission\n入場\nBanquet\nBanquet\n宴會\nAnniversary\nAnniversary\n週年紀念日\nRequired\nRequired\n必要的 必須的\nSucceed\nSucceed\n成功 接著發聲\n繼任\nCollection\nCollection\n收藏品 收集的東西 收取\nFundraising\nFundraising\n募款\nResume\nResume\n繼續 重新開始\nIssue\nIssue\n一起 問題 爭議\nSubscription\nSubscription\n訂閱\nAppear\nAppear\n出現 現身\nAccompany\nAccompany\n陪同 伴隨\nEdition\nEdition\n版本\nSpecifically\nSpecifically\n明確地 具體地 特別 特別地\nAnonymous\nAnonymous\n匿名的 不具名的\nCommit\nCommit\n奉獻 使置地於某事\nInformative\nInformative\n提供資訊的 有用的\nAudience\nAudience\n聽眾 觀眾\nAuthor\nAuthor\n作家 作者\nNote\nNote\n注意到 提及\nAntique\nAntique\n古董\nManuscript\nManuscript\n手稿 原稿\nBeneficial\nBeneficial\n有益的 有利的\nUpcoming\nUpcoming\n即將來臨的\nLend\nLend\n借出\nCurrent\nCurrent\n現在的 目前的 現行的 通用的\nLocal\nLocal\n地方的 當地的\nVariety\nVariety\n多樣性 變化\nAdvocate\nAdvocate\n擁護者\nContributor\nContributor\n專稿人 捐贈者\nDefy\nDefy\n反抗 使不可能\nFascinating\nFascinating\n迷人的 美妙的\nShowing\nShowing\n上映 上演 展示",
   "vocab": [
     {
       "word": "rest",
       "meaning_zh": [
-        "休息",
-        "剩餘部分"
+        "休息"
       ]
     },
     {
@@ -30,16 +29,13 @@
     {
       "word": "live",
       "meaning_zh": [
-        "現場表演的",
-        "直播的"
+        "現場表演的"
       ]
     },
     {
       "word": "improvise",
       "meaning_zh": [
-        "即興演奏",
-        "即席演講",
-        "即興創作"
+        "即興演奏"
       ]
     },
     {
@@ -51,22 +47,19 @@
     {
       "word": "donation",
       "meaning_zh": [
-        "捐贈",
-        "捐獻"
+        "軍贈"
       ]
     },
     {
       "word": "alumni",
       "meaning_zh": [
-        "校友們",
-        "畢業生們"
+        "校友們"
       ]
     },
     {
       "word": "present",
       "meaning_zh": [
-        "提出",
-        "出示"
+        "提出"
       ]
     },
     {
@@ -90,15 +83,19 @@
     {
       "word": "required",
       "meaning_zh": [
-        "必要的",
-        "必須的"
+        "必要的"
       ]
     },
     {
       "word": "succeed",
       "meaning_zh": [
-        "成功",
-        "接著發聲繼任"
+        "成功"
+      ]
+    },
+    {
+      "word": "collection",
+      "meaning_zh": [
+        "收藏品"
       ]
     },
     {
@@ -110,16 +107,13 @@
     {
       "word": "resume",
       "meaning_zh": [
-        "繼續",
-        "重新開始"
+        "繼續"
       ]
     },
     {
       "word": "issue",
       "meaning_zh": [
-        "一起",
-        "問題",
-        "爭議"
+        "一起"
       ]
     },
     {
@@ -131,15 +125,13 @@
     {
       "word": "appear",
       "meaning_zh": [
-        "出現",
-        "現身"
+        "出現"
       ]
     },
     {
       "word": "accompany",
       "meaning_zh": [
-        "陪同",
-        "伴隨"
+        "陪同"
       ]
     },
     {
@@ -151,59 +143,91 @@
     {
       "word": "specifically",
       "meaning_zh": [
-        "明確的",
-        "具體的",
-        "特別",
-        "特別的"
+        "明確地"
       ]
     },
     {
       "word": "anonymous",
       "meaning_zh": [
-        "匿名的",
-        "不具名的"
+        "匿名的"
       ]
     },
     {
       "word": "commit",
       "meaning_zh": [
-        "奉獻",
-        "使致力於某事"
+        "奉獻"
       ]
     },
     {
       "word": "informative",
       "meaning_zh": [
-        "提供資訊的提供資訊的",
-        "有用的聽眾",
-        "觀眾作家",
-        "作者注意到提及古董手稿",
-        "原稿有益的",
-        "有利的即將來臨的",
+        "提供資訊的"
+      ]
+    },
+    {
+      "word": "audience",
+      "meaning_zh": [
+        "聽眾"
+      ]
+    },
+    {
+      "word": "author",
+      "meaning_zh": [
+        "作家"
+      ]
+    },
+    {
+      "word": "note",
+      "meaning_zh": [
+        "注意到"
+      ]
+    },
+    {
+      "word": "antique",
+      "meaning_zh": [
+        "古董"
+      ]
+    },
+    {
+      "word": "manuscript",
+      "meaning_zh": [
+        "手稿"
+      ]
+    },
+    {
+      "word": "beneficial",
+      "meaning_zh": [
+        "有益的"
+      ]
+    },
+    {
+      "word": "upcoming",
+      "meaning_zh": [
+        "即將來臨的"
+      ]
+    },
+    {
+      "word": "lend",
+      "meaning_zh": [
         "借出"
       ]
     },
     {
       "word": "current",
       "meaning_zh": [
-        "現在的",
-        "目前的",
-        "現行的",
-        "通用的"
+        "現在的"
       ]
     },
     {
       "word": "local",
       "meaning_zh": [
-        "地方的",
-        "當地的"
+        "地方的"
       ]
     },
     {
       "word": "variety",
       "meaning_zh": [
-        "多樣性",
-        "變化"
+        "多樣性"
       ]
     },
     {
@@ -215,30 +239,25 @@
     {
       "word": "contributor",
       "meaning_zh": [
-        "撰稿人",
-        "捐贈者"
+        "專稿人"
       ]
     },
     {
       "word": "defy",
       "meaning_zh": [
-        "反抗",
-        "使不可能"
+        "反抗"
       ]
     },
     {
       "word": "fascinating",
       "meaning_zh": [
-        "迷人的",
-        "美妙的"
+        "迷人的"
       ]
     },
     {
       "word": "showing",
       "meaning_zh": [
-        "上映",
-        "上演",
-        "展示"
+        "上映"
       ]
     }
   ]

@@ -4,12 +4,12 @@
   "category": "一般工作 (1)",
   "page": 58,
   "audio_source": "audio/1-basic_Day01-30/basic_Day03.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC Vocabulary Day 3Acustomed 習慣的 corporation 股份公司,法人Demanding 要求很多的,吃力的 colleague 同事Division 部門 request 要求 efficiently 有效率的 manage經營,管理,設法做到,勉強做到提交, directly 直接地提醒,使響起指示,教導截止期限,最後期限樣本,樣品,試用品,試吃,抽樣檢查通知,告知執行,實施, monitor監視,監控,監督值得,應該得到, assignment工作,任務,作業Release,發表,公開,發行,上市Extension,延長,延期,分機Electronically,以電子方式地Attendance,出席,出勤,absolutely絕對地,完全地委任, delegate代表, attentively專心地,聚精會神地, supervision監督,workshop,專題討論會,工作坊Draw,拉,吸引, revision修訂, reluctantly不情願地,勉強地使認識,使熟悉, convey傳達, check檢查,查明,確認, headquarters總部,總公司, file把什麼歸檔,正式提起或提出Oversea, oversea監督, involved, involved有關的,牽涉在內的Concentrate, concentrate集中,專注",
+  "raw_transcript": "Hackers TOEIC Vocabulary, Day 3\n\nAccustomed\n\n習慣的\n\nCorporation\n\n股份公司,法人\n\nDemanding\n\n要求很多的,吃力的\n\nColleague\n\n同時\n\nDivision\n\n部門\n\nRequest\n\n要求\n\nEfficiently\n\n有效率的\n\nManage\n\n經營,管理,設法做到,勉強做到\n\nSubmit\n\n提交\n\nDirectly\n\n直接的\n\nRemind\n\n提醒,使想起\n\nInstruct\n\n指示,教導\n\nDeadline\n\n截止期限,最後期限\n\nSample\n\n樣本,樣品,試用品,試吃,抽樣檢查\n\nNotify\n\n通知,告知\n\nPerform\n\n執行,實施\n\nMonitor\n\n監視,監控,監督\n\nDeserve\n\n值得,應該得到\n\nAssignment\n\n工作,任務,作業\n\nEntire\n\n整個的\n\nRelease\n\n發表,公開,發行,上市\n\nExtension\n\n延長,延期,分機\n\nElectronically\n\n以電子方式地\n\nAttendance\n\n出席,出勤\n\nAbsolutely\n\n絕對的,完全的\n\nDelegate\n\n委任\n\nDelegate\n\n代表\n\nAttentively\n\n專心地,聚精會神地\n\nSupervision\n\n監督\n\nWorkshop\n\n專題討論會,工作坊\n\nDraw\n\n拉,吸引\n\nRevision\n\n修訂\n\nReluctantly\n\n不情願的,勉強的\n\nAcquaint\n\n使認識,使熟悉\n\nConvey\n\n傳達\n\nCheck\n\n檢查,查明,確認\n\nHeadquarters\n\n總部,總公司\n\nFile\n\n把什麼歸檔,正式提起或提出\n\nOversee\n\n監督\n\nInvolved\n\n有關的,牽涉在內的\n\nConcentrate\n\n集中,專注",
   "vocab": [
     {
-      "word": "acustomed",
+      "word": "accustomed",
       "meaning_zh": [
         "習慣的"
       ]
@@ -31,7 +31,7 @@
     {
       "word": "colleague",
       "meaning_zh": [
-        "同事"
+        "同時"
       ]
     },
     {
@@ -58,21 +58,63 @@
         "經營",
         "管理",
         "設法做到",
-        "勉強做到提交"
+        "勉強做到"
+      ]
+    },
+    {
+      "word": "submit",
+      "meaning_zh": [
+        "提交"
       ]
     },
     {
       "word": "directly",
       "meaning_zh": [
-        "直接地提醒",
-        "使響起指示",
-        "教導截止期限",
-        "最後期限樣本",
+        "直接的"
+      ]
+    },
+    {
+      "word": "remind",
+      "meaning_zh": [
+        "提醒",
+        "使想起"
+      ]
+    },
+    {
+      "word": "instruct",
+      "meaning_zh": [
+        "指示",
+        "教導"
+      ]
+    },
+    {
+      "word": "deadline",
+      "meaning_zh": [
+        "截止期限",
+        "最後期限"
+      ]
+    },
+    {
+      "word": "sample",
+      "meaning_zh": [
+        "樣本",
         "樣品",
         "試用品",
         "試吃",
-        "抽樣檢查通知",
-        "告知執行",
+        "抽樣檢查"
+      ]
+    },
+    {
+      "word": "notify",
+      "meaning_zh": [
+        "通知",
+        "告知"
+      ]
+    },
+    {
+      "word": "perform",
+      "meaning_zh": [
+        "執行",
         "實施"
       ]
     },
@@ -81,7 +123,13 @@
       "meaning_zh": [
         "監視",
         "監控",
-        "監督值得",
+        "監督"
+      ]
+    },
+    {
+      "word": "deserve",
+      "meaning_zh": [
+        "值得",
         "應該得到"
       ]
     },
@@ -91,6 +139,12 @@
         "工作",
         "任務",
         "作業"
+      ]
+    },
+    {
+      "word": "entire",
+      "meaning_zh": [
+        "整個的"
       ]
     },
     {
@@ -126,14 +180,14 @@
     {
       "word": "absolutely",
       "meaning_zh": [
-        "絕對地",
-        "完全地委任"
+        "絕對的",
+        "完全的"
       ]
     },
     {
       "word": "delegate",
       "meaning_zh": [
-        "代表"
+        "委任"
       ]
     },
     {
@@ -172,8 +226,14 @@
     {
       "word": "reluctantly",
       "meaning_zh": [
-        "不情願地",
-        "勉強地使認識",
+        "不情願的",
+        "勉強的"
+      ]
+    },
+    {
+      "word": "acquaint",
+      "meaning_zh": [
+        "使認識",
         "使熟悉"
       ]
     },
@@ -206,7 +266,7 @@
       ]
     },
     {
-      "word": "oversea",
+      "word": "oversee",
       "meaning_zh": [
         "監督"
       ]

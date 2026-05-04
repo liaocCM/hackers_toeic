@@ -4,9 +4,9 @@
   "category": "行銷 (2)",
   "page": 150,
   "audio_source": "audio/1-basic_Day01-30/basic_Day08.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC Vocabulary Day 8advertisement 廣告, marginal 微小的,邊緣的customer 顧客, influence 影響instantly 立即,馬上creative 創造性的,有創意的aggressively 積極的aim 以什麼為目標,目標,目的strategy 策略indicate 指出,顯示attract 吸引,引起experience 經驗,體驗,精力analyze 分析introduce 介紹,發表advise 勸告,建議subscribe 訂閱absence 不在,缺少,缺席,缺琴means 方法,手段prefer 和其他相比更喜歡,偏好advantage 優點,優勢forward 向前,轉交,轉寄contemporary 同時代的,當代的,現代的discussion 討論,談論initial 開始的,最初的steadily 平穩的,穩定的necessarily 必然resolve 解決detect 察覺,發現intensify 強化,增強,使什麼變強烈favorably 善意的,順利的cover 包含支付,覆蓋less 較小的majority 大部分,大多數adopt 採納largely 大部分,主要disregard 不理會,忽視effort 努力incentive 誘因,獎金need 需要,需求mastermind 策劃者策劃者",
+  "raw_transcript": "Hacker Stoic Vocabulary Day 8\n\nadvertisement\nadvertisement\n廣告\nmarginal\nmarginal\n微小的,邊緣的\ncustomer\ncustomer\n顧客\ninfluence\ninfluence\n影響\ninstantly\ninstantly\n立即,馬上\ncreative\ncreative\n創造性的,有創意的\naggressively\naggressively\n積極的\naim\naim\n以什麼為目標,目標,目的\nstrategy\nstrategy\n策略\nindicate\nindicate\n指出,顯示\nattract\nattract\n吸引,引起\nexperience\nexperience\n經驗,體驗,經歷\nanalyze\nanalyze\n分析\nintroduce\nintroduce\n介紹,發表\nadvise\nadvise\n勸告,建議\nsubscribe\nsubscribe\n訂閱\nabsence\nabsence\n不在,缺少,缺席,缺勤\nmeans\nmeans\n方法,手段\nprefer\nprefer\nprefer\n和其他相比更喜歡,偏好\nadvantage\nadvantage\n優點,優勢\nforward\nforward\n向前,轉交,轉寄\ncontemporary\ncontemporary\ncontemporary\n同時代的,當代的,現代的\ndiscussion\ndiscussion\n討論,談論\ninitial\ninitial\ninitial\n開始的,最初的\nsteadily\nsteadily\n平穩地,穩定地\nnecessarily\nnecessarily\n必然\nresolve\nresolve\n解決\ndetect\ndetect\n察覺,發現\nintensify\nintensify\n強化,增強,使什麼變強烈\nfavorably\nfavorably\n善意地,順利地\ncover\ncover\n包含,支付,覆蓋\nless\nless\n較小的,較小的\nmajority\nmajority\n大部分,大多數\nadopt\nadopt\n採納\nlargely\nlargely\n大部分,主要\ndisregard\ndisregard\n不理會,忽視\neffort\neffort\n努力\nincentive\nincentive\n誘因,獎金\nneed\nneed\n需要,需求\nmastermind\nmastermind\n策劃者",
   "vocab": [
     {
       "word": "advertisement",
@@ -86,7 +86,7 @@
       "meaning_zh": [
         "經驗",
         "體驗",
-        "精力"
+        "經歷"
       ]
     },
     {
@@ -121,7 +121,7 @@
         "不在",
         "缺少",
         "缺席",
-        "缺琴"
+        "缺勤"
       ]
     },
     {
@@ -178,8 +178,8 @@
     {
       "word": "steadily",
       "meaning_zh": [
-        "平穩的",
-        "穩定的"
+        "平穩地",
+        "穩定地"
       ]
     },
     {
@@ -212,14 +212,15 @@
     {
       "word": "favorably",
       "meaning_zh": [
-        "善意的",
-        "順利的"
+        "善意地",
+        "順利地"
       ]
     },
     {
       "word": "cover",
       "meaning_zh": [
-        "包含支付",
+        "包含",
+        "支付",
         "覆蓋"
       ]
     },
@@ -279,7 +280,7 @@
     {
       "word": "mastermind",
       "meaning_zh": [
-        "策劃者策劃者"
+        "策劃者"
       ]
     }
   ]

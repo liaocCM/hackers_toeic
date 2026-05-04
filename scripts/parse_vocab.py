@@ -165,7 +165,7 @@ def main() -> None:
             "category": meta.get("category"),
             "page": meta.get("page"),
             "audio_source": f"audio/1-basic_Day01-30/basic_Day{day_num:02d}.mp3",
-            "transcript_model": "Systran/faster-whisper-medium",
+            "transcript_model": raw.get("transcript_model", "Systran/faster-whisper-medium"),
             "low_count_warning": len(vocab) < 25,
             "raw_transcript": text,
             "vocab": vocab,

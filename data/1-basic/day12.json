@@ -4,9 +4,9 @@
   "category": "生產",
   "page": 222,
   "audio_source": "audio/1-basic_Day01-30/basic_Day12.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC vocabulary, day 12.equipment 設備,裝備, automate, 自動化, specification名系單,說明書,規格是當地,正確地安全, precaution預防措施, operate, 運作,操作processing, 加工,處理capacity, 能力,容量,容納量,職位assemble, 組裝,召集utilize, 利用place, 使什麼處於某種狀態,下指示,訂單,申請等fill, 裝滿,滿足訂單需求manufacturing, 製造的renovate, 翻新,翻修decision, 決定material, 材料,質料success, 成功,成就attribute, 把什麼歸因於efficiency, 效率,效能limit, 限制,界限tailored, 量身訂做的,依要求訂做的component, 零件構成要素capable, 有能力的economize, 節約,節省flexible, 靈活的,有彈性的,可變通的comparable, 可比較的,比得上的produce, 生產respectively, 分別,各自device, 裝具trim, 修剪,削減,除去launch, 史上是separately, 分別的,個別的expiration, 到期,期滿maneuver, 調動,巧妙操縱或控制coming, 即將到來的damaged, 受損的prevent, 預防,防止power, 力量,電力chemical, 化學製品,化學藥品minimize, 時間到最少,最小化",
+  "raw_transcript": "Hacker Stoic Vocabulary, Day 12\nEquipment\n設備、裝備\nAutomate\n自動化\nSpecification\n名氣單、說明書、規格\nProperly\n適當地、正確地\nSafety\n安全\nPrecaution\n預防措施\nOperate\n運作、操作\nProcessing\n加工、處理\nCapacity\n能力、容量、容納量、職位\nAssemble\n組裝、交集\nUtilize\n利用\nPlace\n使什麼處於某種狀態\n下指示、訂單、申請等\nFill\n裝滿、滿足訂單需求\nManufacturing\n製造的\nRenovate\n翻新、翻修\nDecision\n決定\nMaterial\n材料、質料\nSuccess\n成功、成就\nAttribute\n把什麼歸因於\nEfficiency\n效率、效能\nLimit\n限制、界限\nTailored\n量身定做的、依要求定做的\nComponent\n零件、構成要素\nCapable\n有能力的\nEconomize\n節約、節省\nFlexible\n靈活的、有彈性的、可變通的\nComparable\n可比較的、比得上的\nProduce\n生產\nRespectively\n分別、各自\nDevice\n裝置\nTrim\n修剪、削減、除去\nLaunch\n使上市\nSeparately\n分別地、個別地\nExpiration\n到期、期滿\nManeuver\n調動、巧妙操縱或控制\nComing\n即將到來的\nDamaged\n受損的\nPrevent\n預防、防止\nPower\n力量、電力\nChemical\n化學制品、化學藥品\nMinimize\n使減到最少、再想化",
   "vocab": [
     {
       "word": "equipment",
@@ -24,10 +24,22 @@
     {
       "word": "specification",
       "meaning_zh": [
-        "名系單",
+        "名氣單",
         "說明書",
-        "規格是當地",
-        "正確地安全"
+        "規格"
+      ]
+    },
+    {
+      "word": "properly",
+      "meaning_zh": [
+        "適當地",
+        "正確地"
+      ]
+    },
+    {
+      "word": "safety",
+      "meaning_zh": [
+        "安全"
       ]
     },
     {
@@ -63,7 +75,7 @@
       "word": "assemble",
       "meaning_zh": [
         "組裝",
-        "召集"
+        "交集"
       ]
     },
     {
@@ -75,10 +87,7 @@
     {
       "word": "place",
       "meaning_zh": [
-        "使什麼處於某種狀態",
-        "下指示",
-        "訂單",
-        "申請等"
+        "使什麼處於某種狀態"
       ]
     },
     {
@@ -144,14 +153,15 @@
     {
       "word": "tailored",
       "meaning_zh": [
-        "量身訂做的",
-        "依要求訂做的"
+        "量身定做的",
+        "依要求定做的"
       ]
     },
     {
       "word": "component",
       "meaning_zh": [
-        "零件構成要素"
+        "零件",
+        "構成要素"
       ]
     },
     {
@@ -198,7 +208,7 @@
     {
       "word": "device",
       "meaning_zh": [
-        "裝具"
+        "裝置"
       ]
     },
     {
@@ -212,14 +222,14 @@
     {
       "word": "launch",
       "meaning_zh": [
-        "史上是"
+        "使上市"
       ]
     },
     {
       "word": "separately",
       "meaning_zh": [
-        "分別的",
-        "個別的"
+        "分別地",
+        "個別地"
       ]
     },
     {
@@ -265,15 +275,15 @@
     {
       "word": "chemical",
       "meaning_zh": [
-        "化學製品",
+        "化學制品",
         "化學藥品"
       ]
     },
     {
       "word": "minimize",
       "meaning_zh": [
-        "時間到最少",
-        "最小化"
+        "使減到最少",
+        "再想化"
       ]
     }
   ]

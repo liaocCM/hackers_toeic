@@ -37,13 +37,13 @@ Structured vocab dataset extracted from the *Hacker's TOEIC Vocabulary* audio co
 ```
 
 - English vocab is precise; Chinese glosses came from ASR and need calibration against the source.
-- `low_count_warning: true` — parser yielded < 25 entries. Days 8, 11, 26, 29 need manual augmentation against `transcripts/1-basic-en/` (which has different/complementary noise).
+- `low_count_warning: true` — parser yielded < 25 entries. None remaining after the gpt-4o-transcribe pass.
 
 ## Status
 
 | Folder | State | Notes |
 |---|---|---|
-| `1-basic` | ✅ extracted | ~1060 entries, 30 days, in `data/1-basic/` |
+| `1-basic` | ✅ extracted | 1242 entries, 30 days, all on `openai/gpt-4o-transcribe`, 100% gloss coverage |
 | `2-all` | ⏳ next | Has example sentences; mid-content loops are a known risk |
 | `3-score-basic` | not started | LC/RC split format |
 | `4-score-800` | not started | LC/RC split |

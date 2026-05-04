@@ -4,18 +4,56 @@
   "category": "銀行",
   "page": 474,
   "audio_source": "audio/1-basic_Day01-30/basic_Day26.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC Vocabulary, Day 26.delinquent, delinquent, delinquent, delinquent, delinquent, delinquent, delinquent, delinquent, delinquent, delinquent.regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably站,statement,statement,statement,對賬單,聲明,amount,amount,amount,總數,數量,withdrawal,withdrawal,withdrawal,體領,previously,previously,previously,之前,do,jew,jew,到期的,到支付期限的,應支付的,receive,receive,收到,接收,expect,expect,expect,預期,期待,certificate,certificate,證書,document,document,document,文件,document,document,document,記錄,用文件證明,spending,spending,spending,花費,支出,successfully,successfully,successfully,成功的,bill,bill,bill,開賬單給,賬單,請款單,pleasure,pleasure,愉快,高興,樂意,study,study,研究,summary,summary,蓋要,沾要,temporary,temporary,臨時的,暫時的,lower,lower,降低,transaction,transaction,交易,買賣,double,double,變成兩倍,identification,identification,身份證明,dissatisfaction,dissatisfaction,不滿,不滿意,in common,in common,共通的,共同的,interest,interest,興趣,利益,利息,reject,reject,拒絕,relation,relation,關係,tentatively,tentatively,試驗性的,暫時的,alternatively,alternatively,不然的話或者,attentive,attentive,專注傾聽的,關心的,convert,convert,轉換,轉變,heavily,heavily,程度很大底,非常,loan,loan,借貸,貸款,unexpected,unexpected,unexpected,意料之外的,cash,cash,兌現,mortgage,mortgage,抵押貸款,payable,payable,應支付的,personal,personal,個人的,practice,practice,慣例,實踐,練習,實踐,",
+  "raw_transcript": "Hackers' Choic Vocabulary Day 26\ndelinquent\n到期未付的,拖欠的\noverdue\noverdue\n逾期未付的,超過支付期限的\nregrettably\n遺憾地\nbalance\n結餘,賬戶餘額\ndeposit\n存錢\ninvestigation\n調查\naccount\n賬戶,說明,考慮,解釋\n證\nstatement\n對賬單,聲明\namount\n總數,數量\nwithdrawal\n提領\npreviously\n之前\ndue\n到期的,到支付期限的,應支付的\nreceive\n收到,接收\nexpect\n預計,期待\ncertificate\n證書\ndocument\n文件\ndocument\n記錄,用文件證明\nspending\n花費,支出\nsuccessfully\n成功地\nbill\n開賬單給,賬單,請款單\npleasure\n愉快,高興,樂意\nstudy\n研究\nsummary\n概要,摘要\ntemporary\n臨時的,暫時的\nlower\n降低\ntransaction\n交易,買賣\ndouble\n變成兩倍\nidentification\n身份證明\ndissatisfaction\n不滿,不滿意\nin common\n共同地,共同的\ninterest\n興趣,利益,利息\nreject\n拒絕\nrelation\n關係\ntentatively\n試驗性地,暫時地\nalternatively\n不然的話,或者\nattentive\n專注傾聽的,關心的\nconvert\n轉換,轉變\nheavily\n程度很大的,非常\nloan\n借貸,貸款\nunexpected\n意料之外的\ncash\n兌現\nmortgage\n抵押貸款\npayable\n應支付的\npersonal\n個人的\npractice\n慣例,實踐,練習,實踐",
   "vocab": [
     {
       "word": "delinquent",
-      "meaning_zh": []
+      "meaning_zh": [
+        "到期未付的",
+        "拖欠的"
+      ]
+    },
+    {
+      "word": "overdue",
+      "meaning_zh": [
+        "逾期未付的",
+        "超過支付期限的"
+      ]
     },
     {
       "word": "regrettably",
       "meaning_zh": [
-        "站"
+        "遺憾地"
+      ]
+    },
+    {
+      "word": "balance",
+      "meaning_zh": [
+        "結餘",
+        "賬戶餘額"
+      ]
+    },
+    {
+      "word": "deposit",
+      "meaning_zh": [
+        "存錢"
+      ]
+    },
+    {
+      "word": "investigation",
+      "meaning_zh": [
+        "調查"
+      ]
+    },
+    {
+      "word": "account",
+      "meaning_zh": [
+        "賬戶",
+        "說明",
+        "考慮",
+        "解釋"
       ]
     },
     {
@@ -35,7 +73,7 @@
     {
       "word": "withdrawal",
       "meaning_zh": [
-        "體領"
+        "提領"
       ]
     },
     {
@@ -45,11 +83,7 @@
       ]
     },
     {
-      "word": "do",
-      "meaning_zh": []
-    },
-    {
-      "word": "jew",
+      "word": "due",
       "meaning_zh": [
         "到期的",
         "到支付期限的",
@@ -66,7 +100,7 @@
     {
       "word": "expect",
       "meaning_zh": [
-        "預期",
+        "預計",
         "期待"
       ]
     },
@@ -92,7 +126,7 @@
     {
       "word": "successfully",
       "meaning_zh": [
-        "成功的"
+        "成功地"
       ]
     },
     {
@@ -120,8 +154,8 @@
     {
       "word": "summary",
       "meaning_zh": [
-        "蓋要",
-        "沾要"
+        "概要",
+        "摘要"
       ]
     },
     {
@@ -166,7 +200,7 @@
     {
       "word": "in common",
       "meaning_zh": [
-        "共通的",
+        "共同地",
         "共同的"
       ]
     },
@@ -193,14 +227,15 @@
     {
       "word": "tentatively",
       "meaning_zh": [
-        "試驗性的",
-        "暫時的"
+        "試驗性地",
+        "暫時地"
       ]
     },
     {
       "word": "alternatively",
       "meaning_zh": [
-        "不然的話或者"
+        "不然的話",
+        "或者"
       ]
     },
     {
@@ -220,7 +255,7 @@
     {
       "word": "heavily",
       "meaning_zh": [
-        "程度很大底",
+        "程度很大的",
         "非常"
       ]
     },

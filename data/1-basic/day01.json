@@ -4,9 +4,9 @@
   "category": "雇用",
   "page": 22,
   "audio_source": "audio/1-basic_Day01-30/basic_Day01.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' Toeic Vocabulary Day 1Resume 履歷表, opening, 空缺,職缺,開張,開始Applicant 申請者,應徵者, requirement, 必要條件Meet 滿足,符合, qualified, 有資格的,升任的Candidate 候選者,應徵者, confidence, 信心,自信,信任Highly 非常 專業的,職業的,專家Interview 面試, hire, 僱用, training, 訓練Reference 推薦信,參考, position, 職位,位置,放置Achievement 成就,達成, impressed, 感到印象深刻的, excellentEligible 優秀的,傑出的, eligible, 有資格的,合適的Identify 辨認,認出, associate, 時有關聯Employment 僱用, lack, 缺乏Managerial 管理的, diligent, 勤奮的, familiar, 熟悉的,親近的Proficiency 熟練,精通, prospective, 預期的,未來的Appeal 呼籲,有吸引力Specialize 專攻,專門從事, apprehensive, 擔心的,憂慮的Consultant 顧問, entitle, 給某人權力Degree 學位, payroll, 薪水賬冊,發薪名單Recruit 招募, certification, 證明Occupation 職業, wage, 工資,薪水",
+  "raw_transcript": "Hackers TOEIC Vocabulary Day 1\n\nResume 履歷表 Opening 空缺、職缺、開張、開始 Applicant 申請者、應徵者 Requirement 必要條件 Meet 滿足、符合 Qualified 有資格的、勝任的 Candidate 候選者、應徵者 Confidence 信心、自信、信任 Highly 很、非常 Professional 專業的、職業的、專家 Interview 面試 Hire 僱用 Training 訓練 Reference 推薦信、參考 Position 職位、位置、放置 Achievement 成就、達成 Impress 感到印象深刻的 Excellent 優秀的、傑出的 Eligible 有資格的、合適的 Identify 辨認、認出 Associate 使有關聯 Condition 條件 Employment 僱用 Lack 缺乏 Managerial 管理的 Diligent 勤奮的 Familiar 熟悉的、親近的 Proficiency 熟練、精通 Prospective 預期的、未來的 Appeal 呼籲、有吸引力 Specialize 專攻、專門從事 Apprehensive 擔心的、憂慮的 Consultant 顧問 Entitle 給某人權利 Degree 學位 Payroll 薪水帳冊、發薪名單 Recruit 招募 Certification 證明 Occupation 職業 Wage 工資、薪水",
   "vocab": [
     {
       "word": "resume",
@@ -47,7 +47,7 @@
       "word": "qualified",
       "meaning_zh": [
         "有資格的",
-        "升任的"
+        "勝任的"
       ]
     },
     {
@@ -68,7 +68,16 @@
     {
       "word": "highly",
       "meaning_zh": [
+        "很",
         "非常"
+      ]
+    },
+    {
+      "word": "professional",
+      "meaning_zh": [
+        "專業的",
+        "職業的",
+        "專家"
       ]
     },
     {
@@ -112,13 +121,13 @@
       ]
     },
     {
-      "word": "impressed",
+      "word": "impress",
       "meaning_zh": [
         "感到印象深刻的"
       ]
     },
     {
-      "word": "excellenteligible",
+      "word": "excellent",
       "meaning_zh": [
         "優秀的",
         "傑出的"
@@ -141,7 +150,13 @@
     {
       "word": "associate",
       "meaning_zh": [
-        "時有關聯"
+        "使有關聯"
+      ]
+    },
+    {
+      "word": "condition",
+      "meaning_zh": [
+        "條件"
       ]
     },
     {
@@ -219,7 +234,7 @@
     {
       "word": "entitle",
       "meaning_zh": [
-        "給某人權力"
+        "給某人權利"
       ]
     },
     {
@@ -231,7 +246,7 @@
     {
       "word": "payroll",
       "meaning_zh": [
-        "薪水賬冊",
+        "薪水帳冊",
         "發薪名單"
       ]
     },

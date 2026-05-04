@@ -4,9 +4,9 @@
   "category": "建築、住宅",
   "page": 508,
   "audio_source": "audio/1-basic_Day01-30/basic_Day28.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC Vocabulary, Day 28.furnished配有傢俱的 residents住處,住宅寬敞的 drape用窗簾等裝飾空著的,沒有人住的整修,翻修合適的,適當的延遲,拖延社區,社群建設,建築物修理, currently現在,目前定期的, often定期的, arrange佈置,整理地點,位置restore恢復,修復現在, numerous許多的, abandon放棄,終止,拋棄contractor, 承包商develop, 開發maintain, 維持,維護densely, 密集地prepare, 準備finally, 最後,終於district, 地區renewal, 更新compulsory, 義務的強制性的, interfere妨礙,干涉 relocation, 搬遷,重新安置totally, 完全,全然actually, 實際上architect, 建築師enlarge, 擴大install, 設置安裝, suppose認為,猜想永久的, adjacent臨接的, consist構成,組成utility, 公用事業公用事業設施",
+  "raw_transcript": "Hacker Stoic Vocabulary Day 28\n\nFurnished\nFurnished\nFurnished\n配有傢俱的\nResidence\nResidence\nResidence\n住處,住宅\nSpacious\nSpacious\nSpacious\n寬敞的\nDrape\nDrape\nDrape\n用窗簾等裝飾\nUnoccupied\nUnoccupied\nUnoccupied\n空穴的,沒有人住的\nRenovation\nRenovation\nRenovation\n整修,翻修\nAppropriate\nAppropriate\nAppropriate\n合適的,適當的\nDelay\nDelay\nDelay\n延遲,拖延\nCommunity\nCommunity\nCommunity\n社區,社群\nConstruction\nConstruction\nConstruction\n建設,建築物\nRepair\nRepair\nRepair\n修理\nCurrently\nCurrently\nCurrently\n現在,目前\nRegularly\nRegularly\nRegularly\n定期地\nArrange\nArrange\nArrange\n佈置,整理\nLocation\nLocation\nLocation\n地點,位置\nRestore\nRestore\nRestore\n恢復,修復\nPresently\nPresently\n現在\nNumerous\nNumerous\n許多的\nAbandon\nAbandon\n放棄,中止,拋棄\nContractor\nContractor\nContractor\n承包商\nDevelop\nDevelop\n開發\nMaintain\nMaintain\nMaintain\n維持,維護\nDensely\nDensely\nDensely\n密集地\nPrepare\nPrepare\n準備\nFinally\nFinally\nFinally\n最後,終於\nDistrict\nDistrict\nDistrict\n地區,區域\nRenewal\nRenewal\nRenewal\n更新\nCompulsory\nCompulsory\nCompulsory\n義務的,強制性的\nInterfere\nInterfere\nInterfere\n妨礙,干涉\nRelocation\nRelocation\nRelocation\n搬遷,重新安置\nTotally\nTotally\nTotally\n完全,全然\nActually\nActually\nActually\n實際上,事實上\nArchitect\nArchitect\nArchitect\n建築師\nEnlarge\nEnlarge\nEnlarge\n擴大\nInstall\nInstall\nInstall\n設置,安裝\nSuppose\nSuppose\nSuppose\n認為,猜想\nPermanent\nPermanent\nPermanent\n永久的\nAdjacent\nAdjacent\nAdjacent\n鄰接的\nConsist\nConsist\nConsist\n構成,組成\nUtility\nUtility\nUtility\n公用事業,公用事業設施",
   "vocab": [
     {
       "word": "furnished",
@@ -15,42 +15,96 @@
       ]
     },
     {
-      "word": "residents",
+      "word": "residence",
       "meaning_zh": [
         "住處",
-        "住宅寬敞的"
+        "住宅"
+      ]
+    },
+    {
+      "word": "spacious",
+      "meaning_zh": [
+        "寬敞的"
       ]
     },
     {
       "word": "drape",
       "meaning_zh": [
-        "用窗簾等裝飾空著的",
-        "沒有人住的整修",
-        "翻修合適的",
-        "適當的延遲",
-        "拖延社區",
-        "社群建設",
-        "建築物修理"
+        "用窗簾等裝飾"
+      ]
+    },
+    {
+      "word": "unoccupied",
+      "meaning_zh": [
+        "空穴的",
+        "沒有人住的"
+      ]
+    },
+    {
+      "word": "renovation",
+      "meaning_zh": [
+        "整修",
+        "翻修"
+      ]
+    },
+    {
+      "word": "appropriate",
+      "meaning_zh": [
+        "合適的",
+        "適當的"
+      ]
+    },
+    {
+      "word": "delay",
+      "meaning_zh": [
+        "延遲",
+        "拖延"
+      ]
+    },
+    {
+      "word": "community",
+      "meaning_zh": [
+        "社區",
+        "社群"
+      ]
+    },
+    {
+      "word": "construction",
+      "meaning_zh": [
+        "建設",
+        "建築物"
+      ]
+    },
+    {
+      "word": "repair",
+      "meaning_zh": [
+        "修理"
       ]
     },
     {
       "word": "currently",
       "meaning_zh": [
         "現在",
-        "目前定期的"
+        "目前"
       ]
     },
     {
-      "word": "often",
+      "word": "regularly",
       "meaning_zh": [
-        "定期的"
+        "定期地"
       ]
     },
     {
       "word": "arrange",
       "meaning_zh": [
         "佈置",
-        "整理地點",
+        "整理"
+      ]
+    },
+    {
+      "word": "location",
+      "meaning_zh": [
+        "地點",
         "位置"
       ]
     },
@@ -58,7 +112,13 @@
       "word": "restore",
       "meaning_zh": [
         "恢復",
-        "修復現在"
+        "修復"
+      ]
+    },
+    {
+      "word": "presently",
+      "meaning_zh": [
+        "現在"
       ]
     },
     {
@@ -71,7 +131,7 @@
       "word": "abandon",
       "meaning_zh": [
         "放棄",
-        "終止",
+        "中止",
         "拋棄"
       ]
     },
@@ -116,7 +176,8 @@
     {
       "word": "district",
       "meaning_zh": [
-        "地區"
+        "地區",
+        "區域"
       ]
     },
     {
@@ -128,7 +189,8 @@
     {
       "word": "compulsory",
       "meaning_zh": [
-        "義務的強制性的"
+        "義務的",
+        "強制性的"
       ]
     },
     {
@@ -155,7 +217,8 @@
     {
       "word": "actually",
       "meaning_zh": [
-        "實際上"
+        "實際上",
+        "事實上"
       ]
     },
     {
@@ -173,20 +236,27 @@
     {
       "word": "install",
       "meaning_zh": [
-        "設置安裝"
+        "設置",
+        "安裝"
       ]
     },
     {
       "word": "suppose",
       "meaning_zh": [
         "認為",
-        "猜想永久的"
+        "猜想"
+      ]
+    },
+    {
+      "word": "permanent",
+      "meaning_zh": [
+        "永久的"
       ]
     },
     {
       "word": "adjacent",
       "meaning_zh": [
-        "臨接的"
+        "鄰接的"
       ]
     },
     {
@@ -199,7 +269,8 @@
     {
       "word": "utility",
       "meaning_zh": [
-        "公用事業公用事業設施"
+        "公用事業",
+        "公用事業設施"
       ]
     }
   ]

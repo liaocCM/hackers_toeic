@@ -4,9 +4,9 @@
   "category": "公司動向",
   "page": 384,
   "audio_source": "audio/1-basic_Day01-30/basic_Day21.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC Vocabulary, Day 21.announce 宣佈,公告, interested有利害關係的,感興趣的, active積極的,活躍的, accept接受,採用, foresee預見,預知, expansion擴張,擴大, relocate搬遷, competitor競爭者,競爭業者, asset資產, contribute捐獻,貢獻, dedicated專注的,奉獻的, misplace放錯地方,放在想不起來的地方considerable相當大的,相當多的持續, emerge出現,浮現, grow成長,使生長, select選擇,挑選, merge合併,融合, imply暗示,意味著, vital必要的, persist堅持,堅持不懈,持續independent獨立的,自立的, force勢力,有影響力的人或事物establish,創立,建立initiate,開始事業等,開始實施enhance,提升,提高海善, renowned著名的,有名的,有聲譽的informed,瞭解情況的,消息靈通的minutes,會議記錄wave,放棄,免除reach,達到,抵達authority,權力,當局acquire,取得,收購surpass,超越,勝過run,經營,營運improbable,不太可能的,不太可能發生的edge,優勢,邊緣simultaneously,同時的reveal,揭露,展現productivity,生產力uncertain,不確定的,不明確的premier,第一的,首要的",
+  "raw_transcript": "Hacker Stoic Vocabulary, Day 21.\n\nAnnounce, 宣佈,公告.\nInterested, 有利害關係的,感興趣的.\nActive, 積極的,活躍的.\nAccept, 接受,採用.\nForesee, 預見,預知.\nExpansion, 擴張,擴大.\nRelocate, 搬遷.\nCompetitor, 競爭者,競爭業者.\nAsset, 資產.\nContribute, 捐獻,貢獻.\nDedicated, 專注的,奉獻的.\nMisplace, 放錯地方,放在想不起來的地方.\nConsiderable, 相當大的,相當多的.\nLast, 持續.\nEmerge, 出現,浮現.\nGrow, 成長,使生長.\nSelect, 選擇,挑選.\nMerge, 合併,融合.\nImply, 暗示,意味著.\nVital, 必要的.\nPersist, 堅持,堅持不懈,持續.\nIndependent, 獨立的,自立的.\nForce, 勢力,有影響力的人或事物.\nEstablish, 創立,建立.\nInitiate, 開始事業等,開始實施.\nEnhance, 提升,提高,改善.\nRenowned, 著名的,有名的,有聲譽的.\nInformed, 瞭解情況的,消息靈通的.\nMinutes, 會議記錄.\nWaive, 放棄,免除.\nReach, 達到,抵達.\nAuthority, 權力,當局.\nAcquire, 取得,收購.\nSurpass, 超越,勝過.\nRun, 經營,營運.\nImprobable, 不太可能的,不太可能發生的.\nEdge, 優勢,邊緣.\nSimultaneously, 同時地.\nReveal, 揭露,展現.\nProductivity, 生產力.\nUncertain, 不確定的,不明確的.\nPremier, 第一的,首要的.",
   "vocab": [
     {
       "word": "announce",
@@ -94,7 +94,13 @@
       "word": "considerable",
       "meaning_zh": [
         "相當大的",
-        "相當多的持續"
+        "相當多的"
+      ]
+    },
+    {
+      "word": "last",
+      "meaning_zh": [
+        "持續"
       ]
     },
     {
@@ -178,7 +184,8 @@
       "word": "enhance",
       "meaning_zh": [
         "提升",
-        "提高海善"
+        "提高",
+        "改善"
       ]
     },
     {
@@ -203,7 +210,7 @@
       ]
     },
     {
-      "word": "wave",
+      "word": "waive",
       "meaning_zh": [
         "放棄",
         "免除"
@@ -261,7 +268,7 @@
     {
       "word": "simultaneously",
       "meaning_zh": [
-        "同時的"
+        "同時地"
       ]
     },
     {

@@ -4,9 +4,9 @@
   "category": "購物",
   "page": 184,
   "audio_source": "audio/1-basic_Day01-30/basic_Day10.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC vocabulary, day 10.Purchase 購買, price 價格, affordable價格負擔得起的,實惠的, exactly, 確切的,正好Installment 分期付款Notice 通知,公告Charge 收費,費用,責任,索取費用,把什麼記在帳上Experienced 有經驗的,熟練的Instruction 使用說明,指示Expert 專家,專門的,專業的Warranty 保證,保證書Refund 退款Subscriber 訂閱者,用戶Delivery 運送,交貨Receipt 收據, carefullyOffer 提供,優惠Benefit 利益,好處,受益,受惠Exclusively 獨佔的,排外的Description 說明,描述Relatively 相對的Preparation 準備工作Spare 節省,另習,備用的,剩下的Area 地區,區域Clearance 清除,清空,呈現Alter 改變,修改Apply 適用,應用,申請Mutually 互相,彼此Method 方法,方式Acceptable 可接受的,還可以的Desire 渴望,慾望,想要Redeemable 可兌換的,可償還的Officially 正式的Consumption 消費,消耗Qualify 使某人有資格Fabric 布料Auction 拍賣Authentic 真正的,正統的Valid 有效的Vendor 小販,攤販賣家,供應商",
+  "raw_transcript": "Hacker Stoic Vocabulary Day 10\npurchase\npurchase\n購買\nprice\nprice\n價格\naffordable\naffordable\n價格負擔得起的,實惠的\nexactly\nexactly\n確切地,正好\ninstallment\ninstallment\n分期付款\nnotice\nnotice\n通知,公告\ncharge\ncharge\n收費,費用,責任\n除去費用,把什麼記在賬上\nexperience\nexperience\n有經驗的,熟練的\ninstruction\ninstruction\n使用說明,指示\nexpert\nexpert\n專家,專門的,專業的\nwarranty\nwarranty\n保證,保證書\nrefund\nrefund\n退款\nsubscriber\nsubscriber\n訂閱者,用戶\ndelivery\ndelivery\n運送,交貨\nreceipt\nreceipt\n收據\ncarefully\ncarefully\n小心謹慎的,仔細的\noffer\noffer\n提供,優惠\nbenefit\nbenefit\n利益,好處,受益,受惠\nexclusively\nexclusively\n獨佔的,排外的\ndescription\ndescription\n說明,描述\nrelatively\nrelatively\n相對的\npreparation\npreparation\n準備工作\nspare\nspare\n節省,另期,備用的,剩下的\narea\narea\n地區,區域\nclearance\nclearance\n清除,清空,權限\nalter\nalter\n改變,修改\napply\napply\n適用,應用,申請\nmutually\nmutually\n互相,彼此\nmethod\nmethod\n方法,方式\nacceptable\nacceptable\n可接受的,還可以的\ndesire\ndesire\n渴望,慾望,想要\nredeemable\nredeemable\n可兌換的,可償還的\nofficially\nofficially\n正式的\nconsumption\nconsumption\n消費,消耗\nqualify\nqualify\n實務人有資格\nfabric\nfabric\n布料\nauction\nauction\n拍賣\nauthentic\nauthentic\n真正的,正統的\nvalid\nvalid\n有效的\nvendor\nvendor\nvendor\n小販,攤販,賣家,供應商",
   "vocab": [
     {
       "word": "purchase",
@@ -30,7 +30,7 @@
     {
       "word": "exactly",
       "meaning_zh": [
-        "確切的",
+        "確切地",
         "正好"
       ]
     },
@@ -52,13 +52,11 @@
       "meaning_zh": [
         "收費",
         "費用",
-        "責任",
-        "索取費用",
-        "把什麼記在帳上"
+        "責任"
       ]
     },
     {
-      "word": "experienced",
+      "word": "experience",
       "meaning_zh": [
         "有經驗的",
         "熟練的"
@@ -113,7 +111,14 @@
       ]
     },
     {
-      "word": "carefullyoffer",
+      "word": "carefully",
+      "meaning_zh": [
+        "小心謹慎的",
+        "仔細的"
+      ]
+    },
+    {
+      "word": "offer",
       "meaning_zh": [
         "提供",
         "優惠"
@@ -158,7 +163,7 @@
       "word": "spare",
       "meaning_zh": [
         "節省",
-        "另習",
+        "另期",
         "備用的",
         "剩下的"
       ]
@@ -175,7 +180,7 @@
       "meaning_zh": [
         "清除",
         "清空",
-        "呈現"
+        "權限"
       ]
     },
     {
@@ -245,7 +250,7 @@
     {
       "word": "qualify",
       "meaning_zh": [
-        "使某人有資格"
+        "實務人有資格"
       ]
     },
     {
@@ -277,7 +282,8 @@
       "word": "vendor",
       "meaning_zh": [
         "小販",
-        "攤販賣家",
+        "攤販",
+        "賣家",
         "供應商"
       ]
     }

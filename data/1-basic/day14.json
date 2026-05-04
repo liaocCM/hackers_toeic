@@ -4,16 +4,10 @@
   "category": "旅遊、機場",
   "page": 258,
   "audio_source": "audio/1-basic_Day01-30/basic_Day14.mp3",
-  "transcript_model": "Systran/faster-whisper-medium",
+  "transcript_model": "openai/gpt-4o-transcribe",
   "low_count_warning": false,
-  "raw_transcript": "Hackers' TOEIC Vocabulary 日誌14International 國際的Attraction 景點Itinerary 旅遊行程Exotic 一國情調的,奇特的Diverse 多樣的Superb 極好的,一流的Baggage 行李Destination 目的地Missing 遺失的,缺少的Locate 找到什麼的位置,使什麼做落語Approximately 大概Duty 稅,關稅,責任,職責Process 過程,程序,處理Board 上,登上,委員會,董事會Comfortable 舒適的Declare 申報,宣告Specify 具體說明Depart 出發Emergency 緊急情況Passenger 乘客Outgoing 從某地點出發的,離開的,即將離職的Tightly 緊緊的,牢固的Tour 導覽,旅行Carrier 運輸公司,航空公司,運輸工具Customarily 習慣上,習俗上Confuse 使困惑Arrive 到達Brosher 折頁,小冊子Involve 需要,包含,使某人涉入Ship 運送,船Suitcase 行李箱Unavailable 無法利用的,無法取得的Fill out, fill in填寫,填好表格等文件Customs 海關Away 離開,遠離Dramatic 戲劇性的,激動人心的Hospitality 款待,殷勤招待Indulge 沉迷,讓什麼享受Proximity 接近,鄰近Seating 整體的座位安排,座位數量Unlimited 無限制的Simply 僅僅只是,簡單的Besides 而且,此外,除什麼之外Traditionally 傳統的",
+  "raw_transcript": "Hackers TOEIC Vocabulary, Day 14.\n\nInternational\n國際的\nAttraction\n景點\nItinerary\n旅遊行程\nExotic\n異國情調的,奇特的\nDiverse\n多樣的\nSuperb\n極好的,一流的\nBaggage\n行李\nDestination\n目的地\nMissing\n遺失的,缺少的\nLocate\n找到什麼的位置,使什麼坐落於\nApproximately\n大概\nDuty\nDuty\n稅,關稅,責任,職責\nProcess\n過程,程序,處理\nBoard\n上,登上,委員會,董事會\nComfortable\n舒適的\nDeclare\n申報,宣告\nSpecify\n具體說明\nDepart\n出發\nEmergency\n緊急情況\nPassenger\n乘客\nOutgoing\nOutgoing\n從某地點出發的,離開的,即將離職的\nTightly\n緊緊地,牢固地\nTour\n導覽,旅行\nCarrier\n運輸公司,航空公司,運輸工具\nCustomarily\n習慣上,習俗上\nConfuse\n使困惑\nArrive\n到達\nBrochure\n摺頁,小冊子\nInvolve\n需要,包含,使某人涉入\nShip\n運送,船\nSuitcase\n行李箱\nUnavailable\n無法利用的,無法取得的\nFill out, fill in\n填寫,填好表格等文件\nCustoms\n海關\nAway\n離開,遠離\nDramatic\n戲劇性的,激動人心的,急劇的\nHospitality\n款待,殷勤招待\nIndulge\n沈迷,讓什麼享受\nProximity\n接近,鄰近\nSeating\n整體的座位安排,座位數量\nUnlimited\n無限制的\nSimply\n僅僅,只是,簡單地\nBesides\n而且,此外,除什麼之外\nTraditionally\n傳統地",
   "vocab": [
-    {
-      "word": "hackers' toeic vocabulary",
-      "meaning_zh": [
-        "日誌"
-      ]
-    },
     {
       "word": "international",
       "meaning_zh": [
@@ -35,7 +29,7 @@
     {
       "word": "exotic",
       "meaning_zh": [
-        "一國情調的",
+        "異國情調的",
         "奇特的"
       ]
     },
@@ -75,7 +69,7 @@
       "word": "locate",
       "meaning_zh": [
         "找到什麼的位置",
-        "使什麼做落語"
+        "使什麼坐落於"
       ]
     },
     {
@@ -158,8 +152,8 @@
     {
       "word": "tightly",
       "meaning_zh": [
-        "緊緊的",
-        "牢固的"
+        "緊緊地",
+        "牢固地"
       ]
     },
     {
@@ -197,9 +191,9 @@
       ]
     },
     {
-      "word": "brosher",
+      "word": "brochure",
       "meaning_zh": [
-        "折頁",
+        "摺頁",
         "小冊子"
       ]
     },
@@ -233,7 +227,10 @@
     },
     {
       "word": "fill out",
-      "meaning_zh": []
+      "meaning_zh": [
+        "填寫",
+        "填好表格等文件"
+      ]
     },
     {
       "word": "fill in",
@@ -259,7 +256,8 @@
       "word": "dramatic",
       "meaning_zh": [
         "戲劇性的",
-        "激動人心的"
+        "激動人心的",
+        "急劇的"
       ]
     },
     {
@@ -272,7 +270,7 @@
     {
       "word": "indulge",
       "meaning_zh": [
-        "沉迷",
+        "沈迷",
         "讓什麼享受"
       ]
     },
@@ -299,8 +297,9 @@
     {
       "word": "simply",
       "meaning_zh": [
-        "僅僅只是",
-        "簡單的"
+        "僅僅",
+        "只是",
+        "簡單地"
       ]
     },
     {
@@ -314,7 +313,7 @@
     {
       "word": "traditionally",
       "meaning_zh": [
-        "傳統的"
+        "傳統地"
       ]
     }
   ]

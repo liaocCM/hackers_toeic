@@ -6,9 +6,9 @@
       "category": "雇用",
       "page": 22,
       "audio_source": "audio/1-basic_Day01-30/basic_Day01.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' Toeic Vocabulary Day 1Resume 履歷表, opening, 空缺,職缺,開張,開始Applicant 申請者,應徵者, requirement, 必要條件Meet 滿足,符合, qualified, 有資格的,升任的Candidate 候選者,應徵者, confidence, 信心,自信,信任Highly 非常 專業的,職業的,專家Interview 面試, hire, 僱用, training, 訓練Reference 推薦信,參考, position, 職位,位置,放置Achievement 成就,達成, impressed, 感到印象深刻的, excellentEligible 優秀的,傑出的, eligible, 有資格的,合適的Identify 辨認,認出, associate, 時有關聯Employment 僱用, lack, 缺乏Managerial 管理的, diligent, 勤奮的, familiar, 熟悉的,親近的Proficiency 熟練,精通, prospective, 預期的,未來的Appeal 呼籲,有吸引力Specialize 專攻,專門從事, apprehensive, 擔心的,憂慮的Consultant 顧問, entitle, 給某人權力Degree 學位, payroll, 薪水賬冊,發薪名單Recruit 招募, certification, 證明Occupation 職業, wage, 工資,薪水",
+      "raw_transcript": "Hackers TOEIC Vocabulary Day 1\n\nResume 履歷表 Opening 空缺、職缺、開張、開始 Applicant 申請者、應徵者 Requirement 必要條件 Meet 滿足、符合 Qualified 有資格的、勝任的 Candidate 候選者、應徵者 Confidence 信心、自信、信任 Highly 很、非常 Professional 專業的、職業的、專家 Interview 面試 Hire 僱用 Training 訓練 Reference 推薦信、參考 Position 職位、位置、放置 Achievement 成就、達成 Impress 感到印象深刻的 Excellent 優秀的、傑出的 Eligible 有資格的、合適的 Identify 辨認、認出 Associate 使有關聯 Condition 條件 Employment 僱用 Lack 缺乏 Managerial 管理的 Diligent 勤奮的 Familiar 熟悉的、親近的 Proficiency 熟練、精通 Prospective 預期的、未來的 Appeal 呼籲、有吸引力 Specialize 專攻、專門從事 Apprehensive 擔心的、憂慮的 Consultant 顧問 Entitle 給某人權利 Degree 學位 Payroll 薪水帳冊、發薪名單 Recruit 招募 Certification 證明 Occupation 職業 Wage 工資、薪水",
       "vocab": [
         {
           "word": "resume",
@@ -49,7 +49,7 @@
           "word": "qualified",
           "meaning_zh": [
             "有資格的",
-            "升任的"
+            "勝任的"
           ]
         },
         {
@@ -70,7 +70,16 @@
         {
           "word": "highly",
           "meaning_zh": [
+            "很",
             "非常"
+          ]
+        },
+        {
+          "word": "professional",
+          "meaning_zh": [
+            "專業的",
+            "職業的",
+            "專家"
           ]
         },
         {
@@ -114,13 +123,13 @@
           ]
         },
         {
-          "word": "impressed",
+          "word": "impress",
           "meaning_zh": [
             "感到印象深刻的"
           ]
         },
         {
-          "word": "excellenteligible",
+          "word": "excellent",
           "meaning_zh": [
             "優秀的",
             "傑出的"
@@ -143,7 +152,13 @@
         {
           "word": "associate",
           "meaning_zh": [
-            "時有關聯"
+            "使有關聯"
+          ]
+        },
+        {
+          "word": "condition",
+          "meaning_zh": [
+            "條件"
           ]
         },
         {
@@ -221,7 +236,7 @@
         {
           "word": "entitle",
           "meaning_zh": [
-            "給某人權力"
+            "給某人權利"
           ]
         },
         {
@@ -233,7 +248,7 @@
         {
           "word": "payroll",
           "meaning_zh": [
-            "薪水賬冊",
+            "薪水帳冊",
             "發薪名單"
           ]
         },
@@ -270,9 +285,9 @@
       "category": "規則、法律",
       "page": 40,
       "audio_source": "audio/1-basic_Day01-30/basic_Day02.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC Vocabulary, Day 2.Attire 服裝,衣著Code 規範,慣例,密碼Concern 擔心,憂慮,使擔心,關係到,影響到Policy 政策,規定,保單Comply 遵守,遵從Regulation 規定Exception 例外Adhere 遵守,堅持Severely 嚴厲的,嚴重的Refrain 剋制,抑制Permission 允許,許可Access 使用權,接近,通道接近,存取電腦資料等Thoroughly 徹底的,完全的,非常Revise 修訂,變更Approach 接近,處理方法Approval 批准,認可Form 種類,類型,形式Immediately 立即,馬上Inspection 檢查,視察Arrangement 安排,準備,佈置Procedure 手續,程序Negative 負面的,消極的Mandate 使什麼成為必須的授權給,授權,命令Effect 效力,效果,影響,造成Drastically 激烈的,大幅的,徹底的According to 根據,依照Enable 十畝源能夠Standard 標準,規範Constant 持續的,不斷的Act 法案,法令,行為,行動,擔當Compensation 補償金,報償Ban 禁止,禁令Obligation 義務,責任Authorize 批准授權某人做某事禁止廢除執行,實施法律等習慣立法,法律,法規限聚,限定",
+      "raw_transcript": "Hacker's TOEIC Vocabulary Day 2\nAttire\n服裝,衣著\nCode\n規範,慣例,密碼\nConcern\n擔心,憂慮,使擔心,關係到,影響到\nPolicy\n政策,規定,保單\nComply\n遵守,遵從\nRegulation\n規定\nException\n例外\nAdhere\n遵守,堅持\nSeverely\n嚴厲地,嚴重地\nRefrain\n剋制,抑制\nPermission\n允許,許可\nAccess\n使用權,接近,通道,接近,存取電腦資料等\nThoroughly\n徹底地,完全地,非常\nRevise\n修訂,變更\nApproach\n接近,處理方法\n接近,靠近\nApproval\n批准,認可\nForm\n種類,類型,形式\nImmediately\n立即,馬上\nInspection\n檢查,視察\nArrangement\n安排,準備,佈局\nProcedure\n程序\nNegative\n負面的,消極的\nMandate\nMandate\nMandate\n使什麼成為必須的,授權給,授權,命令\nEffect\n效力,效果,影響,造成\nDrastically\n激烈地,大幅地,徹底地\nAccording to\n根據,依照\nEnable\nEnable\n使某人能夠\nStandard\n標準,規範\nConstant\n持續地,不斷地\nAct\n法案,法令,行為,行動,擔當\nCompensation\nCompensation\n補償金,報償\nBan\n禁止,禁令\nObligation\nObligation\n義務,責任\nAuthorize\n批准,授權某人做某事\nProhibit\n禁止\nAbolish\n廢除\nEnforce\n執行,實施法律等\nHabit\n習慣\nLegislation\n立法,法律,法規\nRestrict\n限制,限定",
       "vocab": [
         {
           "word": "attire",
@@ -336,8 +351,8 @@
         {
           "word": "severely",
           "meaning_zh": [
-            "嚴厲的",
-            "嚴重的"
+            "嚴厲地",
+            "嚴重地"
           ]
         },
         {
@@ -359,15 +374,15 @@
           "meaning_zh": [
             "使用權",
             "接近",
-            "通道接近",
+            "通道",
             "存取電腦資料等"
           ]
         },
         {
           "word": "thoroughly",
           "meaning_zh": [
-            "徹底的",
-            "完全的",
+            "徹底地",
+            "完全地",
             "非常"
           ]
         },
@@ -419,13 +434,12 @@
           "meaning_zh": [
             "安排",
             "準備",
-            "佈置"
+            "佈局"
           ]
         },
         {
           "word": "procedure",
           "meaning_zh": [
-            "手續",
             "程序"
           ]
         },
@@ -439,7 +453,8 @@
         {
           "word": "mandate",
           "meaning_zh": [
-            "使什麼成為必須的授權給",
+            "使什麼成為必須的",
+            "授權給",
             "授權",
             "命令"
           ]
@@ -456,9 +471,9 @@
         {
           "word": "drastically",
           "meaning_zh": [
-            "激烈的",
-            "大幅的",
-            "徹底的"
+            "激烈地",
+            "大幅地",
+            "徹底地"
           ]
         },
         {
@@ -471,7 +486,7 @@
         {
           "word": "enable",
           "meaning_zh": [
-            "十畝源能夠"
+            "使某人能夠"
           ]
         },
         {
@@ -484,8 +499,8 @@
         {
           "word": "constant",
           "meaning_zh": [
-            "持續的",
-            "不斷的"
+            "持續地",
+            "不斷地"
           ]
         },
         {
@@ -522,10 +537,47 @@
         {
           "word": "authorize",
           "meaning_zh": [
-            "批准授權某人做某事禁止廢除執行",
-            "實施法律等習慣立法",
+            "批准",
+            "授權某人做某事"
+          ]
+        },
+        {
+          "word": "prohibit",
+          "meaning_zh": [
+            "禁止"
+          ]
+        },
+        {
+          "word": "abolish",
+          "meaning_zh": [
+            "廢除"
+          ]
+        },
+        {
+          "word": "enforce",
+          "meaning_zh": [
+            "執行",
+            "實施法律等"
+          ]
+        },
+        {
+          "word": "habit",
+          "meaning_zh": [
+            "習慣"
+          ]
+        },
+        {
+          "word": "legislation",
+          "meaning_zh": [
+            "立法",
             "法律",
-            "法規限聚",
+            "法規"
+          ]
+        },
+        {
+          "word": "restrict",
+          "meaning_zh": [
+            "限制",
             "限定"
           ]
         }
@@ -537,12 +589,12 @@
       "category": "一般工作 (1)",
       "page": 58,
       "audio_source": "audio/1-basic_Day01-30/basic_Day03.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC Vocabulary Day 3Acustomed 習慣的 corporation 股份公司,法人Demanding 要求很多的,吃力的 colleague 同事Division 部門 request 要求 efficiently 有效率的 manage經營,管理,設法做到,勉強做到提交, directly 直接地提醒,使響起指示,教導截止期限,最後期限樣本,樣品,試用品,試吃,抽樣檢查通知,告知執行,實施, monitor監視,監控,監督值得,應該得到, assignment工作,任務,作業Release,發表,公開,發行,上市Extension,延長,延期,分機Electronically,以電子方式地Attendance,出席,出勤,absolutely絕對地,完全地委任, delegate代表, attentively專心地,聚精會神地, supervision監督,workshop,專題討論會,工作坊Draw,拉,吸引, revision修訂, reluctantly不情願地,勉強地使認識,使熟悉, convey傳達, check檢查,查明,確認, headquarters總部,總公司, file把什麼歸檔,正式提起或提出Oversea, oversea監督, involved, involved有關的,牽涉在內的Concentrate, concentrate集中,專注",
+      "raw_transcript": "Hackers TOEIC Vocabulary, Day 3\n\nAccustomed\n\n習慣的\n\nCorporation\n\n股份公司,法人\n\nDemanding\n\n要求很多的,吃力的\n\nColleague\n\n同時\n\nDivision\n\n部門\n\nRequest\n\n要求\n\nEfficiently\n\n有效率的\n\nManage\n\n經營,管理,設法做到,勉強做到\n\nSubmit\n\n提交\n\nDirectly\n\n直接的\n\nRemind\n\n提醒,使想起\n\nInstruct\n\n指示,教導\n\nDeadline\n\n截止期限,最後期限\n\nSample\n\n樣本,樣品,試用品,試吃,抽樣檢查\n\nNotify\n\n通知,告知\n\nPerform\n\n執行,實施\n\nMonitor\n\n監視,監控,監督\n\nDeserve\n\n值得,應該得到\n\nAssignment\n\n工作,任務,作業\n\nEntire\n\n整個的\n\nRelease\n\n發表,公開,發行,上市\n\nExtension\n\n延長,延期,分機\n\nElectronically\n\n以電子方式地\n\nAttendance\n\n出席,出勤\n\nAbsolutely\n\n絕對的,完全的\n\nDelegate\n\n委任\n\nDelegate\n\n代表\n\nAttentively\n\n專心地,聚精會神地\n\nSupervision\n\n監督\n\nWorkshop\n\n專題討論會,工作坊\n\nDraw\n\n拉,吸引\n\nRevision\n\n修訂\n\nReluctantly\n\n不情願的,勉強的\n\nAcquaint\n\n使認識,使熟悉\n\nConvey\n\n傳達\n\nCheck\n\n檢查,查明,確認\n\nHeadquarters\n\n總部,總公司\n\nFile\n\n把什麼歸檔,正式提起或提出\n\nOversee\n\n監督\n\nInvolved\n\n有關的,牽涉在內的\n\nConcentrate\n\n集中,專注",
       "vocab": [
         {
-          "word": "acustomed",
+          "word": "accustomed",
           "meaning_zh": [
             "習慣的"
           ]
@@ -564,7 +616,7 @@
         {
           "word": "colleague",
           "meaning_zh": [
-            "同事"
+            "同時"
           ]
         },
         {
@@ -591,21 +643,63 @@
             "經營",
             "管理",
             "設法做到",
-            "勉強做到提交"
+            "勉強做到"
+          ]
+        },
+        {
+          "word": "submit",
+          "meaning_zh": [
+            "提交"
           ]
         },
         {
           "word": "directly",
           "meaning_zh": [
-            "直接地提醒",
-            "使響起指示",
-            "教導截止期限",
-            "最後期限樣本",
+            "直接的"
+          ]
+        },
+        {
+          "word": "remind",
+          "meaning_zh": [
+            "提醒",
+            "使想起"
+          ]
+        },
+        {
+          "word": "instruct",
+          "meaning_zh": [
+            "指示",
+            "教導"
+          ]
+        },
+        {
+          "word": "deadline",
+          "meaning_zh": [
+            "截止期限",
+            "最後期限"
+          ]
+        },
+        {
+          "word": "sample",
+          "meaning_zh": [
+            "樣本",
             "樣品",
             "試用品",
             "試吃",
-            "抽樣檢查通知",
-            "告知執行",
+            "抽樣檢查"
+          ]
+        },
+        {
+          "word": "notify",
+          "meaning_zh": [
+            "通知",
+            "告知"
+          ]
+        },
+        {
+          "word": "perform",
+          "meaning_zh": [
+            "執行",
             "實施"
           ]
         },
@@ -614,7 +708,13 @@
           "meaning_zh": [
             "監視",
             "監控",
-            "監督值得",
+            "監督"
+          ]
+        },
+        {
+          "word": "deserve",
+          "meaning_zh": [
+            "值得",
             "應該得到"
           ]
         },
@@ -624,6 +724,12 @@
             "工作",
             "任務",
             "作業"
+          ]
+        },
+        {
+          "word": "entire",
+          "meaning_zh": [
+            "整個的"
           ]
         },
         {
@@ -659,14 +765,14 @@
         {
           "word": "absolutely",
           "meaning_zh": [
-            "絕對地",
-            "完全地委任"
+            "絕對的",
+            "完全的"
           ]
         },
         {
           "word": "delegate",
           "meaning_zh": [
-            "代表"
+            "委任"
           ]
         },
         {
@@ -705,8 +811,14 @@
         {
           "word": "reluctantly",
           "meaning_zh": [
-            "不情願地",
-            "勉強地使認識",
+            "不情願的",
+            "勉強的"
+          ]
+        },
+        {
+          "word": "acquaint",
+          "meaning_zh": [
+            "使認識",
             "使熟悉"
           ]
         },
@@ -739,7 +851,7 @@
           ]
         },
         {
-          "word": "oversea",
+          "word": "oversee",
           "meaning_zh": [
             "監督"
           ]
@@ -766,9 +878,9 @@
       "category": "一般工作 (2)",
       "page": 76,
       "audio_source": "audio/1-basic_Day01-30/basic_Day04.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hacker's Toic Vocabulary, Day 4. lax 鬆懈的,散漫的, procrastinate 拖延, combined 聯合的,結合的, accomplish voluntarily 自願的,自動自發的, undertake 從事,承擔工作等 assume 假定,以為,承擔 occasionally 偶爾 employee 員工,受僱者, assist 協助,援助, satisfied 感到滿意的,滿足的 manner 方式,態度, responsible 應該負責的,負責任的, conduct 進行 adjust 調整,適應, personnel 員工,人員,人事部門, agree 同意, supervise 監督,指導 coworker 同事,共同工作者, direct 引導,指揮,指導 confidential 機密的,秘密的, assign 分配,指派 leading 領導的,領先的,主要的, formal 正式的, remove 去除,罰某人免職 collect 收集,收取, coordinate 協調, hardly 幾乎不 abstract 抽象的, directory 通訊錄,工商名錄,電話簿 accountable 應負責任的, skillfully 巧妙的,熟練的, exclusive 獨有的,排外的 intention 意圖,意向, transform 改變,轉變, respectful 尊重的,尊敬的 duplicate 副本, contrary 相反, disturbing 令人不安的,令人焦慮的,煩擾人的 engage 參加,從事, foster 促進,培養, neutrality 中立,中立性, widely 廣泛的, externally 外部的,外在的",
+      "raw_transcript": "Hackers TOEIC Vocabulary Day 4\nLax\nLax\n鬆懈的,散漫的\nProcrastinate\nProcrastinate\n拖延\nCombined\nCombined\n聯合的,結合的\nAccomplish\nAccomplish\n達成\nVoluntarily\nVoluntarily\n自願地,自動自發地\nUndertake\nUndertake\n從事,承擔工作等\nAssume\nAssume\nAssume\n假定,以為,承擔\nOccasionally\nOccasionally\n偶爾\nEmployee\nEmployee\n員工,受僱者\nAssist\nAssist\n協助,援助\nSatisfied\nSatisfied\n感到滿意的,滿足的\nManner\nManner\n方式,態度\nResponsible\nResponsible\n應該負責的,負責任的\nConduct\nConduct\nConduct\n進行\nAdjust\nAdjust\n調整,適應\nPersonnel\nPersonnel\n員工,人員,人事部門\nAgree\nAgree\n同意\nSupervise\nSupervise\n監督,指導\nCoworker\nCoworker\n同事,共同工作者\nDirect\nDirect\n引導,指揮,指導\nConfidential\nConfidential\n機密的,秘密的\nAssign\nAssign\n分配,指派\nLeading\nLeading\n領導的,領先的,主要的\nFormal\nFormal\n正式的\nRemove\nRemove\nRemove\n去除,把某人免職\nCollect\nCollect\n收集,收取\nCoordinate\nCoordinate\n協調\nHardly\nHardly\n幾乎不\nAbstract\nAbstract\n抽象的\nDirectory\nDirectory\n通訊錄,工商名錄,電話簿\nAccountable\nAccountable\n應負責任的\nSkillfully\nSkillfully\n巧妙地,熟練地\nExclusive\nExclusive\n獨有的,排外的\nIntention\nIntention\n意圖,意向\nTransform\nTransform\n改變,轉變\nRespectful\nRespectful\n尊重的,尊敬的\nDuplicate\nDuplicate\n副本\nContrary\nContrary\n相反\nDisturbing\nDisturbing\n令人不安的,令人焦慮的,煩擾人的\nEngage\nEngage\n參加,從事\nFoster\nFoster\n促進,培養\nNeutrality\nNeutrality\n中立,中立性\nWidely\nWidely\n廣泛地\nExternally\nExternally\n外部的,外在的",
       "vocab": [
         {
           "word": "lax",
@@ -791,10 +903,16 @@
           ]
         },
         {
-          "word": "accomplish voluntarily",
+          "word": "accomplish",
           "meaning_zh": [
-            "自願的",
-            "自動自發的"
+            "達成"
+          ]
+        },
+        {
+          "word": "voluntarily",
+          "meaning_zh": [
+            "自願地",
+            "自動自發地"
           ]
         },
         {
@@ -934,7 +1052,7 @@
           "word": "remove",
           "meaning_zh": [
             "去除",
-            "罰某人免職"
+            "把某人免職"
           ]
         },
         {
@@ -979,8 +1097,8 @@
         {
           "word": "skillfully",
           "meaning_zh": [
-            "巧妙的",
-            "熟練的"
+            "巧妙地",
+            "熟練地"
           ]
         },
         {
@@ -1055,7 +1173,7 @@
         {
           "word": "widely",
           "meaning_zh": [
-            "廣泛的"
+            "廣泛地"
           ]
         },
         {
@@ -1073,9 +1191,9 @@
       "category": "一般工作 (3)",
       "page": 94,
       "audio_source": "audio/1-basic_Day01-30/basic_Day05.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC vocabulary, day 5.sophisticated 精密的,複雜的,高雅的, timely 及時的,適時的, realistically 實際上,在現實情況下, promptly 迅速的,準時的, accessible 可進入的,可利用的, implement 實施,執行feedback 回饋意見,反響, outstanding 傑出的,未嘗付的, inform 通知replacement 代替,代替物,代替者announcement 公告,宣佈department 部門, permanently 永久的fulfill 滿足,旅行outline 概要,大綱,概述,略述explain 說明, contain 包含,容納compile 會整資料等,收集, subsequent 後來的,隨後的overview 概要,概觀provider 供應商,提供者matter 問題,事情expertise 專門知識,專門技術demonstrate 證明,說明,示範操作remainder 剩餘essential 必要的,不可或缺的,本質上的divide 劃分,分開major 主要的,重大的compliance 遵守clarify 產名face 面對,面向,正對follow 跟隨,密切注意,聽懂,瞭解aspect 觀點,方面apparently 顯然,看來,似乎aware 知道的,意識到的extended 延長的,延伸的accidentally 意外的,偶然的advisable 可取的,明智的concerned 擔心的,有關的speak 講話",
+      "raw_transcript": "Hacker Stoic Vocabulary Day 5\n\nSophisticated\n\nSophisticated\n\n精密的、複雜的、高雅的\n\nTimely\n\nTimely\n\n及時的、適時的\n\nRealistically\n\nRealistically\n\n實際上、在現實情況下\n\nPromptly\n\nPromptly\n\n迅速地、準時地\n\nAccessible\n\nAccessible\n\n可進入的、可利用的\n\nImplement\n\nImplement\n\n實施、執行\n\nFeedback\n\nFeedback\n\n回饋意見、反響\n\nOutstanding\n\nOutstanding\n\n傑出的、未償付的\n\nInform\n\nInform\n\n通知\n\nReplacement\n\nReplacement\n\n代替、代替物、代替者\n\nAnnouncement\n\nAnnouncement\n\n公告、宣佈\n\nDepartment\n\nDepartment\n\n部門\n\nPermanently\n\nPermanently\n\n永久地\n\nFulfill\n\nFulfill\n\n滿足、履行\n\nOutline\n\nOutline\n\n概要、大綱、概述、略述\n\nExplain\n\nExplain\n\n說明\n\nContain\n\nContain\n\n包含、容納\n\nCompile\n\nCompile\n\n彙整資料等、收集\n\nSubsequent\n\nSubsequent\n\n後來的、隨後的\n\nOverview\n\nOverview\n\n概要、概觀\n\nProvider\n\nProvider\n\n供應商、提供者\n\nMatter\n\nMatter\n\n問題、事情\n\nExpertise\n\nExpertise\n\n專門知識、專門技術\n\nDemonstrate\n\nDemonstrate\n\n證明、說明、示範操作\n\nRemainder\n\nRemainder\n\n剩餘\n\nEssential\n\nEssential\n\n必要的、不可或缺的、本質上的\n\nDivide\n\nDivide\n\n劃分、分開\n\nMajor\n\nMajor\n\n主要的、重大的\n\nCompliance\n\nCompliance\n\n遵守\n\nClarify\n\nClarify\n\n闡明\n\nFace\n\nFace\n\n面對、面向、正對\n\nFollow\n\nFollow\n\n跟隨、密切注意、聽懂、瞭解\n\nAspect\n\nAspect\n\n觀點、方面\n\nApparently\n\nApparently\n\n顯然、看來、似乎\n\nAware\n\nAware\n\n知道的、意識到的\n\nExtended\n\nExtended\n\n延長的、延伸的\n\nAccidentally\n\nAccidentally\n\n意外地、偶然地\n\nAdvisable\n\nAdvisable\n\n可取的、明智的\n\nConcerned\n\nConcerned\n\n擔心的、有關的\n\nSpeak\n\nSpeak\n\n講話",
       "vocab": [
         {
           "word": "sophisticated",
@@ -1102,8 +1220,8 @@
         {
           "word": "promptly",
           "meaning_zh": [
-            "迅速的",
-            "準時的"
+            "迅速地",
+            "準時地"
           ]
         },
         {
@@ -1131,7 +1249,7 @@
           "word": "outstanding",
           "meaning_zh": [
             "傑出的",
-            "未嘗付的"
+            "未償付的"
           ]
         },
         {
@@ -1164,14 +1282,14 @@
         {
           "word": "permanently",
           "meaning_zh": [
-            "永久的"
+            "永久地"
           ]
         },
         {
           "word": "fulfill",
           "meaning_zh": [
             "滿足",
-            "旅行"
+            "履行"
           ]
         },
         {
@@ -1199,7 +1317,7 @@
         {
           "word": "compile",
           "meaning_zh": [
-            "會整資料等",
+            "彙整資料等",
             "收集"
           ]
         },
@@ -1283,7 +1401,7 @@
         {
           "word": "clarify",
           "meaning_zh": [
-            "產名"
+            "闡明"
           ]
         },
         {
@@ -1335,8 +1453,8 @@
         {
           "word": "accidentally",
           "meaning_zh": [
-            "意外的",
-            "偶然的"
+            "意外地",
+            "偶然地"
           ]
         },
         {
@@ -1367,15 +1485,14 @@
       "category": "休閒、社交",
       "page": 112,
       "audio_source": "audio/1-basic_Day01-30/basic_Day06.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hacker's Toic Vocabulary, Day 6.Rest 休息,剩餘部分Exhibition 展覽Celebrity 名人Live 現場表演的,直播的Improvise 即興演奏,即席演講,即興創作Popular 受歡迎的Donation 捐贈,捐獻Alumni 校友們,畢業生們Present 提出,出示Present 現在的,出席的Admission 入場Banquet 宴會Anniversary 週年紀念日Required 必要的,必須的Succeed 成功,接著發聲繼任 收藏品,收集的東西,收取Fundraising 募款Resume 繼續,重新開始Issue 一起,問題,爭議Subscription 訂閱Appear 出現,現身Accompany 陪同,伴隨Edition 版本Specifically 明確的,具體的,特別,特別的Anonymous 匿名的,不具名的Commit 奉獻,使致力於某事Informative 提供資訊的提供資訊的,有用的聽眾,觀眾作家,作者注意到提及古董手稿,原稿有益的,有利的即將來臨的,借出Current 現在的,目前的,現行的,通用的Local 地方的,當地的Variety 多樣性,變化Advocate 擁護者Contributor 撰稿人,捐贈者Defy 反抗,使不可能Fascinating 迷人的,美妙的Showing 上映,上演,展示",
+      "raw_transcript": "Hacker Stoic Vocabulary Day 6\nRest\nRest\n休息 剩餘部分\nExhibition\nExhibition\n展覽\nCelebrity\nCelebrity\n名人\nLive\nLive\n現場表演的 直播的\nImprovise\nImprovise\n即興演奏 即席演講 即興創作\nPopular\nPopular\n受歡迎的\nDonation\nDonation\n軍贈 捐獻\nAlumni\nAlumni\n校友們 畢業生們\nPresent\nPresent\n提出 出事\nPresent\n現在的 出席的\nAdmission\nAdmission\n入場\nBanquet\nBanquet\n宴會\nAnniversary\nAnniversary\n週年紀念日\nRequired\nRequired\n必要的 必須的\nSucceed\nSucceed\n成功 接著發聲\n繼任\nCollection\nCollection\n收藏品 收集的東西 收取\nFundraising\nFundraising\n募款\nResume\nResume\n繼續 重新開始\nIssue\nIssue\n一起 問題 爭議\nSubscription\nSubscription\n訂閱\nAppear\nAppear\n出現 現身\nAccompany\nAccompany\n陪同 伴隨\nEdition\nEdition\n版本\nSpecifically\nSpecifically\n明確地 具體地 特別 特別地\nAnonymous\nAnonymous\n匿名的 不具名的\nCommit\nCommit\n奉獻 使置地於某事\nInformative\nInformative\n提供資訊的 有用的\nAudience\nAudience\n聽眾 觀眾\nAuthor\nAuthor\n作家 作者\nNote\nNote\n注意到 提及\nAntique\nAntique\n古董\nManuscript\nManuscript\n手稿 原稿\nBeneficial\nBeneficial\n有益的 有利的\nUpcoming\nUpcoming\n即將來臨的\nLend\nLend\n借出\nCurrent\nCurrent\n現在的 目前的 現行的 通用的\nLocal\nLocal\n地方的 當地的\nVariety\nVariety\n多樣性 變化\nAdvocate\nAdvocate\n擁護者\nContributor\nContributor\n專稿人 捐贈者\nDefy\nDefy\n反抗 使不可能\nFascinating\nFascinating\n迷人的 美妙的\nShowing\nShowing\n上映 上演 展示",
       "vocab": [
         {
           "word": "rest",
           "meaning_zh": [
-            "休息",
-            "剩餘部分"
+            "休息"
           ]
         },
         {
@@ -1393,16 +1510,13 @@
         {
           "word": "live",
           "meaning_zh": [
-            "現場表演的",
-            "直播的"
+            "現場表演的"
           ]
         },
         {
           "word": "improvise",
           "meaning_zh": [
-            "即興演奏",
-            "即席演講",
-            "即興創作"
+            "即興演奏"
           ]
         },
         {
@@ -1414,22 +1528,19 @@
         {
           "word": "donation",
           "meaning_zh": [
-            "捐贈",
-            "捐獻"
+            "軍贈"
           ]
         },
         {
           "word": "alumni",
           "meaning_zh": [
-            "校友們",
-            "畢業生們"
+            "校友們"
           ]
         },
         {
           "word": "present",
           "meaning_zh": [
-            "提出",
-            "出示"
+            "提出"
           ]
         },
         {
@@ -1453,15 +1564,19 @@
         {
           "word": "required",
           "meaning_zh": [
-            "必要的",
-            "必須的"
+            "必要的"
           ]
         },
         {
           "word": "succeed",
           "meaning_zh": [
-            "成功",
-            "接著發聲繼任"
+            "成功"
+          ]
+        },
+        {
+          "word": "collection",
+          "meaning_zh": [
+            "收藏品"
           ]
         },
         {
@@ -1473,16 +1588,13 @@
         {
           "word": "resume",
           "meaning_zh": [
-            "繼續",
-            "重新開始"
+            "繼續"
           ]
         },
         {
           "word": "issue",
           "meaning_zh": [
-            "一起",
-            "問題",
-            "爭議"
+            "一起"
           ]
         },
         {
@@ -1494,15 +1606,13 @@
         {
           "word": "appear",
           "meaning_zh": [
-            "出現",
-            "現身"
+            "出現"
           ]
         },
         {
           "word": "accompany",
           "meaning_zh": [
-            "陪同",
-            "伴隨"
+            "陪同"
           ]
         },
         {
@@ -1514,59 +1624,91 @@
         {
           "word": "specifically",
           "meaning_zh": [
-            "明確的",
-            "具體的",
-            "特別",
-            "特別的"
+            "明確地"
           ]
         },
         {
           "word": "anonymous",
           "meaning_zh": [
-            "匿名的",
-            "不具名的"
+            "匿名的"
           ]
         },
         {
           "word": "commit",
           "meaning_zh": [
-            "奉獻",
-            "使致力於某事"
+            "奉獻"
           ]
         },
         {
           "word": "informative",
           "meaning_zh": [
-            "提供資訊的提供資訊的",
-            "有用的聽眾",
-            "觀眾作家",
-            "作者注意到提及古董手稿",
-            "原稿有益的",
-            "有利的即將來臨的",
+            "提供資訊的"
+          ]
+        },
+        {
+          "word": "audience",
+          "meaning_zh": [
+            "聽眾"
+          ]
+        },
+        {
+          "word": "author",
+          "meaning_zh": [
+            "作家"
+          ]
+        },
+        {
+          "word": "note",
+          "meaning_zh": [
+            "注意到"
+          ]
+        },
+        {
+          "word": "antique",
+          "meaning_zh": [
+            "古董"
+          ]
+        },
+        {
+          "word": "manuscript",
+          "meaning_zh": [
+            "手稿"
+          ]
+        },
+        {
+          "word": "beneficial",
+          "meaning_zh": [
+            "有益的"
+          ]
+        },
+        {
+          "word": "upcoming",
+          "meaning_zh": [
+            "即將來臨的"
+          ]
+        },
+        {
+          "word": "lend",
+          "meaning_zh": [
             "借出"
           ]
         },
         {
           "word": "current",
           "meaning_zh": [
-            "現在的",
-            "目前的",
-            "現行的",
-            "通用的"
+            "現在的"
           ]
         },
         {
           "word": "local",
           "meaning_zh": [
-            "地方的",
-            "當地的"
+            "地方的"
           ]
         },
         {
           "word": "variety",
           "meaning_zh": [
-            "多樣性",
-            "變化"
+            "多樣性"
           ]
         },
         {
@@ -1578,30 +1720,25 @@
         {
           "word": "contributor",
           "meaning_zh": [
-            "撰稿人",
-            "捐贈者"
+            "專稿人"
           ]
         },
         {
           "word": "defy",
           "meaning_zh": [
-            "反抗",
-            "使不可能"
+            "反抗"
           ]
         },
         {
           "word": "fascinating",
           "meaning_zh": [
-            "迷人的",
-            "美妙的"
+            "迷人的"
           ]
         },
         {
           "word": "showing",
           "meaning_zh": [
-            "上映",
-            "上演",
-            "展示"
+            "上映"
           ]
         }
       ]
@@ -1612,9 +1749,9 @@
       "category": "行銷 (1)",
       "page": 130,
       "audio_source": "audio/1-basic_Day01-30/basic_Day07.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers Toeic Vocabulary Day 7 survey 調查,意見調查, analysis 分析, respondent 回答者,受訪者 monopoly 獨佔,壟斷, competition 競爭, consistently demand 需求,要求, do one's utmost, 盡什麼的權力 expand 擴張,擴大, advanced 高階的,先進的 postpone 遲延期,延後, additional 額外的,附加的, appreciate 感謝,賞識,欣賞 demonstration 證明,說明,示範操作, buy 買,購買, examine 檢視,審問 effective, 有效的,生效的,以實行的, like, 喜歡, especially, 尤其,特別, closely, 仔細的,密切的 reserve 預約,保留,保存, cooperate 協力,合作, very 非常,很, consecutive expectation 預期,期待, publicize 公佈,宣傳, raise 提高,增加,提出, extremely affect, 影響,對什麼產生不好的作用, target, 目標,以什麼為目標 campaign, 宣傳活動,競選活動, probable, 有可能的, focus, 聚焦,集中, seasonal, 季節的,季節性的 impact, 影響,衝擊, comparison, 比較, gap, 差距, mounting, 增加中的,上升中的, reflective, 反應的",
+      "raw_transcript": "Hackers Toeic Vocabulary Day 7\nSurvey\n調查,意見調查\nAnalysis\n分析\nRespondent\n回答者,受訪者\nMonopoly\n獨佔,壟斷\nCompetition\n競爭\nConsistently\n一貫地,始終如一地\nDemand\n需求,要求\nDo one's utmost\n盡什麼的全力\nExpand\n擴張,擴大\nAdvanced\n高級的,先進的\nPostpone\n使延期,延後\nAdditional\n額外的,附加的\nAppreciate\n感謝,賞識,欣賞\nDemonstration\n證明,說明,示範操作\nBuy\n買,購買\nExamine\n檢視,審問\nEffective\n有效的,生效的,已實行的\nLike\n喜歡\nEspecially\n尤其,特別\nClosely\n仔細地,密切地\nReserve\n預約,保留,保存\nCooperate\n協力,合作\nVery\n非常,很\nConsecutive\n連續的\nExpectation\n預期,期待\nPublicize\n公佈,宣傳\nRaise\n提高,增加,提出\nExtremely\n極度地,非常\nAffect\n影響,對什麼產生不好的作用\nTarget\n目標,以什麼為目標\nCampaign\n宣傳活動,競選活動\nProbable\n有可能的\nFocus\n聚焦,集中\nSeasonal\n季節的,季節性的\nImpact\n影響,衝擊\nComparison\n比較\nGap\n差距\nMounting\n增加中的,上升中的\nReflective\n反映的",
       "vocab": [
         {
           "word": "survey",
@@ -1650,7 +1787,14 @@
           ]
         },
         {
-          "word": "consistently demand",
+          "word": "consistently",
+          "meaning_zh": [
+            "一貫地",
+            "始終如一地"
+          ]
+        },
+        {
+          "word": "demand",
           "meaning_zh": [
             "需求",
             "要求"
@@ -1659,7 +1803,7 @@
         {
           "word": "do one's utmost",
           "meaning_zh": [
-            "盡什麼的權力"
+            "盡什麼的全力"
           ]
         },
         {
@@ -1672,14 +1816,14 @@
         {
           "word": "advanced",
           "meaning_zh": [
-            "高階的",
+            "高級的",
             "先進的"
           ]
         },
         {
           "word": "postpone",
           "meaning_zh": [
-            "遲延期",
+            "使延期",
             "延後"
           ]
         },
@@ -1725,7 +1869,7 @@
           "meaning_zh": [
             "有效的",
             "生效的",
-            "以實行的"
+            "已實行的"
           ]
         },
         {
@@ -1744,8 +1888,8 @@
         {
           "word": "closely",
           "meaning_zh": [
-            "仔細的",
-            "密切的"
+            "仔細地",
+            "密切地"
           ]
         },
         {
@@ -1771,7 +1915,13 @@
           ]
         },
         {
-          "word": "consecutive expectation",
+          "word": "consecutive",
+          "meaning_zh": [
+            "連續的"
+          ]
+        },
+        {
+          "word": "expectation",
           "meaning_zh": [
             "預期",
             "期待"
@@ -1793,7 +1943,14 @@
           ]
         },
         {
-          "word": "extremely affect",
+          "word": "extremely",
+          "meaning_zh": [
+            "極度地",
+            "非常"
+          ]
+        },
+        {
+          "word": "affect",
           "meaning_zh": [
             "影響",
             "對什麼產生不好的作用"
@@ -1862,7 +2019,7 @@
         {
           "word": "reflective",
           "meaning_zh": [
-            "反應的"
+            "反映的"
           ]
         }
       ]
@@ -1873,9 +2030,9 @@
       "category": "行銷 (2)",
       "page": 150,
       "audio_source": "audio/1-basic_Day01-30/basic_Day08.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC Vocabulary Day 8advertisement 廣告, marginal 微小的,邊緣的customer 顧客, influence 影響instantly 立即,馬上creative 創造性的,有創意的aggressively 積極的aim 以什麼為目標,目標,目的strategy 策略indicate 指出,顯示attract 吸引,引起experience 經驗,體驗,精力analyze 分析introduce 介紹,發表advise 勸告,建議subscribe 訂閱absence 不在,缺少,缺席,缺琴means 方法,手段prefer 和其他相比更喜歡,偏好advantage 優點,優勢forward 向前,轉交,轉寄contemporary 同時代的,當代的,現代的discussion 討論,談論initial 開始的,最初的steadily 平穩的,穩定的necessarily 必然resolve 解決detect 察覺,發現intensify 強化,增強,使什麼變強烈favorably 善意的,順利的cover 包含支付,覆蓋less 較小的majority 大部分,大多數adopt 採納largely 大部分,主要disregard 不理會,忽視effort 努力incentive 誘因,獎金need 需要,需求mastermind 策劃者策劃者",
+      "raw_transcript": "Hacker Stoic Vocabulary Day 8\n\nadvertisement\nadvertisement\n廣告\nmarginal\nmarginal\n微小的,邊緣的\ncustomer\ncustomer\n顧客\ninfluence\ninfluence\n影響\ninstantly\ninstantly\n立即,馬上\ncreative\ncreative\n創造性的,有創意的\naggressively\naggressively\n積極的\naim\naim\n以什麼為目標,目標,目的\nstrategy\nstrategy\n策略\nindicate\nindicate\n指出,顯示\nattract\nattract\n吸引,引起\nexperience\nexperience\n經驗,體驗,經歷\nanalyze\nanalyze\n分析\nintroduce\nintroduce\n介紹,發表\nadvise\nadvise\n勸告,建議\nsubscribe\nsubscribe\n訂閱\nabsence\nabsence\n不在,缺少,缺席,缺勤\nmeans\nmeans\n方法,手段\nprefer\nprefer\nprefer\n和其他相比更喜歡,偏好\nadvantage\nadvantage\n優點,優勢\nforward\nforward\n向前,轉交,轉寄\ncontemporary\ncontemporary\ncontemporary\n同時代的,當代的,現代的\ndiscussion\ndiscussion\n討論,談論\ninitial\ninitial\ninitial\n開始的,最初的\nsteadily\nsteadily\n平穩地,穩定地\nnecessarily\nnecessarily\n必然\nresolve\nresolve\n解決\ndetect\ndetect\n察覺,發現\nintensify\nintensify\n強化,增強,使什麼變強烈\nfavorably\nfavorably\n善意地,順利地\ncover\ncover\n包含,支付,覆蓋\nless\nless\n較小的,較小的\nmajority\nmajority\n大部分,大多數\nadopt\nadopt\n採納\nlargely\nlargely\n大部分,主要\ndisregard\ndisregard\n不理會,忽視\neffort\neffort\n努力\nincentive\nincentive\n誘因,獎金\nneed\nneed\n需要,需求\nmastermind\nmastermind\n策劃者",
       "vocab": [
         {
           "word": "advertisement",
@@ -1955,7 +2112,7 @@
           "meaning_zh": [
             "經驗",
             "體驗",
-            "精力"
+            "經歷"
           ]
         },
         {
@@ -1990,7 +2147,7 @@
             "不在",
             "缺少",
             "缺席",
-            "缺琴"
+            "缺勤"
           ]
         },
         {
@@ -2047,8 +2204,8 @@
         {
           "word": "steadily",
           "meaning_zh": [
-            "平穩的",
-            "穩定的"
+            "平穩地",
+            "穩定地"
           ]
         },
         {
@@ -2081,14 +2238,15 @@
         {
           "word": "favorably",
           "meaning_zh": [
-            "善意的",
-            "順利的"
+            "善意地",
+            "順利地"
           ]
         },
         {
           "word": "cover",
           "meaning_zh": [
-            "包含支付",
+            "包含",
+            "支付",
             "覆蓋"
           ]
         },
@@ -2148,7 +2306,7 @@
         {
           "word": "mastermind",
           "meaning_zh": [
-            "策劃者策劃者"
+            "策劃者"
           ]
         }
       ]
@@ -2159,10 +2317,37 @@
       "category": "經濟",
       "page": 168,
       "audio_source": "audio/1-basic_Day01-30/basic_Day09.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hacker's Toic Vocabulary, Day 9. rapidly 迅速的,很快的, sore 高聲,擊掌 assert 斷言,主張 boost 推動,促進,使上升 analyst 分析師 potential 潛在的,潛力,可能性, pleased 滿意的,高興的 remain 維持什麼的狀態,仍然有待 limited 有限的, costly 昂貴的,代價高的 particular 特定的, drastic 激烈的,猛烈的,徹底的 evenly 均勻的,平均的 evidence 證據, prospect 展望,預期 lead 領導,引導,導致 fall 下降, period 期間,時期 indicator 指標, industry 工業,產業 likely, 很可能的, boom 繁榮,興盛 director 主管,懂事, substitute 代替品,代替 consequence 結果,後果, fairly 相當,頗為 economical 經濟的,節約的, thrive 繁榮,成功 implication 暗示,可能造成的影響 wane 減少,衰退, prosperity 繁榮 depression 不景氣,蕭條 dwindle 逐漸減少,逐漸變小 impede 妨礙,阻礙, promising 有希望的,有前途的 adversity 逆境,不幸",
+      "raw_transcript": "Hackers TOEIC Vocabulary Day 9\n\nstagnant停滯的,不景氣的dramatically戲劇性的brisk活潑的,興旺的unstable不穩定的,易變的rapidly迅速的,很快的soar高升,急漲assert斷言,主張boost推動,促進,使上升analyst分析師potential潛在的,潛力,可能性pleased滿意的,高興的remain維持什麼的狀態,仍然有待limited有限的costly昂貴的,代價高的particular特定的drastic激烈的,猛烈的,徹底的evenly均勻的,平均的evidence證據prospect展望,預期lead領導,引導,導致fall下降period期間,時期indicator指標industry工業,產業likely很可能的boom繁榮,興盛director主管,董事substitute代替品,代替consequence結果,後果fairly相當,頗為economical經濟的,節約的thrive繁榮,成功implication暗示,可能造成的影響wane減少,衰退prosperity繁榮depression不景氣,蕭條dwindle逐漸減少,逐漸變小impede妨礙,阻礙promising有希望的,有前途的adversity逆境,不幸",
       "vocab": [
+        {
+          "word": "stagnant",
+          "meaning_zh": [
+            "停滯的",
+            "不景氣的"
+          ]
+        },
+        {
+          "word": "dramatically",
+          "meaning_zh": [
+            "戲劇性的"
+          ]
+        },
+        {
+          "word": "brisk",
+          "meaning_zh": [
+            "活潑的",
+            "興旺的"
+          ]
+        },
+        {
+          "word": "unstable",
+          "meaning_zh": [
+            "不穩定的",
+            "易變的"
+          ]
+        },
         {
           "word": "rapidly",
           "meaning_zh": [
@@ -2171,10 +2356,10 @@
           ]
         },
         {
-          "word": "sore",
+          "word": "soar",
           "meaning_zh": [
-            "高聲",
-            "擊掌"
+            "高升",
+            "急漲"
           ]
         },
         {
@@ -2318,7 +2503,7 @@
           "word": "director",
           "meaning_zh": [
             "主管",
-            "懂事"
+            "董事"
           ]
         },
         {
@@ -2419,9 +2604,9 @@
       "category": "購物",
       "page": 184,
       "audio_source": "audio/1-basic_Day01-30/basic_Day10.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC vocabulary, day 10.Purchase 購買, price 價格, affordable價格負擔得起的,實惠的, exactly, 確切的,正好Installment 分期付款Notice 通知,公告Charge 收費,費用,責任,索取費用,把什麼記在帳上Experienced 有經驗的,熟練的Instruction 使用說明,指示Expert 專家,專門的,專業的Warranty 保證,保證書Refund 退款Subscriber 訂閱者,用戶Delivery 運送,交貨Receipt 收據, carefullyOffer 提供,優惠Benefit 利益,好處,受益,受惠Exclusively 獨佔的,排外的Description 說明,描述Relatively 相對的Preparation 準備工作Spare 節省,另習,備用的,剩下的Area 地區,區域Clearance 清除,清空,呈現Alter 改變,修改Apply 適用,應用,申請Mutually 互相,彼此Method 方法,方式Acceptable 可接受的,還可以的Desire 渴望,慾望,想要Redeemable 可兌換的,可償還的Officially 正式的Consumption 消費,消耗Qualify 使某人有資格Fabric 布料Auction 拍賣Authentic 真正的,正統的Valid 有效的Vendor 小販,攤販賣家,供應商",
+      "raw_transcript": "Hacker Stoic Vocabulary Day 10\npurchase\npurchase\n購買\nprice\nprice\n價格\naffordable\naffordable\n價格負擔得起的,實惠的\nexactly\nexactly\n確切地,正好\ninstallment\ninstallment\n分期付款\nnotice\nnotice\n通知,公告\ncharge\ncharge\n收費,費用,責任\n除去費用,把什麼記在賬上\nexperience\nexperience\n有經驗的,熟練的\ninstruction\ninstruction\n使用說明,指示\nexpert\nexpert\n專家,專門的,專業的\nwarranty\nwarranty\n保證,保證書\nrefund\nrefund\n退款\nsubscriber\nsubscriber\n訂閱者,用戶\ndelivery\ndelivery\n運送,交貨\nreceipt\nreceipt\n收據\ncarefully\ncarefully\n小心謹慎的,仔細的\noffer\noffer\n提供,優惠\nbenefit\nbenefit\n利益,好處,受益,受惠\nexclusively\nexclusively\n獨佔的,排外的\ndescription\ndescription\n說明,描述\nrelatively\nrelatively\n相對的\npreparation\npreparation\n準備工作\nspare\nspare\n節省,另期,備用的,剩下的\narea\narea\n地區,區域\nclearance\nclearance\n清除,清空,權限\nalter\nalter\n改變,修改\napply\napply\n適用,應用,申請\nmutually\nmutually\n互相,彼此\nmethod\nmethod\n方法,方式\nacceptable\nacceptable\n可接受的,還可以的\ndesire\ndesire\n渴望,慾望,想要\nredeemable\nredeemable\n可兌換的,可償還的\nofficially\nofficially\n正式的\nconsumption\nconsumption\n消費,消耗\nqualify\nqualify\n實務人有資格\nfabric\nfabric\n布料\nauction\nauction\n拍賣\nauthentic\nauthentic\n真正的,正統的\nvalid\nvalid\n有效的\nvendor\nvendor\nvendor\n小販,攤販,賣家,供應商",
       "vocab": [
         {
           "word": "purchase",
@@ -2445,7 +2630,7 @@
         {
           "word": "exactly",
           "meaning_zh": [
-            "確切的",
+            "確切地",
             "正好"
           ]
         },
@@ -2467,13 +2652,11 @@
           "meaning_zh": [
             "收費",
             "費用",
-            "責任",
-            "索取費用",
-            "把什麼記在帳上"
+            "責任"
           ]
         },
         {
-          "word": "experienced",
+          "word": "experience",
           "meaning_zh": [
             "有經驗的",
             "熟練的"
@@ -2528,7 +2711,14 @@
           ]
         },
         {
-          "word": "carefullyoffer",
+          "word": "carefully",
+          "meaning_zh": [
+            "小心謹慎的",
+            "仔細的"
+          ]
+        },
+        {
+          "word": "offer",
           "meaning_zh": [
             "提供",
             "優惠"
@@ -2573,7 +2763,7 @@
           "word": "spare",
           "meaning_zh": [
             "節省",
-            "另習",
+            "另期",
             "備用的",
             "剩下的"
           ]
@@ -2590,7 +2780,7 @@
           "meaning_zh": [
             "清除",
             "清空",
-            "呈現"
+            "權限"
           ]
         },
         {
@@ -2660,7 +2850,7 @@
         {
           "word": "qualify",
           "meaning_zh": [
-            "使某人有資格"
+            "實務人有資格"
           ]
         },
         {
@@ -2692,7 +2882,8 @@
           "word": "vendor",
           "meaning_zh": [
             "小販",
-            "攤販賣家",
+            "攤販",
+            "賣家",
             "供應商"
           ]
         }
@@ -2704,61 +2895,278 @@
       "category": "產品開發",
       "page": 204,
       "audio_source": "audio/1-basic_Day01-30/basic_Day11.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
-      "low_count_warning": true,
-      "raw_transcript": "Hackers TOEIC Vocabulary Day 11特徵,特色功能,以什麼為特色,特別看在靈感,鼓舞人心的人事物充足的專利,專利權,專利品想像,在心中描繪延長,表示,給予在什麼之後,接下來的,隨後的打算,意圖grant, grantallow, allowinspect, inspectimprove, improveincreasingly, increasingly建增地,越來越投資,投入各式各樣的,好幾個的升級,改良使升級,改進說明書,手冊探勘,探索答覆,反應外觀,外貌成功的容納,裝著,舉辦,舉行進步,進展可信賴的,可靠的品質國內的開發,發展可得性,可利用性更新,最新消息更新,使成為最新精確的複雜的熟練的,有造詣的諮詢,問題徵兆,指標製造商,製造業者相容的,能共處的優秀的,叫好的絕對的,完全的拓展,擴大腐蝕遠程的,從遠處",
+      "transcript_model": "openai/gpt-4o-transcribe",
+      "low_count_warning": false,
+      "raw_transcript": "Hackers TOEIC Vocabulary, Day 11\n\nResearch\n\n研究, 調查\n\nDevise\n\n設計出來, 發明\n\nRevolutionary\n\n革命性的\n\nInnovative\n\n創新的\n\nFeature\n\n特徵, 特色功能\n\n以什麼為特色, 特別刊載\n\nInspiration\n\n靈感, 鼓舞人心的人事物\n\nSufficiently\n\n充足地\n\nPatent\n\n專利, 專利權, 專利品\n\nEnvision\n\n想象, 在心中描繪\n\nExtend\n\n延長, 表示, 給予\n\nFollowing\n\n在什麼之後, 接下來的, 隨後的\n\nIntend\n\n打算, 意圖\n\nGrant\n\n授予, 給予, 補助金\n\nAllow\n\n允許, 使某人能夠做某事\n\nInspect\n\n檢查, 調查\n\nImprove\n\n改善, 提高\n\nIncreasingly\n\n漸增地, 越來越\n\nInvest\n\n投資, 投入\n\nVarious\n\n各式各樣的, 好幾個的\n\nUpgrade\n\n升級, 改良\n\nUpgrade\n\n使升級, 改進\n\nManual\n\n說明書, 手冊\n\nExplore\n\n探勘, 探索\n\nResponse\n\n答覆, 反應\n\nAppearance\n\n外觀, 外貌\n\nSuccessful\n\n成功的\n\nHold\n\n容納, 裝著, 舉辦, 舉行\n\nAdvance\n\n進步, 進展\n\nReliable\n\n可信賴的, 可靠的\n\nQuality\n\n品質\n\nDomestic\n\n國內的\n\nDevelopment\n\n開發, 發展\n\nAvailability\n\n可得性, 可利用性\n\nUpdate\n\n更新, 最新消息\n\nUpdate\n\n更新, 使成為最新\n\nAccurate\n\n精確的\n\nComplicated\n\n複雜的\n\nAccomplished\n\n熟練的, 有造詣的\n\nInquiry\n\n諮詢, 問題\n\nIndication\n\n徵兆, 指標\n\nManufacturer\n\n製造商, 製造業者\n\nCompatible\n\n相容的, 能共處的\n\nSuperior\n\n優秀的, 較好的\n\nAbsolute\n\n絕對的, 完全的\n\nBroaden\n\n拓展, 擴大\n\nCorrosion\n\n腐蝕\n\nRemotely\n\n遠程地, 從遠處",
       "vocab": [
         {
+          "word": "research",
+          "meaning_zh": [
+            "研究"
+          ]
+        },
+        {
+          "word": "devise",
+          "meaning_zh": [
+            "設計出來"
+          ]
+        },
+        {
+          "word": "revolutionary",
+          "meaning_zh": [
+            "革命性的"
+          ]
+        },
+        {
+          "word": "innovative",
+          "meaning_zh": [
+            "創新的"
+          ]
+        },
+        {
+          "word": "feature",
+          "meaning_zh": [
+            "特徵"
+          ]
+        },
+        {
+          "word": "inspiration",
+          "meaning_zh": [
+            "靈感"
+          ]
+        },
+        {
+          "word": "sufficiently",
+          "meaning_zh": [
+            "充足地"
+          ]
+        },
+        {
+          "word": "patent",
+          "meaning_zh": [
+            "專利"
+          ]
+        },
+        {
+          "word": "envision",
+          "meaning_zh": [
+            "想象"
+          ]
+        },
+        {
+          "word": "extend",
+          "meaning_zh": [
+            "延長"
+          ]
+        },
+        {
+          "word": "following",
+          "meaning_zh": [
+            "在什麼之後"
+          ]
+        },
+        {
+          "word": "intend",
+          "meaning_zh": [
+            "打算"
+          ]
+        },
+        {
           "word": "grant",
-          "meaning_zh": []
+          "meaning_zh": [
+            "授予"
+          ]
         },
         {
-          "word": "grantallow",
-          "meaning_zh": []
+          "word": "allow",
+          "meaning_zh": [
+            "允許"
+          ]
         },
         {
-          "word": "allowinspect",
-          "meaning_zh": []
+          "word": "inspect",
+          "meaning_zh": [
+            "檢查"
+          ]
         },
         {
-          "word": "inspectimprove",
-          "meaning_zh": []
-        },
-        {
-          "word": "improveincreasingly",
-          "meaning_zh": []
+          "word": "improve",
+          "meaning_zh": [
+            "改善"
+          ]
         },
         {
           "word": "increasingly",
           "meaning_zh": [
-            "建增地",
-            "越來越投資",
-            "投入各式各樣的",
-            "好幾個的升級",
-            "改良使升級",
-            "改進說明書",
-            "手冊探勘",
-            "探索答覆",
-            "反應外觀",
-            "外貌成功的容納",
-            "裝著",
-            "舉辦",
-            "舉行進步",
-            "進展可信賴的",
-            "可靠的品質國內的開發",
-            "發展可得性",
-            "可利用性更新",
-            "最新消息更新",
-            "使成為最新精確的複雜的熟練的",
-            "有造詣的諮詢",
-            "問題徵兆",
-            "指標製造商",
-            "製造業者相容的",
-            "能共處的優秀的",
-            "叫好的絕對的",
-            "完全的拓展",
-            "擴大腐蝕遠程的",
-            "從遠處"
+            "漸增地"
+          ]
+        },
+        {
+          "word": "invest",
+          "meaning_zh": [
+            "投資"
+          ]
+        },
+        {
+          "word": "various",
+          "meaning_zh": [
+            "各式各樣的"
+          ]
+        },
+        {
+          "word": "upgrade",
+          "meaning_zh": [
+            "升級"
+          ]
+        },
+        {
+          "word": "manual",
+          "meaning_zh": [
+            "說明書"
+          ]
+        },
+        {
+          "word": "explore",
+          "meaning_zh": [
+            "探勘"
+          ]
+        },
+        {
+          "word": "response",
+          "meaning_zh": [
+            "答覆"
+          ]
+        },
+        {
+          "word": "appearance",
+          "meaning_zh": [
+            "外觀"
+          ]
+        },
+        {
+          "word": "successful",
+          "meaning_zh": [
+            "成功的"
+          ]
+        },
+        {
+          "word": "hold",
+          "meaning_zh": [
+            "容納"
+          ]
+        },
+        {
+          "word": "advance",
+          "meaning_zh": [
+            "進步"
+          ]
+        },
+        {
+          "word": "reliable",
+          "meaning_zh": [
+            "可信賴的"
+          ]
+        },
+        {
+          "word": "quality",
+          "meaning_zh": [
+            "品質"
+          ]
+        },
+        {
+          "word": "domestic",
+          "meaning_zh": [
+            "國內的"
+          ]
+        },
+        {
+          "word": "development",
+          "meaning_zh": [
+            "開發"
+          ]
+        },
+        {
+          "word": "availability",
+          "meaning_zh": [
+            "可得性"
+          ]
+        },
+        {
+          "word": "update",
+          "meaning_zh": [
+            "更新"
+          ]
+        },
+        {
+          "word": "accurate",
+          "meaning_zh": [
+            "精確的"
+          ]
+        },
+        {
+          "word": "complicated",
+          "meaning_zh": [
+            "複雜的"
+          ]
+        },
+        {
+          "word": "accomplished",
+          "meaning_zh": [
+            "熟練的"
+          ]
+        },
+        {
+          "word": "inquiry",
+          "meaning_zh": [
+            "諮詢"
+          ]
+        },
+        {
+          "word": "indication",
+          "meaning_zh": [
+            "徵兆"
+          ]
+        },
+        {
+          "word": "manufacturer",
+          "meaning_zh": [
+            "製造商"
+          ]
+        },
+        {
+          "word": "compatible",
+          "meaning_zh": [
+            "相容的"
+          ]
+        },
+        {
+          "word": "superior",
+          "meaning_zh": [
+            "優秀的"
+          ]
+        },
+        {
+          "word": "absolute",
+          "meaning_zh": [
+            "絕對的"
+          ]
+        },
+        {
+          "word": "broaden",
+          "meaning_zh": [
+            "拓展"
+          ]
+        },
+        {
+          "word": "corrosion",
+          "meaning_zh": [
+            "腐蝕"
+          ]
+        },
+        {
+          "word": "remotely",
+          "meaning_zh": [
+            "遠程地"
           ]
         }
       ]
@@ -2769,9 +3177,9 @@
       "category": "生產",
       "page": 222,
       "audio_source": "audio/1-basic_Day01-30/basic_Day12.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC vocabulary, day 12.equipment 設備,裝備, automate, 自動化, specification名系單,說明書,規格是當地,正確地安全, precaution預防措施, operate, 運作,操作processing, 加工,處理capacity, 能力,容量,容納量,職位assemble, 組裝,召集utilize, 利用place, 使什麼處於某種狀態,下指示,訂單,申請等fill, 裝滿,滿足訂單需求manufacturing, 製造的renovate, 翻新,翻修decision, 決定material, 材料,質料success, 成功,成就attribute, 把什麼歸因於efficiency, 效率,效能limit, 限制,界限tailored, 量身訂做的,依要求訂做的component, 零件構成要素capable, 有能力的economize, 節約,節省flexible, 靈活的,有彈性的,可變通的comparable, 可比較的,比得上的produce, 生產respectively, 分別,各自device, 裝具trim, 修剪,削減,除去launch, 史上是separately, 分別的,個別的expiration, 到期,期滿maneuver, 調動,巧妙操縱或控制coming, 即將到來的damaged, 受損的prevent, 預防,防止power, 力量,電力chemical, 化學製品,化學藥品minimize, 時間到最少,最小化",
+      "raw_transcript": "Hacker Stoic Vocabulary, Day 12\nEquipment\n設備、裝備\nAutomate\n自動化\nSpecification\n名氣單、說明書、規格\nProperly\n適當地、正確地\nSafety\n安全\nPrecaution\n預防措施\nOperate\n運作、操作\nProcessing\n加工、處理\nCapacity\n能力、容量、容納量、職位\nAssemble\n組裝、交集\nUtilize\n利用\nPlace\n使什麼處於某種狀態\n下指示、訂單、申請等\nFill\n裝滿、滿足訂單需求\nManufacturing\n製造的\nRenovate\n翻新、翻修\nDecision\n決定\nMaterial\n材料、質料\nSuccess\n成功、成就\nAttribute\n把什麼歸因於\nEfficiency\n效率、效能\nLimit\n限制、界限\nTailored\n量身定做的、依要求定做的\nComponent\n零件、構成要素\nCapable\n有能力的\nEconomize\n節約、節省\nFlexible\n靈活的、有彈性的、可變通的\nComparable\n可比較的、比得上的\nProduce\n生產\nRespectively\n分別、各自\nDevice\n裝置\nTrim\n修剪、削減、除去\nLaunch\n使上市\nSeparately\n分別地、個別地\nExpiration\n到期、期滿\nManeuver\n調動、巧妙操縱或控制\nComing\n即將到來的\nDamaged\n受損的\nPrevent\n預防、防止\nPower\n力量、電力\nChemical\n化學制品、化學藥品\nMinimize\n使減到最少、再想化",
       "vocab": [
         {
           "word": "equipment",
@@ -2789,10 +3197,22 @@
         {
           "word": "specification",
           "meaning_zh": [
-            "名系單",
+            "名氣單",
             "說明書",
-            "規格是當地",
-            "正確地安全"
+            "規格"
+          ]
+        },
+        {
+          "word": "properly",
+          "meaning_zh": [
+            "適當地",
+            "正確地"
+          ]
+        },
+        {
+          "word": "safety",
+          "meaning_zh": [
+            "安全"
           ]
         },
         {
@@ -2828,7 +3248,7 @@
           "word": "assemble",
           "meaning_zh": [
             "組裝",
-            "召集"
+            "交集"
           ]
         },
         {
@@ -2840,10 +3260,7 @@
         {
           "word": "place",
           "meaning_zh": [
-            "使什麼處於某種狀態",
-            "下指示",
-            "訂單",
-            "申請等"
+            "使什麼處於某種狀態"
           ]
         },
         {
@@ -2909,14 +3326,15 @@
         {
           "word": "tailored",
           "meaning_zh": [
-            "量身訂做的",
-            "依要求訂做的"
+            "量身定做的",
+            "依要求定做的"
           ]
         },
         {
           "word": "component",
           "meaning_zh": [
-            "零件構成要素"
+            "零件",
+            "構成要素"
           ]
         },
         {
@@ -2963,7 +3381,7 @@
         {
           "word": "device",
           "meaning_zh": [
-            "裝具"
+            "裝置"
           ]
         },
         {
@@ -2977,14 +3395,14 @@
         {
           "word": "launch",
           "meaning_zh": [
-            "史上是"
+            "使上市"
           ]
         },
         {
           "word": "separately",
           "meaning_zh": [
-            "分別的",
-            "個別的"
+            "分別地",
+            "個別地"
           ]
         },
         {
@@ -3030,15 +3448,15 @@
         {
           "word": "chemical",
           "meaning_zh": [
-            "化學製品",
+            "化學制品",
             "化學藥品"
           ]
         },
         {
           "word": "minimize",
           "meaning_zh": [
-            "時間到最少",
-            "最小化"
+            "使減到最少",
+            "再想化"
           ]
         }
       ]
@@ -3049,9 +3467,9 @@
       "category": "顧客服務",
       "page": 240,
       "audio_source": "audio/1-basic_Day01-30/basic_Day13.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC Vocabulary Day 13 complaint 抱怨, deal 處理,交易,分配 argumentative 爭辯的,愛爭論的 appropriately 是當地 respond 回應,回復 infuriate 激怒,使大怒 courteous 有禮貌的 satisfaction 滿意 inconvenience 不便,對某人造成不便 complete 完成,結束,完整的,完成的 specific 具體的,明確的 return 歸還,退回 replace 取代,替換 presentation 簡報 evaluation 評價,評估 confident 有自信的,有信心的 cause 引起,造成,原因 commentary 評論,屏住,實況報道 notification 通知 apologize 道歉 interact 互動,交流,相互作用 certain 確定的,確信的,某個,某些 commitment 投身,投入,致力 applaud 為什麼鼓掌,稱讚 biography 戰記,精力介紹 critical 批評的,關鍵的,危急的 depend on 依賴,取決於 combine 使結合,合併 priority 優先,優先事項 observe 仔細觀察,注意到,遵守規則等 defective 有缺陷的 reflect 反應,顯示 attitude 態度,看法 disappoint 使失望 inquire 詢問,insert disclose 公開,透露 guarantee 保證,保障 politely 禮貌的, seriously 認真的",
+      "raw_transcript": "Hackerstoic Vocabulary Day 13\ncomplaint\n抱怨\ndeal\n處理、交易、分配\nargumentative\n爭辯的、愛爭論的\nappropriately\n適當的\nrespond\n回應、回覆\ninfuriate\n激怒、使大怒\ncourteous\n有禮貌的\nsatisfaction\n滿意\ninconvenience\n不便、對某人造成不便\ncomplete\n完成、結束、完整的、完成的\nspecific\n具體的、明確的\nreturn\n歸還、退回\nreplace\n取代、替換\npresentation\n簡報\nevaluation\n評價、評估\nconfident\n有自信的、有信心的\ncause\n引起、造成、原因\ncommentary\n評論、評註、實況報導\nnotification\n通知\napologize\n道歉\ninteract\n互動、交流、相互作用\ncertain\n確定的、確信的、某個、某些\ncommitment\n投身、投入、智力\napplaud\n為什麼鼓掌、稱讚\nbiography\n傳記、經歷介紹\ncritical\n批評的、關鍵的、危急的\ndepend on\n依賴、取決於\ncombine\n使結合、合併\npriority\n優先、優先事項\nobserve\n仔細觀察、注意到、遵守規則等\ndefective\n有缺陷的\nreflect\n反應、顯示\nattitude\n態度、看法\ndisappoint\n使失望\ninquire\n詢問\ninsert\n插入\ndisclose\n公開、透露\nguarantee\n保證、保障\npolitely\n禮貌地\nseriously\n認真的",
       "vocab": [
         {
           "word": "complaint",
@@ -3077,14 +3495,14 @@
         {
           "word": "appropriately",
           "meaning_zh": [
-            "是當地"
+            "適當的"
           ]
         },
         {
           "word": "respond",
           "meaning_zh": [
             "回應",
-            "回復"
+            "回覆"
           ]
         },
         {
@@ -3175,8 +3593,8 @@
           "word": "commentary",
           "meaning_zh": [
             "評論",
-            "屏住",
-            "實況報道"
+            "評註",
+            "實況報導"
           ]
         },
         {
@@ -3213,7 +3631,7 @@
           "meaning_zh": [
             "投身",
             "投入",
-            "致力"
+            "智力"
           ]
         },
         {
@@ -3226,8 +3644,8 @@
         {
           "word": "biography",
           "meaning_zh": [
-            "戰記",
-            "精力介紹"
+            "傳記",
+            "經歷介紹"
           ]
         },
         {
@@ -3300,7 +3718,13 @@
           ]
         },
         {
-          "word": "insert disclose",
+          "word": "insert",
+          "meaning_zh": [
+            "插入"
+          ]
+        },
+        {
+          "word": "disclose",
           "meaning_zh": [
             "公開",
             "透露"
@@ -3316,7 +3740,7 @@
         {
           "word": "politely",
           "meaning_zh": [
-            "禮貌的"
+            "禮貌地"
           ]
         },
         {
@@ -3333,16 +3757,10 @@
       "category": "旅遊、機場",
       "page": 258,
       "audio_source": "audio/1-basic_Day01-30/basic_Day14.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC Vocabulary 日誌14International 國際的Attraction 景點Itinerary 旅遊行程Exotic 一國情調的,奇特的Diverse 多樣的Superb 極好的,一流的Baggage 行李Destination 目的地Missing 遺失的,缺少的Locate 找到什麼的位置,使什麼做落語Approximately 大概Duty 稅,關稅,責任,職責Process 過程,程序,處理Board 上,登上,委員會,董事會Comfortable 舒適的Declare 申報,宣告Specify 具體說明Depart 出發Emergency 緊急情況Passenger 乘客Outgoing 從某地點出發的,離開的,即將離職的Tightly 緊緊的,牢固的Tour 導覽,旅行Carrier 運輸公司,航空公司,運輸工具Customarily 習慣上,習俗上Confuse 使困惑Arrive 到達Brosher 折頁,小冊子Involve 需要,包含,使某人涉入Ship 運送,船Suitcase 行李箱Unavailable 無法利用的,無法取得的Fill out, fill in填寫,填好表格等文件Customs 海關Away 離開,遠離Dramatic 戲劇性的,激動人心的Hospitality 款待,殷勤招待Indulge 沉迷,讓什麼享受Proximity 接近,鄰近Seating 整體的座位安排,座位數量Unlimited 無限制的Simply 僅僅只是,簡單的Besides 而且,此外,除什麼之外Traditionally 傳統的",
+      "raw_transcript": "Hackers TOEIC Vocabulary, Day 14.\n\nInternational\n國際的\nAttraction\n景點\nItinerary\n旅遊行程\nExotic\n異國情調的,奇特的\nDiverse\n多樣的\nSuperb\n極好的,一流的\nBaggage\n行李\nDestination\n目的地\nMissing\n遺失的,缺少的\nLocate\n找到什麼的位置,使什麼坐落於\nApproximately\n大概\nDuty\nDuty\n稅,關稅,責任,職責\nProcess\n過程,程序,處理\nBoard\n上,登上,委員會,董事會\nComfortable\n舒適的\nDeclare\n申報,宣告\nSpecify\n具體說明\nDepart\n出發\nEmergency\n緊急情況\nPassenger\n乘客\nOutgoing\nOutgoing\n從某地點出發的,離開的,即將離職的\nTightly\n緊緊地,牢固地\nTour\n導覽,旅行\nCarrier\n運輸公司,航空公司,運輸工具\nCustomarily\n習慣上,習俗上\nConfuse\n使困惑\nArrive\n到達\nBrochure\n摺頁,小冊子\nInvolve\n需要,包含,使某人涉入\nShip\n運送,船\nSuitcase\n行李箱\nUnavailable\n無法利用的,無法取得的\nFill out, fill in\n填寫,填好表格等文件\nCustoms\n海關\nAway\n離開,遠離\nDramatic\n戲劇性的,激動人心的,急劇的\nHospitality\n款待,殷勤招待\nIndulge\n沈迷,讓什麼享受\nProximity\n接近,鄰近\nSeating\n整體的座位安排,座位數量\nUnlimited\n無限制的\nSimply\n僅僅,只是,簡單地\nBesides\n而且,此外,除什麼之外\nTraditionally\n傳統地",
       "vocab": [
-        {
-          "word": "hackers' toeic vocabulary",
-          "meaning_zh": [
-            "日誌"
-          ]
-        },
         {
           "word": "international",
           "meaning_zh": [
@@ -3364,7 +3782,7 @@
         {
           "word": "exotic",
           "meaning_zh": [
-            "一國情調的",
+            "異國情調的",
             "奇特的"
           ]
         },
@@ -3404,7 +3822,7 @@
           "word": "locate",
           "meaning_zh": [
             "找到什麼的位置",
-            "使什麼做落語"
+            "使什麼坐落於"
           ]
         },
         {
@@ -3487,8 +3905,8 @@
         {
           "word": "tightly",
           "meaning_zh": [
-            "緊緊的",
-            "牢固的"
+            "緊緊地",
+            "牢固地"
           ]
         },
         {
@@ -3526,9 +3944,9 @@
           ]
         },
         {
-          "word": "brosher",
+          "word": "brochure",
           "meaning_zh": [
-            "折頁",
+            "摺頁",
             "小冊子"
           ]
         },
@@ -3562,7 +3980,10 @@
         },
         {
           "word": "fill out",
-          "meaning_zh": []
+          "meaning_zh": [
+            "填寫",
+            "填好表格等文件"
+          ]
         },
         {
           "word": "fill in",
@@ -3588,7 +4009,8 @@
           "word": "dramatic",
           "meaning_zh": [
             "戲劇性的",
-            "激動人心的"
+            "激動人心的",
+            "急劇的"
           ]
         },
         {
@@ -3601,7 +4023,7 @@
         {
           "word": "indulge",
           "meaning_zh": [
-            "沉迷",
+            "沈迷",
             "讓什麼享受"
           ]
         },
@@ -3628,8 +4050,9 @@
         {
           "word": "simply",
           "meaning_zh": [
-            "僅僅只是",
-            "簡單的"
+            "僅僅",
+            "只是",
+            "簡單地"
           ]
         },
         {
@@ -3643,7 +4066,7 @@
         {
           "word": "traditionally",
           "meaning_zh": [
-            "傳統的"
+            "傳統地"
           ]
         }
       ]
@@ -3654,9 +4077,9 @@
       "category": "契約",
       "page": 276,
       "audio_source": "audio/1-basic_Day01-30/basic_Day15.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers TOEIC Vocabulary Day 15 proposal 提案,提議, alliance 同盟,聯盟, stipulation 契約規定,契約條款, term, 條款,論期,期限, compromise, 妥協,折衷辦法, negotiation, 談判,協商, agreement 意見一致,同意,協議, deadlock 將舉, review 再檢查,審查, contract 合約, contract 簽約,收縮, signature, 簽名, originally, 原來,起初, direction, 方向,指示,指揮 initially, 起初, expire, 合約等到期,期限終止, collaborate, 合作, dedicate, 使致力於某事,奉獻,獻出 revised, 修改過的,修訂過的, imperative, 必須履行的,必要的, cooperatively, 合作的,配合的, commission 擁經,抽成,委員會,委任,委託什麼創作, omit, 遺漏,審閱, conflict, 衝突,意見不一致, renew, 展言合約等,換新 proficient, 熟練的,精通的, confidentiality, 機密, dispute, 爭論,爭執, objection, 反對,意義 define, 定義,界定, impression, 印象, security, 安全,保全,防護, option 選擇,選擇權, proceed, 進行,繼續, modify, 修改,更改, narrow, 縮小, bid, 出價,投標, settle, 解決,安排 terminate, 結束,始終, challenging, 有挑戰性的,困難的, foundation, 基礎,建立,創辦, pending, 懸而未絕的,未絕的,破鏡的",
+      "raw_transcript": "Hackers TOEIC Vocabulary Day 15\n\nProposal\n提案、提議\nAlliance\n同盟、聯盟\nStipulation\n契約規定、契約條款\nTerm\n條款、任期、期限\nCompromise\n妥協、折衷辦法\nNegotiation\n談判、協商\nAgreement\n意見一致、同意、協議\nDeadlock\n僵局\nReview\n再檢查、審查\nContract\n合約\nContract\n簽約、收縮\nSignature\n簽名\nOriginally\n原來、起初\nDirection\n方向、指示、指揮\nInitially\n起初\nExpire\n合約等到期、期限終止\nCollaborate\n合作\nDedicate\n使致力於某事、奉獻、獻出\nRevised\n修改過的、修訂過的\nImperative\n必須履行的、必要的\nCooperatively\n合作地、配合地\nCommission\n佣金、抽成、委員會、委任、委託什麼創作\nOmit\n遺漏、省略\nConflict\n衝突、意見不一致\nRenew\n展延合約等、喚醒\nProficient\n熟練的、精通的\nConfidentiality\n機密\nDispute\n爭論、爭執\nObjection\n反對、異議\nDefine\n定義、界定\nImpression\n印象\nSecurity\n安全、保全、防護\nOption\n選擇、選擇權\nProceed\n進行、繼續\nModify\n修改、更改\nNarrow\n縮小\nBid\n出價、投標\nSettle\n解決、安排\nTerminate\n結束、始終止\nChallenging\n有挑戰性的、困難的\nFoundation\n基礎、建立、創辦\nPending\n懸而未決的、未決的、迫近的",
       "vocab": [
         {
           "word": "proposal",
@@ -3683,7 +4106,7 @@
           "word": "term",
           "meaning_zh": [
             "條款",
-            "論期",
+            "任期",
             "期限"
           ]
         },
@@ -3712,7 +4135,7 @@
         {
           "word": "deadlock",
           "meaning_zh": [
-            "將舉"
+            "僵局"
           ]
         },
         {
@@ -3793,14 +4216,14 @@
         {
           "word": "cooperatively",
           "meaning_zh": [
-            "合作的",
-            "配合的"
+            "合作地",
+            "配合地"
           ]
         },
         {
           "word": "commission",
           "meaning_zh": [
-            "擁經",
+            "佣金",
             "抽成",
             "委員會",
             "委任",
@@ -3811,7 +4234,7 @@
           "word": "omit",
           "meaning_zh": [
             "遺漏",
-            "審閱"
+            "省略"
           ]
         },
         {
@@ -3824,8 +4247,8 @@
         {
           "word": "renew",
           "meaning_zh": [
-            "展言合約等",
-            "換新"
+            "展延合約等",
+            "喚醒"
           ]
         },
         {
@@ -3852,7 +4275,7 @@
           "word": "objection",
           "meaning_zh": [
             "反對",
-            "意義"
+            "異議"
           ]
         },
         {
@@ -3921,7 +4344,7 @@
           "word": "terminate",
           "meaning_zh": [
             "結束",
-            "始終"
+            "始終止"
           ]
         },
         {
@@ -3942,9 +4365,9 @@
         {
           "word": "pending",
           "meaning_zh": [
-            "懸而未絕的",
-            "未絕的",
-            "破鏡的"
+            "懸而未決的",
+            "未決的",
+            "迫近的"
           ]
         }
       ]
@@ -3955,14 +4378,13 @@
       "category": "商業",
       "page": 294,
       "audio_source": "audio/1-basic_Day01-30/basic_Day16.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC vocabulary, day 16.completely 完整地,完全地refuse 拒絕temporarily 暫時地dealer 經銷業者,代理商bulk 大量的inventory 庫存清單short 短缺的cost 費用、成本、花費selection 選擇、選出來的東西可選擇的範圍 commercial商業的、商務的、廣告 order訂購、訂單、訂購的東西 provide提供 contact聯絡,可提供資訊的聯絡人、門路invoice 發票、發貨單move 移動、搬遷、行動、措施、對策supply 供應、用品、補給品discount 折扣distribute 分發分配、分銷獲得、獲得的東西、收購向某人保證,使某人放心,使某人確信容易受到什麼影響的,以什麼為條件的使什麼受到 seek追求、尋找 satisfactory令人滿意的 confirmation確認、證實 unable不能的 payment支付 measure措施、手段、測量 bargain特價商品、協議、交易 stock庫存、股票 affordability可負擔信 clientele顧客、所有委託人 acclaim喝彩、稱讚 represent代表 rating等級、平等 encompass包含、圍繞 finalize完成、做最後確認 market市場 retail零售 commodity商品 quote報價 consignment委託",
+      "raw_transcript": "completely\n\n完全地\n\nrefuse\n\n拒絕\n\ntemporarily\n\n暫時地\n\ndealer\n\n經銷業者,代理商\n\nbulk\n\n大量的\n\ninventory\n\n庫存,庫存清單\n\nshort\n\n短缺的\n\ncost\n\n費用,成本,花費\n\nselection\n\n選擇,選出來的東西,可選擇的範圍\n\ncommercial\n\n商業的,商務的,廣告\n\norder\n\n訂購,訂單,訂購的東西\n\nprovide\n\n提供\n\ncontact\n\n聯絡,可提供資訊的聯絡人,門路\n\ninvoice\n\n發票,發貨單\n\nmove\n\n移動,搬遷,行動,措施,對策\n\nsupply\n\n供應,用品,補給品\n\ndiscount\n\n折扣\n\ndistribute\n\n分發,分配,分銷\n\nacquisition\n\n獲得,獲得的東西,收購\n\nassure\n\n向某人保證,使某人放心,使某人確信\n\nsubject\n\n容易受到什麼影響的,以什麼為條件的\n\nsubject\n\n使什麼受到\n\nseek\n\n追求,尋找\n\nsatisfactory\n\n令人滿意的\n\nconfirmation\n\n確認,證實\n\nunable\n\n不能的\n\npayment\n\n支付\n\nmeasure\n\n措施,手段,測量\n\nbargain\n\n特價商品,協議,交易\n\nstock\n\n庫存,股票\n\naffordability\n\n可負擔性\n\nclientele\n\n顧客,所有委託人\n\nacclaim\n\n喝采,稱讚\n\nrepresent\n\n代表\n\nrating\n\n等級,平等\n\nencompass\n\n包含,圍繞\n\nfinalize\n\n完成,做最後確認\n\nmarket\n\n市場\n\nretail\n\n零售\n\ncommodity\n\n商品\n\nquote\n\n報價\n\nconsignment\n\n委託",
       "vocab": [
         {
           "word": "completely",
           "meaning_zh": [
-            "完整地",
             "完全地"
           ]
         },
@@ -3994,6 +4416,7 @@
         {
           "word": "inventory",
           "meaning_zh": [
+            "庫存",
             "庫存清單"
           ]
         },
@@ -4015,7 +4438,8 @@
           "word": "selection",
           "meaning_zh": [
             "選擇",
-            "選出來的東西可選擇的範圍"
+            "選出來的東西",
+            "可選擇的範圍"
           ]
         },
         {
@@ -4082,13 +4506,32 @@
         {
           "word": "distribute",
           "meaning_zh": [
-            "分發分配",
-            "分銷獲得",
+            "分發",
+            "分配",
+            "分銷"
+          ]
+        },
+        {
+          "word": "acquisition",
+          "meaning_zh": [
+            "獲得",
             "獲得的東西",
-            "收購向某人保證",
+            "收購"
+          ]
+        },
+        {
+          "word": "assure",
+          "meaning_zh": [
+            "向某人保證",
             "使某人放心",
-            "使某人確信容易受到什麼影響的",
-            "以什麼為條件的使什麼受到"
+            "使某人確信"
+          ]
+        },
+        {
+          "word": "subject",
+          "meaning_zh": [
+            "容易受到什麼影響的",
+            "以什麼為條件的"
           ]
         },
         {
@@ -4149,7 +4592,7 @@
         {
           "word": "affordability",
           "meaning_zh": [
-            "可負擔信"
+            "可負擔性"
           ]
         },
         {
@@ -4162,7 +4605,7 @@
         {
           "word": "acclaim",
           "meaning_zh": [
-            "喝彩",
+            "喝采",
             "稱讚"
           ]
         },
@@ -4231,32 +4674,32 @@
       "category": "貿易、貨運",
       "page": 312,
       "audio_source": "audio/1-basic_Day01-30/basic_Day17.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC Vocabulary, Day 17.fragile一歲的perishable一腐壞的deliver運送,送到,發表, insure保證,確保, courier快遞公司,快遞員, carton紙箱, address地址, address處理,解決, shipment運輸,運輸的貨物尤其,特別是, adequately是當地, article物品,物件,文章,報道有效果的,有效率的, agency代辦處,代理機構, enclose封入,圍繞, careful小心的,謹慎的, pick up取走,用車載, carry搬運,攜帶,有售, attach貼上,附加, formerly以前, package包裹,包裝, react反應,做出反應, content內容, convenience便利,方便, acknowledge承認,告知, caution小心,警告, correspondence通信,信件, separate分開,區分,分開的,個別的,獨立的remarkable,出色的,引人注目的handle,處理,搬動warehouse,倉庫,倉廚impose,客徵,稅金等storage,主藏,主藏空間detach,分開,私下envelope,信封exclusion,排除在外recipient,收件人affix,貼上incorrect,不正確的oblige,使不得不做某事,迫使做某事step,步驟,階段,措施distinctive,特別的,具特色的discrete,謹慎的,慎重的,懂得分寸的",
+      "raw_transcript": "Hacker Stoic Vocabulary\nDay 17\n\nFragile\n易碎的\nPerishable\n易腐壞的\nDeliver\n運輸、送到、發表\nEnsure\n保證、確保\nCourier\n快遞公司、快遞員\nCarton\n紙箱\nAddress\n地址\nAddress\n處理、解決\nShipment\n運輸、運輸的貨物\nParticularly\n尤其、特別是\nAdequately\n適當的\nArticle\n物品、物件、文章、報道\nEfficient\n有效果的、有效率的\nAgency\n代辦處、代理機構\nEnclose\n封入、圍繞\nCareful\n小心的、謹慎的\nPick up\n取走、用車載\nCarry\n搬運、攜帶、有售\nAttach\n貼上、附加\nFormally\n以前\nPackage\n包裹、包裝\nReact\n反應、做出反應\nContent\n內容\nConvenience\n便利、方便\nAcknowledge\n承認、告知\nCaution\n小心、警告\nCorrespondence\n通信、信件\nSeparate\n分開、區分、分開的、個別的、獨立的\nRemarkable\n出色的、引人注目的\nHandle\n處理、搬動\nWarehouse\n倉庫、倉儲\nImpose\n課徵稅金等\nStorage\n儲藏、儲藏空間\nDetach\n分開、撕下\nEnvelope\n信封\nExclusion\n排除在外\nRecipient\n收件人\nAffix\n貼上\nIncorrect\n不正確的\nOblige\n使不得不做某事、迫使做某事\nStep\n步驟、階段、措施\nDistinctive\n特別的、具特色的\nDiscreet\n謹慎的、慎重的、懂得分寸的",
       "vocab": [
         {
           "word": "fragile",
           "meaning_zh": [
-            "一歲的"
+            "易碎的"
           ]
         },
         {
           "word": "perishable",
           "meaning_zh": [
-            "一腐壞的"
+            "易腐壞的"
           ]
         },
         {
           "word": "deliver",
           "meaning_zh": [
-            "運送",
+            "運輸",
             "送到",
             "發表"
           ]
         },
         {
-          "word": "insure",
+          "word": "ensure",
           "meaning_zh": [
             "保證",
             "確保"
@@ -4285,14 +4728,20 @@
           "word": "shipment",
           "meaning_zh": [
             "運輸",
-            "運輸的貨物尤其",
+            "運輸的貨物"
+          ]
+        },
+        {
+          "word": "particularly",
+          "meaning_zh": [
+            "尤其",
             "特別是"
           ]
         },
         {
           "word": "adequately",
           "meaning_zh": [
-            "是當地"
+            "適當的"
           ]
         },
         {
@@ -4301,7 +4750,13 @@
             "物品",
             "物件",
             "文章",
-            "報道有效果的",
+            "報道"
+          ]
+        },
+        {
+          "word": "efficient",
+          "meaning_zh": [
+            "有效果的",
             "有效率的"
           ]
         },
@@ -4349,7 +4804,7 @@
           ]
         },
         {
-          "word": "formerly",
+          "word": "formally",
           "meaning_zh": [
             "以前"
           ]
@@ -4430,28 +4885,27 @@
           "word": "warehouse",
           "meaning_zh": [
             "倉庫",
-            "倉廚"
+            "倉儲"
           ]
         },
         {
           "word": "impose",
           "meaning_zh": [
-            "客徵",
-            "稅金等"
+            "課徵稅金等"
           ]
         },
         {
           "word": "storage",
           "meaning_zh": [
-            "主藏",
-            "主藏空間"
+            "儲藏",
+            "儲藏空間"
           ]
         },
         {
           "word": "detach",
           "meaning_zh": [
             "分開",
-            "私下"
+            "撕下"
           ]
         },
         {
@@ -4507,7 +4961,7 @@
           ]
         },
         {
-          "word": "discrete",
+          "word": "discreet",
           "meaning_zh": [
             "謹慎的",
             "慎重的",
@@ -4522,15 +4976,15 @@
       "category": "住宿、餐廳",
       "page": 330,
       "audio_source": "audio/1-basic_Day01-30/basic_Day18.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC Vocabulary Day 18check-in 辦理旅館入住手續,辦理登機報到手續compensate 補償complimentary 免費贈送的chef 主廚container 容器,貨櫃elegant 優雅的,高雅的flavor 味道,風味accommodate 容納,供某人住宿,迎合available 可利用的,有空的reception 接待,歡迎會,接待處in advance 事先,遇先refreshments 茶點,侵蝕make 做,製作cater 供應飲食,承辦外匯reservation 預約,預定,保護區beverage 飲料confirm 確認cancel 取消rate 費用,價格conveniently 便利的decorate 裝飾,裝潢information 資訊retain 保持,保留atmosphere 氣氛,氛圍cuisine 料理sequence 順序,次序extensive 廣泛的,廣闊的prior 再前的,再先的book 預約amenity 便利設施belongings 攜帶物品entirely 完全地ease 簡輕,緩和,容易,輕鬆自在ingredient 材料,成分sip 錯飲,小口喝stir 攪拌,攪動choice 選擇choice 選擇,選擇範圍,選擇的東西complication 使情況變複雜的問題,障礙freshness 新鮮occupancy 入住率spot 發現,認出注意到特定的地點",
+      "raw_transcript": "Hacker Stoic Vocabulary, Day 18\n\nCheck-in\n\nCheck-in\n\n辦理旅館入住手續,辦理登機報道手續\n\nCompensate\n\nCompensate\n\n補償\n\nComplimentary\n\nComplimentary\n\n免費贈送的\n\nChef\n\nChef\n\n主廚\n\nContainer\n\nContainer\n\n容器或櫃\n\nElegant\n\nElegant\n\n優雅的,高雅的\n\nFlavor\n\nFlavor\n\n味道,風味\n\nAccommodate\n\nAccommodate\n\n容納,供某人住宿,迎合\n\nAvailable\n\nAvailable\n\nAvailable\n\n可利用的,有空的\n\nReception\n\nReception\n\nReception\n\n接待,歡迎會,接待處\n\nIn advance\n\nIn advance\n\nIn advance\n\n事先,預先\n\nRefreshments\n\nRefreshments\n\nRefreshments\n\n茶點,輕食\n\nMake\n\nMake\n\n做,製作\n\nCater\n\nCater\n\n供應飲食,承辦外匯\n\nReservation\n\nReservation\n\nReservation\n\n預約,預定,保護區\n\nBeverage\n\nBeverage\n\nBeverage\n\n飲料\n\nConfirm\n\nConfirm\n\n確認\n\nCancel\n\nCancel\n\n取消\n\nRate\n\nRate\n\nRate\n\n費用,價格\n\nConveniently\n\nConveniently\n\nConveniently\n\n便利地\n\nDecorate\n\nDecorate\n\nDecorate\n\n裝飾,裝潢\n\nInformation\n\nInformation\n\nInformation\n\n資訊\n\nRetain\n\nRetain\n\nRetain\n\n保持,保留\n\nAtmosphere\n\nAtmosphere\n\nAtmosphere\n\n氣氛,氛圍\n\nCuisine\n\nCuisine\n\nCuisine\n\n料理\n\nSequence\n\nSequence\n\nSequence\n\n順序,次序\n\nExtensive\n\nExtensive\n\nExtensive\n\n廣泛的,廣闊的\n\nPrior\n\nPrior\n\nPrior\n\n在前的,在先的\n\nBook\n\nBook\n\n預約\n\nAmenity\n\nAmenity\n\n便利設施\n\nBelongings\n\nBelongings\n\n攜帶物品\n\nEntirely\n\nEntirely\n\n完全地\n\nEase\n\nEase\n\nEase\n\n減輕,緩和,容易,輕鬆自在\n\nIngredient\n\nIngredient\n\nIngredient\n\n材料,成分\n\nSip\n\nSip\n\nSip\n\n啜飲,小口喝\n\nStir\n\nStir\n\nStir\n\n攪拌,攪動\n\nChoice\n\nChoice\n\n選擇,選擇範圍,選擇的東西\n\nComplication\n\nComplication\n\n使情況變複雜的問題,障礙\n\nFreshness\n\nFreshness\n\n新鮮\n\nOccupancy\n\n佔據\n\n佔據\n\n佔據率\n\n佔據率\n\nSpot\n\nSpot\n\n發現,認出,注意到,特定的地點",
       "vocab": [
         {
           "word": "check-in",
           "meaning_zh": [
             "辦理旅館入住手續",
-            "辦理登機報到手續"
+            "辦理登機報道手續"
           ]
         },
         {
@@ -4554,8 +5008,7 @@
         {
           "word": "container",
           "meaning_zh": [
-            "容器",
-            "貨櫃"
+            "容器或櫃"
           ]
         },
         {
@@ -4599,14 +5052,14 @@
           "word": "in advance",
           "meaning_zh": [
             "事先",
-            "遇先"
+            "預先"
           ]
         },
         {
           "word": "refreshments",
           "meaning_zh": [
             "茶點",
-            "侵蝕"
+            "輕食"
           ]
         },
         {
@@ -4659,7 +5112,7 @@
         {
           "word": "conveniently",
           "meaning_zh": [
-            "便利的"
+            "便利地"
           ]
         },
         {
@@ -4712,8 +5165,8 @@
         {
           "word": "prior",
           "meaning_zh": [
-            "再前的",
-            "再先的"
+            "在前的",
+            "在先的"
           ]
         },
         {
@@ -4743,7 +5196,7 @@
         {
           "word": "ease",
           "meaning_zh": [
-            "簡輕",
+            "減輕",
             "緩和",
             "容易",
             "輕鬆自在"
@@ -4759,7 +5212,7 @@
         {
           "word": "sip",
           "meaning_zh": [
-            "錯飲",
+            "啜飲",
             "小口喝"
           ]
         },
@@ -4773,7 +5226,9 @@
         {
           "word": "choice",
           "meaning_zh": [
-            "選擇"
+            "選擇",
+            "選擇範圍",
+            "選擇的東西"
           ]
         },
         {
@@ -4792,14 +5247,16 @@
         {
           "word": "occupancy",
           "meaning_zh": [
-            "入住率"
+            "佔據"
           ]
         },
         {
           "word": "spot",
           "meaning_zh": [
             "發現",
-            "認出注意到特定的地點"
+            "認出",
+            "注意到",
+            "特定的地點"
           ]
         }
       ]
@@ -4810,9 +5267,9 @@
       "category": "收益",
       "page": 346,
       "audio_source": "audio/1-basic_Day01-30/basic_Day19.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers TOEIC Vocabulary Day 19decline 減少,下降,拒絕marketly 顯著的,明顯的increase 增加revenue 收入projection 預測substantial 相當大的,相當多的anticipate 預期,期望significantly 顯著的,大大的estimate 估計,估價shift 轉移,挪動,轉變,輪班工作時間fee 費用,服務費用production 生產,產量sale 銷售額,銷售量,降價特賣impressive 令人印象深刻的representative 代表,代表人員recent 最近的exceed 超過improvement 改善employer 僱主regular 定期的,慣常的summarize 總結,概述typically 典型的,通常whole 全部的,整個的growth 成長,發展figure 數字steady 穩定的,堅定的frequent 頻繁的,常發生的achieve 達成,成就assumption 假定,假設share 分享共用,一份股份encouraging 鼓勵的,令人振奮的incur 遭受招致slightly 稍微profit 利潤,利益reliant 依賴的,依靠的illustrate 說明,圖解inaccurate 不精確的percentage 百分比reduce 減少,縮減tend 傾向,異於,往往會beyond 超越範圍等,在什麼之外",
+      "raw_transcript": "Hacker Stoic Vocabulary Day 19\n\nDecline\n\nDecline\n\n減少,下降,拒絕\n\nMarkedly\n\nMarkedly\n\n顯著地,明顯地\n\nIncrease\n\nIncrease\n\n增加\n\nIncrease\n\nIncrease\n\n增加\n\nRevenue\n\nRevenue\n\n收入\n\nProjection\n\nProjection\n\nProjection\n\n預測\n\nSubstantial\n\nSubstantial\n\nSubstantial\n\n相當大的,相當多的\n\nAnticipate\n\nAnticipate\n\nAnticipate\n\n預期,期望\n\nSignificantly\n\nSignificantly\n\nSignificantly\n\n顯著地,大大地\n\nEstimate\n\nEstimate\n\nEstimate\n\n估計,估價\n\nEstimate\n\nEstimate\n\nEstimate\n\n估計,估價\n\nShift\n\nShift\n\nShift\n\n轉移,挪動,轉變,輪班工作時間\n\nFee\n\nFee\n\nFee\n\n費用,服務費用\n\nProduction\n\nProduction\n\n生產,產量\n\nSale\n\nSale\n\n銷售額,銷售量,降價特賣\n\nImpressive\n\nImpressive\n\n令人印象深刻的\n\nRepresentative\n\nRepresentative\n\n代表,代表人員\n\nRecent\n\nRecent\n\n最近的\n\nExceed\n\nExceed\n\nExceed\n\n超過\n\nImprovement\n\nImprovement\n\n改善\n\nEmployer\n\nEmployer\n\n僱主\n\nRegular\n\nRegular\n\nRegular\n\n定期的,慣常的\n\nSummarize\n\nSummarize\n\nSummarize\n\n總結,概述\n\nTypically\n\nTypically\n\nTypically\n\n典型地,通常\n\nWhole\n\nWhole\n\n全部的,整個的\n\nGrowth\n\nGrowth\n\n成長,發展\n\nFigure\n\nFigure\n\n數字\n\nSteady\n\nSteady\n\nSteady\n\n穩定的,堅定的\n\nFrequent\n\nFrequent\n\nFrequent\n\n頻繁的,常發生的\n\nAchieve\n\nAchieve\n\nAchieve\n\n達成,成就\n\nAssumption\n\nAssumption\n\nAssumption\n\n假定,假設\n\nShare\n\nShare\n\n分享,共用\n\n一份,股份\n\nEncouraging\n\nEncouraging\n\nEncouraging\n\n鼓勵的,令人振奮的\n\nIncur\n\nIncur\n\nIncur\n\n遭受,招致\n\nSlightly\n\nSlightly\n\nSlightly\n\n稍微\n\nProfit\n\nProfit\n\nProfit\n\n利潤,利益\n\nReliant\n\nReliant\n\nReliant\n\n依賴的,依靠的\n\nIllustrate\n\nIllustrate\n\nIllustrate\n\n說明,圖解\n\nInaccurate\n\nInaccurate\n\nInaccurate\n\n不精確的\n\nPercentage\n\nPercentage\n\nPercentage\n\n百分比,比例\n\nReduce\n\nReduce\n\n減少,縮減\n\nTend\n\nTend\n\n傾向,易於,往往會\n\nBeyond\n\nBeyond\n\n超越範圍等,在什麼之外",
       "vocab": [
         {
           "word": "decline",
@@ -4823,10 +5280,10 @@
           ]
         },
         {
-          "word": "marketly",
+          "word": "markedly",
           "meaning_zh": [
-            "顯著的",
-            "明顯的"
+            "顯著地",
+            "明顯地"
           ]
         },
         {
@@ -4864,8 +5321,8 @@
         {
           "word": "significantly",
           "meaning_zh": [
-            "顯著的",
-            "大大的"
+            "顯著地",
+            "大大地"
           ]
         },
         {
@@ -4960,7 +5417,7 @@
         {
           "word": "typically",
           "meaning_zh": [
-            "典型的",
+            "典型地",
             "通常"
           ]
         },
@@ -5015,8 +5472,8 @@
         {
           "word": "share",
           "meaning_zh": [
-            "分享共用",
-            "一份股份"
+            "分享",
+            "共用"
           ]
         },
         {
@@ -5029,7 +5486,8 @@
         {
           "word": "incur",
           "meaning_zh": [
-            "遭受招致"
+            "遭受",
+            "招致"
           ]
         },
         {
@@ -5068,7 +5526,8 @@
         {
           "word": "percentage",
           "meaning_zh": [
-            "百分比"
+            "百分比",
+            "比例"
           ]
         },
         {
@@ -5082,7 +5541,7 @@
           "word": "tend",
           "meaning_zh": [
             "傾向",
-            "異於",
+            "易於",
             "往往會"
           ]
         },
@@ -5101,15 +5560,15 @@
       "category": "會計",
       "page": 364,
       "audio_source": "audio/1-basic_Day01-30/basic_Day20.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC vocabulary, day 20.Audit 審計,查帳Accounting 會計Budget 預算Financial 財務的,金融的Curtail 縮減Defisite 赤字,不足而Recently 最近Substantially 大大地,相當多地Committee 委員會Frequently 頻繁地Capability 能力,才能Proceeds 收入Reimburse 補償和消Considerably 相當多地Adequate 足夠的,適當的Total 總計的,全部的Allocate 分配,分派Inspector 檢查人員,稽查人員Preferred 偏好的,優先的Quarter 計度四分之一Interrupt 打斷,中斷Browse 瀏覽,隨意觀看Prompt 即時的,迅速的,導致促使Deduct 扣除,減除Measurement 測量,測定,尺寸Shorten 縮短,變短Amend 修正Calculate 計算Exempt 被免除的Deficient 不足的,缺乏的Compare 比較Fortunate 幸運的Expenditure 支出,開支Accurately 精確的Worth 值得什麼的,價值Excess 超過,過量Fiscal 會計的,財政的Incidental 附帶的Inflation 通貨膨脹Liable 負有責任的,很可能會怎樣的Spend 花費,花用Turnover 營業額,交易額,人事異動率",
+      "raw_transcript": "Hacker's TOEIC Vocabulary Day 20\n\nAudit\n審計、查賬\n\nAccounting\n會計\n\nBudget\n預算\n\nFinancial\n財務的、金融的\n\nCurtail\n縮減、削減\n\nDeficit\n赤字、不足額\n\nRecently\n最近\n\nSubstantially\n大大的、相當多的\n\nCommittee\n委員會\n\nFrequently\n頻繁地、經常\n\nCapability\n能力、才能\n\nProceeds\n收入\n\nReimburse\n補償、核銷\n\nConsiderably\n相當、相當多的\n\nAdequate\n足夠的、適當的\n\nTotal\n總計的、全部的\n\nAllocate\n分配、分派\n\nInspector\n檢查人員、稽查人員\n\nPreferred\n偏好的、優先的\n\nQuarter\n季度、四分之一\n\nInterrupt\n打斷、中斷\n\nBrowse\n瀏覽、隨意觀看\n\nPrompt\n及時的、迅速的、導致、促使\n\nDeduct\n扣除、減除\n\nMeasurement\n測量、測定、尺寸\n\nShorten\n縮短、變短\n\nAmend\n修正\n\nCalculate\n計算\n\nExempt\n被免除的\n\nDeficient\n不足的、缺乏的\n\nCompare\n比較\n\nFortunate\n幸運的\n\nExpenditure\n支出、開支\n\nAccurately\n精確地\n\nWorth\n值得什麼的、價值\n\nExcess\n超過、過量\n\nFiscal\n會計的、財政的\n\nIncidental\n附帶的\n\nInflation\n通貨膨脹\n\nLiable\n負有責任的、很可能會怎樣的\n\nSpend\n花費、花用\n\nTurnover\n營業額、交易額、人事異動率",
       "vocab": [
         {
           "word": "audit",
           "meaning_zh": [
             "審計",
-            "查帳"
+            "查賬"
           ]
         },
         {
@@ -5134,14 +5593,15 @@
         {
           "word": "curtail",
           "meaning_zh": [
-            "縮減"
+            "縮減",
+            "削減"
           ]
         },
         {
-          "word": "defisite",
+          "word": "deficit",
           "meaning_zh": [
             "赤字",
-            "不足而"
+            "不足額"
           ]
         },
         {
@@ -5153,8 +5613,8 @@
         {
           "word": "substantially",
           "meaning_zh": [
-            "大大地",
-            "相當多地"
+            "大大的",
+            "相當多的"
           ]
         },
         {
@@ -5166,7 +5626,8 @@
         {
           "word": "frequently",
           "meaning_zh": [
-            "頻繁地"
+            "頻繁地",
+            "經常"
           ]
         },
         {
@@ -5185,13 +5646,15 @@
         {
           "word": "reimburse",
           "meaning_zh": [
-            "補償和消"
+            "補償",
+            "核銷"
           ]
         },
         {
           "word": "considerably",
           "meaning_zh": [
-            "相當多地"
+            "相當",
+            "相當多的"
           ]
         },
         {
@@ -5232,7 +5695,8 @@
         {
           "word": "quarter",
           "meaning_zh": [
-            "計度四分之一"
+            "季度",
+            "四分之一"
           ]
         },
         {
@@ -5252,9 +5716,10 @@
         {
           "word": "prompt",
           "meaning_zh": [
-            "即時的",
+            "及時的",
             "迅速的",
-            "導致促使"
+            "導致",
+            "促使"
           ]
         },
         {
@@ -5326,7 +5791,7 @@
         {
           "word": "accurately",
           "meaning_zh": [
-            "精確的"
+            "精確地"
           ]
         },
         {
@@ -5392,9 +5857,9 @@
       "category": "公司動向",
       "page": 384,
       "audio_source": "audio/1-basic_Day01-30/basic_Day21.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC Vocabulary, Day 21.announce 宣佈,公告, interested有利害關係的,感興趣的, active積極的,活躍的, accept接受,採用, foresee預見,預知, expansion擴張,擴大, relocate搬遷, competitor競爭者,競爭業者, asset資產, contribute捐獻,貢獻, dedicated專注的,奉獻的, misplace放錯地方,放在想不起來的地方considerable相當大的,相當多的持續, emerge出現,浮現, grow成長,使生長, select選擇,挑選, merge合併,融合, imply暗示,意味著, vital必要的, persist堅持,堅持不懈,持續independent獨立的,自立的, force勢力,有影響力的人或事物establish,創立,建立initiate,開始事業等,開始實施enhance,提升,提高海善, renowned著名的,有名的,有聲譽的informed,瞭解情況的,消息靈通的minutes,會議記錄wave,放棄,免除reach,達到,抵達authority,權力,當局acquire,取得,收購surpass,超越,勝過run,經營,營運improbable,不太可能的,不太可能發生的edge,優勢,邊緣simultaneously,同時的reveal,揭露,展現productivity,生產力uncertain,不確定的,不明確的premier,第一的,首要的",
+      "raw_transcript": "Hacker Stoic Vocabulary, Day 21.\n\nAnnounce, 宣佈,公告.\nInterested, 有利害關係的,感興趣的.\nActive, 積極的,活躍的.\nAccept, 接受,採用.\nForesee, 預見,預知.\nExpansion, 擴張,擴大.\nRelocate, 搬遷.\nCompetitor, 競爭者,競爭業者.\nAsset, 資產.\nContribute, 捐獻,貢獻.\nDedicated, 專注的,奉獻的.\nMisplace, 放錯地方,放在想不起來的地方.\nConsiderable, 相當大的,相當多的.\nLast, 持續.\nEmerge, 出現,浮現.\nGrow, 成長,使生長.\nSelect, 選擇,挑選.\nMerge, 合併,融合.\nImply, 暗示,意味著.\nVital, 必要的.\nPersist, 堅持,堅持不懈,持續.\nIndependent, 獨立的,自立的.\nForce, 勢力,有影響力的人或事物.\nEstablish, 創立,建立.\nInitiate, 開始事業等,開始實施.\nEnhance, 提升,提高,改善.\nRenowned, 著名的,有名的,有聲譽的.\nInformed, 瞭解情況的,消息靈通的.\nMinutes, 會議記錄.\nWaive, 放棄,免除.\nReach, 達到,抵達.\nAuthority, 權力,當局.\nAcquire, 取得,收購.\nSurpass, 超越,勝過.\nRun, 經營,營運.\nImprobable, 不太可能的,不太可能發生的.\nEdge, 優勢,邊緣.\nSimultaneously, 同時地.\nReveal, 揭露,展現.\nProductivity, 生產力.\nUncertain, 不確定的,不明確的.\nPremier, 第一的,首要的.",
       "vocab": [
         {
           "word": "announce",
@@ -5482,7 +5947,13 @@
           "word": "considerable",
           "meaning_zh": [
             "相當大的",
-            "相當多的持續"
+            "相當多的"
+          ]
+        },
+        {
+          "word": "last",
+          "meaning_zh": [
+            "持續"
           ]
         },
         {
@@ -5566,7 +6037,8 @@
           "word": "enhance",
           "meaning_zh": [
             "提升",
-            "提高海善"
+            "提高",
+            "改善"
           ]
         },
         {
@@ -5591,7 +6063,7 @@
           ]
         },
         {
-          "word": "wave",
+          "word": "waive",
           "meaning_zh": [
             "放棄",
             "免除"
@@ -5649,7 +6121,7 @@
         {
           "word": "simultaneously",
           "meaning_zh": [
-            "同時的"
+            "同時地"
           ]
         },
         {
@@ -5687,9 +6159,9 @@
       "category": "會議",
       "page": 402,
       "audio_source": "audio/1-basic_Day01-30/basic_Day22.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC Vocabulary, Day 22.agenda 議程,代議事項convene 聚集,集會,召開refute 反駁,駁斥coordination 協調unanimous 意見一致的,一致同意的convince 說服,使確信consensus 共識,一致的意見defer 延後,延期usually 通常reschedule 重新安排什麼的時間meeting 會議determine 查明,判定,決定report 報告,報到,報告書,報到comment 評論,發表意見phase 階段approve 批准,贊成enclosed 被附上的easy 簡單的,容易的record 記錄,履歷,經歷record 記錄suggestion 建議,提議attention 注意,專心object 反對coincidentally 巧合地,碰巧地,同時發生地crowded 擁擠的undergo 經歷,承受,接受outcome 結果narrowly 狹窄地,嚴格地勉強,好不容易,以些微之差differ 不同,不一樣discuss 討論give 給予,發表,講授brief 向某人簡短說明,簡短的報告distract 是分心,分散emphasis 強調,重點press 報刊,新聞媒體,按壓organize 組織organize 組織,安排,整理mention 提到persuasive 有說服力的understanding 理解的,諒解的adjourn 是休會,是終止,是延期constructive 建設性的preside 主持,擔任會議主席irrelevant 無關的,不相關的constraint 限制condensed 簡要的,壓縮的,凝結的endorse 公開地支持,讚同,背書punctually 準時地,如期地,不延遲地",
+      "raw_transcript": "Hackers TOEIC Vocabulary Day 22\nAgenda\n議程,代議事項\nConvene\n聚集,集會,召開\nRefute\n反駁,駁斥\nCoordination\n協調\nUnanimous\n意見一致的,一致同意的\nConvince\n說服,使確信\nConsensus\n共識,一致的意見\nDefer\n延後,延期\nUsually\n通常\nReschedule\n重新安排什麼的時間\nMeeting\n會議\nDetermine\n查明,判定,決定\nReport\n報告,報道,報告書,報道\nComment\n評論,發表意見\nPhase\n階段\nApprove\n批准,贊成\nEnclosed\n被附上的\nEasy\n簡單的,容易的\nRecord\n記錄,履歷,經歷\nRecord\n記錄\nSuggestion\n建議,提議\nAttention\n注意,專心\nObject\n反對\nCoincidentally\n巧合地,碰巧地,同時發生地\nCrowded\n擁擠的\nUndergo\n經歷,承受,接受\nOutcome\n結果\nNarrowly\n狹窄地,嚴格地,勉強,好不容易,以些為之差\nDiffer\n不同,不一樣\nDiscuss\n討論\nGive\n給予,發表,講授\nBrief\n向某人簡短說明,簡短的報告\nDistract\n使分心,分散\nEmphasis\n強調,重點\nPress\n報刊,新聞媒體,按,壓\nOrganize\n組織,安排,整理\nMention\n提到\nPersuasive\n有說服力的\nUnderstanding\n理解的,諒解的\nAdjourn\n使收會,始中止,始延期\nConstructive\n建設性的\nPreside\n主持,擔任會議主席\nIrrelevant\n無關的,不相關的\nConstraint\n限制\nCondensed\n簡要的,壓縮的,凝結的\nEndorse\n公開地支持,贊同,背書\nPunctually\n準時地,如期地,不延遲地",
       "vocab": [
         {
           "word": "agenda",
@@ -5777,7 +6249,7 @@
           "word": "report",
           "meaning_zh": [
             "報告",
-            "報到",
+            "報道",
             "報告書"
           ]
         },
@@ -5874,9 +6346,10 @@
           "word": "narrowly",
           "meaning_zh": [
             "狹窄地",
-            "嚴格地勉強",
+            "嚴格地",
+            "勉強",
             "好不容易",
-            "以些微之差"
+            "以些為之差"
           ]
         },
         {
@@ -5910,7 +6383,7 @@
         {
           "word": "distract",
           "meaning_zh": [
-            "是分心",
+            "使分心",
             "分散"
           ]
         },
@@ -5926,13 +6399,16 @@
           "meaning_zh": [
             "報刊",
             "新聞媒體",
-            "按壓"
+            "按",
+            "壓"
           ]
         },
         {
           "word": "organize",
           "meaning_zh": [
-            "組織"
+            "組織",
+            "安排",
+            "整理"
           ]
         },
         {
@@ -5957,9 +6433,9 @@
         {
           "word": "adjourn",
           "meaning_zh": [
-            "是休會",
-            "是終止",
-            "是延期"
+            "使收會",
+            "始中止",
+            "始延期"
           ]
         },
         {
@@ -6000,7 +6476,7 @@
           "word": "endorse",
           "meaning_zh": [
             "公開地支持",
-            "讚同",
+            "贊同",
             "背書"
           ]
         },
@@ -6020,9 +6496,9 @@
       "category": "員工福利",
       "page": 422,
       "audio_source": "audio/1-basic_Day01-30/basic_Day23.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers TOEIC Vocabulary Day 23host 主辦, annual年度的,一年一度的, purpose目的,意圖, enroll登記, lecture講座,演講, participant參與者, attend出席,參加, encourage鼓勵,促使, leave休假,離開,留下推薦,建議,推薦信會議,討論安排什麼的時間包含, result結果,導致登記,註冊要求, grateful感謝的,感激的over time,加班時間,加班費responsibility,責任,義務assent,同意,贊成regard,認為什麼事看待,關心,注意tentative,鎮定的,試驗性的welcome,受歡迎的,欣然接受的歡迎, function盛大的聚會,功能commence,開始objective,目標,目的excited,興奮的,激動的reimbursement,補償費用,核銷treatment,對待,處理honor,榮譽,尊敬emphasize,強調entry,參賽者,參賽作品bonus,獎金,紅利salary,薪水earn,賺,贏得,獲得arise,出現,產生labour,勞動,努力union,工會existing,現存的,現行的exploit,剝削,濫用",
+      "raw_transcript": "Hackers TOEIC Vocabulary, Day 23\nHost\n主辦\nAnnual\n年度的,一年一度的\nPurpose\n目的,意圖\nEnroll\n登記\nLecture\n講座,演講\nParticipant\n參與者\nAttend\n出席,參加\nEncourage\n鼓勵,促使\nLeave\n休假,離開,留下\nRecommendation\n推薦,建議,推薦信\nConference\n會議,討論\nSchedule\n安排什麼的時間\nInclude\n包含\nResult\n結果,導致\nRegister\n登記,註冊\nRequire\n要求\nGrateful\n感謝的,感激的\nOvertime\n加班時間,加班費\nResponsibility\n責任,義務\nAssent\n同意,贊成\nRegard\n認為什麼是\n看待,關心,注意\nTentative\n鎮定的,試驗性的\nWelcome\n受歡迎的,欣然接受的\n歡迎\nFunction\n盛大的聚會,功能\nCommence\n開始\nObjective\n目標,目的\nExcited\n興奮的,激動的\nReimbursement\n補償,費用和銷\nTreatment\n對待,處理\nHonor\n榮譽,尊敬\nEmphasize\n強調\nEntry\n參賽者,參賽作品\nBonus\n獎金,紅利\nSalary\n薪水\nEarn\n賺,贏得,獲得\nArise\n出現,產生\nLabor\n勞動,努力\nUnion\n工會\nExisting\n現存的,現行的\nExploit\n剝削,濫用",
       "vocab": [
         {
           "word": "host",
@@ -6082,18 +6558,54 @@
           "meaning_zh": [
             "休假",
             "離開",
-            "留下推薦",
+            "留下"
+          ]
+        },
+        {
+          "word": "recommendation",
+          "meaning_zh": [
+            "推薦",
             "建議",
-            "推薦信會議",
-            "討論安排什麼的時間包含"
+            "推薦信"
+          ]
+        },
+        {
+          "word": "conference",
+          "meaning_zh": [
+            "會議",
+            "討論"
+          ]
+        },
+        {
+          "word": "schedule",
+          "meaning_zh": [
+            "安排什麼的時間"
+          ]
+        },
+        {
+          "word": "include",
+          "meaning_zh": [
+            "包含"
           ]
         },
         {
           "word": "result",
           "meaning_zh": [
             "結果",
-            "導致登記",
-            "註冊要求"
+            "導致"
+          ]
+        },
+        {
+          "word": "register",
+          "meaning_zh": [
+            "登記",
+            "註冊"
+          ]
+        },
+        {
+          "word": "require",
+          "meaning_zh": [
+            "要求"
           ]
         },
         {
@@ -6104,7 +6616,7 @@
           ]
         },
         {
-          "word": "over time",
+          "word": "overtime",
           "meaning_zh": [
             "加班時間",
             "加班費"
@@ -6127,9 +6639,7 @@
         {
           "word": "regard",
           "meaning_zh": [
-            "認為什麼事看待",
-            "關心",
-            "注意"
+            "認為什麼是"
           ]
         },
         {
@@ -6143,7 +6653,7 @@
           "word": "welcome",
           "meaning_zh": [
             "受歡迎的",
-            "欣然接受的歡迎"
+            "欣然接受的"
           ]
         },
         {
@@ -6176,8 +6686,8 @@
         {
           "word": "reimbursement",
           "meaning_zh": [
-            "補償費用",
-            "核銷"
+            "補償",
+            "費用和銷"
           ]
         },
         {
@@ -6236,7 +6746,7 @@
           ]
         },
         {
-          "word": "labour",
+          "word": "labor",
           "meaning_zh": [
             "勞動",
             "努力"
@@ -6270,9 +6780,9 @@
       "category": "人事異動",
       "page": 440,
       "audio_source": "audio/1-basic_Day01-30/basic_Day24.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC Vocabulary, Day 24.appoint 任命,指派appraisal 評價promote 使生殖,促進skilled 熟練的,有技能的radically 根本的,徹底的exceptional 優異的,例外的appreciation 感謝,欣賞evaluate 評價suggest 建議preference 偏好management 管理,經營,經營團隊predict 預測transfer 轉移,使調職award 獎,授予mandatory 義務性的,強制性的competent 有能力的,身認的performance 表現,成果,表演,演出,演奏reward 報償,回報search 尋找,搜尋,調查inexperienced 沒經驗的,不熟練的early 早的,提早的designate 指定,指派executive 經營管理的dedication 專心致力unanimously 全體意見一致的progress 前進,進步,進展congratulate 祝賀dismiss 解僱independence 獨立participation 參與,參加,交流praise 稱讚accomplishment 成就deliberation 商議,審議leadership 領導,領導才能retire 退休nomination 提名,任命reorganize 重新組織,改組serve 服務,擔任encouragement 鼓勵resignation 辭職,辭程strictly 嚴格地",
+      "raw_transcript": "Hackers TOEIC Vocabulary Day 24\nappoint\n任命,指派\nappraisal\n評價\npromote\n使升職,促進\nskilled\n熟練的,有技能的\nradically\n根本地,徹底地\nexceptional\n優異的,例外的\nappreciation\n感謝,欣賞\nevaluate\n評價\nsuggest\n建議\npreference\n偏好\nmanagement\n管理,經營,經營團隊\npredict\n預測\ntransfer\n轉移,使調職\naward\n獎,授予\nmandatory\n義務性的,強制性的\ncompetent\n有能力的,勝任的\nperformance\n表現,成果,表演,演出,演奏\nreward\n報償,回報\nsearch\n尋找,搜尋,調查\ninexperienced\n沒經驗的,不熟練的\nearly\n早的,提早的\ndesignate\n指定,指派\nexecutive\n經營管理的\ndedication\n專心致力\nunanimously\n全體意見一致地\nprogress\n前進,進步,進展\ncongratulate\n祝賀\ndismiss\n解僱\nindependence\n獨立\nparticipation\n參與,參加,加入\npraise\n稱讚\naccomplishment\n成就\ndeliberation\n商議,審議\nleadership\n領導,領導才能\nretire\n退休\nnomination\n提名,任命\nreorganize\n重新組織,改組\nserve\n服務,擔任\nencouragement\n鼓勵\nresignation\n辭職,辭呈\nstrictly\n嚴格地",
       "vocab": [
         {
           "word": "appoint",
@@ -6290,7 +6800,7 @@
         {
           "word": "promote",
           "meaning_zh": [
-            "使生殖",
+            "使升職",
             "促進"
           ]
         },
@@ -6304,8 +6814,8 @@
         {
           "word": "radically",
           "meaning_zh": [
-            "根本的",
-            "徹底的"
+            "根本地",
+            "徹底地"
           ]
         },
         {
@@ -6379,7 +6889,7 @@
           "word": "competent",
           "meaning_zh": [
             "有能力的",
-            "身認的"
+            "勝任的"
           ]
         },
         {
@@ -6443,7 +6953,7 @@
         {
           "word": "unanimously",
           "meaning_zh": [
-            "全體意見一致的"
+            "全體意見一致地"
           ]
         },
         {
@@ -6477,7 +6987,7 @@
           "meaning_zh": [
             "參與",
             "參加",
-            "交流"
+            "加入"
           ]
         },
         {
@@ -6543,7 +7053,7 @@
           "word": "resignation",
           "meaning_zh": [
             "辭職",
-            "辭程"
+            "辭呈"
           ]
         },
         {
@@ -6560,15 +7070,15 @@
       "category": "交通",
       "page": 456,
       "audio_source": "audio/1-basic_Day01-30/basic_Day25.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hacker's Toic Vocabulary, Day 25.Congestion, 交通堵塞,集滿Alleviate, 緩和,減輕Divert, 時轉向,時改道Detour, 繞道,繞行的路Fuel, 燃料Malfunction, 故障,機能失常Permit, 許可允許Permit, 許可證Transportation, 運輸工具Opportunity, 機會Clearly, 清楚地,顯然Ongoing, 持續進行中的Detailed, 詳細地Alternative, 替代方案Obtain, 得到,獲得Designated, 指定的Intersection, 交叉入口Equip, 使配備,使具備Commute, 通勤Downtown, 在市中心Automotive, 汽車的Closer, 關閉Vehicle, 車輛運載工具Platform, 月臺Official, 公務員,官員,官方的,正式的Transit, 運輸系統,運送Fair, 搭乘交通工具的費用Expense, 費用支出Trust, 信任,信賴,相信Head, 出發,前進Drive, 開車,駕駛,驅動機器等Fine, 罰款Pass, 經過,通過Securely, 牢固地,穩固地Prominently, 顯著地Reserved, 預約的,預定的,留座專用的Average, 平均值,平均Collision, 碰撞Tow, 脫掉Reverse, 相反的,背面的Obstract, 遮擋,阻塞",
+      "raw_transcript": "congestion交通堵塞,壅滿alleviate緩和,減輕divert使轉向,使改道detour繞道,繞行的路fuel燃料malfunction故障,機能失常permit許可,允許permit許可證transportation運輸,運輸工具opportunity機會clearly清楚地,顯然ongoing持續進行中的detailed詳細的alternative替代方案,替代的obtain得到,獲得designated指定的intersection交叉路口equip使配備,使具備commute通勤downtown在市中心automotive汽車的closure關閉vehicle車輛,運載工具platform月臺official公務員,官員官方的,正式的transit運輸系統,運送fare搭乘交通工具的費用expense費用,支出trust信任,信賴,相信head出發,前進drive開車,駕駛,驅動及驅動fine罰款pass經過,通過securely牢固地,穩固地prominently顯著地,顯眼地reserved預約的,預定的,留作專用的average平均值,平均collision碰撞tow拖吊reverse相反的,背面的obstruct遮擋,阻塞",
       "vocab": [
         {
           "word": "congestion",
           "meaning_zh": [
             "交通堵塞",
-            "集滿"
+            "壅滿"
           ]
         },
         {
@@ -6581,8 +7091,8 @@
         {
           "word": "divert",
           "meaning_zh": [
-            "時轉向",
-            "時改道"
+            "使轉向",
+            "使改道"
           ]
         },
         {
@@ -6608,12 +7118,14 @@
         {
           "word": "permit",
           "meaning_zh": [
-            "許可允許"
+            "許可",
+            "允許"
           ]
         },
         {
           "word": "transportation",
           "meaning_zh": [
+            "運輸",
             "運輸工具"
           ]
         },
@@ -6639,13 +7151,14 @@
         {
           "word": "detailed",
           "meaning_zh": [
-            "詳細地"
+            "詳細的"
           ]
         },
         {
           "word": "alternative",
           "meaning_zh": [
-            "替代方案"
+            "替代方案",
+            "替代的"
           ]
         },
         {
@@ -6664,7 +7177,7 @@
         {
           "word": "intersection",
           "meaning_zh": [
-            "交叉入口"
+            "交叉路口"
           ]
         },
         {
@@ -6693,7 +7206,7 @@
           ]
         },
         {
-          "word": "closer",
+          "word": "closure",
           "meaning_zh": [
             "關閉"
           ]
@@ -6701,7 +7214,8 @@
         {
           "word": "vehicle",
           "meaning_zh": [
-            "車輛運載工具"
+            "車輛",
+            "運載工具"
           ]
         },
         {
@@ -6714,8 +7228,7 @@
           "word": "official",
           "meaning_zh": [
             "公務員",
-            "官員",
-            "官方的",
+            "官員官方的",
             "正式的"
           ]
         },
@@ -6727,7 +7240,7 @@
           ]
         },
         {
-          "word": "fair",
+          "word": "fare",
           "meaning_zh": [
             "搭乘交通工具的費用"
           ]
@@ -6735,7 +7248,8 @@
         {
           "word": "expense",
           "meaning_zh": [
-            "費用支出"
+            "費用",
+            "支出"
           ]
         },
         {
@@ -6758,7 +7272,7 @@
           "meaning_zh": [
             "開車",
             "駕駛",
-            "驅動機器等"
+            "驅動及驅動"
           ]
         },
         {
@@ -6784,7 +7298,8 @@
         {
           "word": "prominently",
           "meaning_zh": [
-            "顯著地"
+            "顯著地",
+            "顯眼地"
           ]
         },
         {
@@ -6792,7 +7307,7 @@
           "meaning_zh": [
             "預約的",
             "預定的",
-            "留座專用的"
+            "留作專用的"
           ]
         },
         {
@@ -6811,7 +7326,7 @@
         {
           "word": "tow",
           "meaning_zh": [
-            "脫掉"
+            "拖吊"
           ]
         },
         {
@@ -6822,7 +7337,7 @@
           ]
         },
         {
-          "word": "obstract",
+          "word": "obstruct",
           "meaning_zh": [
             "遮擋",
             "阻塞"
@@ -6836,18 +7351,56 @@
       "category": "銀行",
       "page": 474,
       "audio_source": "audio/1-basic_Day01-30/basic_Day26.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC Vocabulary, Day 26.delinquent, delinquent, delinquent, delinquent, delinquent, delinquent, delinquent, delinquent, delinquent, delinquent.regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably, regrettably站,statement,statement,statement,對賬單,聲明,amount,amount,amount,總數,數量,withdrawal,withdrawal,withdrawal,體領,previously,previously,previously,之前,do,jew,jew,到期的,到支付期限的,應支付的,receive,receive,收到,接收,expect,expect,expect,預期,期待,certificate,certificate,證書,document,document,document,文件,document,document,document,記錄,用文件證明,spending,spending,spending,花費,支出,successfully,successfully,successfully,成功的,bill,bill,bill,開賬單給,賬單,請款單,pleasure,pleasure,愉快,高興,樂意,study,study,研究,summary,summary,蓋要,沾要,temporary,temporary,臨時的,暫時的,lower,lower,降低,transaction,transaction,交易,買賣,double,double,變成兩倍,identification,identification,身份證明,dissatisfaction,dissatisfaction,不滿,不滿意,in common,in common,共通的,共同的,interest,interest,興趣,利益,利息,reject,reject,拒絕,relation,relation,關係,tentatively,tentatively,試驗性的,暫時的,alternatively,alternatively,不然的話或者,attentive,attentive,專注傾聽的,關心的,convert,convert,轉換,轉變,heavily,heavily,程度很大底,非常,loan,loan,借貸,貸款,unexpected,unexpected,unexpected,意料之外的,cash,cash,兌現,mortgage,mortgage,抵押貸款,payable,payable,應支付的,personal,personal,個人的,practice,practice,慣例,實踐,練習,實踐,",
+      "raw_transcript": "Hackers' Choic Vocabulary Day 26\ndelinquent\n到期未付的,拖欠的\noverdue\noverdue\n逾期未付的,超過支付期限的\nregrettably\n遺憾地\nbalance\n結餘,賬戶餘額\ndeposit\n存錢\ninvestigation\n調查\naccount\n賬戶,說明,考慮,解釋\n證\nstatement\n對賬單,聲明\namount\n總數,數量\nwithdrawal\n提領\npreviously\n之前\ndue\n到期的,到支付期限的,應支付的\nreceive\n收到,接收\nexpect\n預計,期待\ncertificate\n證書\ndocument\n文件\ndocument\n記錄,用文件證明\nspending\n花費,支出\nsuccessfully\n成功地\nbill\n開賬單給,賬單,請款單\npleasure\n愉快,高興,樂意\nstudy\n研究\nsummary\n概要,摘要\ntemporary\n臨時的,暫時的\nlower\n降低\ntransaction\n交易,買賣\ndouble\n變成兩倍\nidentification\n身份證明\ndissatisfaction\n不滿,不滿意\nin common\n共同地,共同的\ninterest\n興趣,利益,利息\nreject\n拒絕\nrelation\n關係\ntentatively\n試驗性地,暫時地\nalternatively\n不然的話,或者\nattentive\n專注傾聽的,關心的\nconvert\n轉換,轉變\nheavily\n程度很大的,非常\nloan\n借貸,貸款\nunexpected\n意料之外的\ncash\n兌現\nmortgage\n抵押貸款\npayable\n應支付的\npersonal\n個人的\npractice\n慣例,實踐,練習,實踐",
       "vocab": [
         {
           "word": "delinquent",
-          "meaning_zh": []
+          "meaning_zh": [
+            "到期未付的",
+            "拖欠的"
+          ]
+        },
+        {
+          "word": "overdue",
+          "meaning_zh": [
+            "逾期未付的",
+            "超過支付期限的"
+          ]
         },
         {
           "word": "regrettably",
           "meaning_zh": [
-            "站"
+            "遺憾地"
+          ]
+        },
+        {
+          "word": "balance",
+          "meaning_zh": [
+            "結餘",
+            "賬戶餘額"
+          ]
+        },
+        {
+          "word": "deposit",
+          "meaning_zh": [
+            "存錢"
+          ]
+        },
+        {
+          "word": "investigation",
+          "meaning_zh": [
+            "調查"
+          ]
+        },
+        {
+          "word": "account",
+          "meaning_zh": [
+            "賬戶",
+            "說明",
+            "考慮",
+            "解釋"
           ]
         },
         {
@@ -6867,7 +7420,7 @@
         {
           "word": "withdrawal",
           "meaning_zh": [
-            "體領"
+            "提領"
           ]
         },
         {
@@ -6877,11 +7430,7 @@
           ]
         },
         {
-          "word": "do",
-          "meaning_zh": []
-        },
-        {
-          "word": "jew",
+          "word": "due",
           "meaning_zh": [
             "到期的",
             "到支付期限的",
@@ -6898,7 +7447,7 @@
         {
           "word": "expect",
           "meaning_zh": [
-            "預期",
+            "預計",
             "期待"
           ]
         },
@@ -6924,7 +7473,7 @@
         {
           "word": "successfully",
           "meaning_zh": [
-            "成功的"
+            "成功地"
           ]
         },
         {
@@ -6952,8 +7501,8 @@
         {
           "word": "summary",
           "meaning_zh": [
-            "蓋要",
-            "沾要"
+            "概要",
+            "摘要"
           ]
         },
         {
@@ -6998,7 +7547,7 @@
         {
           "word": "in common",
           "meaning_zh": [
-            "共通的",
+            "共同地",
             "共同的"
           ]
         },
@@ -7025,14 +7574,15 @@
         {
           "word": "tentatively",
           "meaning_zh": [
-            "試驗性的",
-            "暫時的"
+            "試驗性地",
+            "暫時地"
           ]
         },
         {
           "word": "alternatively",
           "meaning_zh": [
-            "不然的話或者"
+            "不然的話",
+            "或者"
           ]
         },
         {
@@ -7052,7 +7602,7 @@
         {
           "word": "heavily",
           "meaning_zh": [
-            "程度很大底",
+            "程度很大的",
             "非常"
           ]
         },
@@ -7109,18 +7659,10 @@
       "category": "投資",
       "page": 492,
       "audio_source": "audio/1-basic_Day01-30/basic_Day27.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC vocabulary, day twenty-seven.investment 投資,投資額lucrative 有利可圖的,賺錢的inherently 本來,本質上secure 確保,獲得,使安全,使牢固foreseeable 可預見的innate 天生的property 財產,房地產on behalf of 代表lease 租賃,租約sponsor 贊助,贊助者propose 提議support 支持,支援,供養,維持distribution 分發,分發分發,分配 consider 考慮nearly 幾乎,將近consent 同意,贊同gratitude 感謝,謝意consult 商量advice 建議partially 部分的,一部分evident 明顯的reliability 可靠信,可信賴信cautious 小心的,謹慎的insight 深刻見解,洞察裡portfolio 作品及投資組合possible 可能的,可能發生的speculation 推測,猜測solely 單獨的,僅僅entrepreneur 企業家eventually 最終,最後shareholder 股東outlook 展望,前進stability 穩定,穩定性bond 債券depreciation 貶值increasing 增加中的prevalent 流行的,普遍的rapid 迅速的,快速的unprecedented 前所未有的,空前的yield 產生",
+      "raw_transcript": "Hackers Toeic Vocabulary, Day 27\n\nInvestment\n\nInvestment\n\n投資,投資額\n\nLucrative\n\nLucrative\n\n有利可圖的,賺錢的\n\nInherently\n\nInherently\n\n本來,本質上\n\nSecure\n\nSecure\n\n確保,獲得,使安全,使牢固\n\nForeseeable\n\nForeseeable\n\n可預見的\n\nInnate\n\nInnate\n\n天生的\n\nProperty\n\nProperty\n\n財產,房地產\n\nOn behalf of\n\nOn behalf of\n\n代表\n\nLease\n\nLease\n\n租賃,租約\n\nSponsor\n\nSponsor\n\n贊助,贊助者\n\nPropose\n\nPropose\n\n提議\n\nSupport\n\nSupport\n\n支持,支援,供養,維持\n\nDistribution\n\nDistribution\n\n分發,分配\n\nConsider\n\nConsider\n\n考慮,Nearly\n\nNearly\n\n幾乎,將近\n\nConsent\n\nConsent\n\n同意,贊同\n\nGratitude\n\nGratitude\n\n感謝,謝意\n\nConsult\n\nConsult\n\n商量,諮詢\n\nAdvice\n\nAdvice\n\n勸告,建議\n\nPartially\n\nPartially\n\n部分的,一部分\n\nEvident\n\nEvident\n\n明顯的\n\nReliability\n\nReliability\n\n可靠性,可信賴性\n\nCautious\n\nCautious\n\n小心的,謹慎的\n\nInsight\n\nInsight\n\n深刻見解,洞察力\n\nPortfolio\n\nPortfolio\n\n作品集,投資組合\n\nPossible\n\nPossible\n\n可能的,可能發生的\n\nSpeculation\n\nSpeculation\n\n推測,猜測\n\nSolely\n\nSolely\n\n單獨的,僅僅\n\nEntrepreneur\n\nEntrepreneur\n\n企業家\n\nEventually\n\nEventually\n\n最終,最後\n\nShareholder\n\nShareholder\n\n股東\n\nOutlook\n\nOutlook\n\n展望,前景\n\nStability\n\nStability\n\n穩定,穩定性\n\nBond\n\nBond\n\n債券\n\nDepreciation\n\nDepreciation\n\n貶值\n\nIncreasing\n\nIncreasing\n\n增加中的\n\nPrevalent\n\nPrevalent\n\n流行的,普遍的\n\nRapid\n\nRapid\n\n迅速的,快速的\n\nUnprecedented\n\nUnprecedented\n\n前所未有的,空前的\n\nYield\n\nYield\n\n產生",
       "vocab": [
-        {
-          "word": "hackers' toeic vocabulary",
-          "meaning_zh": []
-        },
-        {
-          "word": "day twenty-seven",
-          "meaning_zh": []
-        },
         {
           "word": "investment",
           "meaning_zh": [
@@ -7209,7 +7751,6 @@
           "word": "distribution",
           "meaning_zh": [
             "分發",
-            "分發分發",
             "分配"
           ]
         },
@@ -7243,12 +7784,14 @@
         {
           "word": "consult",
           "meaning_zh": [
-            "商量"
+            "商量",
+            "諮詢"
           ]
         },
         {
           "word": "advice",
           "meaning_zh": [
+            "勸告",
             "建議"
           ]
         },
@@ -7268,8 +7811,8 @@
         {
           "word": "reliability",
           "meaning_zh": [
-            "可靠信",
-            "可信賴信"
+            "可靠性",
+            "可信賴性"
           ]
         },
         {
@@ -7283,13 +7826,14 @@
           "word": "insight",
           "meaning_zh": [
             "深刻見解",
-            "洞察裡"
+            "洞察力"
           ]
         },
         {
           "word": "portfolio",
           "meaning_zh": [
-            "作品及投資組合"
+            "作品集",
+            "投資組合"
           ]
         },
         {
@@ -7336,7 +7880,7 @@
           "word": "outlook",
           "meaning_zh": [
             "展望",
-            "前進"
+            "前景"
           ]
         },
         {
@@ -7399,9 +7943,9 @@
       "category": "建築、住宅",
       "page": 508,
       "audio_source": "audio/1-basic_Day01-30/basic_Day28.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC Vocabulary, Day 28.furnished配有傢俱的 residents住處,住宅寬敞的 drape用窗簾等裝飾空著的,沒有人住的整修,翻修合適的,適當的延遲,拖延社區,社群建設,建築物修理, currently現在,目前定期的, often定期的, arrange佈置,整理地點,位置restore恢復,修復現在, numerous許多的, abandon放棄,終止,拋棄contractor, 承包商develop, 開發maintain, 維持,維護densely, 密集地prepare, 準備finally, 最後,終於district, 地區renewal, 更新compulsory, 義務的強制性的, interfere妨礙,干涉 relocation, 搬遷,重新安置totally, 完全,全然actually, 實際上architect, 建築師enlarge, 擴大install, 設置安裝, suppose認為,猜想永久的, adjacent臨接的, consist構成,組成utility, 公用事業公用事業設施",
+      "raw_transcript": "Hacker Stoic Vocabulary Day 28\n\nFurnished\nFurnished\nFurnished\n配有傢俱的\nResidence\nResidence\nResidence\n住處,住宅\nSpacious\nSpacious\nSpacious\n寬敞的\nDrape\nDrape\nDrape\n用窗簾等裝飾\nUnoccupied\nUnoccupied\nUnoccupied\n空穴的,沒有人住的\nRenovation\nRenovation\nRenovation\n整修,翻修\nAppropriate\nAppropriate\nAppropriate\n合適的,適當的\nDelay\nDelay\nDelay\n延遲,拖延\nCommunity\nCommunity\nCommunity\n社區,社群\nConstruction\nConstruction\nConstruction\n建設,建築物\nRepair\nRepair\nRepair\n修理\nCurrently\nCurrently\nCurrently\n現在,目前\nRegularly\nRegularly\nRegularly\n定期地\nArrange\nArrange\nArrange\n佈置,整理\nLocation\nLocation\nLocation\n地點,位置\nRestore\nRestore\nRestore\n恢復,修復\nPresently\nPresently\n現在\nNumerous\nNumerous\n許多的\nAbandon\nAbandon\n放棄,中止,拋棄\nContractor\nContractor\nContractor\n承包商\nDevelop\nDevelop\n開發\nMaintain\nMaintain\nMaintain\n維持,維護\nDensely\nDensely\nDensely\n密集地\nPrepare\nPrepare\n準備\nFinally\nFinally\nFinally\n最後,終於\nDistrict\nDistrict\nDistrict\n地區,區域\nRenewal\nRenewal\nRenewal\n更新\nCompulsory\nCompulsory\nCompulsory\n義務的,強制性的\nInterfere\nInterfere\nInterfere\n妨礙,干涉\nRelocation\nRelocation\nRelocation\n搬遷,重新安置\nTotally\nTotally\nTotally\n完全,全然\nActually\nActually\nActually\n實際上,事實上\nArchitect\nArchitect\nArchitect\n建築師\nEnlarge\nEnlarge\nEnlarge\n擴大\nInstall\nInstall\nInstall\n設置,安裝\nSuppose\nSuppose\nSuppose\n認為,猜想\nPermanent\nPermanent\nPermanent\n永久的\nAdjacent\nAdjacent\nAdjacent\n鄰接的\nConsist\nConsist\nConsist\n構成,組成\nUtility\nUtility\nUtility\n公用事業,公用事業設施",
       "vocab": [
         {
           "word": "furnished",
@@ -7410,42 +7954,96 @@
           ]
         },
         {
-          "word": "residents",
+          "word": "residence",
           "meaning_zh": [
             "住處",
-            "住宅寬敞的"
+            "住宅"
+          ]
+        },
+        {
+          "word": "spacious",
+          "meaning_zh": [
+            "寬敞的"
           ]
         },
         {
           "word": "drape",
           "meaning_zh": [
-            "用窗簾等裝飾空著的",
-            "沒有人住的整修",
-            "翻修合適的",
-            "適當的延遲",
-            "拖延社區",
-            "社群建設",
-            "建築物修理"
+            "用窗簾等裝飾"
+          ]
+        },
+        {
+          "word": "unoccupied",
+          "meaning_zh": [
+            "空穴的",
+            "沒有人住的"
+          ]
+        },
+        {
+          "word": "renovation",
+          "meaning_zh": [
+            "整修",
+            "翻修"
+          ]
+        },
+        {
+          "word": "appropriate",
+          "meaning_zh": [
+            "合適的",
+            "適當的"
+          ]
+        },
+        {
+          "word": "delay",
+          "meaning_zh": [
+            "延遲",
+            "拖延"
+          ]
+        },
+        {
+          "word": "community",
+          "meaning_zh": [
+            "社區",
+            "社群"
+          ]
+        },
+        {
+          "word": "construction",
+          "meaning_zh": [
+            "建設",
+            "建築物"
+          ]
+        },
+        {
+          "word": "repair",
+          "meaning_zh": [
+            "修理"
           ]
         },
         {
           "word": "currently",
           "meaning_zh": [
             "現在",
-            "目前定期的"
+            "目前"
           ]
         },
         {
-          "word": "often",
+          "word": "regularly",
           "meaning_zh": [
-            "定期的"
+            "定期地"
           ]
         },
         {
           "word": "arrange",
           "meaning_zh": [
             "佈置",
-            "整理地點",
+            "整理"
+          ]
+        },
+        {
+          "word": "location",
+          "meaning_zh": [
+            "地點",
             "位置"
           ]
         },
@@ -7453,7 +8051,13 @@
           "word": "restore",
           "meaning_zh": [
             "恢復",
-            "修復現在"
+            "修復"
+          ]
+        },
+        {
+          "word": "presently",
+          "meaning_zh": [
+            "現在"
           ]
         },
         {
@@ -7466,7 +8070,7 @@
           "word": "abandon",
           "meaning_zh": [
             "放棄",
-            "終止",
+            "中止",
             "拋棄"
           ]
         },
@@ -7511,7 +8115,8 @@
         {
           "word": "district",
           "meaning_zh": [
-            "地區"
+            "地區",
+            "區域"
           ]
         },
         {
@@ -7523,7 +8128,8 @@
         {
           "word": "compulsory",
           "meaning_zh": [
-            "義務的強制性的"
+            "義務的",
+            "強制性的"
           ]
         },
         {
@@ -7550,7 +8156,8 @@
         {
           "word": "actually",
           "meaning_zh": [
-            "實際上"
+            "實際上",
+            "事實上"
           ]
         },
         {
@@ -7568,20 +8175,27 @@
         {
           "word": "install",
           "meaning_zh": [
-            "設置安裝"
+            "設置",
+            "安裝"
           ]
         },
         {
           "word": "suppose",
           "meaning_zh": [
             "認為",
-            "猜想永久的"
+            "猜想"
+          ]
+        },
+        {
+          "word": "permanent",
+          "meaning_zh": [
+            "永久的"
           ]
         },
         {
           "word": "adjacent",
           "meaning_zh": [
-            "臨接的"
+            "鄰接的"
           ]
         },
         {
@@ -7594,7 +8208,8 @@
         {
           "word": "utility",
           "meaning_zh": [
-            "公用事業公用事業設施"
+            "公用事業",
+            "公用事業設施"
           ]
         }
       ]
@@ -7605,65 +8220,212 @@
       "category": "環境",
       "page": 524,
       "audio_source": "audio/1-basic_Day01-30/basic_Day29.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
-      "low_count_warning": true,
-      "raw_transcript": "Hackers' TOEIC Vocabulary, Day 29.dispose 處理,處置回收再利用晴朗的、清楚的、明顯的、清晰的、完全、遠離損害、傷害significant 相當大的、重要的、重大的解決方法發聲、出現理想的preserve 保存、保護援助過度的、過分的集中的不同、變化令人愉快的、令人滿意的得分、記號、標誌、慶祝不能進入的、不能利用的打擾汙染物質排放物密集的、濃密的環境的一致的、一貫的、持續的洩漏、露出、滲漏、漫長的organization組織、機構頻繁的、一再的汙染災難排放resourceprominent著名的、顯著的deplete耗盡purify淨化endangered瀕臨絕種的extinctiondrought乾旱inflict施加使遭受migration遷移、移動ecology生態學habitat七席地",
+      "transcript_model": "openai/gpt-4o-transcribe",
+      "low_count_warning": false,
+      "raw_transcript": "Hackers TOEIC Vocabulary\nDay 29\n\nconserve\n保存 保護\n\nchance\n可能性 機會\n\nforecast\n預報\n\nwaste\n廢棄物 垃圾\n\ndispose\n處理 處置\n\nrecycling\n回收再利用\n\nclear\n晴朗的 清楚的 明顯的 清晰地 完全 遠離\n\ndamage\n損害 傷害\n\nsignificant\n相當大的 重要的 重大的\n\nsolution\n解決方法\n\noccur\n發生 出現\n\nideal\n理想的\n\npreserve\n保存 保護\n\naid\n援助\n\nexcessive\n過度的 過分的\n\nintensively\n集中的\n\nvary\n不同 變化\n\npleasing\n令人愉快的 令人滿意的\n\nmark\n得分 記號 標誌 慶祝\n\ninaccessible\n不能進入的 不能利用的\n\ndisturb\n打擾\n\npollutant\n汙染物質\n\nemission\n排放 排放物\n\ndense\n密集的 濃密的\n\nenvironmental\n環境的\n\nconsistent\n一致的 一貫的 持續的\n\nleak\n洩漏 露出 滲漏\n\norganization\n組織 機構\n\ncontinually\n頻繁地 一再地\n\ncontaminate\n汙染\n\ndisaster\n災難\n\ndischarge\n排放\n\nresource\n資源\n\nprominent\n著名的 顯著的\n\ndeplete\n耗盡\n\npurify\n淨化\n\nendangered\n瀕臨絕種的\n\nextinction\n絕種\n\ndrought\n乾旱\n\ninflict\n施加 使遭受\n\nmigration\n遷移 移動\n\necology\n生態 生態學\n\nhabitat\n棲息地",
       "vocab": [
+        {
+          "word": "conserve",
+          "meaning_zh": [
+            "保存"
+          ]
+        },
+        {
+          "word": "chance",
+          "meaning_zh": [
+            "可能性"
+          ]
+        },
+        {
+          "word": "forecast",
+          "meaning_zh": [
+            "預報"
+          ]
+        },
+        {
+          "word": "waste",
+          "meaning_zh": [
+            "廢棄物"
+          ]
+        },
         {
           "word": "dispose",
           "meaning_zh": [
-            "處理",
-            "處置回收再利用晴朗的",
-            "清楚的",
-            "明顯的",
-            "清晰的",
-            "完全",
-            "遠離損害",
-            "傷害"
+            "處理"
+          ]
+        },
+        {
+          "word": "recycling",
+          "meaning_zh": [
+            "回收再利用"
+          ]
+        },
+        {
+          "word": "clear",
+          "meaning_zh": [
+            "晴朗的"
+          ]
+        },
+        {
+          "word": "damage",
+          "meaning_zh": [
+            "損害"
           ]
         },
         {
           "word": "significant",
           "meaning_zh": [
-            "相當大的",
-            "重要的",
-            "重大的解決方法發聲",
-            "出現理想的"
+            "相當大的"
+          ]
+        },
+        {
+          "word": "solution",
+          "meaning_zh": [
+            "解決方法"
+          ]
+        },
+        {
+          "word": "occur",
+          "meaning_zh": [
+            "發生"
+          ]
+        },
+        {
+          "word": "ideal",
+          "meaning_zh": [
+            "理想的"
           ]
         },
         {
           "word": "preserve",
           "meaning_zh": [
-            "保存",
-            "保護援助過度的",
-            "過分的集中的不同",
-            "變化令人愉快的",
-            "令人滿意的得分",
-            "記號",
-            "標誌",
-            "慶祝不能進入的",
-            "不能利用的打擾汙染物質排放物密集的",
-            "濃密的環境的一致的",
-            "一貫的",
-            "持續的洩漏",
-            "露出",
-            "滲漏",
-            "漫長的"
+            "保存"
+          ]
+        },
+        {
+          "word": "aid",
+          "meaning_zh": [
+            "援助"
+          ]
+        },
+        {
+          "word": "excessive",
+          "meaning_zh": [
+            "過度的"
+          ]
+        },
+        {
+          "word": "intensively",
+          "meaning_zh": [
+            "集中的"
+          ]
+        },
+        {
+          "word": "vary",
+          "meaning_zh": [
+            "不同"
+          ]
+        },
+        {
+          "word": "pleasing",
+          "meaning_zh": [
+            "令人愉快的"
+          ]
+        },
+        {
+          "word": "mark",
+          "meaning_zh": [
+            "得分"
+          ]
+        },
+        {
+          "word": "inaccessible",
+          "meaning_zh": [
+            "不能進入的"
+          ]
+        },
+        {
+          "word": "disturb",
+          "meaning_zh": [
+            "打擾"
+          ]
+        },
+        {
+          "word": "pollutant",
+          "meaning_zh": [
+            "汙染物質"
+          ]
+        },
+        {
+          "word": "emission",
+          "meaning_zh": [
+            "排放"
+          ]
+        },
+        {
+          "word": "dense",
+          "meaning_zh": [
+            "密集的"
+          ]
+        },
+        {
+          "word": "environmental",
+          "meaning_zh": [
+            "環境的"
+          ]
+        },
+        {
+          "word": "consistent",
+          "meaning_zh": [
+            "一致的"
+          ]
+        },
+        {
+          "word": "leak",
+          "meaning_zh": [
+            "洩漏"
           ]
         },
         {
           "word": "organization",
           "meaning_zh": [
-            "組織",
-            "機構頻繁的",
-            "一再的汙染災難排放"
+            "組織"
           ]
         },
         {
-          "word": "resourceprominent",
+          "word": "continually",
           "meaning_zh": [
-            "著名的",
-            "顯著的"
+            "頻繁地"
+          ]
+        },
+        {
+          "word": "contaminate",
+          "meaning_zh": [
+            "汙染"
+          ]
+        },
+        {
+          "word": "disaster",
+          "meaning_zh": [
+            "災難"
+          ]
+        },
+        {
+          "word": "discharge",
+          "meaning_zh": [
+            "排放"
+          ]
+        },
+        {
+          "word": "resource",
+          "meaning_zh": [
+            "資源"
+          ]
+        },
+        {
+          "word": "prominent",
+          "meaning_zh": [
+            "著名的"
           ]
         },
         {
@@ -7685,7 +8447,13 @@
           ]
         },
         {
-          "word": "extinctiondrought",
+          "word": "extinction",
+          "meaning_zh": [
+            "絕種"
+          ]
+        },
+        {
+          "word": "drought",
           "meaning_zh": [
             "乾旱"
           ]
@@ -7693,26 +8461,25 @@
         {
           "word": "inflict",
           "meaning_zh": [
-            "施加使遭受"
+            "施加"
           ]
         },
         {
           "word": "migration",
           "meaning_zh": [
-            "遷移",
-            "移動"
+            "遷移"
           ]
         },
         {
           "word": "ecology",
           "meaning_zh": [
-            "生態學"
+            "生態"
           ]
         },
         {
           "word": "habitat",
           "meaning_zh": [
-            "七席地"
+            "棲息地"
           ]
         }
       ]
@@ -7723,9 +8490,9 @@
       "category": "健康",
       "page": 542,
       "audio_source": "audio/1-basic_Day01-30/basic_Day30.mp3",
-      "transcript_model": "Systran/faster-whisper-medium",
+      "transcript_model": "openai/gpt-4o-transcribe",
       "low_count_warning": false,
-      "raw_transcript": "Hackers' TOEIC vocabulary. Day 30. fatigue 疲勞, checkup 健康檢查, symptom 症狀, physician 內科醫師, diagnosis, prescribe 開藥方, recovery 恢復,康復, recognize 認定,承認,認出,表彰 join, join, join, join, join, join, join, join, join, join, join, join, join, join, join, join, join, join, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive, comprehensive ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability, ability easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily, easily periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, periodically, 製藥的,要繼學的, premium, premium, premium, 保險費, relieve, relieve, relieve, 緩解, combination, combination, combination, 結合,組合, conscious, conscious, conscious, 有意識的,意識到的, deprivation, deprivation, deprivation, 剝奪,缺乏, health, health, health, 健康,健全, induce, induce, 引起, insurance, insurance, 保險, nutrition, nutrition, 營養, prevention, prevention, prevention, 預防, susceptible, susceptible, susceptible, susceptible, susceptible, 易受感染的,易受影響的, uncomfortably, uncomfortably, 令人不快的,不舒服的。",
+      "raw_transcript": "Hacker's TOEIC Vocabulary Day 30\nfatigue\n疲勞\ncheckup\n健康檢查\nsymptom\n症狀\nphysician\n內科醫師\ndiagnosis\n診斷\nprescribe\n開藥方\nrecovery\n恢復康復\nrecognize\n認定承認認出表彰\njoin\n加入\ncomprehensive\n全面的綜合的\nparticipate\n參與參加\nrecommend\n推薦建議\nnecessary\n必要的\nability\n能力\noperation\n手術\ncleanliness\n清潔\nduration\n持續期間\nexamination\n檢查審查\neliminate\n排除消除\neasily\n容易地\ndental\n牙科的牙齒的\ndietary\n飲食的節食的\nrelated\n有關的\ntransmit\n傳播傳送\nperiodically\n週期性地定期地\nreaction\n反應\nsimple\n簡單的\ncoverage\n理賠範圍報道\nexposure\n暴露\npharmaceutical\n製藥的藥劑學的\npremium\n保險費\nrelieve\n緩解\ncombination\n結合組合\nconscious\n有意識的意識到的\ndeprivation\n剝奪缺乏\nhealth\n健康健全\ninduce\n引起\ninsurance\n保險\nnutrition\n營養\nprevention\n預防\nsusceptible\n易受感染的易受影響的\nuncomfortably\n令人不快地不舒服地",
       "vocab": [
         {
           "word": "fatigue",
@@ -7753,7 +8520,9 @@
         },
         {
           "word": "diagnosis",
-          "meaning_zh": []
+          "meaning_zh": [
+            "診斷"
+          ]
         },
         {
           "word": "prescribe",
@@ -7764,52 +8533,145 @@
         {
           "word": "recovery",
           "meaning_zh": [
-            "恢復",
-            "康復"
+            "恢復康復"
           ]
         },
         {
           "word": "recognize",
           "meaning_zh": [
-            "認定",
-            "承認",
-            "認出",
-            "表彰"
+            "認定承認認出表彰"
           ]
         },
         {
           "word": "join",
-          "meaning_zh": []
+          "meaning_zh": [
+            "加入"
+          ]
         },
         {
           "word": "comprehensive",
-          "meaning_zh": []
+          "meaning_zh": [
+            "全面的綜合的"
+          ]
         },
         {
-          "word": "comprehensive ability",
-          "meaning_zh": []
+          "word": "participate",
+          "meaning_zh": [
+            "參與參加"
+          ]
+        },
+        {
+          "word": "recommend",
+          "meaning_zh": [
+            "推薦建議"
+          ]
+        },
+        {
+          "word": "necessary",
+          "meaning_zh": [
+            "必要的"
+          ]
         },
         {
           "word": "ability",
-          "meaning_zh": []
+          "meaning_zh": [
+            "能力"
+          ]
         },
         {
-          "word": "ability easily",
-          "meaning_zh": []
+          "word": "operation",
+          "meaning_zh": [
+            "手術"
+          ]
+        },
+        {
+          "word": "cleanliness",
+          "meaning_zh": [
+            "清潔"
+          ]
+        },
+        {
+          "word": "duration",
+          "meaning_zh": [
+            "持續期間"
+          ]
+        },
+        {
+          "word": "examination",
+          "meaning_zh": [
+            "檢查審查"
+          ]
+        },
+        {
+          "word": "eliminate",
+          "meaning_zh": [
+            "排除消除"
+          ]
         },
         {
           "word": "easily",
-          "meaning_zh": []
+          "meaning_zh": [
+            "容易地"
+          ]
         },
         {
-          "word": "easily periodically",
-          "meaning_zh": []
+          "word": "dental",
+          "meaning_zh": [
+            "牙科的牙齒的"
+          ]
+        },
+        {
+          "word": "dietary",
+          "meaning_zh": [
+            "飲食的節食的"
+          ]
+        },
+        {
+          "word": "related",
+          "meaning_zh": [
+            "有關的"
+          ]
+        },
+        {
+          "word": "transmit",
+          "meaning_zh": [
+            "傳播傳送"
+          ]
         },
         {
           "word": "periodically",
           "meaning_zh": [
-            "製藥的",
-            "要繼學的"
+            "週期性地定期地"
+          ]
+        },
+        {
+          "word": "reaction",
+          "meaning_zh": [
+            "反應"
+          ]
+        },
+        {
+          "word": "simple",
+          "meaning_zh": [
+            "簡單的"
+          ]
+        },
+        {
+          "word": "coverage",
+          "meaning_zh": [
+            "理賠範圍報道"
+          ]
+        },
+        {
+          "word": "exposure",
+          "meaning_zh": [
+            "暴露"
+          ]
+        },
+        {
+          "word": "pharmaceutical",
+          "meaning_zh": [
+            "製藥的藥劑學的"
           ]
         },
         {
@@ -7827,29 +8689,25 @@
         {
           "word": "combination",
           "meaning_zh": [
-            "結合",
-            "組合"
+            "結合組合"
           ]
         },
         {
           "word": "conscious",
           "meaning_zh": [
-            "有意識的",
-            "意識到的"
+            "有意識的意識到的"
           ]
         },
         {
           "word": "deprivation",
           "meaning_zh": [
-            "剝奪",
-            "缺乏"
+            "剝奪缺乏"
           ]
         },
         {
           "word": "health",
           "meaning_zh": [
-            "健康",
-            "健全"
+            "健康健全"
           ]
         },
         {
@@ -7879,15 +8737,13 @@
         {
           "word": "susceptible",
           "meaning_zh": [
-            "易受感染的",
-            "易受影響的"
+            "易受感染的易受影響的"
           ]
         },
         {
           "word": "uncomfortably",
           "meaning_zh": [
-            "令人不快的",
-            "不舒服的"
+            "令人不快地不舒服地"
           ]
         }
       ]
