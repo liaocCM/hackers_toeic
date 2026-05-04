@@ -31,8 +31,9 @@ def main() -> None:
     lines.append("|---|---|---|---|")
     for d in days:
         warn = " ⚠️" if d.get("low_count_warning") else ""
+        anchor = f"day-{d['day']}--{d.get('theme','')}"
         lines.append(
-            f"| [Day {d['day']}](#day-{d['day']}) | {d.get('theme','')} | "
+            f"| [Day {d['day']}](#{anchor}) | {d.get('theme','')} | "
             f"{d.get('category','')} | {len(d.get('vocab', []))}{warn} |"
         )
     lines.append("")
